@@ -1,4 +1,5 @@
-const BRUSH_WIDTH = 5;
+const BRUSH_WIDTH = 8;
+const BOOST = 2.1; //Boosting white color
 
 let c = document.querySelector("canvas");
 let ctx = c.getContext("2d", { willReadFrequently: true });
@@ -7,7 +8,7 @@ ctx.rect(0, 0, c.width, c.height);
 ctx.fill();
 
 let c2 = document.querySelector("#c");
-let ctx2 = c2.getContext("2d");
+let ctx2 = c2.getContext("2d", { willReadFrequently: true });
 ctx2.fillStyle = "Black";
 ctx2.rect(0, 0, c2.width, c2.height);
 ctx2.fill();
@@ -34,29 +35,29 @@ const draw = (e, click = false) => {
     addRgba(x, y, 0.2);
 };
 
-//Need to get the pixels the mouse is leaning to and then adding rgba
 const addRgba = (x, y) => {
-    //Drawing
+    //Drawing on big board
     ctx.beginPath();
     ctx.fillStyle = "white";
     ctx.arc(x, y, BRUSH_WIDTH, 0, 2 * Math.PI);
     ctx.fill();
 
+    // let row = 0;
+    // let column = 0;
+
+    //Converting to 28*28
+
     let final = ctx2.getImageData(0, 0, c2.width, c2.height);
     let final_data = final.data;
-
-    let row = 1;
-    let column = 10;
-
     for (let row = 0; row < c2.height; row++) {
         for (let column = 0; column < c2.width; column++) {
             //!Goes over the same pixels several times
             let imgd = ctx.getImageData(
-                (column + 1) * (TIMES_BIGGER - 1),
-                (row + 1) * (TIMES_BIGGER - 1),
+                column * TIMES_BIGGER,
+                row * TIMES_BIGGER,
                 //size
-                PIXEL_BLOCK,
-                PIXEL_BLOCK
+                TIMES_BIGGER,
+                TIMES_BIGGER
             );
             let pix = imgd.data;
 
@@ -64,10 +65,10 @@ const addRgba = (x, y) => {
             // Add all pixel values to pixel
             let pixel = [0, 0, 0, 0];
             for (let i = 0; i < pix.length; i += 4) {
-                pixel[0] += pix[i + 0] * 3.1; //Red
-                pixel[1] += pix[i + 1] * 3.1; //Green
-                pixel[2] += pix[i + 2] * 3.1; //Blue
-                pixel[3] += pix[i + 3] * 3.1; //Alpha
+                pixel[0] += pix[i + 0] * BOOST; //Red
+                pixel[1] += pix[i + 1] * BOOST; //Green
+                pixel[2] += pix[i + 2] * BOOST; //Blue
+                pixel[3] += pix[i + 3] * BOOST; //Alpha
             }
 
             //Averge
@@ -79,10 +80,10 @@ const addRgba = (x, y) => {
             //*DONE
             let pixel_pos =
                 row * 4 + (column * 4 + row * (PIXEL_BLOCK - 1) * 4);
-            final_data[pixel_pos + 0] = pixel[0];
-            final_data[pixel_pos + 1] = pixel[1];
-            final_data[pixel_pos + 2] = pixel[2];
-            final_data[pixel_pos + 3] = pixel[3];
+            final_data[pixel_pos + 0] = pixel[0]; //R
+            final_data[pixel_pos + 1] = pixel[1]; //G
+            final_data[pixel_pos + 2] = pixel[2]; //B
+            final_data[pixel_pos + 3] = pixel[3]; //A
         }
     }
 
