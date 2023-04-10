@@ -51,7 +51,6 @@ const addRgba = (x, y) => {
     let final_data = final.data;
     for (let row = 0; row < c2.height; row++) {
         for (let column = 0; column < c2.width; column++) {
-            //!Goes over the same pixels several times
             let imgd = ctx.getImageData(
                 column * TIMES_BIGGER,
                 row * TIMES_BIGGER,
@@ -61,9 +60,10 @@ const addRgba = (x, y) => {
             );
             let pix = imgd.data;
 
-            //? Possible to use reduce?
             // Add all pixel values to pixel
             let pixel = [0, 0, 0, 0];
+
+            //? Possible to use reduce?
             for (let i = 0; i < pix.length; i += 4) {
                 pixel[0] += pix[i + 0] * BOOST; //Red
                 pixel[1] += pix[i + 1] * BOOST; //Green
@@ -77,7 +77,7 @@ const addRgba = (x, y) => {
             pixel[2] /= pix.length / 4;
             pixel[3] /= pix.length / 4;
 
-            //*DONE
+            //Drawing pixel to final
             let pixel_pos =
                 row * 4 + (column * 4 + row * (PIXEL_BLOCK - 1) * 4);
             final_data[pixel_pos + 0] = pixel[0]; //R
