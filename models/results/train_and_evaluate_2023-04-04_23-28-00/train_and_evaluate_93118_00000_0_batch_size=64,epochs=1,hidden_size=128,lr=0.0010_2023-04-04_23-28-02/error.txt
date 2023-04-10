@@ -1,0 +1,32 @@
+Failure # 1 (occurred at 2023-04-04_23-28-09)
+[36mray::ImplicitFunc.train()[39m (pid=4880, ip=127.0.0.1, repr=train_and_evaluate)
+  File "python\ray\_raylet.pyx", line 857, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 861, in ray._raylet.execute_task
+  File "python\ray\_raylet.pyx", line 803, in ray._raylet.execute_task.function_executor
+  File "c:\Python310\lib\site-packages\ray\_private\function_manager.py", line 674, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\ray\util\tracing\tracing_helper.py", line 466, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "c:\Python310\lib\site-packages\ray\tune\trainable\trainable.py", line 368, in train
+    raise skipped from exception_cause(skipped)
+  File "c:\Python310\lib\site-packages\ray\tune\trainable\function_trainable.py", line 337, in entrypoint
+    return self._trainable_func(
+  File "c:\Python310\lib\site-packages\ray\util\tracing\tracing_helper.py", line 466, in _resume_span
+    return method(self, *_args, **_kwargs)
+  File "c:\Python310\lib\site-packages\ray\tune\trainable\function_trainable.py", line 654, in _trainable_func
+    output = fn()
+  File "C:\Users\Farou\AppData\Local\Temp\ipykernel_28040\2471289572.py", line 26, in train_and_evaluate
+  File "c:\Python310\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Farou\AppData\Local\Temp\ipykernel_28040\2154910482.py", line 26, in forward
+  File "c:\Python310\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "c:\Python310\lib\site-packages\torch\nn\modules\container.py", line 204, in forward
+    input = module(input)
+  File "c:\Python310\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "c:\Python310\lib\site-packages\torch\nn\modules\conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "c:\Python310\lib\site-packages\torch\nn\modules\conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Expected 3D (unbatched) or 4D (batched) input to conv2d, but got input of size: [64, 784]

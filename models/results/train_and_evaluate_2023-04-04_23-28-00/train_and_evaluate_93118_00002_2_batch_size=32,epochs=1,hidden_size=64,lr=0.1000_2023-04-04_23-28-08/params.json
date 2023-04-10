@@ -1,0 +1,6 @@
+{
+  "batch_size": 32,
+  "epochs": 1,
+  "hidden_size": 64,
+  "lr": 0.1
+}

@@ -1,0 +1,2 @@
+mean_accuracy,time_this_iter_s,done,timesteps_total,episodes_total,training_iteration,trial_id,experiment_id,date,timestamp,time_total_s,pid,hostname,node_ip,time_since_restore,timesteps_since_restore,iterations_since_restore,warmup_time
+0.8999,376.65086102485657,False,,,1,93d9d_00001,3a72a69ff8c548f3b7eafc81453a3bb2,2023-04-04_23-41-40,1680644500,376.65086102485657,4604,red,127.0.0.1,376.65086102485657,0,1,0.008295536041259766
