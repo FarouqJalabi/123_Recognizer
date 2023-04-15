@@ -1,4 +1,4 @@
-const BRUSH_WIDTH = 8;
+const BRUSH_WIDTH = 6;
 const BOOST = 2.1; //Boosting white color
 
 let c = document.querySelector("canvas");
