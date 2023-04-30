@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Digit Recognizer</title>
+        <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
         <script src="script.js" defer></script>
+
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
@@ -28,14 +30,25 @@
         <button onClick="ctx.clearRect(0, 0, c.width, c.height);">
             Clear Canvas
         </button>
-        <button onClick="">Draw?</button>
+        <button onClick="runExample()">Run example</button>
         <section id="container">
             <ul>
-                <li>Choice</li>
-                <li>Choice</li>
-                <li>Choice</li>
-                <li>Choice</li>
-                <li>Choice</li>
+                <!-- Holy shit this is fast:
+                     li{$: }*10>span{0}{%}
+
+                li{$: }*10>span#${0}{%}
+-->
+
+                <li>0: <span id="0">0</span>%</li>
+                <li>1: <span id="1">0</span>%</li>
+                <li>2: <span id="2">0</span>%</li>
+                <li>3: <span id="3">0</span>%</li>
+                <li>4: <span id="4">0</span>%</li>
+                <li>5: <span id="5">0</span>%</li>
+                <li>6: <span id="6">0</span>%</li>
+                <li>7: <span id="7">0</span>%</li>
+                <li>8: <span id="8">0</span>%</li>
+                <li>9: <span id="9">0</span>%</li>
             </ul>
         </section>
     </body>

@@ -13,7 +13,6 @@ def train_step(model: torch.nn.Module,
                print_output:bool=True):
     model.train()
     train_loss, train_acc = 0, 0
-
     for (X, y) in dataloader :#tqdm inside enumrater
         X, y = X.to(device), y.to(device)
         y_pred = model(X)
