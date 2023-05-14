@@ -1,26 +1,28 @@
 //! First press akward
-//! After running model everything freezes, check https://codesandbox.io/s/pytorch-to-javascript-with-onnx-vgzep?file=/script.js:3474-3493
 
 const BRUSH_WIDTH = 8;
 const BOOST = 2.1; //Boosting white color
 
-let c = document.querySelector("canvas");
+let modelChoice = document.querySelector("select");
+modelChoice.addEventListener("change", changeModel);
+
+let c = document.querySelector("#c");
 let ctx = c.getContext("2d", { willReadFrequently: true });
 
-let c2 = document.querySelector("#c");
+let c2 = document.querySelector("#c2");
 let ctx2 = c2.getContext("2d", { willReadFrequently: true });
 
-clearCanvas();
-
 let choices = document.querySelector("ul");
+
+clearCanvas();
 
 const TIMES_BIGGER = c.width / c2.width; //Assuming that it's a square
 const PIXEL_BLOCK = c.width / TIMES_BIGGER;
 
 // create a session
-const myOnnxSession = new onnx.InferenceSession();
+myOnnxSession = new onnx.InferenceSession();
 // load the ONNX model file
-const loadingPromise = myOnnxSession.loadModel("./model_0.onnx");
+myOnnxSession.loadModel("./model_3.onnx");
 
 let mouseDown = 0;
 c.addEventListener("mousedown", () => mouseDown++);
@@ -119,6 +121,8 @@ async function runModel() {
 function showResult(output) {
     //Homemade softmax
     min = Math.min(...output);
+    console.log("OUtput", output);
+
     output = output.map((n) => n + Math.abs(min));
 
     max = output.reduce((total, curr) => total + curr, 0); //Makes the sum to 1, do we want that?
@@ -136,7 +140,10 @@ function showResult(output) {
         result = ch.children[0];
         id_number = Number(result.id);
         result.innerHTML = Math.round(output[id_number] * 100);
-        if (id_number == output.indexOf(Math.max(...output))) {
+        if (
+            id_number == output.indexOf(Math.max(...output)) &&
+            Math.max(...output) != 0
+        ) {
             ch.className = "top";
         } else {
             ch.className = "";
@@ -145,11 +152,25 @@ function showResult(output) {
 }
 
 function clearCanvas() {
-    console.log("clear canvas?");
     ctx.fillStyle = "Black";
     ctx.rect(0, 0, c.width, c.height);
     ctx.fill();
     ctx2.fillStyle = "Black";
     ctx2.rect(0, 0, c2.width, c2.height);
     ctx2.fill();
+
+    //? Maybe using show result function could look better
+    console.log(choices);
+    for (ch of choices.children) {
+        result = ch.children[0];
+        result.innerHTML = "0";
+        ch.className = "";
+    }
+}
+
+async function changeModel(e) {
+    console.log(e.target.value);
+    myOnnxSession = await new onnx.InferenceSession();
+    await myOnnxSession.loadModel("./model_" + e.target.value + ".onnx");
+    runModel();
 }

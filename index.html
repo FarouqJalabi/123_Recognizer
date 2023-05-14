@@ -11,43 +11,40 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <h1>Digit Recognizer</h1>
-
-        <canvas
-            width="280px"
-            height="280px"
-            style="border: 0px solid black"
-        ></canvas>
-        <div>
-            <canvas
-                id="c"
-                width="28px"
-                height="28px"
-                style="border: 1px solid black"
-            ></canvas>
-        </div>
-        <img src="" alt="" />
-        <button onClick="clearCanvas()">Clear Canvas</button>
-        <button onClick="runModel()">Run Model</button>
-        <section id="container">
-            <ul>
-                <!-- Holy shit this is fast:
+        <select>
+            <option value="1">model 1</option>
+            <option value="2">model 2</option>
+            <option value="3" selected>model 3</option>
+        </select>
+        <main>
+            <div class="canvasContainer">
+                <canvas id="c" width="280px" height="280px"></canvas>
+                <button onClick="clearCanvas()">Clear Canvas️</button>
+            </div>
+            <div class="canvasContainer">
+                <canvas id="c2" width="28px" height="28px"></canvas>
+                <p>Model view (28px*28px)</p>
+            </div>
+            <section id="resultSide">
+                <ul>
+                    <!-- Holy shit this is fast:
                      li{$: }*10>span{0}{%}
 
                 li{$: }*10>span#${0}{%}
 -->
 
-                <li>0: <span id="0">0</span>%</li>
-                <li>1: <span id="1">0</span>%</li>
-                <li>2: <span id="2">0</span>%</li>
-                <li>3: <span id="3">0</span>%</li>
-                <li>4: <span id="4">0</span>%</li>
-                <li>5: <span id="5">0</span>%</li>
-                <li>6: <span id="6">0</span>%</li>
-                <li>7: <span id="7">0</span>%</li>
-                <li>8: <span id="8">0</span>%</li>
-                <li>9: <span id="9">0</span>%</li>
-            </ul>
-        </section>
+                    <li>0: <span id="0">0</span>%</li>
+                    <li>1: <span id="1">0</span>%</li>
+                    <li>2: <span id="2">0</span>%</li>
+                    <li>3: <span id="3">0</span>%</li>
+                    <li>4: <span id="4">0</span>%</li>
+                    <li>5: <span id="5">0</span>%</li>
+                    <li>6: <span id="6">0</span>%</li>
+                    <li>7: <span id="7">0</span>%</li>
+                    <li>8: <span id="8">0</span>%</li>
+                    <li>9: <span id="9">0</span>%</li>
+                </ul>
+            </section>
+        </main>
     </body>
 </html>

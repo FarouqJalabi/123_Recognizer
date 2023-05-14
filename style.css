@@ -1,12 +1,32 @@
-#container {
-    display: flex;
-}
-canvas {
-    border: 5px black solid;
+body {
+    font-size: large;
+    font-family: system-ui;
+
+    background-color: azure;
 }
 
-#c {
-    border: 1px solid #cccccc;
+select{
+    display: block;
+    font-size: x-large;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+
+canvas {
+    aspect-ratio: 1/1;
+    width: 280px;
+}
+
+#c2 {
     /* disable antialiasing */
     image-rendering: optimizeSpeed; /* Older versions of FF          */
     image-rendering: -moz-crisp-edges; /* FF 6.0+                       */
@@ -14,14 +34,25 @@ canvas {
     image-rendering: -o-crisp-edges; /* OS X & Windows Opera (12.02+) */
     image-rendering: pixelated; /* Awesome future-browsers       */
     -ms-interpolation-mode: nearest-neighbor; /* IE                            */
-    height: 200px;
-    width: 200px;
+}
+
+.canvasContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.canvasContainer > button {
+    margin: auto;
+    padding: 10px 50px;
+    font-size: large;
+
 }
 
 ul {
-    padding: 15px;
+    margin: auto 0px;
     list-style: none;
-    font-weight: 1000;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .top {

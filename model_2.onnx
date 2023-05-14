@@ -1,0 +1,866 @@
+pytorch2.0.0:ä
+×
+input.1
+block_1.0.weight
+block_1.0.bias /block_1/block_1.0/Conv_output_0/block_1/block_1.0/Conv"Conv*
+	dilations@@ *
+group *
+kernel_shape@@ *
+pads@@@@ *
+strides@@ 2Šc:\Python310\lib\site-packages\torch\nn\modules\conv.py(459): _conv_forward
+c:\Python310\lib\site-packages\torch\nn\modules\conv.py(463): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(33): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+’
+ /block_1/block_1.0/Conv_output_0%/block_1/block_1.1/LeakyRelu_output_0/block_1/block_1.1/LeakyRelu"	LeakyRelu*
+alpha
+×#< 2Œc:\Python310\lib\site-packages\torch\nn\functional.py(1632): leaky_relu
+c:\Python310\lib\site-packages\torch\nn\modules\activation.py(777): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(33): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+õ
+%/block_1/block_1.1/LeakyRelu_output_0
+block_1.2.weight
+block_1.2.bias /block_1/block_1.2/Conv_output_0/block_1/block_1.2/Conv"Conv*
+	dilations@@ *
+group *
+kernel_shape@@ *
+pads@@@@ *
+strides@@ 2Šc:\Python310\lib\site-packages\torch\nn\modules\conv.py(459): _conv_forward
+c:\Python310\lib\site-packages\torch\nn\modules\conv.py(463): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(33): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+’
+ /block_1/block_1.2/Conv_output_0%/block_1/block_1.3/LeakyRelu_output_0/block_1/block_1.3/LeakyRelu"	LeakyRelu*
+alpha
+×#< 2Œc:\Python310\lib\site-packages\torch\nn\functional.py(1632): leaky_relu
+c:\Python310\lib\site-packages\torch\nn\modules\activation.py(777): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(33): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+ø
+%/block_1/block_1.3/LeakyRelu_output_0#/block_1/block_1.4/MaxPool_output_0/block_1/block_1.4/MaxPool"MaxPool*
+kernel_shape@@ *
+pads@ @ @ @  *
+strides@@ 2Èc:\Python310\lib\site-packages\torch\nn\functional.py(782): _max_pool2d
+c:\Python310\lib\site-packages\torch\_jit_internal.py(484): fn
+c:\Python310\lib\site-packages\torch\nn\modules\pooling.py(166): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(33): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+ó
+#/block_1/block_1.4/MaxPool_output_0
+block_2.0.weight
+block_2.0.bias /block_2/block_2.0/Conv_output_0/block_2/block_2.0/Conv"Conv*
+	dilations@@ *
+group *
+kernel_shape@@ *
+pads@@@@ *
+strides@@ 2Šc:\Python310\lib\site-packages\torch\nn\modules\conv.py(459): _conv_forward
+c:\Python310\lib\site-packages\torch\nn\modules\conv.py(463): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(34): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+’
+ /block_2/block_2.0/Conv_output_0%/block_2/block_2.1/LeakyRelu_output_0/block_2/block_2.1/LeakyRelu"	LeakyRelu*
+alpha
+×#< 2Œc:\Python310\lib\site-packages\torch\nn\functional.py(1632): leaky_relu
+c:\Python310\lib\site-packages\torch\nn\modules\activation.py(777): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(34): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+õ
+%/block_2/block_2.1/LeakyRelu_output_0
+block_2.2.weight
+block_2.2.bias /block_2/block_2.2/Conv_output_0/block_2/block_2.2/Conv"Conv*
+	dilations@@ *
+group *
+kernel_shape@@ *
+pads@@@@ *
+strides@@ 2Šc:\Python310\lib\site-packages\torch\nn\modules\conv.py(459): _conv_forward
+c:\Python310\lib\site-packages\torch\nn\modules\conv.py(463): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(34): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+’
+ /block_2/block_2.2/Conv_output_0%/block_2/block_2.3/LeakyRelu_output_0/block_2/block_2.3/LeakyRelu"	LeakyRelu*
+alpha
+×#< 2Œc:\Python310\lib\site-packages\torch\nn\functional.py(1632): leaky_relu
+c:\Python310\lib\site-packages\torch\nn\modules\activation.py(777): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(34): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+ø
+%/block_2/block_2.3/LeakyRelu_output_0#/block_2/block_2.4/MaxPool_output_0/block_2/block_2.4/MaxPool"MaxPool*
+kernel_shape@@ *
+pads@ @ @ @  *
+strides@@ 2Èc:\Python310\lib\site-packages\torch\nn\functional.py(782): _max_pool2d
+c:\Python310\lib\site-packages\torch\_jit_internal.py(484): fn
+c:\Python310\lib\site-packages\torch\nn\modules\pooling.py(166): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(34): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+»
+#/block_2/block_2.4/MaxPool_output_0!/output/output.0/Flatten_output_0/output/output.0/Flatten"Flatten*
+axis 2Àc:\Python310\lib\site-packages\torch\nn\modules\flatten.py(46): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(35): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+
+×
+!/output/output.0/Flatten_output_0
+output.1.weight
+output.1.bias22/output/output.1/Gemm"Gemm*
+alpha  €? *
+beta  €? *
+transB 2Àc:\Python310\lib\site-packages\torch\nn\modules\linear.py(114): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\1417090719.py(35): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
+c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
+c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
+c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
+c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
+c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
+c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
+C:\Users\Farou\AppData\Local\Temp\ipykernel_18928\167556660.py(4): <module>
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
+c:\Python310\lib\asyncio\events.py(80): _run
+c:\Python310\lib\asyncio\base_events.py(1896): _run_once
+c:\Python310\lib\asyncio\base_events.py(600): run_forever
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
+C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
+c:\Python310\lib\runpy.py(86): _run_code
+c:\Python310\lib\runpy.py(196): _run_module_as_main
+	torch_jit*ïBblock_1.0.weightJĞ¤ü>Ú/¼5‰¾0´>I‹>–ÀÑ½ñù[>åw7>æ[>Nƒ>Æu>‚>ëÖ½WN>¥Œ#¾<÷”¾³¬(>O`‰½Üd>|§¾vr>R‚¾’(+¾og¨>Ø§­=JüR¾ÿ[ß=9ç½Ó_|¾·òs>¤æ5¾W,>ì
+¯>=…>‡Şª<m¡¾!&¾¯¾ù=½Ş=œ>¨>õÇ¿½†¾B»L¾ë7¾¾‘~¾4Zˆ>úzì¹ r¨¾”R©¾´ú¼=,¨¬¼]Ã=î}À>9…3?-+?™‚"?O?±).?v¢¥=Ï ?ÄŒ>PğZ>:GA¾ç›S>…S¾tÖO¾¬Í=sñ4>Kg¬>ŞÀ>£A„¾Ş½Èb¾~‘¦=n"=â«¾õ6×¾ë_?¾şi˜¼Š->)¾ù¾¼î=Y@¾bƒŸ¾‰ì¥>ô%”=J1¾ü@h>…¡	½‡óŠ¾Y3w>.Ô+¼±£`¾¼ğ÷¼W
+ï½àå§>z¾cÜ»=¯°¾ÇÌ={Š•>`¾Cú¾6ìG=üe¾ë_8>"OH¾Wæ>ôZ¢>½IM¾+`.¾€û®={Î"¾1Ÿ>~½ôa¼l¸>Ø‚¾hå$>Tïs½.>¾=ÅU> Ì¡>0=»¿>%Ç¼›ë¾Í d¾©íÈ½îµ¾æÙ%<QøÌ=§Ö>>TÓ{¾ñµ>¿u¼(!Â<ê_µ>Æ¤"¾ ï½˜Û'»<Ô{>¹rš¾¥™>§;¾âë½‚Û€¾\È¾zï¼°õ/¾©“>oº½°fE¾Oï>NµÆ>—üÎ>Š’@¾º1Z¾f}¾»¢ú=‹Ñ?@]4<—Àj>ır?Î?„¨?'s§>œ[=ş|>.æ¾>¿ş‘>ÿIR=óîÂ>íÂ¸=şğC>ø;ë>xØô½*fBblock_1.0.biasJP#Ì¹ÚÊ½¶ÅM¾'¾óo¾ (G¾öìs>ce£<HÉÈ>“RB>›dE¾·?<¾Š,¾-š¿½+Æ¼>DÒ>%M“¸Ø|®¹èE>€­=*ßpBblock_1.2.weightJÀpE $»Òéñ¼z¶=¡ƒ¼\.ã¼ }=\œŞ¼ÂQ:½ÈdP;>¨ö»Âáw=.~G½K’½Á:Ö¼(ú™¼L«y=Üø<†€½Tb=Šµw½ËÂ¼ÚÜºJXƒ½z=¤=ø@G<±èİ¼ç|D½>Å%=ÑT<iÂ.½¢Px=Ùş×»Ìt—½9„K½²@Ë»¹¼i<…¸ã:|×‡½QE?=úe½° <¼š==!ÕŠ=˜§—<]˜|½£ü•½Û¦¼Ïò¼4î<'Á–½ü/A¼et=¢b¼ãvi=¡?Œ=ˆ¥>=ÀŸ¶<“fÓ¼^D=Q¡–=‡;=÷==ñî<ç¯<x“½}Êø»Ôò¨=móƒ=œ Ñ<#	‘=2Ü9=)§=Èí
+=»“Û<u¹¼qW==¶€q=
+W=¼Ÿ©¼ W=¹`½Ù¼¼½™=šì˜=q&½EJ=^ã^;­­<ôé¤¼İ÷€=É¼¬¼uÆ&½)v¼‘A)½Á…=€jˆºü¬õ<õ¼ÙÜŒ=EQÅ<ö¯=QM”=•»vˆ7<•¸ƒ½¶c½l<½Š½
+äh=™;½+bJ½éŸ=ºÈıˆ½é÷=s÷C=X½Ï†Å;»Ú<¿›Ÿ»¤85=Q$T½Ü¢=ÅÒ1½‹©,½Q½HÒ]=­.½¨#¯=‚~=m¡‚½Ñ˜&¼×àG½>¬;Äf4=–òt½ögX=2t‹==µR½ s/<›ôH= m}=Aïf½Â½ñĞû¼”½/ ½Å!Á»f¥0=¶‡<0Gz¼_Ú»ÉÃ˜½Vÿv½Éˆ=û§6»SşU¼g‹X½ä7Ë»=™½µ¸–½)Š½q1½¡H_¼× å¼Ê d=t×=â’º¼™/<-	½S¼òÀ=,=¾\e<Ú¨¼$Ò:½Å\Ù<Ç#=C£ÿ¼î=“„Q½SBË;á,¼‚“Ä<-L½åöî¼Eój½¢’½®]2<ï}=¥„½Dÿ¼5Ÿù<6(=Ò4Š¼Ä³ˆ;¨×T½$4¼Û‚½£€;ÛQ=½^Ã½w7=7›»x…Â¼ëp‡½”‡¤»3¯><(ßG½²Ú=”¼<X¡<?ÁÂ<ó<¸AG½9ÆC=R1½ªA$½fı¼Ig_½=2'¼‘Ê½© =«.=ÁRv=³¤³¼<j;±2Ø;È4½¾Gs¼Å~“=ç’U<•$Ó¼Iq=†Œ¼ÙÎ<Y~=ZŞ&½á)½]úu=Ih½J"®<ïğ0½µö‰½¬y£=ÉTá¼táP=üÁÛ¼e–=fÊ²=í~=ï;²= 0„=ª›ƒ=Iæº<ª2»€@Ó=$îm<Ü3<õN’<]{Û»<k½0U=¼òá¼Ù§š=ët4=QP=xc½¤è\=ĞZ½NÁ„½#=ÕŒO½¿Š‘½”&=½*ü<EŒL½’œ<G±M¼Æ~=ÕvA»½İû<~U½Íƒ”¼Gä#=-<²kº’Ş…<@ˆ
+;åÎ¼z½è†œ½ä,=ó{=D<V\=sPª=I¿Ë»°li=
+Ş<¢¬<‡ÖÂ=ó–Ÿ¼ š<î\o=î<¬lˆ=#‡<ü‚m=3’h<´SÃ=Tî =Åî÷<Üz=Û‰‹=¬b¦<1:F=)·@½ÃX,=‘8»=,³Ì;‚=bİ¨¼Ï
+=ïèh½€ˆ<õ
+=ò6¼úoŠ¼İ[ò¼ài:7“E<¿†°½4ùo<JL­¼Bª£½®=ˆK¾¼M[¤½ğ=^˜½:Ê3¼ñì+½­¼dC”=ªÄ;!ƒş»i¬Ã=	3P½kƒ5½¼7ˆ=´É½y2|½ü™/¹Øv÷<zAL=wÒ£ºÈÚ=Å§Ñ=Xßº=¿Ş›=!=n> d”¼zÍÖ¼8HÔ»ä8<Œt‡=
+‰=ĞÅ[=+Ö;?0¤=–TÁ=ª„l=:ÒÃ=µZZ=ÜÊ;N½do<µÖ›=ì_½üC6=”Û‰½ŒŞ^=bWª<—èK=&¥ß<Ñª=¼º§=¬0=Pë<Æı}=®ÒD½¸ìğ¼_	Ú<e&Q½È!½3 &½¼-î<$ÿ»àô½.;¼µï1½ÚäS=Ëæ…½c=‚=8Q½ë€ ½»h‡=Ù(=ˆ_½<iĞU>'G>E´z>Q_>}á¢>İå—>æ›´>'¤¨>àg…>J>vÖe»pÆ¯<CQ²=R¹;=ùËš<Wr‡=]	=•º†;$QÇ½Àòî½_¤è½ôõ½Ûv!½·—¾Lİ"¼o+Ú½CÃ¾›]¼Ç¥;s¬”<‚W-:#”—½b¢‘½ç	=@º¡½…_)½Án˜»Óá=bXÍ¼Å=g½ğ†½n4h¼"a=†=ìQ¯=W½^QI¼fîx=_±¼CÓo½‘}=$ ï:Ói…=ÙP<î p=æ ¨=ÅÕ<]¨î¼R¯K¼â§½ ›½óô_=¼Bq=yç<WÊ¯»´°^<jâ=–,#½Ñ¡q½ª3™=S‰;È&½¡}†¼L|½,*R½UˆL¼ã\Ô½_Lu½‚¶½9s•½ÑX¯½®±Š;Â{É¼6 ¼Ïœá=ã™²=‰M;ëƒ
+>	Bş»iõÃ=Áj¶<İüŒ= Š=4Ki»×)1=;ã=u=ôr¼Ê¼¨<>™»¡ô;kc
+=­­P¼	ãœ:u^=3Ó=.N>-Ãß=ëíÉ=MĞ>4@*>ùH>`#w>}äŠ>aÈ>Ê`>2…á=ñÏğ==ùè=ÛÜ=(ä!=‚vV=	!>5áõ=kXG>H6÷=pV¢=?ü•=Á$¼™Õ=G=>\¿Ä=:ÔÄ=ÅÃ<;JÓ=SíŸ;#‘§¼Â¦b½6»ò<cœ¬»K¯Ÿ¼-!é<ü©ï¼â;(½ÿ²½‘‰´<ÂÌ€=.@Ù:ä„=E¾Æ9=®==äüp½ÎÑJ½~¬u½+Ûö<íZ˜=àó›¼…=ûD&½ú÷<½ì—<ÈN+=q½4K¯;Vr=( ½ÍÛ—½…½‰½›(f<¨¸¼ş½ö¡<=yİj=Úõ½Å°»¼Œè¼ì“É;Ó}=Yş`½6t¸=‘_0>×£=g·>ßt„>iá8>…Ù°>½N§>É¦>m>×œ=~E½”2
+>*¥=°Ë¾¼LO½X7l½òê1½ìn½ÑıŸ½Í<É½¼€¸ŠÇå½£(C½Seê½ÄÛÉ½è#ú¼fTf<n™¼×§<İ‡/½6añ<±L<>ó;U½z†=¤z~=Á[ ½Sø¼‹ĞŒ=~^½ÃK=Å‚=Ğ,Ô¼÷¸T=ãÔ-¼ë _=VŠ=­ô_=2N`½Œ½À£‘=…˜n½”Íï¼£vÿ<jJD=°úu¼`"€=Q€=ÛJ¥=8
+);‚‰=q*C½ÕåÈ=û”=Ñ„<Ô¹¼3ƒ=¿ê!»d7³=ƒõ½uY®<ƒ(<«ò½½÷*½-?]½[6Í½pÖò½½P<;šS¼×Ú½Có˜<xÕ»:¥¥½
+I’=¿‚=é½™Ö=_¾=œ
+¼,•=-&=Ôd½¡˜š½Ş£V=îN:ªB„¼Í(…<FÖX¹i#N½~Õ¼Ú ="ÀB=Îo½×lc=°'=L^ó=_ >[‰¬=kq„=‘8=â¦¨=JÉ=='A>ù[c>%>İÃP>7ï<=ƒcÚ=SÏ=;“;=ºM‰=å>hl>
+=ŒŒºAg~¼I¨¥=D6Ñ=)¶=_=çÑÈ=ÿÊ = -½Í>B½:}À¼b=¢¢¼İ!½9xª¼rÑš={ò|<AÎG½ š ½2»‘M;¼ù«Å<édm½\bJ<¬ˆ½êş&=+åg½²¨,ºg‡¼ğ¬J½@°3½¿gô¼“Äü<¹à¼/Œs½“†=Á©¢¼+3}½%½Åc<Yİe<µX¼¨Sˆ¼5‰½.ä<½­í‰½ŠI =Š9È¼œÄƒ=V–½qk–½Ä@Ï»W,½Ñ‹V¼QËL>Tğ·=¤Qù<¿‘?>G*œ=Q%9=‰·>>	M)>ó<ÿÎm¼Ôˆ™<Ã;š=‹ÔE=çĞ\=© º<´RF=ùq½,Šš;#y=Kn½kÓ.½+b”¼Ç$½ëÏu=Ù3=Á‡<l~Ô<²	x<€¯=Ò\Ä»,=¬ {=Íª¡=Qìm=Z¨„=Ì“½ä2½74=)N=­™=õš=á0=Ëë<Å–<o¨·¼"2b½©%¼ÇY< cH»Œÿt=L•‘=4ÿg½,¯¼bå‘=!É¼Ÿæn<©›°¼àĞ@½€~M½vk¼!ƒE½õç=w¼$úã<3¼­R	<è2À<X3½*H<±£€=1’A½p×Ğ<$ÂW<{Ê<¿ÏŒ=C!~½úÊv<á¸^=Ì5=$dö<W­.=P‰½M;ƒ=äÖ7½1f½=Ğ=SŒ=’Ñ¼EÅŠ<—*Q½+_=¿ìˆ¼Lo½ø(=rn=DP=B=7=×U¾;™Gf=˜l=†ò»íĞ½ÿı¬<6›t¼ED=@u=ò†·¼Í³n=¶Ñ>kQ—=Äˆå=1¬=‘TÏ<¤+>¢=¨s">ò”Û=ÛzÔ» ¢¤;©ú=E¼™=¼LuØ=ñ–=B³à={°Ï<*‡Ñ<—‹Ì=[™ÒºQáà=kú>Ö)Å:ÉÕ‰=Mr =Ú¦¦<ˆ>¼î“ı¼?OŞ».Ë½÷”=Ï6Ë=`‰=@™û¼"?¦¼ª%‘=IZÚ¼ApÕ<™,½\D“ºÄÛ‰==®é<¶2½@K›=uÔ¢¼ñ}T½Gœ<fér=DÌ½"w6½ í =%ö}<ÿµŒ=@v½A—<ºK‘½"zË<P€–½1®F½ô”½ÓÚë:“ =·rÌ<’œn<ÇY½ñÕ=°b/<¼ ¤»z”4=âû¾¼á6>cX>Ïà5>ÎO>E×†>lÂ$>Ht>ÎÒš>è>ßc¤=—E >ÍŠ=,HL=Úó‡=¼9¦=§ó=Ç=Ïì<Š†Õ¼Fûé½{{#½X‘½æÔ½¿ds½ôğõ½;•ş½ê°é¼1};Q<y½©l‹¼8»Ş_€½=l¼.´¹v;i<´O-½YR‹=c;ø¼-}±»îP½i*‰=÷n=ñ¨Q¼Ïü»<u%H½Ì¥İ<n½ˆ=ÂÆ›¼o)º»¦="•Š½$Ïñ<æ`½~a<Øğ—=pV^½¸j=®¼"=Ô¼çİ»:²T½Æ=¨=Â¼Ö3.=%¸M¼\ˆY=/]Í=ïÙ'=0=½»…=vì<«í‡½>Y½ #½.õÌ½vã)¼İó½¥!½p!=õ~ú<<†½å}(<,‹<‘ë=”K½_%™<{9»$á<dã†<ÕT=L¦n½V¶”=K€_=’&”¼´P=â0Û; …9½*ä’<•P<Ø•½ÛÈ/¼³Ä¼‘üb¼Í™x=ÎG½£Ÿ»Ã]ß<ëˆÊ=Ylÿ=²´=/8>†à>©r!>H>”2T>ß‘i>ù>è"=·->È=H¸>‹>ğG¥=pï=œ‘=ïó¼=SÚÀ=uzÓ=Á×=¦_½Ø¼=‰³’<åNm=Îãî<s‚=ŠË<ójp=ä¸“=‹<½Šå$»¿µG=f÷=ÓKI=„;ø
+q½C©T=iÙŒ=¨ˆ½@N½ŞŒ¼:ò¹=ÍT(½6S–½}F«=Œ0>¼m_’<hRf¼ı]U¼µí=Ö¢p=_ÏL½k½â;„=;=Óÿk½¤“=ânu< â=X‹=ú"=´‘w½õ>½ÌGƒ=ô(½ÄÂÓ<3â®¼S~g=.=v§B=c è¼_İ=s`>ÁL>»÷={)õ=%ğ=µ(¢=/÷Ä=İúÑ=ï+=–¼¼÷®F½Î:N=’*U=Çk=2e=S=/-½ğJ’½:Ë0=²}"¼òš³¼Ç=½ê‚ê<Ví<ä¶8»´ä˜;pÖ=a½ëL½	j¨¼=±ºx½d?İ<IZD=kÔ	=Ì8_=Lm½ŞƒI½•8°¼ÿƒ¼‚<=ôàú<Ói™½}±<¤=hû¼0(•¼”¼ïŞ&¼7¬)½—F½%”=<Í`½Hq#½jïÍ¼á×<=cÖº=§}½T[¤=œY¾¼z3½C±
+½
+È=Aú=»Á;ºˆ.=÷ˆ½ÊE‡½KQ"½R .½&p¼Bp¦<øê\=­ç‚½ïÇ×<À«½¨Ç½I…«¼b¿½N#‡½L)©;¿Ş‡=Nğ†»Â»ÈWZ½ˆ†½îh='4T=@¶`¼{»»ß½¢¾h=™Ot¼·ó|=šÑ‚½ßM½Xaİ»<á9éx	¼uG”<<†I=.U½³r½ïHÿ¼´`2½_ê=ÿ–=~±>×ª>UîŒ=aÓ(=w‰¬<¨ªñ<Õ>f>Sè«=Ö¹¶¹Ğ©†=•{2=®ù>@VÏ=ö¬¸=ƒŠf=}eE¼;ˆË<¡©b=ƒM©<”4 ½áÊ©<^Y„<5 Ó¼Ä½k•Ò¼€2¼=ÇNC½è¹Ş;ıX=õƒu;J½=Æs¼
+=J(<®#=®Å_»™«Ì<rè/=‰Õ¼»:Õ¼)„½ìsG½{SL=Î‘Œ=(»f½~nn¼¿Y7=ÒüU¼Tœx½õb=ÿğ»İÑ³<0»~¼9½Şt¾¼™Æš»Ò¥¨<®ø<DZÊ¼Ñ7	¼çë)=h$q;íò‰=ñà“=€C<=ÖMa½«B;ö¦K½IEØ»Ç¸,¼Zƒ=<]b={{Ë=ˆ{Ñ½U5Ò=ƒ‰]=j
+½^¼>Èä=4N½ ×2=!
+Y=œ·E=É1€=RLv½O(¼zs.=U4‹=ø˜¼tÀ=ùE=Ü¼ ½ÄZò¼Œø»^{À<BÆ½§Ê†½Õ1=Jk½_P=&d½ÛŞ½ı>”=i½øÊ<‚Æˆ½ã6<, ºhR=rŒ7½Ü½¼¶¸Ò<ƒ½5œ3=w˜5½/&=%ÛF=İ Œ½<ñ¼0ÁD=QŸµº¥ÒE½k®K=ô>½İê­¹pAN=äÒp½7€¼pR<®ı=ºTp<C¦¥<
+n½DŠ™<'Ã¼°@=Ë…½;f§:|><á•1½XM=umg½7"T½Œu«½ÿ®Ÿ½'­ƒ½½|c½<H½Ì•d½Ë÷<·p=š\=&d9»~S¼Z6»f\T<jÜ‡½R9<5&^½—:=‚æÌ¼Å‘ƒ½é˜½ĞPE=õ°Ù:‘–g=LD½\·J=¡E1=ÀRŒ½n”½qF½Rµ¿»âK‚¼Ú‰½á¹‹½ù­=x¦<åG©=·…é=ĞbÕ<+5•½¬w>£š=mãH½´$>¡D>i¾<'GX=z‰¹=‚Çâ¼·o¼ÑÏÑ=­Æ¸<æš=N0“<ù =¾b<`Yw½öõ$½Í«¢¼”Æ]=Ê‰<±šR=P=ª÷<²ÃŞ<E@o=kç*=ÔÃL½ºP‰=QF¤»¹¿,<n÷ºˆ.M=õŞˆ=ãiˆ= ½®Î<tÕ‡»ô-€=“WS=mı¼!¥5½ÿX=–²»'³/;•Ê@<Z‘½¾Á’=»¤˜=wÙK=³cG½•ÙÂ»[a“½·A=?*0½11s=Y=l=Ú"e¼Ö{Š½åõ+½u“˜¼ <½¡;Îì¼·ØÚ<ùè =,#ƒ»`2E½,ÖO½›P=ã ½ËÏv½¦ƒ€½5@„½¦Ë<çî’=‚İu½á%½Ü¼œ¼›Z<'Ù³<†jZ½5¥s=“of½ÂÄ©¼I ½ù¬<«ˆ=µ]T=îÍï<¿,6=&©†<Ã4V=%¥&½”;=ü‰-=õ5=Y½ÎÛ=ã”Ÿ=¶Z¼¬Oî<ş†’=‹ˆ2=MJ™½‘z=„–y½K`)=ëÓ^½ 7=]¨0½.œD¼‘«.=l½z%n=ZR½›¢€½É²½¡x=ärJ¼$m><K»•=cÏ=©=¢#=Ò¥ˆ=>[=Èòğ¼ùÍ3=—K…=¬µM¼w^’¼qlB¼µO”½Ú½ŸP½İÍ¼Q±'<€ñé<7µK½w&=1ïz=5‡=—P½
+ùH=ùŞh½¬&	½ù¦ ½äXl<ø4—<\½~RÕ¼ÙØ¼Ü;ìœ=d=½´T½ˆL½~|;½u,N½hp½ôÃ<8£à¼67½Zø¼@ÇŠ=h½~JĞ» ™½ í€=ë&½ŒÜ=ç7O¼‘H<\e=–¸¼wÍY½B=	œ½¤Ñ<œ9Î¼qAÉ<=;½©æ=dù¼y—…½6ìH<’®!=‰/ƒ;z–µ¼lÉ„½+ˆ =Ø¼Ä¼yq¼“Ø¼ÎÂ<zÕ#½åA»z˜=²¼¼Àz½«Bè8„â½›bÅ¼¦0½¨¨i½•ÆÖ<–Ú;0Š=+A=Û¬š¼;~8½xU½y‹=Ó<«lg=íúV½†‘’½fCp=@ Y=™^T¼^aŠ=·½…¸)½å8=½€=õ!D½n0!=49‚½v&|½cÖE=rs]½=<55Š½ÇÆe½¥0½ª¼/J=™0'=&Sb½é½kş½¼°ã<œÁ™¼µ\½œ	=$3½¥^`=xçà;72¼Vn½iS]½»–;ÌëÏ<~¦A½F"»b#€½‡½^R¼#¾S=tn“<ù³ø;±½+w =”û
+½J=½Ó;‘Š½Hfa½r_½Ã•c½Ô–g=[†”;Ø¦¼…“=ô¸
+½BD½±ŞÎ<Ì•`=û<™€L½èo<W¡ı¼ a¯;S¯…=jÎ…½è7“=1h ;oM’=Æö5¼Š³D<S¼‰ V½’½—‡B=v[¦<Ïo½ŸÚ’½ßN~<<]Í¼¤×Ê<‘o=H'½(–=½Ûâ½¼ú½—Ú½Â*P=‰Š=PÁ°<&­_=˜û¼Tb½ü§=œÒÀ»U¾½÷W/¼ÒE¾¼•Ã‹½²û6;ím<•*=Õšñ¼mË<à.½Î9µ»_ã==İÿ»0	½ÿb'<­]¿<áDO=ö#½±A½~Zy¼Jü;êg½Noù<Ç±|½ÓÀ¼óÄ8=5;n„½•D½¹|‰½Ãâ•½‘½¼
+,k=_…d=&î„=^n½¼0)ß¼å<Z½JÃÜ¼´V=UUN=·á&=IL ½Í/ä<a ô<h±‘½½Ä‹=¨ }<ùÕ-=*j»üsÏ<v„Ğ<|£¥<ÉĞ»¦<`ÄV=kì¼`‚<Ü¤W=/Û¢½ù”ñ<äõ8½e›T¼b–$=s&|½‡ÓG½Z''½-Ê(=Ş”<=m>N¼¨èC<ùaÎ¼(Ø<Jù×;\Ô$=L
+g½Cñ‚=\ç<‰T½ríÌ¼áİ}=ûŞ<,·ú<am½ø»|=l	œ¼ßŞR=dïk½dm½ÿš½ˆo½ç³Ù¼—öÖ¼Íª–¹vÚL=÷c½	Âa=Qÿ¼vN¼hE=Fı;Ö‚½*ä»ÊÆh=jÄ‡½¯ºÛ¼"ÅT=GÂò¼ò;<Yo+<š.=Fœ¼Ãìn½#Ÿ‚<gpB=ïƒ'=&w=:Æ™=_±=ÆÛ==Ê>ã÷}¼º½6_r<UPë<íƒ¼í˜†=Õz?½Åê}=BwÆ»¾Î>¼*Ö=½¡]@=Á±<!í‡=Íã#=\šÖ¼µ!ˆ< KX½Wœ=ŸÕ…½ëc3</ÑºÛ# =jÙÀ¼&´‡=àdB=éß¼„&¶:Äx;¼2l/=YM”<F=%½bĞƒ½åw=ÑÈ'½è‘«¼€Ùn»ï>”»b|:½?Å;c%=“;½B2½ÅI‰½ÁÜq½™ =³†M=âÊG<ˆÛò<ÿ -¼Ä¯‚ººî½W¼ï¿<¹‚=;A½YC4<g®¯=‹G‚=î®¢=µ›Ê=¡Â³<ZÎ½
+—;6%#;w-&= ä¢=,TF="Aª=•Û\½KÀ=‡•¼­PC½<âş<v>½¶d¥=Ä·.=£İT½ÂI-=ìE„=MB½'ÿG½të»¿H€¼±®=K[8<GIF¼¨!½Æ2"=­=ª°ç¼
+[=§‰»Ì…¢½kŸV=iA}½ÀÍª½Y”½‚T¤¼ùÜI½ÏM="²É¼±´R=šÉ>è|I=êY.»d]>R‚S½P£)½´Ì^=Ëåx¼’Á€=Û9r=Á€½Š¾t=íGÌ=¸$‰½.X³¼¿=V=wÿ½mÁH<ŠçÒ:=ø=Y2=^éø<5Œ‹½uß'½û†ï<:+=ÑC€¼Ëf‹=*(½9Ê¼Èpü<$b ¼^·=ÉF½BO=˜à“=ĞÈ‰½¦ß#=i8)=&m9½äŒĞ¼FÉ»Ã¹=ë¤Ş<cŞ™½7PR=gY'½3.t½	T±¼Ú…V½G~½(½<q~½g™¼ h’¼S´i= ×n=ĞM=.ù\=½ƒ;r‡\½œj:½|z½×Ê"=}'a=Æ<=<&g<ê…z½ğiï¼3½¶=Šwl;¤iV½EÇÕ¼–Q&=.ÑH½d{=–’)½)İ‘¼‡^Š½­Ñ9=a‰¦¼»2¼ÒÙ1½¹0=õ™½\„:væ*½Ôc!=¨\Z=D.»×W½eŸÆ9€ª<ú#½´€•½Ù¨:½vX²¼¹äs:{[z½ÉE.½Qâ¼/·Š½vÙg=éõ8½ü/:†<véj<Ë(i½şÔR½/Ôª»ş1'½hä‡=êi‡½#:¬»''½İ™e½±¦ =±û¼0î”¼ŞÓ½kƒ	;ÑËê¼ÈŠ€½W¬=GT;Ušo½KÜD¼.€=½›¼<wH=®v®=/Õ¼PDÕ;­‰=~_X½:Uk=pÁ°¼SÂG=”kb½q.ºÅsu½œ¦º.–=›®|½%7“½c…k=R<m–¼fe=Ş©<-NW½‚PÊ¼ïˆñ¼za½ğ†1=ïKZ=eİl=T€i<M&¼\¼¼HA¤<²½x³_½Ç½İÕ_½NË€=Œ ½öh6<7: ½£ã½œÙ\½µ‚‹=0G1=¯»ô‘=‡x=N8]=¶„ø<îÑ=R }=„0±=hÎ$½é´¼*âö;’}K=Ë[;=ÕZ=zL<½’‚?½¢.½]?¼®/=¹"~=Ñ¼š=–L¼	¢—=e•ˆ=ëH‰=î–½ŞŸœ<¢-ä<Ûr=Jö]=Óg‚=¬µ™=-Ë¼¸¶¼´>ö<Áµ‰=Gp.=…RH½ºÉï;İ”/=‚Ó:;÷@½ºÿE=)’ƒ=$O=ùÎ½½ß<ìdŒ<«•R½ò¬»;Û®ƒ½°X½V¼öˆ=Ë¨¼qõº¬w<vå‡=ZL[<îï;–¾º67ˆ¼`LH»äíˆ¼ÇK9=ñxo½TĞ½ï»„<Æ,ÎºÒN½³óŠ<™Eõ9œ …½…¶S=Qõ=íÎ%½:Å=±x½J6¼•/ ½Y¢Š½ó¤Œ¼®4½Fê¼’I½†ìè¼ÍŞ¿<L‰X½[v=Såı¼ğ½¥er½Âû ½zÎ<¨Ù;Å‚ˆ½!eÎ¼4|=œt=½ò];®BC½ãk¡9Æee=\=¼Ë=ae½)'½”2=N=#R•=üEG¼+½™<€<ez‚<ß9I»q*
+½±Š½?;Õê–¼Ùy=áº¹sÚ…=UŠ¼Ú{*=>²:½$Ìh=Î´¼£:D=î²’=N"n½Dç.=¤½xd"=Où½Wóì<Ã¶Ä¼™ÎK=3ñ<Ô„½Hu{½ó§“½c¨¹¼$Ê<Påò<0ÆÆ»ÌC½Úâ3½e9<ZSi½öpr=lT¬¼å±–½ãz_½„¢=Pv=§0n½…Îk=Ô…<=Cº<ìÔo=
+:¬»J¼Lm3½Ö‰É¼@Y½T0—;;:=P ­»²£Á<l¨‡=•=íó‚= Ê½ª\¡<ÇÃ_½·Vp=\i†¼Ì=:PF=¨¢<{â­»8ª½;ûš=µéy½s`
+=­…½/¹)==_ <­M=•›ı¼e;†<¶d‹<†go½|65=xğ@=P“˜==½~Ró¼·¸P¼r¼ì<G½4oŞºÌˆï<]‘	»¯6Õ:Ó8€½êãå<©Ú#<Ö7b½ˆ“º¢Ò°¼s	}½j½S	½‚ˆ<‡»yIU½åæèºäJ=6l½o=ŒàÎ<\ù·<u#…=u‹ƒ½ÖÛ¼ÜX§<‡=Ê‡Z=0—A=]Ÿ½Ù=n	û¼Ù½-c5½m×¼¤ùZ¼„3<=£­?½=ÊF½S4=¨¨u=Ì=ˆQ—½p®É¼d4¼€æ±¼Éí=!.¿<Œ=òÃ¼Vv)½Ó :öâ<ÎJt<ø#<Ö|î¼[=q½N?½É¦¼]½@*½Êª#½½<¥]wº~o=­›s=ÆV!½QÅ=4Ë‹½ğBy=i0:½>œÿ»ª—=\Ê„=îÒ‰½¬{¼çŸÅ¼[…Ñ¼fYí¼ì#½He½ƒï¹Çx½ñC•½’®½i•=£|>=ùol¼>=„‚½Àò”½¾Ÿ:=«&‹<Ÿ=häA<¿¼Çû"=UÉ<Ió<5²‡½b›R½¦/z=&2½½÷Bh¼ú=Œ½=—‰½~má¼ûoİ<ÊÑà;:ƒ=öÄ,==ÜFM½‹>ı<jV¼ÿÀŠ½R?Œ½Æ‡=Më;FZ¼ÕDV½Jt½b½$€A½uJ¼Rj»?˜=Ş„¼{­¿<£ú(<úó:Â·”=«g;³Şä¼„_;Ğ/=SÜ…=S>†½R‚6½…/Î:ª¹
+<™±ƒ½´Ş€½µ;½å+½Éy]½lÔñ¼Ñ®½î),<C]=ß‚½u
+½r½šz`½²³‘½FïÑ¼Ï0¢;8Â†=Ó·T½ìt=•uÒ»-^‰¼_™=#<;ì•½îØD½[îE=c'Û¼×Ú':WB¤¼ğ‰½­qQ½6ÌT=áÕÕ<*4½[.j¼o–¼.=é”A<ÇŒ3=ö×â¼×•š<aÁ<ÍU6½ÆÊØ<I=`"K¼#ês¼z©P=;óÏ<ÊA­¼(J=[}O=f5€½˜´4½;èe<C30½Ïô<½­õË¼y$Â<µ°<<C=bÚÃ<P¦<9j=[æL½Åî=¶šå<e–ş<—dæ¼š—½Y½#=™õ=üxÂ;h{„½£’=ë5¸¼Gfs=ïö¹<g½¸ÕP=UÇ<	û¼ê ½ná»ƒB7½-™3=´ğJ¼;I=Š)s½¦˜½ç²;=÷¡ƒ½‘á4<}•=xD½Á$‡½´¹r=‰‰½ĞaL=[+½	}ƒ½s£¼‰½Ø%ğ¼ Œ½ı=kô½M}q½½xH=T^#¼*v½•Šx½/GŸ¼M:H<9]½déI½HR½®E=¡©“=õx»i=L†½}<=
+Ê<Go¨<ÄÓ=°•=¡šQ½9¤&==68=gÔ<,x—»ñüŠ=m‘a=Ê±?=/‡I=uCƒ=kMµ¼}º–½Ãì=äøV¼Xy=ŞŠ½öË½Ïe«¼Ã’4=7Bz½Yd¼Ú(‡=u“=ÇCä¼3h½h Œ<K\‹=˜“X½Òy¾º=Á2=»½àÕ<dp½˜—ä¼!,À»b==Œª‡¼=¼´¸»òb=bÏ‡½	.n=…= ¼ÿ~Û<ª‚C½ª}ƒ=¨v =†¬.½Kß—»Ü×Q=ˆ•K½’¼ÓõÎ¼\]m¼bg$»¡•^½j™\½ãô=Ü¿”=Mi<<R={@?<@ê=Ÿo=mÎ¼Xr
+=Ja‡=—M=\F¼š¥[;ı2jºê‡½¡‰½ìáŠ;şbt½†Š0½ö.Å<œò<<ˆ†½Á½“Ø½m‘<ç=(o½]½¨;$½á
+0½-¶.½
+éV½FZn<‚a½Û¨	¼}=wv”½èóØ»7&=O[Cºkmm=÷Æ¼7¹Î»øá<U8Æ;ŒÒ<Ëğ5½ş¨O½Q¸Š½Äd=PX½fm¼‡º³¼P8ğ¼sB½?N¼¡Ó\=ºb;×üÉ<($s;Oß<‡0½tª¿¼¶ìÿ<R_:½k«îº5 ˆ=ÏÌ½n²İ¼aãÂ<éJ!½H²H<ßy<d=½|"=ˆ”¼Ea=Ã@d<Y=µê½)º-½œ+½ĞÃ»Ñç-½‡-=·`¼8ãª=Ó…½hğİ¼’™=ËïT½Ì3Ş¼*E½¹ÒN='vq½{ˆ¼¼-W…½¹¢ù»Ë}š=ˆ(Ğ<2†Œ=Mó‡½Åw½ÿù×»„ÛÃ;ïˆ<)Pq½ò"¶:uòÈ<Äƒ=9Ï½a	=ÏA¶<a¥¹<ß=òKZ<æ"§ºTQ*=e€J½R³†=±	Š=n–½/B•=[(\=jµ½iŒ=©ä»ÜvT½0É¦¼ûœJ½ æ½yÑ¼­^Y½ïŒ<ú¤‰½æ'Ï¼FN¼ÁŠZ=ş—=¥‚=ÊŒ-<PV½–4{=îPw=S„W=ìÓ:-‡½íW–¼Å­è¼’	J=ÉY<ù‚=áG…= ™»¼Ë.½Öås=Ñ‡g= ’Ã;Ç7><†Å„½º0»Àâ=†»<gın¼ÜèK=€D=XŸ=»†=Œu²»¼×Ñ9Ò¯Ù;òÙ<=8éz½Ê$7=P»4=êÚ<|1¹<ç¼zv½´á¦¼×İF½=dS½Éy=|åƒ½Ê+½w~=ÖÉ;Ñ¯½Ê+È<]Œ=Q½ö)=BüS<!t=°õ€½°SB=ğºæE“½Á÷	¼e˜ƒ<Ê™½07½¡„~½ş
+‘½½W½¯‚‰=ox#<½(a5¼ğÛ¥»°…f=`ïB½.9ú< 3=]Ÿ'=-±½¯¾=dO¼+´ª<#'“½âÉ;óœ™=×=èˆ¼t9½HÈE¼•†=6l;†f¸<³Éš¼*»;8´½<D•á<Áv½QÍa;‡Ÿ4½k+æ¼ˆbz=Ùs=l'8½NĞ½Qş<n×î;CS(=¶?à<ŸÕW½d=´%è¼ˆH¨:ÛæS<[Vø<û-½?×½Ÿ"=úÔæ» Yˆ½  ‡½¾`l=Ñx;bÈx<f2=ˆQ-½ñz4½€‹Ï=<Îa½µRş;££=·ü ½ìß<ÜÀU½¯†]½Ñ”‚=ú¼½ğK¼—•f¼;S1½ş¯½[ì:Äu&=.ïˆ½­À“½C~š<Pø<ÆM=®^=!½Ê—¢<©;_Kì¼ñ“¶»4
+Q=Èí+=Òà‚<Ò)½fÎò<mÔ¼ŸRv½è,W= fP½M<„½g°»/‰¼P}»hBˆ=P <än(½Ìk;aØ½<°Z¼a\–=ï¸	=kÕ[=OÉ<Ë,9=aÂ½»ü&=§*
+½óÃ>¼3èO=…ãe½é0r9„½}Š½»…=¼Ñ½¡á=š€<¼ˆŸ½'«Å»’…i;RÓ=ÿ6z¼‡›¹@'a=İ¶ó<ÌG½êj=Ëu¼¼†>ë<Ş=Á;AÒe<™ã¦=-½?¼;}U¼~[½L=”·B=¾T‡=é3¥¼¹	¿;¯‚=Àã ½•T<L¦+½mMÌ;ğe½yÜˆ<É¥¼j-ù¼fK‚½…Pq¼eü»Èx=óÙ<LAô:s—t½”F=Œ¯5=?ß·=Z%È:ßï#=ã<w‡=©
+½M†©½çºÌ<i
+=£<…Ù¥;“Ëx=±L=Ş‹¥¼ª‹d=¿ß½ê*g½À–:Áèø»FM“<7‚=óÇO½GğM½&F’=FL=4	Š;dæğ<l|õ»>¿E=G	0½À½BnQ=übj½0µT½½¶=<§•½6<)µš=¹ùÿ¼I;½uv=]4Ò¼Ëõn»Òôô<Æop=/¹U=Axv=S«W<p#F½+_-½ÃT$½lâÇ<9‘=ÁÕ›=;m=`õ•=‡,<=n¾<#½N=
+½UÇ<Ëw <?@==y-‚=Û|é<×Í¼Y»0;obÏ»£*½Dø<}g1<šJ°=•ÈC>„’%>ï·=‚O>çM">u†F=åÖ>oà³<Åİ‹<²@É=½ŠG=I©¼–X·¼‘yt<²RS½Ïy‹½© š½UğÆ½ŒRè½è›½‡¼ºQÃ½ì‰‚½‹&½½ìY½{Ó¹¼©ºi=|+<9½êû ½1»½1¼c¼FÎ<¿å¼ûö==ÉÓŒ<bê”=6x“=«Ö;Ç¾=œ¥v½Äw€=‰<½¦=Í	½ÍFe=Yë<¹®D½ÁÁç;`Kw½õL=j½8©Z½Ér =üpM½V
+C½¥ô½(b2½+Š=·÷¼g·”<ŠäŸ<Wş; ;i¼ cº=gg¿=ŞÆ=Ó0/½m­7½vØ=G[€¼)ı;œ‰(½¥\©½¢Í8=¾¾_½<<Â»XO%½ø=sb¨½Ì<v²=Û¡%<i´=°ı$=Tü<½Š==™÷».ıs=¿¤;Äçs¼…e=ºÃ}»Q<ì¼(I"=“\X=ù“ ½«^=`Š½¼…½_+^;;æ=S·d½ø{=Â/h=§8¤=rb:½Œ™½É_Ö=Ój
+>Mæ~;½@R=†¶=ë°¼6®…º¬fÖ=TêF½DµÂ=Á>=Úe™¼$]C=^§ >Æyz½Ò+c=6r¤<aòñ¼š³Ş»Ñ —<p‘¿< ÿd=İÍò<§H½­›œ=cjå<à©/½Uè:÷=¶<xù=`Ù—=®®›=˜Iº=©P’<Ÿ·=½7uw=À&¨<|½Ú’=ÈH=±Ïe¼Æ;¸<hŞ”½·n;=í“Ç¼y‘½¸î’½Bô‡½a—Ö<1x¾¼rl¡¼@MÊ»eù{½
+ãd½£±”<Ä@I=¾ûd=áN½ßè]=/“p½EH=ÖN–½U;ÿ;ğFW=(›­;¨”8½Ã¨=e}W=ßt3=Œ²<•æç62«®=ÕÔÓ=W•/>QQ¬=#r>é>d°»=Ñ|Š=…é<Î\»Mİ‰¼èh½Àÿ¼ˆ“¼GT½veê:»0‹½W½à*½—‚¼«—+=båI½±: =Ğ²Á;>¹ï<§d=h<S°„<Ïƒ•="™ºYi½\~½ƒˆñ¼@D½¹ïğ<¡şE<}¼Ü…={â»,ÖºšNí¼Ø¢É;©Ø-½Û@ã<t :—€=í…=N=GWe½´,•½Ø½_\=gµ½J‚=/XÅ¼y=‚Æ¼fµ=Œµ¯»ÿb½Å¨; h>½pıt=ß9=?Z=@Ç¨=µvU¼uÖ½QJ’=³Æ</Ô½Æòn½ÿyJ½[0£½'n’:Qºu½;$ ½Í¾½»Lyœ=Ä™,¼H‚ˆ¼,x­¹š6B=pû¼=B“¼$’$½„7½Û†v<íL=tM©=åõ]½?6<AÂ<û…*=¡#ƒ½7­¶<ŒL=.xv½ÚS½½l=J=z.=N_j½üÕ¼‡$h= q0¼pÆ’¼İ½Ş‚ı=˜Â<‡ÅÉ=p+>ç„1=‚Ó=H0Ì=:†•=u=ë'i:êr®=Lñğ<9o >¥µÑ=¿¹Ó¼ùûĞ»r <¯Ş½.Ğ¡<$Š;]Ì
+==P^á<R!`½BeŒ=¤ó¨=-ø	½wn`½Uº…½ 9*½_$<{==4@æºå:Y½€2l=êJÂ¼|y7<,VÊ<ƒr^½JH=ş\<Ë·=PÂ<oA‘;ƒ­€½œs<{¡¼Ñ­F½Çõq=\ë“¼$V?½øár=yr½˜K½ úJ=ftZ=øüó<Ë&û¼wjG=ú.´<»|5=•}»¼‰iµ<¸†½Ê¿=QŒ.º~½‚½|m-=ä\);E®7½H`%=á½X€K=QØO=å˜=«m,:è³½VÑ(½.U–»V%(½µ2=„¬ú»ÎàŸ¼ê‰Ò;Kl_=Œ–=Ç=8J½²‚
+=µ]=7ïş<Æ<=xÒÂ»Ùo½#½Krr½|²†=Œ1—½ËÑ¼şˆA¹c<d–{=7+c<×Q»‚“Â¼“ø‚½+)s½å°»Ç^Ê<k¼<Y—u½PP†=SF¼bÿ‡½k›½JT3=¦z1<!Ÿr½)OÃ¼¶‡€=lÄL=ûT½¿=<½ÅO=6r= „=Tj;w¡p¼ìD%=‘
+=H/=¿.=ÍÎ=fbµ;ö|K½ß.½t¡ò»3Ó¼½ÊJ½Ô5d=jIƒ¼ U½ñS‰=˜K—½øó²<ŞM½´==íÒõ<g%)¹Ò>ºª)õ¼ãd
+=µî½	=©,~½è{<±(Ô;¾Ïw½îÅ=´ıè<ß¾
+½iN.:”‹œ<}´;o†="•=¶¦;ÇS‰½Úà½7K]½rnõ<­¤E=x­¼¢×õ<Ú”½]<½Y,½–U:½}ĞÔ¼÷Z;1@y½qq½_˜Ûºøê<E…ÿ¼ûU˜¼­#µ¼§ =n¶=€™¼|yš=¬!½—7„=Ê>…½ıçZ½ˆ0½“g*½€[h=*fBblock_1.2.biasJPİàİ=<–=®9½Ë–½šo>Z”µ¼“¦À<6c¹»;y½p°j<G—9û¾;m<”¼¥R ½jåÎ¼ğ•½ÕkÈ<Dê×½+¼ß<D S=*ßpBblock_2.0.weightJÀp»¡½ç:‘<Ÿ›@¼hó4=¤\Ò=9Tˆ=&es½½úŒÒ<8r€½…ï¹=g³=ôp=&&Ü=Â»»:â;(=È² =GPn=8¬K¾÷F]¾<â¾òGô½Ù'ç<Å´R>ögP¾bÒ¯=É>Ö¦+¾î®¾ïê»h[_¾ô˜=º˜>’Ö$¾>ç =|rº/5'½·ëu<kt½ı¨½Dü:PÙ7>¦'¦½×ÈS=ûÙ4>à’>¾vQ¾wš½D&¾ÓŠ=LM>¸«&¾‡Í·=…î¥<ZZ²½÷ã¾f™½ÅÏ¾ƒpU½øí!>Ş¢ÿ½R²Ü»Í#>M§°;²oâ¼l×ˆ¼uÚ¹½/*¸¼-k>)İ½Ú^b½Ö<°fŠ=(£<2z‹½&œf½;¦™½úr½ñHè<¹ÍM=#»\¼Â­=j<éE=8Ü ½¥™\¼ÈŠUº²üt=[½(¥>½éo®½kU"½~íš<ÁS½†Í©=¯¼£=§úP½xM’=ß¶Ç<B~ı¼®›½ e“<˜½°J=48K=@‹A½ğá»<cPš=Ğ„½öc;êl<>™½¿ÄB½9ºC½d÷^½½G¾»»YÌˆ<d!½cB=:s:=(«=B0½e¤;¨Q ¼®äĞ¼?5f½¤â¼øyT=vy‘»7–€¼d*p»BàM½êÉĞ<)•½N³"½Äj<†>L½Ï›ˆ½6‰‚½½gI;‡Æˆ¼Sñ=ıà“½tÅ»›>.=-‹<}õÈ<t<ìŞE<Õ‡¯=_£P½Roû½ƒì¼xK¼˜Ñ½^% ½âıˆ=MË>½lüH¼qÓÉ<A£ƒ<ñ`¶½ÍÁ½mD<Y«Ø;ğB
+>:Lá½ó—p»àÄ>|¤½²÷­<ÏZ'<Ù ’½{™N½™@^½ºl=P¹<®Š½@L¬;Ár¼¾EºÜÅ¼;Øa½0¯;:Dƒ½¥LR;l < É¼/¼™=ÀW< nœ<Ñy<Å¡ş<®€=i–½kÔª<æ Á<iÌô¼ÒÚÚ<?³Z=±İ‹=@(€½¼Ñ%½¡}<:½ÖjŠ½Í¼
+=1üU=bE½IC=“‰=ù[ˆ<©g½ù¿Æ½Û92½½÷‹$=İè»?Wå¼µ¢†ºÅ¼‡½ğlˆ=oUC»ÕeZ="x$»¥y<ğÑ‹¼W=)pL½€ˆ¼}9½åãõ<xLQ½ş›=Ï6Ë;ã’<äGu½4ú
+½O$E=¥_=$½wŞ¹–åK<B(=Pşy=˜è£;ÌÎY=0Û‹½{ s½lm½ÎRj=m0½²•½Òa¼^³p=·>»ªæ,:aÒ]½šÔ=ºóe=]=Y’ç»Œ"=ÅÇÕ<ĞÒ4½á”¨<mv†½¶<›½X½MU$=ğdü;÷´û:|]½_B‡»ˆ§¼WâP=…-‡=¼şÕ¼—ôK=«@c=·Q<×9¡<%÷¼ì—y½”\@=øØµ;hí:€Ræ¼¾|•=Ø
+‚=Y½åáƒ½0ç£»Xcc½"°<8•­<Å÷½ŠÅm<§¼T4½o4½üG¼Æ¦æ<ªÎˆ=ŞËf½òˆ=£e¼º €Š;²¸À<öVw½JVë<ãNF=gß‘=UŒ=-Sg½*zŒ¼ŠU½æå–=/6k<Gj[½Œxuº½È…ˆ=½ ƒT»!qr<~€½ñ²»A15=¶q=5,½ÿH—=™ÇË<À/½C˜A=5L½(¼ó<u"a½øPQ½z+å¼ÌO=”Tü<	¢„½íóÛ<âQ½ÅÛ™½g›ë;­ÎG½Î°»(1à¼§AÔ¼ˆÛ9¼µÁg=1³I½‰Ğj½nÃ<”ƒ½ı«½l%¿<{|¨=Ğ¿;\àN¼ê¶«=|’=ä1-½…BT=5¦Å¼ì	j½hèÀ<¸G™;3nà<Ë–Ç;AmŞ<–Ó=3Õd=NÙö=Óø>0¼§=a†Ã½”Pİ½ûo4½Æl)½è ¯¼Øêİ¼å> ş=¥°f¼=|¾Sö½Wàû;	½ÌE!½ƒh=1‘ >¥h¦=Óé=İõ=O	·¼£{‘=³8³¼¢~…:ˆWn½ÙáË=¥›Y=ï0µ=DŒ½µó·¼(èÉ»7Ó&½1P¼ù¬›½!y
+=*C6=61=8Ü‰½ğšİ¼ÔÑ<S•¢½‰B±¼ƒh=pó[<›x8=­†¼ÇŒ»sQš½%~=lg½
+ªó¼PV¾<C•<Ñ!¼Á\½>¦½D\ã¼T<²aÇ<~xƒ½ÅI==Ûv=´†à<~G½H)à;v}À<*Š½++=Çëš¼,~=ˆq=™‡~¼®±<<Q»½ë§•<^qå»Ûğ–=Í[ß;Ôj½ş‹Å¼ÛYJ<‡—·<¿)<Š;“½0¹(¼­V½ğ&K=TŒ½¥-Y½Ïò‡= ä„½R„Y½Ašf<ôv&=ùV,=¬—½|f=½³Y=x}…:³s=»ù;«½€WĞ<}H4»*ã_¼6­=T-»&+Ğ<‘vè¼Ùb½Që<=sz½Ÿ=;/÷Ü¼ˆ9‘=ãA´<mv²<¯x½©×“½C·;eã/½=ÚÊ¼Oğ½¼›¾‘½ì>=5#¼ÛC‰½¸'@½Yp¥=\Ók=¦;G:=FZq½‘–=Ø¿$¼íƒŠ<¦çÕ¼¨ªÁ½Á”J½®¨»
+8½®†=Ç\Ö=OÜÆ<hØº=àï¼iXÖ;å*„½İ¦F½¥w¼«Î‚=§pæ¼G¦J=ïp=Ù£ï¼Í‰½ç‘§¼¶v=ş–<+?L½q×¸;­=Å¨<ÕÅ˜½ë=¨Üj<´åÔ¼šo.½{Ä½ıÀQ½:j½û¬Š=?x¢¼3›<‚™`½MÚ½ˆå„=‹ƒÍ½ö"Š½«Fÿ½lëå<œõ<ŸJÔ=p
+>[HÏ¼XÒ<hp6½¯…<,lä¼ X=ñ=m¬…=’'Î=?êí½î{W;ŒåÁ¼ë'Õ½Ä#»Öy”º*§–=%Î–=“ <¿L¼kf<!=, ö½&•S½ûÕf<Oì›==ŞÉ=Yî>/yË»oTÄ¼x2±<½ıß½ı4i»jC¼ÔÔF<h")½b
+§=½¸½è´Ê;²<½ó¨»¡Ëƒ¼ÿK½ÉË•=«i¼©)d=î´½%}½òYQ=£U&½1;=ëc=¼‹2½A<€—"<ü>ˆ½8üØ¼"Û¿¼Jt=%Ñ^=3 g½'‰½0!;->½Ì‰¡½*q='O=VT™½ĞH|=à¤ƒ=éÍ²=•Cª<ÎÖ<˜¾½F{‡¼(Qû<yÔ•»KL}º µ=½·w½ŸB½–ƒİ»õ?ë¼ÏÌx=Ma=uŒ¼¼,Rö;yˆ¼İÜ>=‚ô<âÉ»<+,U=y“´<Ÿ3Œ¼u1=¥W½\aç¼)w4=>?ò9 ª#=”º=
+z$¼Ğ‘=˜s¯¼‘½½ß%Œ½MB–=–d½‘ï„½Á½(U–=íp˜=èü?½"íf=³ÜA<¢‹q¼z(Î<1=ƒ›=bZ«<{„—½hO=¼Ñ»i£<ÑØ"=w©½8æJ=9¢ˆ=óLì¼––½ºÒg½
+ÛÃ;Uææ<¿§i<yK >î]Œ<-ù!½;“ö¼ øQ½0xÈ½Jˆ/=º¶< Z×<±}/<âÁ{½É6š¼”ËŒºá|=Õ¼a¼É”6=©^
+½L0
+¼ÚY”½)£[½mÊ<=¿W=ÑÅ¼} æ¼Æ1<Fùj½jşv½“N=İ2H½K6Ñ<«Œ'½}Ô™<–§ 7
+4=%’=ñ6½ä'N:k2=,í*½Lš“=ÅiÂ<Y÷½‘é<ª¾›¼@”³º¾»F°½¦›Á¼ëÆX=¹Â»hoM½È5y¹¿»»íû|=åªÒ¼*S»¼Kt=¬ÓK=¸“d½„u=½¹Ô¹ÔÈ=ŠIA½Ğ¢½)ÓI=©üR½j£:½Ó­i=ñ¯3<ÁEs<¢U‡=û-£¼ñğ”¼ø§Š½ãû*¼Ìz¦=£D=İeº<ì´|=²f]<’½ó,½š£Ÿ¼:İ°;}\==¤â8½H]=Åv;kp=Şé[½•ˆ½ ¬I½:õw<a"¼ÇàG=¾´»¿—L=1E’½ƒdf½L<!½~°˜<ë^f=B+4¼ÁÔ;¼D_=BöÔ»¢¼½‰4½¬cq=ïHŠ½Ã!•½
+é¼2ƒ½ 1?¼h~½n’='ÉÅ<ú¸:½÷Ì=«ï~=ä{<<½ùÉ»ãêQ<nTÎ¼"À“=}ğ}½È¯‚½`Èm¼5Ú»½ìNa=™\½sI=ëñ-=‹J=‰‰`=C^a½PQˆ;çp<r*}½ßÏ“½ÿdK½#¾L=ãÁ…;ö§î<–’—=…=Ò½n­r=–=Ğ#g½­Ez=hŞÓ¼Ïcª»°6„½~2‚;Q=<l={¥G;¡!=^_e½~ O=–,Î»^H_=:¦z½»gm½÷81=+®=ß°<åÑ»½‡\<y<9Ú•<÷Ş”<Ø¢>½Yçn»¸Ÿ<×Œ=nP¯¼=eâ<Ä£ˆ=÷Ù*½ù·¼UHç<¿İ<NÂµ<¤X½7È‰»^Ë†½]ÙÇ<¾‰æ»ü÷n¼ªX<hj=ãST<Z»¼5e<D¼†<­8â<ì†=4½Ù¢=9Zv½P¡Œ½lD½g!½Å©¥»æ/¼Åx=øAl=è9Ò<&í²½¾¼o<¤.=İÉ?=ZuD¼~¬P½O;Â[ ½-È->ë×ó=¢½çƒe>4~O¼“½MyJ=iKî½añU½¢î>‘Éì=b¼ê=ÕlÃ¼tgL½é—s½ç'¡½
+Rs¼Q¡Û=üJ=½°$*=o{x¼Ï	½”ÏL=d•».Ë»K¿.>À2Ğ=+ŸT½ªi>>¥=ºÀ‰¼¡ ;O†ô½±.Ë¼¶p>ò84=(ê-½˜d•=í]½4Û½-Œ7½mt§½³¾³¼Qã?¼3=Á'"¼zˆè=wE=›âA½€òN½Ï4†;ÂÔ½†=Nâ:)ù¼2p=©vÅ<Á’=b
+½†íã<Öñ¼-µ¿<‘#K»=¬n=a“=l³Õ¼ós=[+=&ğX½Ÿ{í:ò¯¼­eø¼© K½WŸD;*Ø~½mb<äˆª½eÏ=½áº„ñH½İú™=‘zc=O'<ûrÔ¼3˜O<ãÙ»°g<£ÒU½p
+=Óy_<·½8Ù`=@y=¶—½5¯+½Ê€K½Ò’½aNï¼Í­=™f½–R¢<öd=
+œ¼¢‡ì¼ß<Ã-y<¿Lş< ©;½—®;ì¼İÏ<½è;=ÿd=8.¼'
+s=l•½‘¬a½åw1<üÁë»ùy=º#~½SdP½†î¶;`j½j\1½Ê!ï¼’f½%ş=ïiu<ŠDC=ÅE½o»¼K,r=‚Ğ¼õ‘¼Ñ½v¥×=Ôäœ½İß²½ÆA<åÉ¼él=¸¼»<Ü³¿¼"&»n°=µ
+½Z¼h½_€‡<7'¼Dİw»£7p½{ÂÇ<¶_y½j{)½nZ½âB½J†T=L,^=ÏDÄ<@;½¬Ãˆ=8S<ëĞ;â½ıJ:v=Ï×½mü½åŠ½ÑxO½q0b=¨ »¼g½.Ú½3ÄŠ<U€½;¥Œ¼æèq¼NgŒ½ˆ D¼Ùå¼é¥ »õd¬<ÎûÚ¼“„‹½a3º¼zá
+½ï0{½”<µÛ=ót,=.„P= ø¤¼›R½H<gD<-‰<Ò«¼ó«D8y4=¸>‚½€‘‹½&Ø¼¯Ò¯<×Wm=îÏ<¼Ø¸P=»õÍ¼\ö’¼RÇX<?“½ĞôY½Ù×/½\ˆ+½´	½Ñ½¡º¬¼Cì½¼§
+¼<Eâ<7Õ»–˜BºQ	/½ŠÔE=¢ <†&~½º(L¼D¬b=–[=o¢•½<Ã%l¼Ö¨ç¼;T<‚²Ï<½B¼ïôG=G}‘=‡M=š*¶<–µ2½öø¬¼‹ÜE½G3=®¨s<oAÏ¼Ã½dÔ†¼şÅ¼¥•½Û–è¼…O½†l=?©¼{Í»Xo½ÁÛï»ï
+Œ=bİ–=#Ùé¼ø‡•=ÒÏa½¤P¼qÍ…½I€3;$u=EÛ	<3b$=ÿÉ$=È°»3½ÿx½UÃ*=½Ñ3Œ½™]½f~8,tºv´½™Bı;Áßa= ¼=îv½‘ny½ŒgY¼°ò¼=L‘½¯<ğjE= Ëa½FÜ=]J|½]~;¼l]k»nà4=…+½iuw¼ˆ¥ı; Å[½[s‚½&‰1½DÎ9½ŞH–¼å±q=…=0İ’<ÎÁR½ñÛ=]‘½,)=aU}=Q’=ÄœY¼2`—¼ !½·o<!FI=ßÿ¿<³‹ˆ=!F–=+÷:»z‰Y=äÏm½w_<½ÉØ<Í|i=­0¼¨E”½Í¸½Ùq½Y=Lº£j¼ÚÒ<(^Š;lœH=â"=+0½Ÿc:%G9ì9?=jP[½»Sœ¼Su¡=¨¯¼ƒ¬_½ŠÁ¥=0[½<ÎùÓ=^<Ç¤J½G¾<b!q½~É=»VR=jæ½z“:Ìr<ş	¾3®¦½ÏL¾ß¦½/m½J½Ä&½oS’<Î+æ=°y1<ò½ ¾½Ôë;r?={á›»é¢×<$ŠF>Tl¦<quÂ½°Ã½½vyC=7AM=Àçl<á>$¼r–"=ª%á=KÚL½eÙİ½ôØ¾€D‡½ÍÔ½áG®¼ÏÖÏ¼îõ=å/å=œ@‚½€ãÆ½Ãwµ;ZcU;è©½2@Á<{²»ÛÛ“=Ë£¡= ¤)=)¹Ï<rô‡½ÔD¦9ã¼’¢»Å‚½oÄ:½Ú“=""=©ø•»su<ƒLm½Ó÷Å<*,z=<{-½ç.	½Æ«‰=Ğ$ø<<Òéj½ã%»œ®<èí$=‡ıF¼ùO·»¶y=œ·<Òêª;¿/ß<2­¼vãÎ<Ki½,=òÚÂ=ä¼=ªSv=[½@½ˆ¹½½Å*=p“Ğ<z½‹Óe<(p”=-››<İ~n½õÎO=8¸J=§Í=ET<$E½æ€ß<z¼ïî#½òü•;Z}½	
+Q;dië¸¬¶<["Š½¹ö;±¸e=¥ğ#=·ì;ÈËï¼š'‘½¿¼æ<‹4t=	‘Ø;Q1’½<<&½XÚn=ÄÜ½S<òŒ=‚)H=qÍK=ıñs=HB½ƒ½ZMO½_-<|¥‰=wı=ÌÕ’=â…½°F›=N]<#ıZ¼%·¼S¤½ù÷½ö“½Q­İ½¡W¼ ½Y°ı<¾=ËŸ6=t Ó<e¼á¼.Ğ,=•‚½6KU½ò¶=ËÙË=Ğ}è=%1»O¯»¸¤½ª÷u½Ó¸®¼ª`#½	Â*»t<Ó
+ù<<ùd<¸\Œ=§y=÷»3%=kşM¼Øj=¦’`=[ ½ûhÑ¼$ú¼|Š§½ğOJ=J¢r½'ë½uë$½ì|ğ¼¿¾=xk#<,(0>Îx×>p»½ßÈU=ÿO>m¬½šN¾¡Z¾wUJ½Ù??>»º±>–ÿÙ½OB;½Ú¿¾=Vl¾nEU¾‡Ì=¾X•B½=õ?¾=ÓÚç<Ÿ"i½d2<:WÏ½ğ ¾½Æ½ÙĞº7|=W“>t…½€8ş<¼WJ=_ü»„*G¾)á½)œ¼JóÒ=0!>Ç£¼ ‚=›¯­=¶ù¾¼¤‰È»R‰ğ½==êÎó¼ƒ¨&=è"`½>Eƒ½¼ı†=ù =<=È¼tŸ
+¾UùÄ¼ÀïÌ¼ôÅ7¼[O–½6¼¥7ú<)v¼´‰=	X’½_¯Š=Wß¼Ï›¡¼F=LuC={1¦;~r</š¼ãˆ¼à™;eKm=nı=w÷ß»Â%½ë€¥¼¶®<°Ã½¼Î§½VŒ=gü‰½#†==àO–¼$æB=cKe½±)½Î"i=5½½cj
+<ñŸI=ü÷–=I8=1Hº£[½-kL½5½aëÑ<k á<ùb?½ù`½È_“¼ËØ=bC_=‚ãºrğ=½[=# 6=&ñ†¼Zy„½8¬h=Ëdu½EÄ™<ìÚÁ<ªH¿<ıˆ—½ Í“½~ó*=¼ó=¬c<à™&<7’½ô¡ú».5 =–íˆ¼n€=™µº«Ü˜=»h÷¼‰Ö;¯'!=n5¥<B
+¯½ÂÌK½ ±%={ˆİ:\Ú/>$%½¹£<í·¢=ŒÛ¼H“ú½J×½Ù0Å¼XÁ=C4>(1J=Sk=Iûß=iÙ=ª—½šÓÎ½eêE¼Ø]¼í¨<2ú‘<ME‘½À[ì¼¶ ½İ'\=EbŸ;›?=q_t=”‘ <¸«=÷ïñ<@¢‹=Ã=×=å$±;Nxæ<®6=ÙÕÓ=Ò(=ú]=Û×Å= =%VŠ=+)½«ô½Ê=ş¦œ½+F¾½#Ñ5½Î°Â¼eşÁ»Q=äs4=â@k½h¢¡<=¡½÷_S½g!Ó;B8Ÿ½Œ½›jø<“èş»nD=İŞ_=²ù=ö&ë;ÆŸŒ=$+Y¼Ü(=1>¬'N=ƒf=|XÄ=Mif½-=½º ™=¯ =d­½9&Hº‰>½vı»unÄ=\½2=)ØS=hü‡=·pL½G\A»½V\=RA£={ü+<#ŸH¼…<½
+µ!ºá¿L<)m²:»yd½Ğ*Œ=¤°D¼E,Ûº	ñ’½5+a=·ñ<«f¤¼ïf!½¹+Â<y‘:½Ïï¼{%ü<« Ó¼ÏŞU<9_½y¹¸<“ö«;Zà»… Ã<i¼S­=®¿<‡…=Âì<9.<å!ô<YIä¼(–3=Êá»ó=R½SVX½=™¼]³<y½Ø:¼v¹¼gí(=è‰8½ê!®;Ò¼3"g½§b—½,k=`$»<ÅH<½óëœ½óêÓ»Ø—½mÄ <>]o;Íé¼Sd6<¼<.Ùİ<•ÔM¼áÃ†=ïäA½’¦¤<l½kÍ:=Ué=,P½™äú»RÛİ;Ñœ@½1Ç³<S
+½zæ€½¼‰Û¼²áo=AB<ãÎ“½f²8
+£Š½
+&“=º½e;èİ½·;j½Á‹ß¼x:”=ü0/=Œd±¼^ÎG»Š2½]‡»¼|ëš¼\]Ø½Îª­½Â*š½DW¼¬ŞŠ½&¶‘=‡‚~<E¼–P<T~›<‹@½Pz=ìM½~ıë<³^C¼ÉWN<«†½ğîe<Ó˜^½î¦<ıÌh<Å”½÷”Ñ»´„;"=Iƒµ<%à>=ø=¼=6¶=‹¼¬”=Ak=í	¼îÜf=5R½—Á=÷®=Ù_ø¼¸N‚=cğÉ¼ö¡½³«à½m 
+¾®IÒ½’
+>OnD>S14<P¯>ÉWÍ=ò¾˜~¾{^¾J=n‘
+>Xıü=JQÄ=qÔ >æ×&½ 9…<şMw½Ã™õ½Š‰½§`«=üç<X·*<\´=h/é<¯5½:j+~½ÜQØ½ÄÜ€½92=Fv@>ª&Ú<N>r½[
+¾¹»r½¶˜0¼,£s=ìŠZ:ÚJ®=(ÈH="´p=Æs=óª8½İ®¦½6½ÕéS<'‰<–=¨Ë=eá0½!·=÷¢¼-~<ôËC<Ì°¼ÏºÑ<':½lº+»PM=d½|t5=&n=hÄj½­ëZ=Šâ2=P½Š=£u=I’½ÑU0½`=ÃZ§½9U¦<}=2=è¹=ŞÏV½ é¼ğw»¢ü<wP*½^ _=¼Ós=0²û¼Æ!š=ïH	=Ã–½´nH=¥;ˆø‡½•ˆQ½”¹å;XË<€½9ÊO¼w#I¼¾›=^0r½Öô¤<ıc‰=ÖÉc½Ì¼á¼ıÔÓ»]^=Is<EW½>
+:Yó¹;
+‚=†Š=X%»şCŞ¼Ç?&=®ıŞ<3(‹<€Ç—¼¸½´ÍM=í­'=À½="~½„f=ÔU1½ôd½q(=ùûu=Œ=Q“½öšF½jèu¼— ½ğì$<$iœ<Å›’=QXCº†¿\½İ¦o=Ô3¯¼EE¡=Y‰R=í‡>8Å=J½Ö¶ô½ôà§<{^E½x£¾<ó˜J=¹H”=s3õ<»„¶=b¡—<Ÿõ=-du=zşõ<ÄlG½‘=½$m×¼15¡<T­…½¼Õ?½9K—½}†=BØ¤=³ŞÛ¼Q3ç<Ã}9=Ct=ôø½]zG¼õ¼^³¨¼‡6Y<(˜=¿ ¬=ĞÂ­¼Zÿ¹¼¦{Õ=åß‡<Aˆ¾'¾.ë=]ã}¾6hi½XÄ>0d¾oíŞ<Á@=PT¾@†ˆ½Ôdú=Â¨d¾É*ï»“³>0ŞÜ½Y=R°õ=&5#½Rõˆ½âÓÂ=W$ô½s¤½#¬÷=Ü½‡p%½¡ê,=L¨V¾²^ï½j[”=I	U¾zÄR=ìÅ<>ã·„½wÌ–=Ú#¸=I‡½dÓ½ÌÜæ;åe®½¼2|¹µ?÷<3c²½ zÄ¼ü*¶<nÕ½>˜8½×Ù=‹õ÷½bÚD½ç:Ì¼î'‘¼+)<Q&>ëšEº"T=v=&“½K{;=[^¯ºƒ–=ªŸç<[‰¼}Hö¼RÛ,½Œ³†½Ğı*½ä7S¼:4$<á1×¼-),<œï‰<Ü??<]Öµ<öÉ<b ½Ó‘U=ªœê=¼¡è=(Pà¼f§½"ü%<…¢f=«ñ•½{Í)=µ&½|t¤¼Ì<	·»ó±2½ºoù<4;_rÀ;gËø¼eŸ¼=Kö¼Bä#¼ÃG@¼Wñ½lS=ã`±»íğ<`95½?’U¼ÌgÇ:˜ù”¼jˆ¼¿É;Èƒ½]yŠ»;úï;@^¾»ÜE=ëŞ”=ì1+½ Ü"½$½•‰=½Š>e=%ñ3½[¬¼®Ş<:»¤‡=ä`k½$İÀ<ËU;ÖØ8¼œp=cl;=5&x½5ë½Îß<Úëh½9u¾/Ì£;xÄ§<„½í<N)=†ƒG½|ï–=3£=¸vÇ½0²¸¼“#®<Sû»uÈ¿<¹b=˜ß&½›S<ÙR=tö4=!‘<#*¼•;ê¼ï¼¼N[4=Ï	i½A÷6½ÎŸ<ã%`½ºÀ¼SX=…U‡=…ª<ÇM4½)Û½åÖD=v„¸¼EÔ¼Öœ-=Î^'=U‚Ë;MˆG½’ró;Y®==Yfw½½/=¡Òˆ½İ]„¼(iá=?çÉ½,çM½ê8»|J;½¢Ìå½_Š½[ä3<rv=sÙá=3R¢»d/=üg=“º½Ø,_½Ÿ7Y½%ê–¼“í9ó*»ê5í:ƒ&E=÷­=g8=¯;>;U«[=ÿŒ‡=¯=<r=îÌ½°€=Ñxj¼ÎJá½ó¼òí[½„P„½ÜÚ¢¼X»¶=Zßé¼m°Ü;à”ü¼Îö•½¼İaU½òâ3½ ½Ú¼½óm=’a‡¼×¿I½ÛÏ<«o ½á\=2‚=•b“=f5=×O½(ıI¼\Ã¶<hm=vOP½…½0„½
+˜…½Ğ	=o.^½RK+<Î‰=):Ÿ<¶Š˜½œè‡½³KØ;XXŸ<~¯<V¼í(E½ ¬F<iñ¼Wvƒ=ùpú<;L½<G	l½À É<Õµ:½~’;ñdà<“ÿJ½¤‰<× ˜<0Mÿ¼s3f=|(=ñ•‚=c–©¼JşE½[(å<İñ ½³I=ãv=Ğ	8<#Î_½Šì=ù¯-=–@O=%å¼Óqİ¼¯«r½">Ç¼„}‰=İÖ=ZœÍ¼G*u=­8;
+µ»ïà<½ñ×½²Úi½?H¼u•]=l
+=²#É<}a½ =+·|½Äz½±ø½“€½¶¤¬<ç[3<¾k?=8ú¼ù+^=†B==¾º…¬ =¢ÒŠ=ôí¸<İ4´¼äcû¼c´Z»gf9=‚s€½ôR½µïÔ<Ô ?½½ ;=¿k¼-{b¼”–¼Æ}®½L=z®¼}Y†:¶O=šÂ™½†Ãu½æ¿<Â½–‰;/zh<Ì	Â<?™U=‘‡</¼¬Ó`=ı7Â<#Šz½Œ<Û:ì½İº2ºm²‡½î?ˆ½—=#—½Ç"Ö<ƒ[=$œ½´5\½Ö¥=êÌ™½L#½¸º‘½Ql=Ğ;<½‡ C¾RÜ>;Ê=œŠ[½œçÕ½œ±´½ƒ¥<<À=•%‡½vU9¾ÆÛğ=#/ >#a=)%H=g½¼¦…½{å=|=ã!Ø½„j_=¬XÖ¼j>º=âæ¾µ ò½+ò¼ª‰f=‡¸Â½í“È½ ­@=ÆÎÕ=µ`)<Jüú¼¢ü¶½P—<égL½vy,½,OT½x!=±3="5½ ½;`½.kE=±Ì=øï_½¥ó¼lg¼ì"Ç=AW‡=© Œ=”“Z=wè8<t=ºZ½`ÛÅ¼ƒt=ÁÅ<±jö¼ÉñË»„¿d=‚÷I½­Ñ|¼ƒ¼i6½\I><l8†¼ôÀä¼åƒ¯½ªQ¥½Å½ İw=‡‘9½ø‰Ÿ<`:¼b=ÿ< ª<ŸÁ=J&ü<­²Œ<ü²½Ù·)=jí½Aã^½cO¼ÛÖ!=ä;ò¼¿©€=ğuC¼0›J=<½¤Ìr¼H(½kîÅ<ãåõ<bÅU=Wı5=ÊØ½äæ¶<ºä>½®@/=é"=Ú“½P‘½±¹‹;Òij=±«I½ùæ$:I]Õ¼t¨½©ï.½Eí<:ü@<Æ:E½Téa=3Ú‰<<öE<ø »?t=Ïl½SS'¼»Ì’½ü7ƒ½øƒ¦=VÅi=ºs <Òk=*Î <êªC½¥<½éGÛ½f„ñ¹O=„½uòj=@él½j3½Lˆ,={ùv=^pD<6üB=×`]½H@„=Á?=$Ì¹½-Õ…½|Ø<îc`¼)î/½ß°C½òs¼›½t †½•Œ<‡›<m=m±·<s®=`ÄÓ<CäÔ¼Ç%A¼ÉG=~8Y=ÁÈ<CrÙ<Ã6°<Dtj=é¤u¼Kå†=V`<Ùl0»©UÊ<»µ“<=È=Ì’Õ¼›G
+½sØß;¢´¾–B=Í·¶=o¼G>}s>ÚÌ:½}B&=À+&¼X—©¼ñÖÆ¼¸Yü<Ñù>@s>®P~>¢Ğ½/D<£êÔ<<å½h®A½«8`=ÏÜ³=Ù…<6Š%>-ù½Ò—!=]çµ½ùãY½½Æı½‰ìª=ø>‰ì>M]F>&å½˜ÕĞ¼õı
+<ÅÆÿ¼.èö½‘©¡=OŞá¼ºr=¶Â¶=ûGĞ½Ç¬¼»åa¼y¤ñ<Ï
+u½²U­<•Áz=gQ=NY5=Ã{¥½?\†:ü¤‹=‹@˜=ÃŸ‡=ª‚€;IÅ(½XÁe½Óge=f½°Dô<Ü=ËĞO½™P‘½‰»Ğ¦¼ .=T‡½n$=Í’¶¼‚‹x½u)=¦=¸Nô=¤‚×¼–AG»(¦ê=$Z½€~<Z¾½–\¤½"0‘<l÷½¸5%½¯½'½o†P½¾·˜=íÛ#½½µÍŠ=q´½ÛJá<ŞS"=hÜ*=€is=Ì2*½†Áÿ¼¾=Ÿb=‹”½ßTŠ»¿;°¦
+½Õ˜‘<š€ƒ;ìP½§N£<Şw½.½WÈˆ½ºÇj=¢aJ½3ù¼|½M½¤‘[=U‡*½Ş=Æ¿3=ã°Ò»GŞ!=z—¼sÀd=üòŠ=²á"<Ö“æ»&_0=?>=ö¼Ì =fcô¼3÷¼éªÓ<¬È¼Û¿!¼àö=¥…¼ÜºÏ=2>µ]º¼;©ı=<j=½¬º°½ø[e¼ø¼8pv=º!Ï=ß˜?=Étƒ½€~=OvS½Ú–=(‘2½«f;¯kƒ=Xïk=&å_¼ĞĞí¼©¶…½‹»Ì<zq…<ğÀ<†ÒI½ ±±<¯Á
+¼
+R•=È‹=Òr<Ş§<<…=¢+½rÒ§<Üå˜<–Te=Y«½Ì¼ÀO»2U½W»=z¶£½_ïª½¢A>›õö=&Ğ= b½?·½¦¼=ö¹i=ßc‡=¶½ì¦ÿ={Ò›=£¦É=øûµ½H.¾¨Í½Ã>C_=Z…½À*ú=ùù¸=C­¼ï+—½ıÖ;Ÿ_Œ¼©Ï=b ¼§¿½}Ó=ÍY=ÕQH=±S½Ftß½C_\½VKG½Ô-)»ÃĞ½ñ>ï#À¼é1a½#1]½>Ÿ½˜~>=ät=ë!=P`s½Û?=ì•š<¢XK½ŸÜ°½ªóm½+°¼Ş.<)^˜=‰½²pw½°0½ Ş‹½[V‰<Q½<ÓJO=‡˜®º†Ì•=ÊÛ< ?Q<¯ç;â„Œ½à†¢<j½¨0V½~¬=¶•½·Kœ<‰½_~|½Ğ•á<z=1½°5
+½O~•<?Ñ¼¸%½Fá¨<êÕ¼I¼¼Ôå;<OØo½®Ş <2„="¤³<¬‘=¶aF<Ïu#½ªj½›?½Ñ‰U½;HÃ¼ØF†=‡j=~¦=±t,=bç“=‡O
+=.Èy½¯F=2QU½©9c»nDz½îW½
+:ø¼F–¼æøŸ»—G½8S<èlõ¼3G½
+Ø‘¼Ğ½féH=*Ü´¼}½‚½J½W¼m½søÈ»é6Ò<®`[½® ½~šk=jªì¼BâO»¸‘„=¥Ju½ÙM=ÕÜ=QM½†N¼Ç|Ò½->+	û<IÍ<9^½RÅ½çâÄ<·Ï¼ÌY½;ê!»@Ó>7^´=‰I›¼¬|¹<Õy@<(F"=u “=ã½<¼b=»ºú<°kA=k6†=QH¶<£D„¼jkU=2³½•‹¦<ŸB½ê¾½ÜD½o–<àÉ€½®ä¼¯.…="½"5†½‡„=\z	=ş…½¶™¼ÿaã<Œ¼«¼ç{=ë¤=hŞ7=ú1¾s >[J¤=$‘b½84–½8ì ¾Ì³=#İ¤=ñqá<™O¢½n#>îŞ=sz¹¼[Š ¾MS ¾Ùn—;N4·=G?2½HŒ<=(Öî=ş=>Ë½Ôßı<klƒ¼ª > 9<,¾¥5O>&<åø<Ïw½4T<¼´g>=sl	=yFú½ğm¶=–¶=ÀÔU½CY“¼Æ$E½ÕÔ§½)lí<]ØA=Yê½ŸÈ<Ü¢½= Ëë<´ı¶½w‰½á 1½D|=™š€½«¼<çp‡=¡îH½2~=´Z½¯œ=I2<éúj½ÿ ¦¼+al=[/½Ç	=^P78‡»`Ğ¼¿.$=ı«Æ=Æ¼T6½¤#T=,+Ç;B 3½Ğò1½°$Œ½€’%½Ö<,'[½+ı!=b=%üT=#Vé¼=ş·ƒ;äB½”Ã˜½^„=9`=«A¡¼ /s½8=Ä7%=şùá¼Ôr‘ºŞİo=ÊÅ7½‰t½è˜½n0½›`¨<PZ‹=e½	†½yj=Í^=Íí*½.\½Húƒ½×Õ.=6™U½Èº/½µ»J*Ø¼†;I=1c|=l.|½¢ƒ¼¾’<Cê<ŞPX=ÉN½=ô;t¡½ 6"=hÂ<½~8é:<š†¼ïñ<˜+”;ÂÈi½xµ½„xÓ½-[ <	Ü«=n_¡=e‡½É	<–ºØ¼‰Ñú;ãì¼j,=QE¤½Veˆ=°zY=ã<Ã§ü¼ÓHC<ÃñŠ½*c=¬ã~=ø÷1¼Gì=‡Ù½ô”%=h‰¼é=6‰ô¼Ş˜á<W""=70`½‰<p=n8B½ÀD-½tm…=éÒ<“L½
+n)»‹Î=§iÒ¼¿İ<Q«8=foË¼„ª†=ä•‰=hÍƒ½í×¼ÔëÏ=bğ¼Â-±½‹	<Àb9=ƒb½·‚$=ğÎ—»——T=¨º¼ŸI2=œQ†½5W½¹ùÃ<Î|ä¼:v½HÍh»ı®A;ÛØ~½+RM¼ç½ha=“·”»8·½Uö=î£¹;±=ıåÈ<øÜd=Óï=<!»™	Å=ŸÊ<gÂK½A˜¼|(“½w¬P½uæÎ<ø£m=Oä¼ây^½ì é¼³ä=àBF½úàn=!'’¼»× =/w"=U$½g>_<v`=
+}@½ëPu¼È	=HP~=ZŠ”<ı&ÿ¼Óá:„u½hİ¼3­3¼õÿ2=†½EQ©;/ªj=“øœ<D—½IP…½zûR=¿\½Ú¥=b==O»î¼VÉ4½ô•§½;w½æx'½*N—=c¾>½fVƒ½<—õ¼×†=¢Õ€½ª:¼¿QŒ=qD\=ÿ”i=©½W2.½è=$º=½krŠ½ó‰-¼G#9=D°b½×¼¼¸q`½ °¼¡îŠ½F4‡=Gı½Øã*½^™T½‚	í¼3X}½:½"„½ğ1	=Ú]=ÊŒ9<à½ÆYÑ¼õ¨[=õ8=Qr½ 7”=ÏS`¼Çú÷<Â,Y¼Öâ9¼êŒN=JYˆ½}—=õâºÂÀ2=ˆ’³¼B	‹½ƒ=!”¼»š=¦B[½€ ½y¤=ú:÷»&< r½L2Á¼‹zÖ<Lé ½sræ<™zÚ<Æñ½åA=Wšw=Ê¼ =^<Kzi=ÊOî<î€=Ha<
+©Ø;4X	=c¼’2İ¼ï<Fˆ¼¼Zæ]==±#»ĞTŸ»›Ô?=Q'½)•º*i4½ÀÊ;è®¼Ô…<8”ö¼®2½ &½K½êî=¥í‰=/àœ¼U<æ¼i½†ŠÅ¼-#\½7üR<Õó=œ+½!Û¼õ@‹½!á_>ÓYÿ=˜I³¼É}<`'q½Ä:*¾~8”½˜J%=Ÿ½„½.2>ÕÁ,>¤|=j0½’~ò¼}
+½›K½	Q¡=Îˆe=C=f‰>ùÄÜ;±8½é{=$½ƒ{m½ÊÌ*=^%³½ut>®`>o”§;¼ôë<Ş½õ„¶½ åg<t{½.K<fZÅ=Á³=Hut½°^ˆ¼9ÒN<pú.»ÕB2¹ï(œ<şì=·´>Såµ=oó¼èb‡¼¯ ¼ã×=c„½M´%=¹M=tl€½êôL½B«ã<uã•=Ôk»¼´ƒg=!w/=”¬=?(=öp=ç«;G¬æ»Š¾Å<ÎàU<>Ô"=!b~;ª,?=4G—½-÷Á=o^Ê;Œ½+FT=|54¼šã<ì‚=L½b¤•½€›=½°<Y%=ÇÈ¼FzÄ<¡¿=5ŸE½Öwu¼Õ¤ˆ»Ê—‡½15¨:.z<ñm=G½Ú–1=s½~Ÿ/;q|n¼>”½ò:<=ÈÛF½;˜½Q@¼ú"½¿e0<üğ2<”ˆ`½Ï@]=bT$=z	£;Óu€=lv—=gÔ‚½÷)½@=‘<.Dú<´47¼ÄAŠ½¤="”ï¼F<m½‘ÖH=?&Z½İs¼.¼÷h—=xN„½U°=@~Šº<ÿ=RÁ½ßû<½2Á<M°>åÒ–=ì³<{u=éäš½€³¾<v_µ½}¥<É’Å<Ò¸R=ÔO²¼Dé|½¾d‹=PıŠ½ôu½<+ú“=s-äºp€z¼ÜN\»„ô\=õ_½œµ¹¼Ó†=•Ú+;púë¼Z½:’â=Õ;½z	=é¼Ÿk“»nh=>±½S9=#’İ=oË'<‰»=òv¢=Eø§=¯¸C»ø¸ÿ<õáŞ¼àL½Ëo½¼¿=€é¨½`©×=\÷/>£å¾¹4”½ jÄ½@İ
+¾\v*==Ñ=Õ:P½U³g½yÎ=Á¨ş½Lï5¾;È½HÒ>=ƒ@¼êƒ>eœx½aÛÆ=”œ,>a²å½ÒÄ¾½Ÿ¹–=‚òv¼¡C=ş >…Ñà½1=ÿ  =ƒŒ	¾.Ø ¾©cD½Á°½¡=t[Ñ<†vr<^ŞV¼³°•¼r´½mË=L8q½êÌÖ¼6´­½X;»i=¼óX“½ªR <ìJ ½bZ·½0T¡<Çê¼Åì»<›@İ»ÿ'\½c
+:&õe=Y{';Ÿ¹½Fm=ƒ¯ì»â|&=ú• =³NA½hÔ=mú[½óã3½Èí ½ÌÁm=–ûL¼J]=÷fp=Øu<%ØE<Š«}»ûÌ<Û~Ê<búÓ¼ûËò:¡¶k=Yx¼3©N½¥à’=x‹&»ù,D½\‚‹½Îé'½yC–=ôR½„e½ŠºW½ßa–½qÜ<çú<¶¸i<k“==‹Y=éŠ
+=†	Ò<¯ç!=æX¼‰Õz=M	<gœ•=,Ié¼:‹÷;~Úi¼{·L<-æ<î
+½€´L½`Gb=[¨½å =t¿"=.…ˆ=L’K½!s½?]€=Æü<ñ2=ûw´<Ë¥…½Å²ÿ¼_= k½°ƒ¼ğ®=íù<’Ó=P‚¼,Å=¯eâ½°;AH¼O=…N4¼!{è=Åj<ª­ì:FX„¼Ò s½ão\½cwµ<åÍH=í³X¼´>«,U½h¸Œ½ù»,=CÈ”=ûeG½jĞÃ<”i“<;c½zÍ>½p <0+=¾7}=*fBblock_2.0.biasJPD E>Z$¼ı9	>¬Ê½Zw‘<6e«<d+_½‚Ñ >
+g!<)ˆ…>_«</€ø=½<¼ÇŞ½—lÀ=É×«<µ½¥ğ<•‚_>*ßpBblock_2.2.weightJÀpõ=±”»=„-‚==’š=1w¼Ú1->Œñl<îãÒ:µ9½Ğ·^¼v“{=2®0¼b‘½§_»½á¹¼ÛX=¨kµ½•@²¼¥–½A¬<QÀ–=Lı¼A @½Í\2¼Øú»àZ:=åÉƒ½¯k8½˜c5=ŒFÕ½ŞS½Ò{±=Š½Kc;Dãg¼E ;ù‘½ö=<±/=Fw:½Ú Œ½xG}=[±û¼GkÔ<ï¿W=îİ½qÉŞ¼ÜYb½ëáŠ¼88=xg@½98½\‡@=GÂÖ;Ûš½¬½-=…µ<=8Û=„÷h=Ş¼ã"<9v½²Ne=n.=IÖ=>±=­°=,
+C½8â:Ã@½0ùĞ»Uõç½kŠğ¼sGÖ½xx»­½k=¢©½]í½ŠI<Ì§q¾ƒõ<û+½0Õ¨;”¬ƒ=¥·¿¼
+=œµ<šë6;% 1½õQ5¾õ›¢½"¬Á;¶¾çÓ8=dn=ü»½TĞ™=m½ø½—=#0¾=^>½µˆ?<ú±=Wef=€@è;+==Ñ?=›R=}ëy=R&=wÕ
+½­ª½­½:Èl=cz<5Ğä¼¥J¥<_IÇ»L»»ñŒ<7}‹½
+Ö<KË½üD¾¹¹¾pà‡½I›<]'É½ÄÖy<»£=} s½Ò <bn¼âo=ğ¼—½¥I½pt¼Eh½xÅ&½N¦¾j$¾öêĞ<ûÊ=Á¹<•f=«Œ€½î½Y½Bi½x— ½å¿;ç™½jw=mt½å?³»Fi½V!Œ½yå¨<Ò09½Èã¦½*w(½u]½BY=½Ã= ZŞ½’½{=Õ=Lü½¦´=Ò„¡=Óáç½ğ…½œÍ=‘ º’I>´Æ¼÷F.<ox½í½A‹y½†öû»´xÉ=8z½|…<Cµh=¡´»l·B½8Û¡=ıƒy½QÓŠ¼6^^=èA\½ƒ¬¼g ë<ú‡½U@?=ù1»ó[Ù½½D4@=6§1½VÎı¼û½¦¼ßŸ¹<60=­q­ºa½÷O½ßD4=Wº½ÿ‘½ Ë‰==ü½¹–q½Bë=~½+-=üñC¼M¢#½ğ,Œ» a@½‡4¼½på·<¯¨$¾”(œ½ÜQ›½ˆÖ{½:¸<´Jš½ ƒ^½×‚€½‹À½å¬½~~ë</-<£¡¼£Y½!ƒ=-ß‡»x„ı»bIc;Öò;×8=ñ½³øm½™Ôº¼†Ï½ÍI¼˜f(½ù¿½ÎÀ³½|Ø^½·ƒ‰=Î«³<üsÛ<?Ù7½\’=wDI½cH‘½âÌô<Jª=¤è÷<Â½ª5 <Ğ¯=™=ò¦
+½ê¿8¼ ˆ¾ı e½#  ½Ü÷«½x{™½ñ¢º-A¾d½`}à<ô0<gO¼[r(>vË£½LÆè½¡j>&½²$x=šÆ$>a]½†\™¼XZè¼Bgt<	2=R°=Ã<R6n½Æ9Å=n^½ş6ê¼ä†Ÿ<àC¦½­¬¼‡?^½¹î·¼".<'%½v¾Òf¾dŞœ<XøJ¾YDÏ½í_U=•5¾@(•½}çŠ»ú¥ ¾8ğ$½GWæ½«ˆ•¼ÃdÑ<ªv¾=â"»×KÊ½ğs¾¯½™×g;ÕÒ¶½î×½âóª½Úô½¼§çV»@ø»"Î°½?1ğ¼–Eà»ãI)=¿ÎX¼üJr¼(½³î=Ìâ@¼ñ›½€½tïÉ½^E½šQ¾<0j½„Àl<pB½YuÄ½{Û<ºQ¾½*£Á½Â ™=5Š»`e£<“R<O+±½º»!Â•=Ë
+7¾ÇÂá½nøP½\o=IÉ\=Ùä™¼ôÛ½|¨û»Îİ<P²¼ñ˜=ú_ ½`ä=˜Q¼‘ßì¼/•¼k=>l€½{§=ˆ/ı<wéë=ÖM½ù\í¼ÚŸ½åY½µ<¤Û®¼§9·¼¼1
+<Ğ^Ü<²¾½ôi=¹`¹=˜N›;!è¥=òíØ¼¦¦8¼Â»F¼¯Ë‰=×ÂD½‹…‘="TJ¼Ğh„½G~ª<éİX½f³`½<©½i—&=Y<ª½ÿÒ¾“ôm<›\¾ïñR<ä”=ƒƒh=_D%¼xRl»¥¤%½°ô=ê³E<ı9[¼ÏŞh=G’½÷iú<<ò˜<VW‡½ö$/ºSÂˆ½"3›½L‡Û¼ëÖ¼*E¨½õß’¼Q;½„¡¼eŸ1½í³¼‡Ö@¼xî=@ûs½ño¾…zk¼›©X½{ı”½·"É½Óæ<-. ¼!$¼şb;^¤›:Øã¾È€³;GÃŠ½U¯õ½µÊd=Ş=¥=áV[<8— =;@½Û¸¾ö‡‹¼
+ºœ=r¿<*d_<Œ¨Ô<CëÎ<áEŞ½lÒ	½ï…=Úè =5Ä¼Š1½ë†½T„’½v•=2§V½&“a=ûî½±?„¼ÈÏÂ½¿c®½xu½š®ƒ;ĞÄ‘:¶'½õ« ½R]¾Ò|Â=Åc¹=Ú5¾ù'ı=&(/>+Ğ§½¡ã=}QÆ¼[Òü;iMÙ<FáK¼úÅ½Æx§½»¼å«½[.¯=*Ü;½ÌŒ½‹¢ ¼œ³²»øƒ¼÷•½uÊÁ< D½«-İ¼Ëâ?½ğ´=Å=ş—5=aøŒ=›	a½ı¼şM-½KÚ<Õ1=Çºğ½Ëf8½I©Û=Û‚¾úMX¼/gõ=¡‡W¼?Ò½r“ù¼³J½YN½•o¿<0eÜ¼x<M™fºC½Û:¢=ú'9=°á=ï:Ÿ½[m<³V$>Äb=qÜ½Ã‡>¶ˆ=ÊÈ"=C#=Â'U=‰3Ø¼1ï=¬ÜU=fÛ‰½¾¾¤ºR­%=UÇ=ÛÚ“½`¶½? =VÙc=ŸœT=ÂNe½,y½ú.N½Ğş;”¢W<Hç»'áj¾®_­=Úµq=· ?¾+ú:jÄ½	‰-¾#Ì]¼Ù”0»Âkì¼˜ª<µ[=‡u“¼Xúa=B|½Œ˜w¼J&‹¾»lï=V?;ş¾û¯“¼Y+=¿
+T¾œô¶=ĞŸº=ÄÏş<ğ%½ı®<C½¢<Ôº@½øêo=~_-½Ÿ™=­E
+>š =Î5'=¦)>ß¼¼Ğƒ¼g"½¾qİ)½4‘=Ñ”½B°	¾'¦>:Âï=6Jä½{“½•´=°Ùø½”×<#ò„»"ëb=ïÜ;½8bø¼íÕ=úJŠ=´š=§W¿=” ‚½cèş<¡qX¾±L½MÂ=³Û¼ÜMC¼’:=ˆ¾ğ;=£Kõ¼”Igº+¬>-äF½±ç‚=ı‰>{E-=óÄ´<'Y´=Ë´®½)ø8½íD=¥N=•™|»µä™=Ö<_ëv=!4[<ºA'<L!=¿0½_y•=;¦=h½øfL¼àó¹¼³å<§PŸ½â…Ò¾7so<JËl<7­¾r;Ä="é˜½wŸh¾^·¾E|<È½Lp¾¸e=}K¿<²g5¾•"Œ½—©1½±6F¾³¯î<$Y=Ï‹0¾Ê°L=)Ö="Zk½ı0.½2Òy½âiW½Im½Š!ç¼+˜=¨3‘=Éöß¼Ù°<·ö»ĞÆ€¼û·¾¸‘=x\Æ½PKœ½K_Î=2j=“¥…½ù©Â=ŸÃş½õx=M´×<Û.–½÷i>SÚ<ÚZé½—2Ç<rR+½À¶¾?µF=È§ò:M>2=?³=P‚Ğ;Lz¼fb¼¼Ş%¬½
+îÈ¼]ûj<`÷†=ïÃg=0ú\½Ä"G½s <b„k=¿”½;üN½í³‡;ù½;P†¼MŒ™=¼ã¼:©ı<>5ô»Å¤<ÜV<EÎ³½Ş5=)ı“=ú<t;½ãªÁ=i.ó<jÜ½„¡å<Ü•=Ä+=*iş¼Ì“F=(xø<¼'=w±‚=#x¼À=ükÙ=Ç<Å¦>½n 8=Æè½Şdç¼‡ã¼$sà<gí³½ªª)¼um‡¼±^ñ¼ç‚=Hh½nˆ½|Hø¼Mêº<F[R¼³—C=şŞî¼‡¢½s×¼$¼p½}À<Ío}½à3½Ñ¼¤¼üé¸»F%¯<Áš¼ªğJ½ÊMV¼µš;Ã‹=ß}×=wm=¸tÍ½bù,½£FË<G6*=<Àa½‡/&½ë§ =ó`Ş;’
+ˆ½è¬½Ò= =BO½[nø<Õ-½–ï<Tø»ºŠ½*[Õ½‘å¼<Iû?¼Ã ¼ ø½w³¼Ø<¼Q”=ü¯¼  t=_@€½Í#˜½,½Õh½%¼åÉ™½(=Í2a½€ih½LÕ ½±£€=¤W‚½0L<Kô€½=¨£½ö¼#f»˜†½m´
+>Áy½¸Üè<tW=âŠ½­fÔ½rº—=ğÍ«¼«I9¼·ÄW½V‰S=³<ÍƒZ¼f<ŒEˆ½BÓk½ôÉ=ò™2=‘"1½å—0¼ÅÁ½>K½¥¸µ¼67†¼$,l¼ÇO)=¼x¸:z°½¥œ½p7=<»¼\½=†çd½¶Ã½vx½ß‘ì¼†H¼[{à¼sØ„½5—5½Üğ½ıÒ½9Ù–<·½Ëò7=°·Ê<!h¦:)4=h»d=MP8½V7]¹eb·<ËQ¼£Äq½Ô\7¾Wv×¼‰Ãx½ƒqï¼ÇÁÚ½‡Y¾+	¾;w=¨âR=L¼ÒKa=;¬'<¾[½ı›Ñ;®=KJÙ¼Zîººğ—¾~Ò½Ññú;óç=&æ”;%û¯=ß™÷¼|({=š©¼<c&—¼÷$¾*£=Š‘ ½>A=—8d<£Ñ†½Ê$>=/²»Ñ¸Ç5=ÎØO=S^‘½Omx=âNl<C™=9²=ØÕP½è 0;Uw¾ĞU0½Úêğ¼ïœ<Î`=f ½%ep<Ló…½r=n#Q½{_9=V±~<e§
+½rR½Ma(½†I“<ùy¾½Äè^½êo»½­Ù½ Zû<±i“½|ß<>$†;İ ¾¼ô@½gç„½y¦¾°=Sb´<Æâ»Ís:Êë'=tÛ¬=´‹-=TV/=ö¶=óÀç¼th=f¾=¢İ»²½¼$	ƒ½¿´¼<€•¼G=½2NÖ<;[l»†Qc½Yİ ½{n½÷ó>í.º=,¿¾½Uœ¾MQ:&¯Ô½f°¤½aS’½ñQ©½ÛšÀ½%=GŸ-=Løù<áJ˜=Ìk²<`ÚC="^-½0‘G=yº½uE¼å~½Qàñ;E¥œ=6±
+=Ü´%=—dÇ=9e.<Ø# <ï÷»æ9½J+¾~+½z³<D½£º—¼	~>Xµ>•&Å½¬¼…=È…æ<d^‡¼øiA½L'U=%lÔ=Ñöû¼«bÃ=lô»¢ëù<QÉÏ<÷Äf¼u¦Ÿ½’¡½èğË=µı=Ac»=Ÿq=ãe6¼ƒè*½Ø€1=/½ØÒ=·O?½~ÒÂ=7#”:NüF½òÚ”<B1Ê½¯]=W¯Œ¼d%'½­“=Q'<;/=2èN=Ì½ëR½ı«½¬í=' ñ<Q­<2¼6ˆı=ÿ…a½d©H½o¼Ç
+Š½·[<”£S½jÆ½‘ ½IGÙ¼Ğim=E@¼Íq¾¼j©¡¼$š°¼[K[½éie=¨½%u€½"F·=l;Ù=c<=ÅÙ„=Ô/–½;‘¼^Øˆ½'«¿¼kµ½äÕK½¸£»ó¶ =²aD½õB;nX½Ï/T½–a¶<x7=Aã'½eb=È£½ù3y»J¬½&'¨<&¦;$3î»÷<EuÊ¼Ä©=Æœ<f±®¼üŒv<ù–
+=ÄÅ;†çˆ½Ût»äÍv¼Ûeí¼Q=l¼¼ë¼æ„W¼P†Ñ<|”½fv…½t„¼²®½Ä—½\È½ÌdA=É‰ä;Ì–—½Õàƒ½eô+=0zå<Ëç‰=nm>Fv<£{=¡M=FM,=fìß¼3‹š<mÒ½!ÙÃ;g½@o»]íâ»æZÒ¼¥Q_½sU\¼ué<õ)!½‰•½,û¥½mU½¿3=có<Fòş»œğA¼G´½¡“½¯™½Sj½Õç¼ĞI¡½‡Ì ½ÎNÄ;äÆ<Pæ½Ò½¨¼µ‰¼£‘¼	V™=_¿;¦´<÷ÀI½²Ü¼†Š½<}+ò;B¼ş ¡<4•¸¼k»:!6==Çş†=ªÍ<bµ4½èÑã<Œ¨½„o£<-:9¼K1½¦˜Ë½z ½õŒ½I ½?…½Lİ½¹#X<áYœ½‘Xaº8*½G:C½şøü;½N½†k»—œ:ı>«<;›½·R½mp,¼bN=Ïİf½äóÁ<“Ñi½gAA½Qd)½¯h"==6™=-iò<gƒ=§WR¼çÑh¼Õ°½+Ï	½óÏ#=T@‘½[ĞI½ñ2‚;ğ\“½Ïyå¼¢@=§8»‡çŠ=ú½˜½›jË¼êqÇ¼<é¯¼¤»Ù<»{b½H•J½]_¼~Õ={‘½¤­¹¼61ïº÷<š°œ<8˜½ÜêÊ<Ò„=°×=M¦U½ãÍ<4=ìâ*¼Ä¹7¼\™=•¡™=<MI½¯'š=Dg‘<f€<ËCƒ¼‹Æ½cg½³¤ƒ½pTñ<*öS=¯­=c´K½š=ú¼´x»:''=éÂ¡½ÆZ¼Í¤¹­/ô¼õc©;­*à<¾C=a¹]==?Ò<4ÛN¼n…;½¹
+ü¼ÇÅW»nÉ#¼Â”»/¼<#½,½ZA½ƒ¥œ»%¦Š=Ûğ¼”c<`JÎ¼qv}¼“™<ñƒ=í(=ÿ9¼J¢£ºÃŒ<½Jz<=Ô*=R!f½K½ÓOk½eH½zã¼?²¦<Ğá ½¾ëŞ;˜§K9&zø<jßƒ¼KÑ$½F§Š=‹XÃ¼–˜/=cÍÿ=ŞP<ˆ(*½d~ ½a|é¼Å…Œ=Òôºµ§^½«¼…‘ƒ½{á$½1 =Ú<=şg¼ß•½Xà½è³¢½ ¥¼;à‰½öB~½ı}€=NŒ½›M<~[ü;ˆ5Š½éD½b	)½½'¶½6SŒ=,:"=G[‚½½I²ºİ•½C87½˜Üƒ½cŸ½U+ƒ<d½Ok=é½NÃH¼4…= \¼Kc½ë¦H=ö½{½Qgÿ:Îk7=ÉZY½zê =]ÿó;z<ä•o½Æy;<—?È:W½Íh„½(½uZ9÷@½&=Ä·<¹Ó†¼âà;=Yq÷<¹tK¼Äa =Ö²O<=¤õ;Ï4!½#õ‹½a‘:½f(=‰ºI=!'=2A†¼Ş¬“¼H+=½ s=ú‡=©;Ÿ=š.œ;-ÁC½è½;ğwe½cš½I£‡=€qL<—š;˜Ù“½“—‰¼×¿=rş·;äW=[N˜½ío4½Gµ¦½ÛÚ—=K­»;‹Q>bÕ< õ½N¹Â;¸ø½Ûçm½-ó<e‹r¼õ©¡=Öl~½³á½ÔZ=õ_½ŞÆ=wÒ‡=ˆà$½ÍvŒ½}W«<Áî¾li<"€»5ò<:±è¹û>=A…Ø=ûl=+e¥»P >Ğ >0Ü½Ø"½$”É½Ó8¾ {Š½ù´£½F½Ã…†½Ü£=Ç@=ßÏa½Á$=fs„½ |‰»#²z½ö¶Z½f­¾ø‹½Ó^b=xŞ¥=¦t½Ìà=×w8½hì¯»€”Û½Dc½Ëºu=¶Óy=T6;=\¤]½ÛbF¼ìÛ½bÖ==YÍ„½ÒN½¶¡»B"½Íó€= 0½ğ*½•Å-=Ü×È¼²Ä‹=Ò‰¤½‹‡ä="ïº<=4á=¦k€=ÓÏZ¾ºù>zN<¼Û¾»V‘=qØ ½µŸ=©-<|§<ó`Ò===—zª=y>0<IËb>nu/>«š<‡V½kô½ ÄK¾Üº*¾£­ö½Æ®<ûó	>ïÆ<£MZ½¤OŒ¼?åk½‹pi½(õš=œç	=W“ê¼“‡<·=ùxK=;¼ı˜=Í½bv»=áÃ
+½„æ™½ø}~=ô¿=ÌŞ¼¼1r‘;ï‘<d6 ¼+İ=,X©=	º<Æ0g=Òœ¾='ùJ¾«o•½¾u]“¾K¾3_.¾Ã;æ½-0H¾ç@¾§­½ãE¶=-£d=`¾9º®+½ÅªÖ; ¤œ½gãJ½â´ö½¤ì<ñ=s?=òĞ¬¼wÆ¥<G)Ñ½Ç£½qû».};\ñ ¼•/0=(ƒ ½QB®¹)ow<Õ:=‰Ë¼¡\<·=Yp1=Š»š=¾ú"½0Ö½Ï¾L“g¾	¾féó<-T=Eû<1†=¼%=X¾ë ë¼zä¶½iq]½^vq=ŒÊ‹½À÷]½}=Ó=cò½¼:+½h‚½ŠÊˆ=ƒAÑ<\\o<¼^€½a,”½—–>½ô¸D=â:@½“½­?ô<Ä®»¨>=;¼Nºè<Çå½7™½øZ¡=	£=äû<!;=6=¾qzE½Ûš(=ö„Ä½}Øœ<MjÏ<¨lá½]¤¼/2 ½×D¼éCÁ;¿.=t‘“=S™^=€óÀ<Ø,=²ëe½ı³‚=S-i=ĞÙ»üı$>(
+<ek)½çš=^Ö¾Àj½Åµø¼“p½Jr½-™í<)ò†=_èS½µ®<ØÎó¼hün½@‡N¼­“‹=±`½\ùM¼óü‹=.Bu½Xò9øû%<çö‹=¾½<ú"½t/©½ıÅC½M®½Ê½†½è
+¾÷†Í½CÉ½ÏÕ9½é2È»wM¼Š«¶<eó¼Üc½ÚfÆ;Åú¯<±}<‚-n={uÆ¼íè¾¶¾Ñ¼]l·¼ºÔï½»|¾ïJ¾’†==±Ë¼RÛ;nÄ´º¼*t=‰#š;†¾½ga½YC=Ò¼L=»ê+½0œœ;õK_½	F9Röm=†ß[¼®§¼gç=$½+°y½Ò}…½‘“6=Ëu=|+‚=€¯J=›qŸ½ü¯ÕºaR–={‚½¿#¾¬ÚE¾l˜½	/¾Å•¾qØ½Ìÿ½Èç<<[›=K$g½»ş"½O\„<‘Ø"<Eï–»”Ğã=·˜½‚/½ &=ÇF<,rk¼¶W™=Áª&½¬3½r>{§Œ½f½ŠŞn½êP¾<ÓI<k.
+=Õ»Fóˆ<B”<3,‚½k¥~»€nd<Ye¼¥jÓ½ :=¶	¾mƒ©¼o8î<›äG¾‹¤‰½7÷?½ı×½«´!½§Âä»œë»I‡¸òÜĞ;Ãç<åoë:Œ<\=¹¯e=gÌn½¬4N½˜îB»B×=¤(<&Tµ½½ê„½¨½a½:Ls½¹e<ã½î¡¼<ì„»Çc€<|2»Ä[½³ß=è¤g=S`İ½ü¯;ÁR=ßGú½gD‚½Î£î»Ğ½E¥)=Ea;«v½U¨a½_Ã=^Õù< 1”<š½?Q¼W?Ø<Õò<uAS=Åğ.½R…d=mzª¼rD¬<“½Á¾ï¿½1ÇJ<½A0‘½¾&Ó<%÷œ<ìØ5¼Ç
+%=ÇGy½swF=
+	\¼³Ë=0s½»¯ˆ=6õØ<*Ö<½vìj=:Tí»q´½¥ğØ½ô<[¼½…U½šï<şÌ=ÛT¶¼jÂ=“ùJ=¾~©½Ø—°½çšÆ¼/ºo½ĞŒ½ÿÔ ½£Y=Î;9½î'L¼£ôŒ=ÉVq½Uc’½‹Qà<„Íñ»•÷;ù^¼,‹€½¬Á¾½›Z;ÖC›=İó€½¶·¼'ä=E<;¼[J½Ê+­=wğ¿=â–½zM–=¢7=µ¤‡=Ô¤½¿ <OÂ=ğåg¼È»¤¼ÿæ»¿O=¥AW=‡;w½(¹õ¼ëşÂ½¤ºQä~<˜"%=vJN½ã2½¼6“½2,a¼|“=MÚ¦¼æ½‰½ÂÃ=kkG»®)í½9±x½x—!>¸Ô<,AŠ½2x‹<^ii¼øX\½ ÁÖ=ü­<–Ê½'YB½´­ö<ââ¾<<IĞ:³³7½4¿=¶N=7”|½&§½Ş)Á¼Ù5n½rîv½{¡½[ä ½Ö»|=Aby=ó¸¶¼}Ã<¤Ãy½d1H=“-‚;6¼4½g•°½pôœ¼U?d=)‰=¾7½/é0=?ÀÎ=>ì.½z1º9«<óS;={äŒ=cÕë;²h=nò=qº¾Àçƒ½ƒ?½ ¥R=±^¤=x´È=O¢¸9š ’=: W½„K=ZK2½K Ã½õ½M=Y=U^«=¦õ“½Jğ“½™§¦=Ô'›=úP«¼İa‹=2v¼}9½h' =œ
+>g_=³@Œ½ºoà¼r…¼¿È=(=“×T¼§s<ã¯^½3l†½sŞ¼˜Ú½ˆ¼-½OZ4¾bxU=y.½‹vh= ÕY½•s½Ğ;=98½ÌÍà;ì÷ª»íÇ“=¤@=Ã½‘Px½¹õ¦<ÿdY=›±í½à#<Ál·;F—#=½åÄ¼>z½Y½ÄÒ;Z<AÚo=GŠ=
+¼”½úz¼±3’=v™)¼¦G=š$¼¢M¼œ£|¼$Õª<Ê<.½+<‚=ƒœ0¼doH:O|<ˆ`G=À3¾=Î¼=ûÔ=Ó”½‚X]½Là,½úS;<}§;€Æµ<îú=½Úº"=r'K;Ş<‘½ğ{â¼¸Õ»={  ¾08ë¼P ;=B8Ó=İÅ<şü2¾o¼=r?>Eç= h=G§=a±<½÷Y”=ÎR¼xme½O|Z½¨çÆ¼ê¬=PŸ<l†=§V'½M© ½rq½Í!U¼RÔã<˜»Ù=~Me<1’_»…3R= Ìœ½.¶Õ=È/­<PÍ+½;­‘=°8=D¹+=Âô¾í1½g»1»`€Y¾sb¾Ğè’¾¸û=í½—â‚¼ğN½Wv=FƒC=.E¾<ê·½1iñ<ä4>ph=~Ü¾[c"<ç;PcM<‡È¾ó¢»9­N=$²*¼F¾¼úV½EX(=KUô;ªi= Ÿ™½_¾L½[¶¹¼ĞJ½r<Ú	=ş©ù½Ål±;Uå¼VÜj½­ûA½B¾º˜e<Ğ±½+Nj=g7Ö»:Øš={±‡<¿Ùj<íœü<±::¾n:´¼Ü_™¼¥<Qµ5<HÎ=İ}Û¼í}Í½¦M½è’=‚êD=Lv×¼ˆÆƒ½^—½üûn=e€÷<jæW½÷Il¼¿õ»<h=“½” o½2áÒ½­'½lA2¼­Ê»Éw½½¯cY½‡eo½]_Ğ½'˜R½$`½×P=$V‡½®s,<åÊæ=ù5µ=Q“e=ê½âG ½ù =z«<¾Â#=¬·•½ˆ%‹=‹3l=®ä<ºŸ2=`5½¥#¾B²É½YîÉºkÆ½×p½ñ½p_·»ú¯T½xƒ= =ÉÑB=p±,½È£¬¼3x”ºäsy¼â==Ö‹=Şz™=æEJ=§¬²:ô*Ô<t½–q= ¡=8Ø‹=ÈW¼şŸ½–ñ½$¨¼\Œ„½´j<d+„½Óis½[©T½F€½^;¼<+ ¹»BÏ@<v>=Š?=XıÚ¼©°:¤,3¾¨Øó¼@e­½$˜=¡´¬¼°åº!t> =¤‡)=1-©<ùUV=ñqØ½5E=Õì½ï4¡<Õ®Ñ½{2¢¼áóî¼Q)[½dä}¼„D+½¤<=u¶¼Ø$e½Ø˜<•mV½G“¼?ŸÀ½#S=‚Ş=°ù½Ø8Ïº¼™qJ=WH=áÄ»gß8¾¼éQ¾÷ï¾mšç½¬ì½ƒË‘½RNµ»ÆöÖ=Ğ=>)ÉŒ=*@=Åö½ëªÄ¼ãåË¼w+¼ªå=®'O½s’ç<Æåºvz½˜)Â<™)Ì½w€+=”	=% ½x¼…=‹€f¼XıÈºZ!½Í‚½#ŸE= )„=¡Œ*;´ÕC½?“=c„<lwˆ¼ã¹
+¾µ¶¾ß-j½_k½[T½£3=¹…<³3=ü6t¼Ù˜»…½O"˜;¼~X=Ïêö¼\ğ½›.7¼v»3¼ÍÓ½9A_=’«£=P“â½õß}=}u_¼gO6¾yw<ó“¼»»•½È\³¼–d=š&p=æ²=û^Á»ĞÜ4½îÔ·<j¶¼3÷#¾©„¾P¾ƒ!½é®<U¯ş¼„=‹Ê¼M’½™¶ó¼J(İ=x¹_=yA›=†‚Ã=°w—<€åš;i†<Å‡<=½ç<™b=v†›¼f/o='‘½N½<º• ½’<=Óµ½Ô½Î¡v½U=’Wˆ¼ ¿‘½t‰E=Ã=ôJ<½¶:ô½Ä?==Ó°–=I!¼†8½#p³<^V=§*O½KZS½Ãda¼ùW=«³<Ã<Û;½Îÿ®½ ]½M…½ùoºğ³¾½í-1¾ƒb¾tŒ¾ûíE¾o3ñ½ÑÌ®½›I*¾Y#×¼è"¾lÍx½ò‚!½oçÎºĞà€¼`œ½×õ½<ø>I<ËM=¶Ÿ=ân
+>mĞ=ˆ>F-=RŠ‚;âE½v£»ïï>â=/R7¼F›…½…nÂ½ÿ©X½K"º½ÂÔ=-®¾e‹…½È†=m§Y½¸¿½¤~Ë½ÚSx¼¦á—¼ÑY(½Xœ¼]b<W, ¼Ÿ}c½Æ½iï¾‡÷%½óÔ£½ëş‹½lŞ@»¢®½‹˜S½¹.,=,E=²c}=ÿXç¼Šg=ªIë=Ô.¼·¹ç<KuÚ<Îª½Àúò»E¿=A6Y=Îöí¼<ßu½²×;éf„½Xtã½éõ«½T]¶½üpW=æ®¼Áx‡½Bä¼L`Ù¼&´~;¸ËÚ<ĞøJ½;_?½Èæº, =•l=f£ˆ½\À§¼Ÿ4½Xcy<Tè<¼8Éd<Ş Ò=™WÂ=g=÷˜…=ÜÅñ½w½½¿Ø5½J‹Ú½Áw½9½Ã»Š»¾{=hÁ»êF;=¸âr=]b•»†F¦=ì ´=ºØİ=i€¾º<j¾Í6¾ ¥-=ãVs;A=ôõ=¤F2<?/u½A¸"¼G¡Š½D^=_Q<½\î<e¾¢ºaS¢¼‚™½‰kÂ½£©	=j¥<:GÇ=Û¸¨½5Ş'½¿3Ï½ˆJ=\ÿ=8„>LàW»sR ½ÌÖí¼’C=ş¤„=¶Æ=íˆ|=O2‘½¯qï¼±
+©»ÿ‰=oô«<œ½g¥g½JÖ^½\öP¾T¸ù¼·¦;J]¾YÜš<âH.½q€>¾ÇR7¾ö%Ç½ĞX?½ñ°O=9Y=x€¤<W0(=”¹ı;€»)7‚=¥w=–)—¼Äùı½]ªÿ½è½ı<Çø¼C\½´Õ;W.;&<`y¼yÎ	½±>‘=OŒş=øB‚<Áœ‰¾Å‡R¾	¾¡•U¾!¢¼r§½â<¡½ßU<l½¼ğ?İ½† ½VCÉ¼cèp½×u‡½ï·l=	Œ;>­Üù½t¹¾‡7H¾¤àà=ËÌg=Ù<>“İ†='ü=¹Õ=Òæ¼veí¼v©½«`‡½€‚3½¢Wƒ»óY7½ë>#½L¹²=Èß"=ey½—ø½#³¼½ĞÀ½!^½_û<°Ì•=ÏÆ=›>
+Pt=Vè¯½ù"K=³Ê=É0>Ú¼ã¡>†·Ì>1mZ¾9J¾éÕè½U`y=läË<’uŒ=åƒ¾%w=«
+â<p‚™½Çôo¼?E±½'7¾İ¹½¾ïöØ:ÌHÉ=ş¡¼UI ¾áü¼uğ½å(Ó½]¾n4ë½¬±ºé?m½1÷'=%µ;[¼ƒ®¢=Œ½Cı£¼ÚUa=Ç§Æ½yÖ<,³>»,Ë½UÍà½ÁG¾Íˆ¯¼”»+¼ñÁ¼Ne.>w³é=Xÿ¸=+n+=:ò ¾×ú½µ7¬½Ù¼½(¯ª½Ìn=ûg!<[Êq= =bE=ğ-š=wB€=Òï½Üœq<t[=å¥{=ş²½Q_Ì<6ï$½ÄÅ†½ß|«¼káO½Œ¾i=¯'A½	ov½<½£T¤¼d–=N2½˜1R½j=È<é¹|¼Ûb{½
+¨½&­¼6Fì½ }¾”ÒÕ=Ï:<îı½BY‰½Ğ‰?=£ôZ=3›>½¬w½)Šº¼XÅI½>ì“½`ÙO¼Yë*=âÚX;op½U«ã<„b¡=6-½ôŒN;ŞĞ¤;Eƒ=fN:=~7€=BÅz½‘=ã[]½¬>Œ=gT•<-ìs=ğò‚==º¡½.Ó*½Hø¢=¥Æ•=cÕW½Ä"B½È©‚½œ‘¼X-A½¤x=‚7:½ZÓ¥½óêè<ŠDn=v›—½wQõ»ÒÀØ½e¥»m”<N½	ò9=)ÿî;è¯/½Ä¥<,c"=­³=…2€=Æÿ<†C½];İ½¶†h<f!$=iÄ´½[qÚ=Q);_€½§'š=zÑ<“Q»fC¼èO< v¼60·;×µb=¹I±½B½ÉuÉ<“3½°ŞÁ:b©3½ØÀ·<WA½à/c½Ø‰ƒ=cŸ¼»tw=^ø<PØÖ=´Bç=@W±¼”ˆ=#‚–<üå=aè<à"¾ıP¾¤Ö=å`(½­Ä”¾Nıf=¨Ü½6Ë”¾’œ”½-_¼y²Ç<§|–=¯/¼‰Îğ<Rm~»L‘<8E¢½l~=pÚ“=°8¼¤\Y=q;™=$ÑÖ¼İC=·¨<ê¨ò½¾Ø[½ğHê»ÇÏp=ìÆ½iûa½R ½è„=bÆ>½Æõ<=GÃ¸=
+¦Ú<Ñä½Fà‘¼T=şîp½‚E{=ÕRï»%¾´½¤S>C;Î¼Éş ¼ú«¼E3½CN‹¼7a[<ƒ <á £½ÉÇh<bÈ½Aà<†bŒ=öÿ„¼FB»X+½VAf½ø‡¦¼æ¼Ë**½ƒ9=«”<ß|m=êƒd½ûU§½§T»éèl=O0½â¨½µzª¼qÍj½n=şÄ¤¼¾ûá=×#>z¾»IôØºÈUç¼ˆû¾0šC=Ì¶®»³˜è=Ÿ¾İ›x½İ{==ÚQ=Übw½4 o½6É*½ÁÈƒ=ù¼tî½H?½Ôî˜<S¼ÂQ1½uø½q™¼‹ƒ?=g;³<ŸŞ	=gÉ´:cE=¯†½Wù-=«dn=f¬/=÷i=OÆ3=ƒ6n=^%N=ñAĞ¼ÄÎ
+½Â¡£¼lu½yaÿ;†Ï¤<w½5R½0+£½-}‰½qû½‘R½{¬½Å}®=Pqÿ»+Â¼xƒç½?v½À½»RÂQ<!ã‹=_•‚=h‘J=_´W=åV;^ã¼-
+#={ª“=­l½|x;·”Ç½V5¢=iôV¼&: =‘Xû½Œí¾uÜ"¼½&7=’Ú“½NI½=L`½[	Ñ½“ï¼c‹|½Í :½Åèl=£¼ÌÛ=®[Š=)—ˆ½í¶	½àu==èAµ¼ïÕ…<tOG½!\¼¡õ
+=ïu:=í¸d½½H,=4Ñ=ğåÉ¼£Ù½¼‚$½IJ'½êa½?9)¾µ=úI>‹>"¾¹öÅ½ãMÉºüş¸½l¤”½­ÁË½èª> m=\¾ó=WÖ¦¼üp¿½ë÷ì;UÜ|<İæ½ß	¼‡Ğ=a—=Ô›=CC±¼®†½æÿ6½d#ü¼.*I=·Ù»¼c÷=ö|?½s W=IR½!&l=*Æ¼ø1*½2±<ï¯3ºıÙ>Ğî™=Âe2>Q–<¾Å ¾&I›<Øı<‘5½<)¡*<U@ß=HÈt¹È$>Âm¶»À©0=*èë=³GŒ<àvg>¶Ğ<šm>ÆMP=©‘½³e>—]O=Ğù¼š³½>Š=ú‰½s²¾;†‡ƒ½=šÊ¼xà—½E5½']½œ%½ P½kÏ<£‡“½³%Â½N=y±@½^l½$¥Ò¼x@Â½¨ W=· F¼¥ùf=%³=2½¹5³<ã7\½Ë¬¾}¾<c”=hZä;û¶Ë<"q
+½	'?½îa<íæİ<´û7½¹¾3½=Àr¼Wï½7,æ¼ùåe=^F=F£~=*gí¼:ïí<zÒ¼ÌP=[°ã»J½Éûa½aE½ı^/½Óec; ˆ.>¦5ö=v†ˆ½„'Ë¼ı¤½ßÒš<½=}~c¼L›g¼“–&½¶¾½ƒ½Uñ%½«VZ½ÛCò½ö®¾@†ê½L®ş½iOw=ïy‡½;:P½MŒ[=O‡Á½³:Q½B(b½—nÙ<¬à<db›»‡½İ=_Š=›u*=M–¤=«†”½É¦>Êm­¼Rt¾–€/=‘‹=£L½ÒÏó=ãË=,²½L~>SP>ƒ*%½ÿ˜H½?ÿ3¼{'.¼;1½–Ì˜¼Uâ==ÛØh½ï9=¼çŒ=q±­½ˆ6½_ã<É“©½T–®½ÿ¦<—»“½ —½ ¸½±ü¾éİw=åÍS<i±j=Ğ+=¼[¾9Z=G`½B†¾h+e½x¾Ãlˆ½e½ôç½Ákº=Ç½ÁÎ¶;™í<)ßØ½¶¾Æµ‘½	½»Œ½ê)â¼îéÚ½"¯“=ºŠ´<%.½:–u½Â!°½ÔÂB=›È=n`=¹x»½ëg=JzG½±õ½íáñ½C.û<®Ÿ¾éñt==A=7ôÈ<sX>YÙ:½bî½“A¼°3ğ½Kêü¼'5b½}°$½¿È¼ğæ–¼¾ôn½+¾ÉD¯½!d/¾±ìº½ä»É<JÂ<›Øö<Ÿ·<‹~W½üR ½Ö¿¡½š¦,9ú‰)½}PB½ÍXš:i÷½?ùÁ»,Í^¼¸¯=àÂè=1'=98=°¿–<ã/T<¾Ò;ğ[¯½tTP=ìê=Òc¼g¾uw=étæ<Ëá½Ş¦=¯S‡½eÚß<ì*¹¼ú2=A÷Š=è%½ô„=l–½ôˆ:²32=‚Œ½Üƒ;’Ä½%Í[=y¨¾s®£<óã¾*iF¾§Ê>Ë…0=sê‡½ZFL=â¢ú»÷ØA=~#;wM½ß>½î®1=Y(V½fVÎ½=Ë›;Ö_½	x½WóÔ<³çC¼±"½ G½BR=Š¶|¼Ùé"½ºÅ½_¼0<¦½áÒË½#±:=S\=dD%=aÏ ½òÕæ»T÷»~Ha½b§\½òÒY<@ëØ½¢Û½¢=ñE-½™¼Ü»a@]¾H%<•&>GOğ½˜R>Í¼ …Í½ 6]¾®ı½NSB¾SkL¾<¼¤7æ½CÜM=6Ò<éÃ¼WrŒ=‹<R“Æ¼˜-[½J™:¼fF¢¼Œâ½mä4½ä	&¼å?o½¯È<±}R½ö¨:¾ÏÚ¼:K½ü¶½åPá¼”ä–¼Ù¼=tÜ¤=îÎ½è=çÂí=@<g¼2C'>û!·½ù=zw ½¦(®¼Bw=i´¼´#Á½%©½$„@½Ó{=Ed=g®½$ï½,{…½ÌV+½¦ÀS¼ñ`í½}°¾³æò=Ì)>½)ğ[½ÃjA=¹™„<-;õ;·~=¢2Ó¼+Fb=?`½’=ğ*.=Ä!<³O§:fÔÉ½45M=k%#¾©ÿ=iU«=‰Œj½+H=k<¶<ì4ê¼5Õm=^“½öÜB¼j=EY$>˜ğ4>Ûí’>@g>k=ó³Ä<Ûkò<^ıM¼&Kˆ=üD}=°/½Ã¦F<Zš9=¬{‹=ŞBZ=rJC½võ¦=¿¸Œ½Œ{¼º¯1¼bĞÊ<´‘<‚üA;çöå¼3úß=Øß=ˆrÌ=¤é¾hŞ¼[…½wì£<’®ˆ½±?Ö»üo7½[¾´o½*:=mhG=Cg¨<­<sgx½s#½ÊNB½8•H=%¬<c‘½<l¸½4©¼ü¾cıÔ½Ä³4=êâ;WÀ³¼Dä»T -=y=$K5=ÄÊ*=é“ ½Ì€“=uÙ¼æb¼´'@=²´>—r->õö9>*Î°¼—<k=;[¼Ëö¢¼M~=Pı:ˆ$¼½÷µ<mS=>z[½W Æ==é7>^“>°½|?(=|µ±= ,>L’=Ú=`»Ğ=×$>Ln×=)ğ>–v¹½ÄŞ
+=R=={•qºƒüÚ<éİ>=ä½Õ
+3¾±\¾Ÿš¼è°"=-Î¹=/û>È=ìP=³Œœ<Ğç½üfs=Ñ¼m=C_$<ÙNı¼Dƒ;".…=~¹<àŞ<ÈÎG=Å³¢½£Ø¼l'=ÿ£=©˜½RIğ¼JI½Nô¹¼R„½`¬q¼yÑ<¾•)¾¦öÂ½sÖé½6\½,»í½ß½ÅA>¾ÔÎ„¾…Mß<&< =N8B»›ø½Dm=æó—;Š$½ñ·<—«=ê;½~Éã½6}o=Òk½š¼ãA=u<¼¼I‚¼wÕäº"›½7t*<k—<1›X» Å0<T7‘½‹Ğ¼RT±<Ş ½KHà½”Şs</JZ=z	¾óÍ+=C…=ÌéÇ¼ù¾/½A¾«>ˆ=fæc='^¯=}ü>}­è=ìğÊ;ğæ,>Íx>‚'ª¼*fBblock_2.2.biasJPTóß=:²ï=¶œ<VMî=¾êÓ½‹Ç=Ëºİ;¬•½‡ä:>õn+<Š‘=Ÿ€¼ìBº²O…½(Ï=½Cœ=ÚE‘=Û?{½,ó×<Voµ>*¼²
+ÔBoutput.1.weightJ ²ÌJ=İ¯5=ÉïÕ<,&«<„÷.=b¯<G-¼´S’=÷o¸=>›w= îŠ=	g`=@rt<Z6ê¼y¾€=1!{=í˜=—*T=ëo=|[=N4½"=´"=ôŸP<añÆ¼'2½Å¯=ªl<¬
+Ë<,©X=Tå<K@½™ı½$´»‘ø×<ÿÈ
+¼|;ºrï;}œœ<CĞ<ƒ·=ÛL¼×f¼A»qEd¼¾ôú¼ıt·¼‰Ì%<l|k<yß;	«ñ:ß‹=Ç0Ä¼ºg²<Û¼ß¼Ò¦$½€?C=Øÿ<»GU<Nvº¼"[ö»Ú/><®ä’¼“­u=~õy=Òj=õ›Q=‚.Ô<NåU=¸,ı¼§[<ëÌ«=$ş=k5»T½‹2_='º½C~}=¹£“=Å"§=JU½üs¼ôŠf<–™¼Ü=ë<êè¦=2Ëo=1@½‹2›<vP?»Ú¼äYN=‘"›<”;p¹½Z¡½cB½ÒO6;~Ü»+(,=ËM)=/¥<©İu<S š;¬mW¼Öi¼<w¢½<†r=§É/;‡7à»Æ£ã¼ı•<<¿=VG=ÔàŸ<ìq:=*\N<¢>ƒ=c¨=Š§–=ÒQ¼¹Šş»„Æ ½7±½nê=â‡k=,©ª=óş¯¼8k?½ùš±¼i0 ½W.=~Nª=ÁŸ'=/jF½16«½p'€½ƒ¿®½å^=}œL=&Ú‘=uVC¼Ñh½4M‘½U&½Ÿ–;á`¶º³Fn½^Ş¥¼rÑ™¼Aİm¼*ŠÃ¼N'½\Ì;½š	É¼¾ÔÖ;Íê§<Ù‡.<2%Ç;†ÅÄ;oì!»lx±<úr=¤˜<;CÊ<°ÆC¹{Â;ZT‡=Í¹İ<æ`€=bvU=ŒŒ=W{=AÊ~=Yeğ<D¶Ú<È*<ç¿=Úä7=ŞŒ==­Ç<½§+=¯Õ¦=×…g=ˆ™<xÇ<.S<W²8=]¿¼šl•<Úä½¼:‘½1¸½ /¯½¢t½Ï›a<‹_½W-=½çB»İÈ®<&Š<»‘Á¼èÑE<‘
+Ì¼Ö4¼"’<U†,=×ÁV=~ ;óMÌ<fî<f¤/»ı7Œ=Ş¬§=r&Á=§3»ğ+à:Q?½Ç\ ¼Ós=«Ş =ój<™J‡¼À—Ê<fÍ¼j ½eh½æZO½àm½mŒ<%UŒ=è“Ú<xH`¼Vbs½Òã€½ä¼z’ú;O=†R1¼z‰ò¼îåj½(ĞY½/ì¼²cP=§5Ø<
+=f8­=Uİb=y;Æ=ût½<'”=»`3=¸óG;{[<)±¯</ï;¿k=Ì;h<û_7<egç;"Â¼Àx“<ŞFÄ<ó©M=½=Lq=ÿ(=é3½9½%¼FÓ:ŸÆÈ<¦Æã=Õôœ=¤÷y=¦ÒÜ¼`ÖR½ši¾½°ÁÕ¼~&¢=œ‹=ğûK=:%‹½•ÿ½·Šm½£º"½-HX=÷Òä=îÖæ=Ô¦Î= Wó<Ş5ñ¼0=4¼ÄLF¼iG†<T¡=Œ!¼f±¼ÏÈK¼×Ä€¼|©»¼îL<ÅY½¼ær:Ï.¹¼CĞ»Ğ©E:–N½ˆ
+¼%OÄ<fÂ<%Í<
+ª¦<ñ.F<[è^<‡¿Î¼fù…<¶ÅH:xL;ôgÂ<ù¼×zÏ<;æ<45!=¿é<;<$ıá<ô[®¼^<Ğæ=C2ƒ=„©Ê¹!Ö(¼E2¼wK¿¼ì’Î<Hl²<ñ™ö;qİ?<bw<¢^½)¦Í¼]È¼¼á¼¨;ü¨;
+n©<¿?ƒ»låÙ;ÿxØ<¦\¥<aÈ¼´½ÖÉ¼õXË<'9Å<z¡’<¦;½¤½Õ,½×6¼y0õ¼ÎÑ¼»=õ¼¶ìé¼6'Ûºç‘W;-jÅ¼tÁ¸¼åŞ<hB¼£‚®»è‡;”k½’Ó‚;º½€Û?¼!0»îf¼á@¼–J‡;àº¼>’•½ğMì¼€U¼±2Õ<'ù=˜Bı;/´È¼"JØ»è?ü¼C'Æ<©Ú¼Ù8Õ¼
+M ¼3¨°½¹Lº½õÊ½E½:ÿ@½ÿ€Øºi¹¹†jf½69°½å^¾¦'r½kÏÓ:Å']<ÿòŸ¼p½£½µ´½i=¾jéã½Ÿ/½¢Ê:½Ñ&½,‚K¼2¼áœş¼‹Áâ¼—É½ŸçC¼°&=Ü–h=Y¿I=&›°=l=½Õ‚½Jì‰¼?ÿ<¼¡={^§=†à†=ç5=³wâ¼4òc½š¥´»Q=K9k=N!=/xY=nt<×ÄºÆàn;/4d½Ü¶½œ©q½d°e½6÷¼|`t<ªÑ¼Uÿ±½ÁÏÃ½qÊ½ã´x½¹hš<Uz×»>f†»zÃ¿½½f6”½‹¾¼K²"<zu<Wz§½Æ¥½ˆ¡F»à£m;®êŒ»âLB;ÔÎË<ã•¼ünºšK=ªj=Ã =ês»8Æ8œ`D=Ff­<8Á¤=ùÔ†=ÅŠJ=¼¼¦©¡<tÖb½Rv5½»w4¼Pââ<º0=H’¸<]F9¼OFş»´¼tO=hÕ=ïxÔ9¾^<0Š¼*ÉË¼ÿb›¼Nş=1Y­<¯H»w$©¼ËÌ¼1W½Ü½/¦<ÚÀ=È%=>X¼K@¼[	» Òü¼—ô8<ø|O<·N=›“º¿Æj<;~ï<b-Á;Áõq<pÏq8{Ñ<Ø;“Ñ=P<½ñ¼£X½öÈ½½Q»<û =Ò?=“<F#]¼Éò½lµ½®A×¼ª—½]ä„<Ç¼p¤<Ü½›r$<1½½®>)¼P=<›<Æq<ô›^<Ú(×<½C;Å{„½Vò–½ÌRš¼ùP_;o_J»ü x<ã7•¼,xB½Ôh½bŸ½Ã¼wi'½×ö¤<÷6ï;£”Ô¼§İ¾¹æ#¶<\•å<@Ù<½x°<(ª{¼AÙ—½°5¼8f<s¨£<*(á<3`Ò»âi½çËï;ÑÎ¼B<OÅ<§G=Qïÿ<ı=Û¼¯¦¡<S`<>«É<üU'=´s7;5J0=a¯I<üúº<Asö<¯rŠ=Öú™=mhë<¦ªÃ;Ì>)¼‘É¼<-u=/æÌ=—½š=¦f=Tzœ»Ì^½QbÜ;ßñ&=,>=mù<ÆÙŸ<nŸ!½€¯½ÇÂ;½¬Ò…<•àÔ< 8Ú<¯*w¼A^‘¼ë•¼ã·-½˜èš¼\+½a¿¼òÔ(½!7E=¿|§;~O™¼ğã;0¨<Ï[¨¼˜5Õ:€Bµ¼Ó­ñ<Å{¸»@ï;¡<bÙ¼çN`¼{°¥<Xb=öÔK=¦À	=|£ô¼ç½“W½±ü|½Äì<Øİ=‡•¢<F@D<`îš½Ôbˆ½j'{½»¸Ç<«M='.›<¦d½v)E½£ï¼Bp©¼ßÂ<}$…=ñ9<›hA¼,ËÖ¼)ÖÖ;Á‡d;Ò3¼NK=$9º¼ıÓË»éÕ‹¼[D—<²	ñ<!ÿÊ<bˆS=À­7;ÀÉh¼j==®°»=€s»<»‹'=t÷,<‘İK¼ÍV<Ş˜¼ÈlÕ¼¦Ôã:·cŒ¼è¶½(+®½üû”½úpƒ½4+s½MúA¼I_$¼ŠON½/Õö½zUà½4òĞ½öâ¥½~ÄÛ¼I,=*á½B?D¾k<¾£{°½ğº½wµ\<İ¶:=TR½!é¾„”¾w½d±°¼Ç­G=îL=Æ<½N½¬½I“½ºY½…åÊ<iñ–=ïC½£'.¼¨ê»Q¢»ÖÔ¼£Ã¾¼W÷­»şük»À¼ğ2½3&ı¼Çºª»(Ÿí<hl<s‡J<”‚&<:Rz<ğ
+ ½Şóí¼ÓÒB<Ë<“T=n…ó;O+=I&È¼6·½Ï#=xòU=éU—=¬rK¼M³~=$È½Ø½½\Ç÷8 ãk<‚E8=ÁI=Ï<=A7ï»…n »ÕÌÀ¼…¨¼£ùL=Û`v<¥Î¡=f#½pË½×P‚½b¤%¼šs¸;Õù½¡“</±Ù½ˆÉÎ½EÎÔ½7j?½ã	<ĞÓn¼ø0ß¼õåÛ<z`=æÀ<Î=Uò«<Hb¼Úê=†•w¼ü•½V<½ú}Ø¼ˆt<v<šW<ãë4<YÓ©¼¯İ{½Ï]½’˜±<­iÈ<WçJ=T…¼€¤p¼°"N½¸z>½
+µ„¼§’±;¯ß;ş‰»(õ3½U;š¼‹i½gdŒ<‚Ö=“Ùh¼*UÚ¼ãşO½;ç(½î²¼j{ö<Êû<'Ò<œ”¼h¥8njb<Ú\»-¤Ü<ÖQ/¼eÅ»mØk<òz–¸ˆVÏ»÷½½@;ÏQŸº¼­½E¾Ó¼:ŠÕ;©»*¼˜ı‡ºÆÛ½o÷‘<á²q¼U½SÛ»p„ü¼r Ğ¼
+<Ó»¼<÷g»\ë=<À=è-m¼½{E=Ñ†E=Â'=úÀZ=$´Œ=ÒT7=VpÎ¼Ø3=r-=6Ì	=eåX=ÂŸ=Õ•”=Ø™==r=ã{8™>=<ÆªŸ;–lÂ;¡³==·5'<¼OÃ<„äˆ<Jj‡¼äxç¼§Qµ¼†Óğ¼7=‘<2(=­„î¼Ñ"‘½JwB¼ø5<º[;Dô<±ĞÉ<o$½€¼9
+=xŞ<ü·<qİT<‰M‡=é?ï¼èîK»ÕìQ<D†<nç»=×ƒ=UeJ½¡°øºË1ã;}¼r·á<D=“<ËÍe½ôB½0õ\»;„¼§úú¼Aûœ;+x=´½¤Àš½<ş¹½vœ£½·¨½{vŸ<á¢½$–œ½RİP½ª™¨½®cK½„3ƒ½’+‰½Ò4ˆ½ (Ú½Œ¯Õ½Àá|½üH½Ö¾Q½İ%Š½JÀ›½bª¶½`í½½l{2½?Ï¼‡e¼Df½D2O½æ‘‘½Ê½OÍ½zñ£½Ü&û91Ç?½Pç¼ë-½Êœå½Û1é½õ=ó½tˆ½#¸½€@2½¿Ğ+½hÜÏ½ñn¾ø™1¾Í¾.½"Á|½ãŸ¼ì_½‡øQ½Â½ÒgN½&—µ¼;º¢»ç%=êÒ¨<~6ç<Ur=à³=Xˆ‡<Eù_½ƒ†W<®F#=”ë<=º=Ë¶É<^{S;öÛn½íŠ×»x‰ı< å½<Àó<¢¾<ğ`¸;^Æ?½aîL<P?Ü<Š'==3›=®›=F'=P9Ú¼6ÂN=øë6=ùâi=
+,À=–5½[¿Œ<ú÷Á¼£A,=ÿfˆ=®F=öGT=?ñ½Õ=ğèJ»jï=W§R=é›“=*œ!=Kó®<)˜<şcc96£w<@=#àQ=q¦‚=ş`=s*»hKÁ¼>à<d6a=6vë<Ä¼­=¡‡=ÆEì<ùO½±a–:¼İQ<ÚëU=-´=ûò¢=s‚=Ã“1½ù1ıº®¯…<à…=ÙŸÉ=¼g1=E$=Û'f9B.¼wd‡<Ã&v=OZ‡==Hëi»¡íÓ<¿ 3=“è½<ów”=Ÿá—=3ú¾;Ÿ+=xÔ»8
+{=…x=®‡Ì=0»©<^bw:([ì7gA•¼ğÕ¿»ÃF¡<#–¢<®ñ<×Œ;?÷=çÑ!½P™º—¼Ù[h¼ÓˆÎ<uşT=€yò<çT½V<DD<ÎL‚=1;=»9ë<Ù\ï»E|€½·¥é»ª›<HÅ=Ùr¢=U¢¼¼¤•¼G¼?…w<™¿=äß=ç5=„ßV½)Ÿ<ï:·¼›†µº_»<¥É-=¦G=©HW½‡-D¼ß®w<…¤
+=ƒiç<R<Ì<‰_=8¼ĞUœ»ogC<µæg=2ãî=Œ«Õ=÷¢=½.^=Ş©A=á–™¼@*=Ğ\\=r¡=|¼<š <“a==A©»QÿR¼ìß[=VÇ¤=?›k=|®´;1¾³ºÏ©¼ĞÏ­¼Èmâ;µV<×ºn<* *=K£^<ÛêÕ;Ï³Ñ;zZQ=yC[=°e
+=ã<Tj¼:,Æ<¢:&y”=-ö†=3Ò=2¸'=HÃ}¼ø~à<Xsh=ÖŸH=Üç‘=›vÒ<ç}K<û&f¼y*{»l+=®r'=U²¹»Ï$·¼hõ <e”ë¼°4<_Ÿƒ<ó‡¼R#!½Ô"ºzà¼2®Â¼Ô“–¼@^»‘™;äc<ğñà»¦ó}¼fj&=ìà½$<)½Š·İ¼|qI<¼n'=ÃÂ
+=šø¢<JÇE½
+²½É±$»æÛ„<	><ò<Je,º­D›¼œ<BS;ŒÑ¼¸ÿL:ªC»@YÓº*sQ<×‡­»šgˆº&ò<DÖ»òoºmæ¬<-Pá; ˜‡¼Ë3½óÃ½Íå½Œú¾õB8½7Û¼ş’½ô½\½jäL½Ä+‚½MsÓ½	{¨½4bb½¢J½ëŠ½÷{–½¬¦½}‰œ½íU~½èV½†»†½GFj½Û=á¼é¼0F½É‚4½ŠÖ¼,Œà¼oÛ½0Ë=Ğ®¼ïj­¼Ï4•½ªµç¼š™Ö¼b×u¼ß®—<ÜO=x-=Mv¢¼¾ˆ½Ní¼ `»^ü©¼¼ˆ1<€ˆ<Så¼­Wİ<§’¼æŸ¼ Ã¼§ ø<BB—<¨ËÎ;Pçì¼õÙ;S¶¼ÛBõ:|‹¼1·<)öˆ¼§t»%†ª<f,z<a–<<ô»³Ÿ>¼LX{<GéŞ¹“ßã;Û?2¼·0ˆ¼âÈ4<<¼Ağğ;°3#<G@6;<Ÿº¨•<g.7=â¼;8<<³Ó»Î{0=°<x÷”<CÄÖ:Àºàº}5ê<.(ºô‰¼Èğ =ÀëÖ<Äğ¼æ]š<Õ´:\ ½R
+R<5¼¼ã±™:8ÕŞ<;'‘»9Ä÷¼²¨P<ËDç;›B=^»È¼ş×Ç<ôÌÇ<E³¼r]<?Şğ¼»è8c×Ş<@[;ó‡¼·×¼Ü€—<%LÓ¼ç¯k<Sş¾ºŸØÁ¼òYÏ»9Tü¹ØŞ»G·u<¹ßS<°o ½d#—<¦¬Š¼«1¼ñB<R¼9Íp<„ZÎ:\–H;ìÅã<İVØ¼¹ì»5';< êŒ<xBy<°Û2=ã×	::3i¼8o=z‡;¹4 =ï&Úº´í<o+=¬£ ¼3£<ö#:iy¨<NÆ½8‹á¼vĞ<58<ˆL:®PÛ<”$=æ¬<½½Œ½¼,ë¼İÑ¼šœ º¥+=ÿD=ZO#¼å~*¼•¶¼	®;½T:=‡®”=cÖ;Ó®¥¼)­…¼0!„<j­=l²0=Ğ„[=Â×½Än¹¼mïy½C‡„¼A¯];cÌZ=ó¤/=?½µˆ;½e#½äß`½ş8;,	´<ö<}ç¬»÷<RæÚ<‡:´<(» ¨“»M4=”L=ËGs=33<Uæ@===¼jj¼=”n»—eç<ÿ€=i=jg5=ÇÍ=H¬<í÷Í»9ÅJ=¯=y;==¦Q»‘B=ëç=<òà<Ğ½=gW=îvë;O¼Ÿm@<åB<>Í<XÚd=(~ <ñÅ¼Q$s½V?½!#=Û<jy‘=ß?=:ßH»hÑ;<ÉÀ¼9 ¼ûR¼Ôæ¼}aXº¡ ¼z\¨ºhÑ¼B É< $»¼D„²;¼øA<geõ<o_1;kÒ«;íéÍ<<àP;ÔØë::=F=9¯Ñ¼˜gŒ<ºìÑ¼ÄŞú;²§­;—Ú¹<åUÅ<-Ò¼bíå<9v½™şëº;¬½‰¦ˆ<aP<¡å<O†¼ ïO½ŒİÔ¼ÕÚš;gx;Æá¬<Ê›'=0G»Z<­•<b ¼í8é<¹ò<XÔ~»‡F=KA»Ht¼(<æµ»fd½
+Ü¼Ëc¤<ŞÙ¦<?;Z9]lË<í“İ¼H¡Ü»`½æYº¼åè<ËU¯;Äª]<™bb<	û½:š»¼I#Ú¼Ìh‘<–õú»³@z;‘%©¼cT¼wá—¼=n›¼‹H|=2¥<©U0=¨¬<i®=	
+¾=>c=ûä#=6˜¶<Ë§n:Öf=Ò=(ß=öG=Ä¬<¥p_<Rk1=-v%<Ç¤<Oı=‹—ö<;{€¼yä»£=¼©½Ç€»¼~ö¼Ú˜¼§lÁ<‰ Ì;!Z=p}`<„Ğ<[³×¼ş´¼:»Ó<bÇ¼¿Á‘;è“<2ÛQ= >Ò<ò+¾¼e0$=5î[=5)4=jFº–aÕ;â~7=Hä<¶=Çña=±g›=WUi<c¡ <±@;±l<·Úe=Ñ7“=
+e”=¯ÍÄ<ˆPn:;"j<Uº²<úAÈ<Æÿe¼õ…Ş<ƒƒº<…¡¼o5à¼Àòd<ÌLÊ»ªÌÃ¼Â§ã¼¢Éš¼|óe½{–½‹Şg»>ş«¼kÊ5½÷ĞO¼Ã¼½ÑÇğ¼r7 ½'2ƒ½ÀXğ¼ÛxÀ¼Äã¼,,S¼u×Ñ»…q½“E¼1GG½ÍoÀ»ëóa½P	`¼3j½“! ½Âªa½`Ü÷;Ï¨<KŠ:½n=½7ï¼½{ö½2ÙD½’Ò,<|åºÇç¾¼‡ĞN½G^¾^±°½t7 ½D°<¥!¸<Şà»£×¹»–½ü*½ÒyÔ¼BÙÏ¼êiâ<dÌı¼–o“¼—7´¼Ô…»±t<“<8NQ»ö(½`j*½I&Í¼Š,½fÊ»ªÜ¼üå8K’B½ÜF½Ün†½b®¼³9<ú06»:g5½„˜i½îb®¼;H(½º •¼G ;ŞN<å2„<º]<‡ğÀ»2ü=½Âvº_^Æ¼‰NºLØ<wÍ:á—»ø#=+h=>ŞÃ;ñ<1pR:­ú»µq˜¼¬ù½;)<¢=İ”T9ÿ— =P¢;¹¥=µÓ“=/ ]='Ü<a;3ºœæ=	®w<­>ï'Ê=­IV=e=œJ½v¬'=İş»w›>ƒË±=ÿ€´<ú¨=7_½™Ï»»&v™¼_7Ô=wñ¢=ÆE==³°	=ƒĞH½ÈR=<}=ı)¯=-=$½=7n<"aJ½Ë„¯»'Ê¡=£np=œ™= T×<–Õ»l$–½L=³ù3=	¼=±Ñ[==e8³< =0½nú±¼SQ½’¼‡>²½gàÔ½ñ'ˆ½XÉ¼˜G…;®¼.0½vO‚½Súâ½W¥W½èÊ ½ìç»tì¯¼µtû¼yø‚½ Ú
+¾‘ú½xÕj½°a½•½n…£½wÓƒ½™®İ½¤xé½æf…¼±ë„<4…~¼”Yÿ¼`¹
+½½å¼ä)+½UP»;r à<êÿ¼Üæ<u¦¿;GÄ­¼ôhn<SY=L¸J<Õa=“*=¹¿ <å%ô<šL=¾yŒ<’Xz<
+\”¼~<ÿ°–<Î•*=Tw
+=p‚È<ZÄ®¼è­½x¹,½MHX;mí¼Èë=—&=ÅmŞ¼»ft¼eŠş¼GO€<³,“;‘&Ú9¿ =‰áa¼o®§¼UH½rÊj¼ÿ×§»æ6ï<t¿¼Öp¼CêÌ¼n ½Ÿ…$½&r\¼Là<… /¼œC›<l#=üñ=<¥„I¼IŠ<f»+;^-»8øj¼C·e¼Ù=ø;±·,¼t9;a9Á¼iÕ¼&Y¼x/˜¼ıË<Š0Ñ¼7Cİ¼ú5¾¼ğ…Ó¼aQ@½ş<Š¼ şo½;,½F½J¾d½îê¼/ß½«2´¼é z½ø5–½¨˜½›ÿ;½€b½”+¿¼_G ¼2|_½/O½JhD½™¥§½FÇ <cÀ;[î@½
+îÀ½¤!¥½Û½îñ]½%ßÁ¼ N/¼Ô”é¼…M¤½41û½?ìĞ½÷Lä½=‰>;k‹)<e±˜¼›¼ªj¥¼å§½±Ãó¼Â'ó¼åù¼§¶];<Ox<‰¶U=;§‹<¦Á=ŸÁ»i‚9¼¼<İo<	ö=–R=üX@<¦Ó!=ö]5;©=ÄS=Ÿˆ=®¢¨=ş=}=è;9¬¡»N|<8mg<FBL=j$Í=³<<=æÎe¼à»S/Æ<Üf,=JÅÈ<B-|<SY=Ïê¼ìAñºı„¼ô]…¼°
+<`@Á»¼5;ÅëÓ<Ååÿ<=|=<=#ˆ;Í
+<¯Ì€½ĞD¡¼ä ¦¼ø3¼‡Š/¼® š¼¶ÌU<ÿ×¼+ÒL;¶™<à©=ş&ˆ=—Œâ¼>»:
+K¼gÎ‡;],„:~Fˆ¼xÂÔ¼Ñ™&½2¼Ë=°·<¦‡;l/º&l½T½Ma‡:¼v-=	‰=Íi¨=›7}=»Íf=;Ce»i[¼LC÷<Y®Ê=ş»¢=(>¤2é<ws°¼±+7;Á¢¼äzH<BQ<xO,¼ª"½şO½‚½;‰ìV½‘ò6¼ÃÌ¼³˜Œ¼ËQ<x¹–¼mnW¼'½aÔİ¼(`ê<5è\=£ıv=”C¼Û…¼†ı;:¶7€½’¦2½e-ß¼è¸€½5’;êMó¼´˜<‘r&½\Fú¼8¦½Iƒí;ËR¼„<Ö<šê<ö>=õ=ïß=Ô˜;=¦/½¶^&½›‡ˆ=n=(ÿ¼=²r=R'K¼‹Üï»²ÓJ¼Û;Ä&=C=¹Y¼òı¼¯¿½ôôÚ¼=ÁU½ş$,½"?¢½r.½ûË¼B»¼‘Ù
+<M£½¨fR¼ğè;ô_Ú<;\=¹ 4=Ür <²“;œ#<=Œ=,$)<ñ. =áä—<¦’­¼¥¸ä<Ó€¾;wd¼¦$½â½vS¾»…¼ï¼V(=‘”=¼¦n»™½½öF;ºlE¼™ "¼Ë}•=®<x¼ÒˆÈ;'há¼†„­:/iæ½B
+¼øM=å_¼Ûl½¥Á2½—úG½?í‚½~År¼‚¹È¼½ß»²)½ŠˆÍ»º£N<»Àº³@¼[½¥NU½ŸÒ¼$–< 8=i£Ñ<é›ºQA½Ç¨ü¼Ùd:¼YC<Ğá©»)<¨j¥<E+‹½ pd½ıƒæ¼`;­=£rp=?Ã<ƒí¼½Hø¤½½z¼ğ÷g¼Ö±D<³Eä<F¬€;¬ú†¼L×Ä¼½¸*½¢Í9¼='C?½tZE½)ûÄ¼R>¢¼&¶!½:]C½í¼|šQ½¦À½fT;¼½œ;·e=“ìŸ=´{=Yy¼4Ã™¼ÍŸ’»ñìÍ<”ÿ¢<ôào=Î¤¦<tï”;Ã%½~á÷:7Oë:˜©´¼€jˆ¼><–¤¼=:°»š~R=C1×<ˆA¾¼®,½]ˆ<—ªë¼;ÉD<gï;!f <Ê3½ ëG½áÅÿ¼íÅ».<Ş/<²ö£»rN¿»_<•o"=PÕ`½™`ï¼Jœ ½nÍ¼Â­§¼êcÍ¼+¤X;PJ¼22<Ö-’<¸x<ó¡„=Ò#=r#¡»îl¹ŠÊr:”7\<JÛ¼üAR<)Æ<Å#W¼³ÄÛ¼''Æº$êÆº‰}a¼Uœ<uÔ<†ÿº»ŞÇç»N¤½=\7½˜õº¼ÉÖ	;ÜH<ÇÒ»<Øé†<»“» Š;º<ÛW>»Ã¦ó<?(9=Ié=ec¼<î[ƒ» ¤•¼[’¸<Ëˆ<<ğÈ…=1Üº=Dú†<`j¹<ƒµf=^ÿ=—†{=4ËÁ=4¨&=ÎQf<qí³¼¦J÷ºY‚ş;Øğ•<²Ü@:°È;~®¾¼ĞL¼rT<å<"»ˆ¼Ö‘Ã¼tİ±<cËŒ¼‘^½Ûv-<Úé:ÈŞ<©¼CƒO<»=P»½óÒ»‰<å¼3.>;!¡<¦Õ<>Û&=Òi¼V©¹¼â<tp=''¬<»'<Éë=ùB='„=q%=Y3v=@hi;‡ù<ÇĞË»µ«=”ˆ=!”Ø<Ç¨;o9»7'¼Ë˜®¼Õfu;L¼¾wºÁß¢<(5¼„]–»+ö<Wié»Î”>½…b©¼"hÁ<woú<ÁNı<‰d;ÁïL¼Å• ;5ªAº ¬e<˜Ëä¼V¹¶¼|©	;ZF‘¼à'#¼7”;9Sˆ;‘;8+é¼5¹Ä;‰ôµ<ê.Æ<*«L=`Y0<‘'b<uìè<òÂŸ<.Í(=¨f}<Föœ<LÉ<0p¼<¯l¼{Te<VĞá:±Ø;&–‹»V—¼Í[¼×âÃ<±}¼¦Ñ«<*! :À63½jî ½K3a½PSB½ÕK^=–•…=<ŸV=««š<94D½éG½ƒ9Ã½of=µ@|=N…=Ûâ\<s¸ê¼ò§r½$z¶½_ª=@àº=âş=O”¼Íö¼àœM½ßA£<²í¼=…¿Æ=i j<; ã¼Â6O½®•~½A”ƒ:ŠI=–òE=<²<îRL»w²	½V‡½µ¼©DT<WÉV;ËÉ<ï%r<#)¼å;½_B½‡Æş;Œşe8g3Ú<¼­:Ÿ9~ü¼¢@—;ßan¼×!;Èt<™€!=æ=ø2< ô"=-j¤¼0–"½>˜c¼7É–=
+½=Õ$=(ß <Pgµ¼âq}¼€=½{®J¼Xe½3î´¼<XÚ¼ £=¢–Õ¼<Î½-“_½h±¹½?ÂQ½³û$½‘°<¢½ğHã½Îm¶½o-È½#Å½E2¸½á<’¼N½Góº½ìî½Àõ½›Xå½Ë›½ŸE®º4¢½s6Â<_Oİ< í<Ğşƒ<D)•<‘|¼À¦Õ<8ó< #0=]‘­=9S=¢Ø‘»'oµ¼ e6¼Ú².¼=EÜŠ<Ö=aº¼C˜¼ï•‰½“ne½r½¬°¯¼uğ@½kÑ^»sÏ¼1n½5n½J<½¸!½uß¼I»[#<tÿ½ˆ—¼ææâ¼‡fÖ¼+Tn;{ë-¼¤˜=Tnº{½iMà¼U<f4Ó<"¦=v¶‹=Œ†X=¥¦Ğ=ƒ–={P<Eü½M<àÌ¬=²z=nĞU=¢ˆ=ÇU=¥ A¼'Ù¼1ï=³<÷äò»ÓÜ:~½C½Á¤Š¼ö­j¼ñ =İLZ=z=öèü;+«<™³¶=Å‚=Öv:=¤Ït=Kq2=î!C=H;<GĞ+=ƒäŸ=ôëx<¸ÙB=±Â =Oã=ttî<ÄøS=,8¢=æ¼÷¬Ø»6=á@ <¬Œø<$Mˆ»šõ˜<kØé¼ùz}¼ˆ›6<ÿ–=Æ§jº â¤¼Zš¨¼ÙA<iU¡<n<===¼ç]½Í•e;+‚½µi°;ßc‘<áÌ¼’aÁ9¼È
+½Å¼±›e½·ıÿ<¼!4=…Á<Úi=é/Õ<å‰<¦)<Ua¯=La>Mé=ÎÇ=ú®›={ b=B£z=µfĞ<¾‡=Š¥H=8Ë>·v>¯ç=Êiì=”/a»	øt¼9½‚:b0
+=¡ºA»—pq<AÙ=ı$ó»‰1½<à
+½û€½±½Ké6½Là¼ı¼ßI½PÄ–½^$¯½ŠöÜ½ç>½‹Á‰»%5]:>½q¼Wµ3½[GR½ˆÁ¼Ù¼G4ó¼Ë1<%Jš=‚Z=;@=¨—<fÖ=O¼‚}{=„GĞ=häÔ=%·©=[¾=!Ù„=÷1{¼=^Ì=á’=Vp=Ìü5=È•=‡]=x<‰<$§Ü<XJÓ»ƒŸA;KôÒ¼µÌ;¼gZ9=OR;ÂÉ=Ş¼|=\_	=ıRó<°÷H¼z‚D<ãò«=xíÑ=,Ÿ=ğŠ=.}r=oÇ"="„b¼¸)‚=
+TÜ=v^j=óuó<ö J<8½–•½ )€<†~›=sƒI=‘nK=ŞsÛ<(ši¼ATe¼Y?»<Ú¼`=Ày=¹‹<á–±<ân"½O=W½aì€¼v«»µó6¼W½`ûX½_ ¥=!É­¹¼(˜¼¢;µ<f¾I=¢7‹=§ı[=_€<@´¡¼‹½‰=;Õ”=¦'=G“=a;íK\¼–€Ñ¼Ë›=hMÍ=î“=iz="ƒ<®ÑÛ:ş6X½i„==€=í’8=•6¢;ãM=yÊ><tôh½N©„¼NT©¼_X™¼ÙW½¨Å¼½ó¤Œ½p?·½ıR½¡ç‡¼b»]½[şR½m´;-L½#¾“^½»M½~¾"½ùY´½İß»3Xb½r"¾Çc ¾Ğ½-¸½Î÷½a$u:©™Ä¼:—=<'Å= )=„!&¼¡a—¼á.<ªZ=º‡ =oG<úà»÷*E¼<Ø;Ê}Ï<
+!…<!°;ÿ²¦;Zã¼Õ—ä;\²º¼AdE½g¸<Ÿ±Õ¼KÄ¼Û4’»|Ÿ™:Ä±$<É/½Ô½E½²?¼µ>‘;”åø< 0^»©6½B(:½Ø‚½×~à¼X\ºº„Ë;°”l=Ş„»
+[¥<”J<CI²;+É;ØìÓ<ó¬ÿ<M3“¼¦¤^½§1‘½šù­½x)·½•’8½10{;`#’¼§£—¼ğ$½P½Ë/ ½Lw-½íêr¼ÕUÒ»Dk<%QåºŠÜ;$àIº>Oã<s-Ê¼ÚiŠ¼F–c½/˜Ì¼¥P½¡<¦O=˜hŞ<×pŒ¼„¶ ½õ§À»ùÉ<¿Ê?=s)è=zÉ
+==#ø°<2}y=İ l=U][=·8e=Gõ¼ñV<6…N<¼EŒ»¬Ş¼È?ı¼œ½ÛÆ«¼·µ•¼@¥Ë¼ =³‘<’d´<x&M<[l½‡¦;vÎÀ:€|;={ =~8…=öÌu»Şá@;Ä´<›á<˜eR=Ó2=šô=+_N;yÎ‡; Ï=±M%=™ì=“g=Yşì<”ÿŞ»µw<¸Éš¼ÇV÷;Ç¡<»–'=}a<ô(¼lä¢<ßõÔ¼¹?ï¼dƒÇ:åUX<ÎT¼§N¦»‚iL<_R0½÷1¼'=½`Î¨¼ÛG9¼.üG<¾< ¦§<«_Ÿ<À<=È^=Õ®<ûÕ;[ìG=8:è<±¢=2®¾=èºœ=İï/<­G¡¼±äİ<1Óv='ÃÔ=Ò¸á=8µ­=m€#¼óX ¼.·¿<Iû.=Ç?ê=
+şº=V<ÅM½H>&<ZZœ<t'ö»Ã£1=
+â!<4—½pê½=s½W½Æ»bH½ø½Tæ¼…ö½†Iª¼u–q½„Ò<ù ß¼BŞ-½Ü½u¶ä¼íL¼û…š¼0R›½a€š½¯Â)½îí•½êô ½µ+½2%<ßŠò½,D˜½ğİŠ½|Ï¼¯½ó¿%½·—¼ƒØ³½<F½Z@¼©ø¼…¼mÑ–9‹¼Q„/½Ieµ½\Á ½+7½õ—ºu9à;t¬Ä<Ùµ]½>#½ù‘½E½ÖT½ía'¼ñ…<©(C½Ûè¤¼n½¼¥½“½ÄµM¼€š¼{oû<Œû¼« ,<+ Ş;ödY=ã_Ä<+š¼ë{m½€w@½V†œ½a½Ø»é™w<ÊÆ„<µĞÚ½Wá¾¥Y½(×<½¾Š»¿U­<g)<\½şÌö½/b½á×½v†¼¥‘é»\C/¼îÇ½ªñ½5ßÃ½íMí¼´<İ`Ÿ¼]Ç<Ÿ_Ì½úûÿ½ó]Ë½Œ½$Ó¤½N	İ¼X§\<®ƒ]½Ì¯½rJ×½†Y½š)^½|î—¼i(:íè ¼gÇ,½G,‘½û‚½Í˜<¦tÒ»¦bR¼wí½l–Ã½d{‘½@Ÿi½=Íı¼Qğ¼ã
+;É¿¾«4<£vĞ<‡|7=mH=.ë”<aÇ%½á×½&<û§m;›2=yL= Má»û!;:Ñ«½)?ÿ:ÑFZ<›á­<„wM=àzË<úÅ‹9É¸ƒ½:‘bº½)×¼eB<dm%=Ì4 <TÄ<L‘½ ë#½x^¦¼¶l»<H)X¼lÀ1=9w
+=ç{x¹ i,<ƒ6V={Œ<=İ§=€=¢^<4»A½ØJ!½[â÷¼éë¼¡<3ÄÀ¼Sùš¼9g»b_f½5Ô˜½G·+½£®™½æş¼]j½Ói¼YÍ‹¼+À¼B³;½K+½+O„½}sX½LCÍ¼G<¨/!¼u‘i½Ğ½C*‚½Å Æ¼¢US¼·õ»„Sè»¤Ğq½g¥½ g½y98»&³»gjh½wÛÂ½ÀİŒ½M‚½âN½–ƒ·»ƒÎí¼£òÀ¼ş€J½:²8Ì,¯;L	±<	¼$=:lx½nãœ:ˆa9…İI<ìNo=60q»$d[<©²X½ôô¼Àà»R=sS=qÆ:øà¼QC”½€=@‰B=¤“=«uŞ<Ìdº‚ß<Ş½Q½Nã3=¿Y²;]·-=H¨V¼³‹¼Bµ¼m*<(¥¨;/º»Mõ;fÓp½’Ìû¼µ’»¼D@c<Â0N¼è±½şøD½¨µ—½7Ó½=™êºfåÑ¼o™İ¼,J½<¶G½B,µ¼·+š»äïQ¼Q©à<ÇŒ¼©=û+=c°g<KH=nWéº²	ª<§ü¼˜{x;p½÷·åv; ;İ<ø„<İ6½N)¶½{½í^½Í¼hp4½ˆ¹½¥¼“Ë½”83½ôàD½ç¶™ºWÁT½ %;Cõ<G°¼zoæ¼wÊ¼nó»ÍÈµ¼µ[…¼ıŒ=@_õ<š´×¼`a=6‘¼ßW—»YN=?_¹=\m²=¯=Y=ÓV=ZO³<M!=¿JÁ¼z&³<ßu<ÉBÀ:8Êæ¼ªŒû¼(<¨_¿<“ìŸ¼I;TğF;)g¼óXÕ;¼Yÿ¼ïŠÒºÙVºmÕ<¨|á;A€®<´À8¼©¶¼°›ß<IyÅ9å–ß<2›‹<ü¶=…½c<|*ö;±ã2=‘VR»oüY¼Wìğ»3Ô»rşÄ¼Å|[¼8§Ó<)\ğ<@Pñ¼+šÁ¼	 ¡»õ3¼4ÊÏ¼B³»>Ó‘»1À=Õ…^¼„”»ÏÅ]¹TÉÌ<ç‘m<ÇN¼(ÖÜ»–‡ºÛhÇ:,J½­„y¼×ğr<W@½ÀŸ½P‘<BJ3;6Æ<4Á±<° ½£(ı¼5C<‹N¢¼¿È,=oã‰<ÏKô;èÌÅ¸*­¼«’ ¼Ç8§<’=¬=­»q»O*ï<Â
+?½XÆ½ÜY?¼y[¸;
+ò<c5:Fì¯<;šê¼òıŞ¼À–×¼şv»8ù¼scÏ¼…®<_àh¼ 2¼è¼)ü‹<k:<˜ŠÚ¼j­.¼…©<YŞí¼fB¥¼gV­9C/Q½IYí¼yx==™Ì<Ê5=}e<ç1“»¬µ¡¼Ó®h½î×+=D´=Ü±?=§M^<Ë½!V!½RM¢½ÑLn=&4Ê==;= eì»~Ï¼.Ja½,/8½6Ék=Ğ“=n’¡<Óİ•<í;})!<A¦½]&=+ø!=4L=k=Mê=a¸ø<>s<áxŸ;1ÈW;Q@•=P#“=LD¢=š(µ=/r£<¢Ş<s!#<+$é¼6'‚<fx±<ŸhÌ;I«M<Ç¶Ú¼³ªX½¼üæ¼ññŸ=½="É¦=ûõ=¨—å<äu]¼¼?=‘&†<Çšˆ<—à	=¯¤ø¼$· ½/A½T—Ó<¦š{<:†K<_‰7;,¬€<[­¼G‘½$t½s8;®³»÷ßË;‰X¯¼«¨J½¤‡Ò»Ó:àL‚<£J<¥¿<iöÊ¼ËD¼Ğé<6´=ß†=L¯= ğ’=ŸEÜ;w½•=òˆp<Y:H:Šó¼øM1<µ(‘½bı.½òŞ¼¼l8<–…=‘ÉR=ö!‚<\T
+½¿-½Ç•3½ÌÎ<M=6¹=)©;a¼ªO€¼±Û#<É=šñ[=fòG=@÷:Xê_¼„}h<§<è#Ï9—¬S¼ÖÏÃ<Äh<tšM¼1fS=×Y=Ät<èB<š—<Ğ*œ<QÛÇ¼:j˜<½å¾¼OŠr½ì#9½1i;½‚<ÃÄ;n™J=Ç|<àº>Ú¥¼íGJ½!SM»ĞK=y=Ìı„=:Wø<x)½»ƒŒ½qBŸ½Å¸‚=Ä[<¬º<Œâ½;ÆäF=¹6š¼ØW9½ğ”=;­=8ı=–É‰;òÍ›»Öæ½•!‹½,p=Ax=.O;Nı;¼Ûqx¼î’…½İÓ:½ì^.=©›”=Şe=;Ì“<Nœ<qBI½}o½s
+<»v¼Íˆë<ÎX;ç/q<R0î;Â„ô:€½@A—½ux¼‘â<”*½MùP»oKä¼®Jğ<%p¸¼şÙf¼>!7½µ^‚»_¨¼§ ½ îh=ÄZ~¼U^l½66è¼À*±»"<£»,‘Š½ãXO=õ²½ñ{Ù½C#œ½òö˜¼œEl½~R¼S˜<’’U½~lã½q½Å½O(i½IëB½'Òê¼û½l<Ä1 ½ŠØ½íÖ½¼6‰½N…0¼}qÁ¼X~‚<j…¯<oµ4<ÚŠ‰<K¼Js^¼İ®¼ñp“;0³”¼²Ù7+{<Çu<ìc=ïØÆ<;ÖV½¶¬›:>¹=ü<qæ/¼`®=ö±ù<í’½^à<cw_<š=H!;ô9e`h¼B·—½:½ø¼ì¼u¾*¼×íï¼Œs
+½Y+Ä;‘¡½}i!½´½½àJ~½ÖO¯½§¡½±tq<ìö¨¼‡w½ŞM»½Fß½dn¤½’ÿe¼7p;ex0<¾Ç6=›T=†”=n‹= Â=x=¡<df†=x`©=¹Ş©=O¨†=‹—»k.Ø9Éœ=— >Q/¸=äÏ=gÜİ=Úy<Äçx½Áç‹="%>Z9º=†c³=Ú”µ=zè?<€c‘½İ¯=¹1ê={!÷=vô=AFÕ=Jêu='Ë3½#0 =nA$>úZõ=Şû>=üÕ=õÓd=±ì½€Mv=>5òã=Qà=ü!µ=@€=0½:-U=Eš¾=§»=¹»=#Õ¼=ÏÏ¼€ü‡½mâ;‚²}<&Ş†=-À=.=[¿Î<…Ô<2²¼à¬m;´ğ=Àè>nß‚= #Ö<iË½»W#û¼—½Íƒƒ=7ªu=™<I¹½g<ô¼¶iF¹Ÿ	½:½s6 <0Ö¼†ô2½fo½WA;±Û½Ø½{º¼’¼Š7å»Èöº};‚»TŞ¼Í–¼m
+;ŸL<â;»Q=b©<ºXõ¼{A=–}¡=Gñ=`=š«‚=¨² ½‚ËÅ¼\(n<6Ò3=ÎaÂ<— f=ö<l@£¼&vú<MF<ñ¶<2»L=	o8=ğvŒ;¢¿·»ğë½^&½)fËºSY!»Õ8§<šÊú9ï?<3J¹¼S,ı¼nLû;Ï5®<âJo<I¯’¼–?#=øª<Ğ_»9‰£<¯@•»/	¼Õ(^»q­<tI¥</I§<V(= Ğ×;i§w8¸gŒ¼œ#×;––¼Œy=şß=>´›<uX˜<tMÑ<B~«¼î9é½¥dú½5Ô¼½Y‚½€™K¼{Œ¼×†N½lò­½÷|Ù½`Ä¾Âå¼½t½­¢ú¼{Bï¼ı½†Ñ½Ô$‡½Ù
+ƒ½Aî>¼²¼YŞ2½ú¬½n`½·Ç½—ğu½÷´¼ E½72½²dK½b÷‘½™½àŞM¼ı@D½Î¿¼gw1¼3½ÿ?½q\ ½‚µ ¼ÔŞá¼8Ü¼»NƒU<môr;­=‘<=åeÁ;egª:œ<è?¼O<+d
+=o³“=‚=˜=Óg	=	e<Ø)½ı	Æ=“’=œÀã=İLc=B›;=A‡¼Z;½cÑ=ñ=^=j¼gnƒ:ó#»u)½P/ß=›¦5=™öú<:w:$Ì¸<[ê<ÃON½ÑĞ = };j) ½ÀA½°
+¼[Ö<X/v¼ÁÉ¨¼º#ğ¼qš »ä¡¼ÁĞ<=Bõ
+<ip{<Rÿ¬<¹š<şéæ<ŒÅ';E&¸<b_X¼ÖÁ<b,=Ÿ¡<Ü"=]/=XÃÆ<û[;l–ÿ<åöF=`}–=Ã‡=ií<='ŸÙ< E=©ğ=†w=Ø]=Ú\=’›Š=¬=¤W	=/ØV=ƒŠ=²Ÿ=NÒœ=DQ=Ô=ÈÄU;9Ø“;úeÿ;k‚<•¼k£e½÷7¼F„<­
+<'Zö¼(¼ììŒ»É1V;ÍlG;.V‹¼L\­¼IÑ¼°m¼aj<C¥W;*ü;Êığ<áU<üÎà»r9Ã¼…m½qÑp½£LÊ¼Š7=À/î<@jô;´µ&½ğÈ£½±¨`½„ÚM»p™6=
+i=øY@º¦Ú¡¼%Ó¼!ñ¯¼ìÚ<Í§g=H<+6¯<Ø"f¼ËÅ†¼—sæ¼•ë<Ã‘¼˜ğÑ<Nâ»;ß‚¼œW½öí½RïÔ<UÆ¨¼ğE;Ó¦³¼ã½W‚½&Yä»$à·¼ûÁ¼f:Å¼²›é¼Ø†Ş»Ë¬Á;û»Ò6Z<GÌ<ğ}ä<Aš‘;–‘½B¶¬»ÀÑL½°T=Ã;¿Šºs' ½(z½±Ç£½ó„€½jÇÃ<
+‡Ç»ôõºhY¼õ–¼hÙ€½tºÿ<,ü§=½­»ú„´<ŸYr<Ú(¼lX½Eı<æEL==Õ	½)@‚<›pÕ;|kÁ»;½…a†<ëO]»ïE¼¯™¼<Çµ»sß½¼àÌ¼QÄÿ;ûX=¤"?;Ñcø»î”Í¼sq#½İãİ¼ÿ¶ÿˆÉ¼6›n¼ÎS£;;(?<O`’¼ôˆ„<Ñ«è<ß–›=Ù½1<à=NÏ[¼ow;½F›(½Sk=½Ñ³<²Ú0<
+‰=cáŠ;ÅÒñ¼ŒÏÈ¼”¨¼+Øj=);	³=à =…8Ï¼»ı©¼ã-½Q^‚=x*ä;‡â‰=V=ïoÑ¼©®e<–Üæº`=»_ı;i@<¿f0=q3¬;¤=â<ĞÂ<òêã<¡¿<ß¼ŒÛ6»â=zÃ¡:€ß|=Ö&=úxÄ<È³=5`O=¥>•ì=°%õ=7«=.oŒ=úöš<c¯l=„·³=Ş+‹=÷‰¹=JJ“=j,&=P=ŒõK=hÏŸ=’Â†=	%y=%Á¯=2C=éú:wì\=±Wè;‚uQ¼kà:;,}~=AsA=HQ=\Ê<4ß<Áw$=Ùô<=ªìó<…Ñh=´Ÿ¯ºG=‡Ï¢='Ë=HÇ=ˆéù<Oq<Æ*#»Ó‡Ø<Û=a>Â9¡=šû’=(K<]±P¼çy½ãï¼0½ë;İWË¼	u`¼ƒjä< V¼9•¸¼Në¡<m×Ş¼6÷×¼Ñ±g<O»ÜM=ğı=ÂÉ
+=ÃÑ»‚Ím½ìØ¼ä<V¼“Ï=`*Ÿ<öîê;P·<w;ñ;Ã¼c;½ô9¼òİ;è-C;^^
+=é…=r>=UÄ¥¼–S‹<èÌ=í÷½<|tr<ÙÄí<=À#=Èg¼D'Õ<6®<Bş-="ø)=öô†<Ê"<È®½˜û¼½½½#u¾G¹0¾ì¾xšî½·º½™Î<ˆ¡Ÿ¼ûÇ½‚í½£cˆ½28È»v³¼H=<õK=õ…ºİÒˆº¨2=†(Š=Më<ì[<gú=ğˆH=«ª<!.=Ó#=’[=ãÏ<oÍ=ğd†=›Q‹=¿#=2Bt=ğ•w:yÌR<GÚ=yÈ™=+·Å=_@Ñ<vÈ©;ŒS<5v,½>J¾SÅÏ½†8é½“;í½®æ™½Í?Z¼Üm¼2	Š<½¼XŠœ<òÆŞ<üëî¼<¨n¼ÑÅ¼”»°¡§<%ÖË¼Çø¯¼q@İ<*Å¯;2ç“;Åv=ÚÜà;ÛøT¼ÇÔa<£ÿ¼rfµ<ŠKÉ<Ym<\¶Š<†Ìj:ÒŸO<búì¼+ö¶<'€»ªd=ÁÀ;W¡Ÿ»ìGØ¼	|+½²j¼úB×<ÆÅ<
+Y;»“¹~¼Ğ—I½YÒ¼	Ûµ¼í=ê1½8ˆ<ÁÂ½fğ¹¼0‘¼Úè<Û‚<=ó<
+Šœ<f3¹<¾óí¼/ß»Õğ<w9t<§6F;õÑŒ<póÓ<­d»<fˆ¼›J><7à<¾õ;ku»<ØXÕ<ŞôW¼„Ô<m©(<GL³<P)Ğ<HÀş¸lØ±¼Ã¼ÿƒ3<5ŠB<M`=8.=ãÂ¸<¿¾¤<mš<Vú¢<kúÈ<Ø9±ï¦;p×2=uÉ¸.4 =ÌZU»Ç9ö:Lè:ƒWFº¢8İ</9¡<DPZ;xH»<¥lá»1¼ ÿ]<Ø°Ã¼+AÇ¼sUÍ<p¼§Dš<W7½"Ln½õµ„½¿×®½Ÿô»gY=º.Ú<·mÚ¼·º‹½­Œ‡½İ· ½8»’=É½=Ö˜•=¤Ğ„<2ä#½Gt®¼{šĞ¼\¼ªİ[=m<=R1L¼Ä¶”¼)×ñºUĞw½Q½(aÌ¼Œ®9ÅH<Èd‰;£,ì¼+7<½.Û½V‚«½îd®»‚?ç<2x=+£X<³ÀÀ¼âÃb½Á ½k•š»'ò4<nµ«¼Q&Î;6Š¼KÉå<÷¼”=¶Û<¼(Ô!<¯
+ò<úM<—íÂ;Š5v½k•·»±şï;G=P)ø<öT=½’+¼ú÷ ½Åf"½G/¦;g@=Ã®€ºª¨•¼T=<¢od<†E‹¼"¨Å¼°<ñ‚=+Bá;¿û<¼Ôk;z92;ø¼Ù¹”¼\x‡¹ı½?í¼ú,Š¼NÚº»µ²;2½»Ss=¦9;çú²¼3‡<æ ½Rö<ˆiŒ<-he<¥rú<íı;ÊÎ.»ü v<]T’<&=œ!=Ê×q»«¦<*W“¼íş½8Ş—¼Øöò<=‰=O`{<x„•¼BéP½±‘Ä¼¦7Ã<*SX=LT_=7æ<Ñò˜¼2¾¼÷û`¼ğÃ;í•#=ÎÌÄ<CTW<_Á$=oü<*¤¼O+½#o£<°ÇR¼‰W‡¼ Ï<ù©]<¦
+¥¼DŠ¼°~;ì·G¼?¼b~^¼dnC=˜=Opx<„€¼†ÕW¼û«P½
+<»VğÆ;6Yv¼!œ
+½Äíƒ¼§V½¸Så½à»½ııN½ÒæÛ¼¥T=¤ş²=³ã=%b£=Hjó»4ı:=1ƒ<Ã5¿=Ì„£=:¿Ô=ì]‡= š=ó˜=¡èn=b™É<p—<tíg<6pœ¼êG»›
+„¼ßEq=Hs<Uh¼;ê"½_½0= ½Ãí¼dC=²°<Ë¹2¼š"a½ó#Ì½LÏQ½¤Æƒ¼‘Ã~<ô	ó<‡¶Ê¼„pg½™dd½Wj|½åT¼=$r¼Œ*¼í†½%ÂÃ½nÙÊ½hÇ½sSm½¬î»hïí;RÔY½~yÂ½¸&¾Ía¹½Xïc½Ğ¼ ¬|<‹¸b¼›ıà¼bÃ–½6NÚ¼õ>¼nwÎ¼ƒ<÷#’<õŞ<ıs0»í9G<A£À<ÿO‡»‰\
+½Úå¼å–°¼&­k»¢-Ò:ûƒ,<#^5»C¿¿<¨'g¼Yš¼ÚTÀ¼Cæ)¼LÏ¼^²ì<|.ùº^W½'r;Önö¼‡Y}<dĞ¼ €À¼Í<Kß±<ØĞ…=Dv±=H5—=çÊÄ=ñ*­¼
+ñ<Fz?=2Ä=¡Ó‚=“¥ß=2¡¶=Ky½}”=rä)=H[=#Ï]=^”¦=¥Iu=/è(½íæ¼”1Ï¼´â†=Z=ş™×=ü
+=î<;^åó<íÎ³»t§=ÁC„=~ÿ£=Îò_=.R.¼´´O½¼3½î°‹½ù]½õ½ŠL½Ì¶…¼[WY»Xš¼ä–Ë½<t©½›ÙZ½(c¼Ú2¼¿'½%2‘½ïœª½‹—¿½‰R§½k]½	±¼oÎÔ»hu½Kì£½¸éº½U%½Ù©Ï½>÷Ÿ½Sš:1z2¼ÚĞ¼6Ù¼h^š¼½ÌÈ‚;4ëå<[¦¼Á•½¼W½U"—½3w<½Õü×¼Aø<ß¯y;qÙA¼é¸|¼ê3±½¡kZ½®Œİ<ï=¼ºAD½¼7J*½ô~¡½YQã½Z;F½Î35»œõ<k€¼.lÛ¼reº½\¤½“’:€0ª<í;™lm=já"½ÈL½ÒP½.·î»Ì”/»lB;Ú!‚=2Mµ¼·?½œ<¼ü=Ø"&=<«Šœ=±<K„¤¼œë8=é°ƒ;Ù¯@=ëfÇ<ˆu=³¼<	”¢¼fÂE¼–—<§$ƒ=pA£<x4Ä;:t»Ë®f½–ô;@my;uoFºßZ-<L–¼È8‰<ôÚ‹¹1®;&´“<Ğ,/<\/T<ŠO¼åô½MÓ¾k¾c¸½ $(½øœ;êr½6•æ¼‡šÌ½¢,Ö½é»ª½¬ §½_Å<ÍØ=Œç/=cÒ—¼÷Jô¼á\¼“z4:lù=üÕ=BŒÌ<¡Ä¯<¥™ü<²]°<“¨…<cmØ¼yÃ”<DJ<””v=¥¨k=ğè.=£©Q=Ü+”<O¶=–wÎ<?æ<-¾ê<¤¦ü<lŠG<‘†½ŞŞ½ª¼­½6p½‹ªG½õ;½¿å
+º/F#=â=°
+V=@n®=”¨=yù¼=ÍÓ=/y =¦>=KÊ¼	=cù=5š=\À¡=</,=3fx=ªn=w¤=Y…=Ô ‘=à å=Lû¦<9¦Œ=fÂ=§N=xøa=a½B=ó[Ô=e7>;ÿrÊ<ßµÂ;"v{;Ô»8½† ¼øÛ²;ov¼<M¦2<{ò“;6úÖ¼šÊ¸¼¤ô»$l<Çğ<Ğ„±<¦7©<¬¾=ÑÀÙ»,7<¦Ô<U°;<áŒ¼şí¼Ø‚)½¸£¾¼#5Æ<ïœ¼*¸:ˆÚÕ;¯V„<Üw¯<†`<¨ Ê»sX˜»H-”<w :¼nó#=Ğš‘<[ÖH<¬v”;û½ç¼œ<¿9Å<©¸û<ê £<â-<Jº½¹Dş¼ /<T˜;ñÆ<=ÿĞ=èƒ<ó‰°<iQ9š<Ú!=Yå”=¬)Œ<ö?Ş<Æ¤€»Hb÷¼í5½¸|¶<q·9=r®=†w?=3 =î<¤AŒ½ü¦œ½Øn+½Ã6¼rQm¼ö£*½:rK½÷J>½Z­N½9¼;c§½Šò ½ël+¼‚-	½wó½’z½8 /<A½Kq6½ÚãÎ¼	b½ŒÊË».¼»ª’=å÷;«	´¼L¨
+½¿æ¼2„ˆ<£‡ =c›>€L> ë>!NŞ<ğ¬¼Vc<jA=Ëí=(¸ï=§|Ğ=Ô¼;–‘h¼°ë:½àÚ3=‚ß=Ç'Ä<'ı=M3ô¼_d½j~ñ<¨&= =Ò+B¼¯–‘»#‰ã<¬¼
+½Ô<Ò"Æ»tEú:Ò*.<ÌŞ{<–Px<BŞ|<šhâºĞB=ş¿¼ı[";Û.=Ë`Ş;‚—¼ûµ¼ßjí¼Â…L¼»òz<Á=‹=Hì¼Ê¥r<)qƒ½¿^×¼÷nZ½v8½Ls½ñmÕ;,2¥;KBf½}®³½<n…½L…’½ãés;6›‹¼÷:<?»»6:½`!½ûo=½~¿7<¤h<p”<µ6=³¨=]şù<}4:=ã®Š¼“½Ö¼S€]=2Û&<dQ7=ÁX=B4K=‡¹<&¼Û@=ëÒ<±cş< ÄX=†HÙ<HíN½ì¹õ¼8‘W¼ŸŠ=ÛŞ6=;»=Üá;oÎ½uğb¼?Û½€À'½ïu½öÏq½ˆ-+½û4ø¼ŒŞ;³Ÿn½E8ƒ½!Œ½½ş%½UÑ¼%e¼ğß=ÅT­¼\Ï‡½(Í˜½|ºª½¤¼¸ºúôj¼MÛÆ»ßI_=;ó<½_,<r‹ƒ¼ƒÓH¼—4P<q]ª<ïCO<é8$<p-b½ZŠŠ½¯Dd½dó'½n_<­À=ÃF½ñG½Ş”½šîÇ½ûãã½cA¼¤ú%º—S½ŞìN½ó²M½oMİ¼­~‹½ß…½¾¢½Ëa ½¥'¼§ÿ·¼şß…¼N±¼–cş»_-¼ot¼8±[;şÿD;=ş;³°U=®…<Ë‹¼*Ê<¯ê°;U¥Å<§4= Ö
+= º<fê<×º¢<€<p½K¬H½‡‘<òq;ç3A<ªH¼‹ÁR<´°è»@vB¼ß½ĞêÛ¼¢f\½Šñ
+¼"ÿ”¼ş2¼A£½Ñú¼Èü>¼Ğ‘;æfÆ».›=«W <½< <İ½}>½; »¼Bé¼ßÙ;ñ'E<XE¨¼—,’½Ş»»¤î<?½Tı ½=^n¼®m‘¼¤ ¼”Äd¼;»¸<ím¼W£F½9æF½øù¨¼L˜–<&K<¾Ğ†=…NL=YBC<Ìµë¼m'½yÕª<•Ï= e	=öër=_´#<9YN½Ú ½K¦Ì<32!=ÏZ¼îÛ^<Ç†¸%£P<Ò^"½ĞÎ)½]å¢º¼â-B¼Şä½s&¼Ÿ€=ÆÊ¼2mË;PÜ÷¼Ğ»GŒZ¼æöŸ¼¿‡ü<‘—=Ã0¿<  %<èö)=Ÿ•˜<«¼f…<:š<ì$¼%Š<‘=²¼Ù[¡¼•†¼/<Mˆ=Úf'<^p”=£²¥=Ğ†=~z=ô‡=iª‡=ŒÊ¼™#İ<š»„<?•<¨€<Ÿ‰w¼}ğ<ğ[Œ¼iĞá¼úA‡¼Az¼©•½¾u×¼¤o?¼ê¼ãdÖ¼e0u½'ÕŞ¼OÂ<ro;lT#<¹ü<Ï®¼²„h<kš3=¢pÇ;k<´½;+š<;Â¤ºĞA¼Ú‹j<(Û=Î7´<S±«¼ªb3=,d=ù*|=B_‡=*?½=//<Æ±·<¶Æø;ñÒ‹<q¼Ë£¼ĞE¼¼B¹Á<ÿ`E:KÜ»:!:€K¼e#e¼4ñâ¼¨D¼o¡¶: ¶¼°5¼X;÷s,<=š<P“Z<„2Ö;0¥©;Àî»Ê  ½î;€;vªV<Í®£¼‘b<‹‘<•¼š•½QŠ¼±nºn3õ<ˆÇú;<^H¼áÚø;=J±¼u¿E¼²É`=mZ²¸8†°¼9n˜<z¼®.<ÍÛ:ónÎ<‡Á¿<–£é¼W±<5«< –1<3 ÿ;øó;¼ÁS½ä&Ì<²K<…Ú<7»Ú‡6<"Ô7¼ß„;y©¼Q¡<Éá:<Kê< úb=èl³»Ê…*»ò–;ˆÔ&¼q;ÃŠ¼%rÍ<·M¼Â×:<4†<¼_Ïq<2k¼¼J•f¼,F1½Ïƒ»_‹<}Çx»"p<3Òä¼Ãõ¼oê;W0¼ã#ë<‚ö<‰¼´r|<u	<oÕ¡;g½!¼ãœm<Í	¼úÆ¼¸÷<;O+=‡õ=Ü!>xöı=ºî=f‰9½N›W½zùg<+ù¬=tú=ÜN>2>èO½õ"&<	BÀ<nz`=K=¤U=®Áó==±»Vrû<Z`É<GB³=gH‡=«òÓ<m+=¥šb=Ç`A=ÇÔÏ<úßœ=w=P#è<ˆêE½œÚ$=Ì'<ƒ¹=¥€—=ƒ3=Ô¡=G¤¶¼&ø"»ïQ<€"ü<ñ¸?=˜©u=¯=Èow:å º0¦Ø¼ÈØ¼ğ|½·#ú¼ÒÁ;t«¬¼ñàõ9€e3½Pd›¼vZ7½^:‰½É›ˆ½`1E½;›U<%E <¨ïì¼L&­½Og½åH½¶Ár½øİ¼44½Ø…½^÷q½$ø~½=ÿI½q'½Á}‰»z?»’Â>½¤i¼†Àz½…’½n–ò¼	$¼gU[<*mV<Rº®<ƒ×==ë@“»|V5=Ö©õ7Ò$‡¼â¦=†Go=”¤=Œb]=ŸQU<µS<æ<;»l±$»NÌk½P©½NQY¼¶!¼·R<	m»CûI<Ïºd½Iÿ”½¸X²¼äP~=ÜĞ<BûE=È|á<J1½<Î{½¾,½DÏª;>ı#;°z=
+ã=N]=ë<ì÷ˆ<%¦<5Z=úĞ]<QÛ=|<F<î6<=´o¹<‰?Y;Uí¼›Ÿ·<F â;ü=‡2=\|(<Ic¼<½³….¼(İ¼+î»_ïy<Ğ€¼*½,?½›k“9®M"=¡È–=eê„=pı=±ú|½Ò@—¼¯]™<?l=LLm=«jû=š>Ìş«;« ƒ= ÿ”<êŠ=òkk=oO¬=î¼È=òê=nH6=~ßÈ»)v=·d=@y¡=c*†=k¶< Õï<„ı&9ySºf=Ìq´=—x=ã›ú<»ç<A=¯a·<s0?=Ğëf<Ÿ8D½‚<H;DMÛ<bï=³@R»KI‘<yZ^»ßƒª¼[§;;£œn<¬5"=¦(=–g™<Ûí¡¼ÑG=4¹ã¼5Šu¼¤‚<ãd;}·Ÿ<'d°<ÄR=Oö½÷·¼x¹[<aì<øc9=ÿ­`=–à=xÆB½ä[O½ì\<^<2àˆ<	ğÅ<Îùc=¥è2½^é”½²9½QKö¼-yè¼ÒÄÔ¼là|»¡‹g¼fa½ŒkŒ½n{x½WÛé»Í/»¼‰G5½Zq‘¼Œœqº*g¯¼ÌÚº< 2&¼¦[<®—É:Ïë=ÀÜB=¨|p= c=EhR=(ñ;ºd¼uî¹·s=&È³<Pª8=^Œ3=‹™ñ<è1°¼4ˆÍ»aF=hJ=*›»¹Tœ;õÜ¼"Ó<<Ÿ{»“#˜¼X«‹¼¤9"<ıü3½w²½,2½üù
+½¨Ù¼%È½Uğm½n`ƒ½zò½V°:½)æ¼ãÈ¼%b‘½º»»€¼¼eÙ:gZ¼ùÏº˜.=Ú"6=9™p=ÑjE=z~z=ÇO9;ßF½R7½ò†^¼/D@¼Ö™¼ÃxD={¦
+=.ˆñ¼Ü£½¶û‚¼ô=h‘9ƒ’»gvt=:ß<˜f,=è¦^=z, <“=èYS:hT=7C`=Ë,¤=™¸=wf=ÙÇ<a1<Ú<s³=VFú=›`h=Óû:=î
+‹<pÊ:jUM=œm‚=Ì=¢Ö’=à‘W=,+B=“è<4À<9<Ü‡§=M=Qµp=`~+=ÕøB;é®¼éG¼Ï‘©:„£«½ƒXı½32½½ôš½¥Q%½’µ¼=W½9Ôh½ÛW±½†ä½’ÿ½'•½½&´<ŞŸ¼­h¾EÕ¾ÄĞ½ø@±½*ºÖ½cµ<Ûÿ-½3i½æö¢½û—…½7‹a½oÌ«½MÅ¼ñv ½Âé!;ek–<Ç^q¼÷¢U:wn›»iÁ¼ù|¼Ç®T=¡<Ã=úœ‚=Oæq=Ö2=úØ<º'/<>€K=Ùê=“’Ç="„˜<€“=œÑŠ¼hJ.=cî<ÍÒ¨<‘|=Òí=mq=^¶æ»/•.½ı%ì<V=íj¤=|î'=üßº+Ø½¡ª¼¡ˆ=º=<Äª=£dX=§Ám=a›N¼p<3C<¬~Œ=ó|=;­=ıA=å6=»Ì—<Pp¡<Óëo=9~B=
+‚,<ñ_¼€ª,=Ê°=²È=KÜ=×†h<j#½ëÎQ¼³M­¼8G=Q×s<œ¬<ğ¶=Ü"³<¦¹#;<ğœ<Q^¼¼¶‰¼Bã:;ŞàK<l²Ü¼-=Ä_¹»’İ¼‚q©¼£=e<êVd=Ô¿œ<¢=¦d½¸9Ş¼t½ù¼gø£;–':<ó$Æºhq»¼C~Œ½Ş¼;½Ò²¼@¨ş:ÔSè¹3¼B6¸½ÇY½^`Ÿº‰E¼åêï»X½ÎkÓ¼§šP½Şâ©¼Í/C½îs½›>»¿lR¼—’‚¼-°¼>0’¼%¢½uq¼níº;gš¼ˆÁÅ¼ı†ä¼"âw¼ŸœF¼¨Y+¼Ãî½~¿„½Î|™½ñ›º¼cèÄ<3•=½ğ,ñ½NÃ?¾äMF¾;ö2¾Gi†½€î= zˆ½Lİ¾;ö¾'Sù½@µ¾kf½J	‚¼³¤½õ¶½XD—½ŠÃ¶½XŒ½:Pk½‘ìÃ¼tĞ¼a½½…ë½çf½
+0âº˜d—<-­ì»[ƒ<¤ºê:@b˜»ç?;î&W<ûÏ·<¤<í9¼5ÊX=rJ=X+È<ô³<Š8R;¯·<òc¬<ˆF;m­µ¼–¸b½„Ä¬;WH8¼õÓ°;ÈÒ<I°<F®¢¼œˆ¼j½j<aø:¿½ã?ƒ½›€<Š—s½ÛÃ‰»ú ¼@/…<DV½Íõ¼ˆb¶¼'OJ½ÖA»1Ö,=™«Ä;û×½lï¼à#Ä¼kb½	±
+¼m=%Æ‚;zô:05;B=ÿúš»€ní;N(‡;FÂà<Ü÷L½­ã¼ÃB¡¼$ı‹¼ ¹W¼.Š=¥=2î=anê=æV†='‘¨=t˜= İå¼Ûk®='ş<EG%=·„<ĞíQ=S‹©=˜oy<Y/=.fy<UYÍ<oĞK¼µ|÷:ìÉ=e¯<İkˆ=\[Ã»C
+Ï<(ò%=$ïL=Ü0 =Í££¼2-£=cŞ4=²ş<Q›=A·;²<·Õ+¼Waö<ÂúR½:-½åK<gw½ ³ ½ª1ß<y½‹å½%¼Š½ÎB½28İ½d]½Ñb•<Ú¦¯=DÁÂ=DÍ¤=ã®=Íc=í&…<'âD<nbK=es@=lÁ=T.²=ày½=7äA=Œá;nÑ^=ùM=¬cE=OèE=uW=ô½Ğêä»²K=e*=¢Ÿ=£^¶=Ü»œ¼ä…=½:P}¼ Õ=ZÃs=.>í=)>L28½B‚½°»9<ÒûÀ;Ã„Z=¼ù+=[Ÿ!=(ú½»Á¼è?»{&®;®ş­¼xM\<åÛ½‹ô½Äˆ¼¢t×<j"¬=ü@Î=Ô½=şºµ= ‚t=ØëÔ<?¿¹¼8Ùú=àÙE=RË`=Sã¥<U‚Ç<E|Ğ;9¨D<Ç³¿=Âb¼<šÆ…¼F½Ä‘i½®Ïº-U½ì5=Æ<]Í¬¼È‹›½ÁÈ½†à½Òp½øò½=™w;ÍìÉ¼ã—¼½`Ã€½j3½ØÔ¼€l=²A"½
+g½Ã9]½#(Ô½ Ø³½2¯¼NóÚ;Æmç¼yv€½¿£½ãÏ¾1³½ƒd½Û–¤=7O¬=GĞœ=Şˆ=ê‰©<$…V<$ğo¼c „=KÅ=¸›=iŸ«=÷*=¥Û8;zı¼·]3=`ã¾;©3=]iL=8N=à€½#ß‚½d¼“=Üh…<WQº×¹ú»À¼Ö"¸½½í%J=Ò¬±<1Ø<Hº ;G4c½(İ½nİy½$&=9aš¼|G›½DÂû½‡‘¾¹²T½	4 ½’Ú(½ou½®Ò¬½ã¾2ÃÂ½aø½Â1•½Ä¤<jÁƒ<âå&¼ª%‘¼kdÅ¼Ñ¡R¼ï<øiU<ş	E½†s½ıs½›éˆ½Sˆ½§$=gşR=†…½ h½-]ö½vqÀ½weX½Y‰<ğÀ=èãÍ¼Ø9\„|¼÷°»¾š½”2=}e#=3›<Ùê»<(My¼zoá¼b‹¼¡•‘;Õ6
+=Ê´»}›:Øu@<îD›¼8v`¼¼å™<p:<Š1Ã¼©¾õ¼	Şë<'<½Cë³¼|†¼*°»Ã#¼6û„½pñ?½(·«½,àÄ½-î½:¦<¼/3Ë¼ïoÑ;j-Î<™Y=)C{¼÷<}ûŸ¼ü•<éê½&À=»a=Q~¼¼™Ÿ¼—à<Ú< )¯<È†)<2[H=ãâ»ˆ¶!;X›²»Nˆ=ŠÌ,=m;–=Êê@=×ÔO=¼Ã<ıêç»eÒû<'{<1å»©Şñ»¾Ø<=¢¬µ<P˜ƒº3òª<·çÂ=.¿=Q™‚=)îˆ¼®Ÿ7¼GàË<r[–¼è£<µ¼êÛÈ<•Ó—<ˆîè¼Sß¨<4Ã:5õÉ¼;¨l:‰8 =$9Ò|¼IÌ:µË<ÎÀ¼Ô×Ÿ¼±¯
+º¦ÿ<n/€¼!ü¼—pÄ¼†œ¼RS><Ô–¤<í	p¼câ³¼&ô½_±;0D“<¹¿5=_Ê\=Ü³b9s8$<Òİ„¼kX =Æ=ß‰=‚¬=÷;HPÊºá•‹;õ©±¼"”ã<V¨Á;Üeb<°U=:T
+<¼0)¡¼fgŒ¼ên¶<Ğtß¹ˆï£¼×Ì<4Û»ˆ÷ñ¼(¦<x™¥<#½t¼Ü3µ¼åMÄ;=î¿»:)>½î”©;Cƒ<liP:=åp:Í\°¼äv<Q`(½™‰l<¯e¦;²2êºYÀ«¼¬7;¡£å»	éÅ;¹µ’<ˆç¼ ”„<`şí<:›÷¼¿VÎ¼ën*<3ß‰¼1•Á<üãş:Ê<m<ŠRë¼Çµ»‘ù<šÄ{< ¡Î<+g¼sJM¼ÍÛ¼.ÈÙ<…‰“;Á®¼k¡=xZ>Å‰>6¼>:g•=İ¼o@¡¼uc—=¹¸ >´ø=Ä’0>£Eâ=¹¼Ä>=¢Q€=Ê µ=´M9=:U»=^As<Âd½^Š7½üÓ½7F¸=F£•=6=]"£»u¹½äÅ¾Á³#½ÁA4=ş†;ç£+=Z­™¼EÒ ¾¹›ê½à¤˜½î<^!=W=hƒE<A-‚½T€+½=šJ½R¿=KU=Wû3< 9œ<ıÒ<X`T=oJ¨=Uı”=M¯a=££L=ì+e<ä’<UÁò<mÊ‡=â=éÍ<:©Ô<©<Ú;Æ@=ìáû<Ù%C½ûÅ¼¶6`¼K”¼–*ˆºÈƒA=T;J¼úÄ¼4-´ºN`ò»ù¬¬<e¢!¼6®;[p5½–Ò½›}§¼Ê€¼ëF¿;¡ '¼_Ÿ½ZÁë½mÃd½!Ë)<CJ½}Ìí<£½rˆã¼Ò}€½Pá½©ä¼-²Î¼“ˆ¼ÒH¿»³¬=n2<³|ç¼¡8±<ğ¼igí»fA=ğw­»—2—¼ƒRº¼ä‡c»æõA¼ˆ…E<ILQ<ŸÀL½¡œ{½\´™½åú+½ı’½Ñ\ô:>d<ìñÅ¼lxi½Ú„ê¼Wß¨½”Ôº;oÄ¼‘m=”Ã¼1ä¼•}é¼¥áa½Ÿ5™<g¡<èÁÏ<o)0=­ÍE<Â_<e
+)<J`7¼Ù»¢ <>Îa=÷z=õÖ<´*Á¼!€*½½@Z<ñ´8½Åq>½L5¼aàp»Ïb=>û<+s@=j%…½ëáƒ½özs½”=íş >=Ï= ê¢=d©Ö½Èæ½¤\Å½ö­¼ˆ\==/Àî< Ù½ÖÆ[½9ñ ½Ò˜Œ;ğ=ûd“<¾<V=NêĞ½;Ì9½¥w½eú<«G¦=+Š=¯h!<¦½Ãmw½Öşë¼R«<x¬E=—&Ø<b½c“<TÄL=;“[<;c=> =Ã‰+<*»w¥·:$&Ä¼ Î¼s<©¡´ºÏkt¼b{<ñÉ8½ª+°½m‹…½!ø:Hv0º=Â‘d==›ß½}Úå½µ¾®œr½¶¬1½÷yé<-	=  v½X£@½Éù¦½ÿk<bª½§×<ÄÆ¹=ÑwŒ½ª’½Åó©¼œCv=©aF<Î<=|l*=%5„½ªÏÄ½ÊˆP½Ÿş»P`„¼©•N»Â™å¼P64<6ë½+Eí¼Cıé»ñ§Ÿ<W¡¼ø2=<RÖš;Ïñp<él»Ç½‚Qá¼;½…99½æØ :!ZŸ<˜¿ø¼âé<š™‹¼ÛĞº¼Ò½Uv<kÖÓ<	<amA¼õU:» „ø¼ß9Ã¼At;’UN=Ì:ì<=Y0== G<ş9=Qğ¼ntv=l-C=ÀÑ=bç=ó¹=S2g=™nùºğìA=ëÛ.=nY<=Y&F=óÌ³=ƒ7<=….ÿ»Á»4¼OŸº<À“â<ûØ-=yı&=†	È<D½pÁ´½YW©½ïp¼½Ñ™è»ZëŒ9œr=”‡2½ã½õ÷è½Øßğ¼E½_J½®~Çº˜¿½ïß½•Š¾XŞ/½‹cv½?-¼û <'<Õ½^,G¾Zì¾t‰œ½IŸ³½sÂ½çßµ¼ì‚Ô½ ­ô½0fÂ½‚wt½Ğ<½AM$»¹A8<.Æ¬½Ñ!Ô½„ÍÑ½QÃO½AHÆ¼RÂ<‚½  ½
+m«»Ğ÷¼Öv±;õ4ï<‹ é<å;½°¼k†=b4Î=XUx<Ôİ`»úÀ¼9‡½·Ó»E÷=Ü¨G=O)½JY¤½’N"½ÖØ¼ÉQw<µt¥<²ªŸ½$ã¢½Ng½ñÖ½«r?½N 7&ØºˆÎL½¸D½‰İ‚»Õ¡¼uQ=?‚Z¼!i¼æÍ½Éôè¼ÑÕ»œš¼F™<×øÛ»V±ˆ½·Ê'¾G3¤½>Ô>½Ä¼u1Z¼g‹’¼6[­¼Ş_Æ½ºHA½Oi½éPw½*­¼:3ï<§ ı;TR½‰yq½sƒ½6õC½½;jØç¼ô˜¼‚WV½x %<úªc=%"=$G<±Sá»dZˆ½—T¼m#i=g¼=½I=éu<uu²¼Æ¿c½*±¼»(e$= |=Œñ<<È…;šÀâ¼6ö<hºÙ-@;Şã<lš<ı¼²Âê»Ö;5<Ğ¾¼½çü¼ä|H<	½’».ãA½äÒm<&¨=²@=ğrN=—L=Ğ·Û<$¯<ÿ/
+=øù=ÄñÀ=s[=MQ¨=×Ÿ=†eÔ<lå¦;9‚=§O°=·ÄØ=`â>"=Š­=›3Û<Åÿ»ØQQ=³=üUÕ=ò$8=\ı½î”&=Ş>îºqØd=Z%=¯gM=dùµ¼µ®T½€¢;ë°ü;ŒÄ}=dÁh<Õ‚F=ÑØ¼^ÖZ¼ô²¿<k€8;Ë‘©;y<J0p¼Ûª<¬R)¼rŠy<š{’ºã¶}½Ú’‹¼
+È?½ŒvRºqW!½í =‚<JkŸ;\L¼À¦@½	‰½ÖË¼™i6=…»»JF½Ş½Èœ˜¼Ğ¼Rw%½fñ<)wœ<Œß£¼q¤²¼º¨<E¨¼yŠú;ä¾ø:wæÍºŞ6y¼‹Q¼dxİ¹I’™»=~±=uDz¹ÛÜ¼Kç!½áˆ;bâ}9 òÎ<Y{n¼b¢¼åÀÔ¼OA;½wáX¼ñ,½yı=c?Ù¼”™è»Û+¹(O½§¼e®A¼J¼@¨»ÏË;Ùí)¼åœç<_=g=€7= ß„¼ÿ½63½t4Ø¼*À½8ê=H|6Ã¡=¡ù½ñtœ¼k`½Ë¾àºéÒŞ<[0<“…ä<Ä¾È¼zC½ÄÒ^½Öù¼¶ü*½0#½ ¦<Èi†½Ş8k½Dî½€˜w½#qÖ¼…ê¦¼F½Ïæ¼o ½ZÓ»½ºq½Àr½ğ®è¼`=¹à?<¶I½¢~“½Pãz½J}š½ùP½IcÕ»cP´½gyÖ½#Ì½P«ı½vfŠ½ïï¢¼¹{»Jûß½Ã»§½`¾¾Š`ß½'¾Q½çµ½º2Rw½úÇ¥½;÷Š½ó	~½!n½Œ¾Š½]0s<È.½ÏkÜ¼Â‰¶¼k
+€¼Òì‚<_·=ÎY¼ŞuŠ¼ûÆR¼†‡<#Ø;™ƒ=Ìì£=òd<3—A<Ó1¨<)!)<ŸîW=û†¨=ËFı<Sb<UÜR;˜A	;_Œ=ÁÍ=¯ñ=yF=—Ÿ8£a½e¿½‡5è¼lk¨½¿€½$°<®ÁF¼Ü¦E½ìG½¾Aá¼Å8Æ½=$¤½e¹ä¼ZI§¼b	Ş¼?½¿u½€³À½®©p½¹ïS½Š>”¼Í\;yF#½˜l‚½#&½¼Óg<İ±Œ<5H¼$&ˆ¼>Å½Ôù½^¯7½„ R=%©èºN¤Ş¼¯º±<ú)½‘JE½·“½Oæ=<Sº:gz¼È!<¡k‚<8·=gí >™ï>³ä*<FM;Auƒ½VJè½ÛH¦½AİÇ¼L½ğtÕ;Æ±¼qŞf½Îİ½ï\¦½ûğ´½_ñÇ¼U
+;ÿ¹|¼úÖ›½\¦M¼ÏµÛ»—b/¼E !<ı•;#¡º¼½ô½€³»Ü›<=L+"<@Ëë<'E=ğ2¼†š½ó7=üŠ—=×û=½D=qÿ¨=/­:<–;½×2‘=j-£=$4¯=‹&Ò=£V|=ÜöÆ»l(½o,=ÿ¤=ƒœ=VÁ=¾#l¼{5<<êĞ:c÷§¼µà7<MfA=ÿ6L¼Ó»I½j€»qr½b;z<>	<-Æ=“¦À<^<2ÁÒ¼ ’¤<•¾=åOÄ=æËs=E¹<Mwß»•-7¼—=!Ø=ÿà‰=ÃM.=°ûè<Úó<Å=œ#†<û=×³ =Tƒ=Ú G=a©¼<Å5?<R|Â<8i=d–‘=™Ÿ˜=5`“=Ñ
+=y2<Å¸´<×ø9='Ù’=3æÉ=²Ó§=®æc=zi¼Ül‘<ÊV4=D:=İ'À<kê~<AVÚ<¼„<	Ë<‰½<â¬<Œÿ%=½¸#=|ïs¼Ìì¬¼Ù¢¼¹¯=Ss÷<‘Ï<×=ªÉ;¼ö€»ôÜ¼R€<ïâ™<%Áo=œo~=zlñ:›™™»z+‹ºÊ›?¼8Ì'=hC¥<$‡=ùr3=}ši<ú9m¼EN¾<‘f=Dj2=.	a=§Ä=ø*—»F±¡<ÁÔ<“$Ô<>Ng=ºâ=æcş<Màô¼ó_=qI=6£>=©F=İE=óµ>=ÈÓ"=àj="zœ=½1U=c<º<óÈC<Î)=§'< ò=1­ =
+ëÿ<‘>=²}=»]f= ¥¦<Ï<öW¼³;ŠêÉ;\3=&jß<*’	<®–¥¼V¾¾"[Ğ½ŸR¹½H¢"½ì{‚<ÆÔ±»Ü	ú¼y™ğ½„Ö«½±Ó ½í•r½-y©½ˆŒ½‰½Èç½ŸÓ¾i[*¾|8"¾+` ¾j÷Ä½-è¼i
+ï¼	{Z¼Íœ:Üá¸ÈË„<ÉGÂ<=qš<¥¤=K=¬bÆ¼«”©»¬½.ºh¦0;ë <="Š<I{—¼ê<S<úå÷»íâš¼©Ò2<Æ½“J®¼İ³<%Xs<9# »‘T<d²½rXÎ»nñ½¦½Åê½Àú7<BĞ™»âÿº¼t!¬¼çÛ%½ª}n½Ä&½ã?—»Ò
+*½9M<ü4¼:¯¼İ[¼¼ù¼šÛx¼ ‡<’ü<£ö-;†ë¼7Õ%ºË•À<;£)¼µYi¼b}8=½W¼Kn¼2š*<Çâ<_Ïw<.iI¼¦<¤=<5½…;;»­¼«ÚºìrÁ¼A(£»S½½|RÒ¼İ§€¼<Êe¼'Ä¼Ù½9W–\¼fI<(ƒ¼ná|¼.l»•úÚ¼ ²ñ:¾/‘;Uê<°W=6Ş<†’G;“Ë¡¼BÑã¼¤j»;Ç‡.¼%‘ãºnçÒ;/œ-=7¼‡sü<~7{<ÀÎ
+½3·R½~‚½
+áÎ¼™ ±¼ğŞ3½ÄA`=­R=Z‰…<¯Lú¼€½I½˜x½ğà»T¶¬=ÖÍ>æ€=ğI×<$·2½(/½®g<UD>˜¤>øR=‹=+ä¼õàD½RÀZ½% Ñ=®Äª=’‚=¸Â°¼wú¼¿!“¼TÂ@½}Ì½=¥ÉÚ=ôş¿<¼¨¼Îà1½Ñ±<½ƒE½õl¸<Q¬U=v°<dê»7R½5½J)•½ÈÌè»~™>½È”½¤L½2q¼Øa~<ğhÄ<'–½!o½‹Ù ½Óf„½Û}B=xn==kg= Ëï»#°¼' ¼‘”`<v%<´•;=T–»—29vı<=+˜=íî—=O<ÚWT<B¼<—Vo»òÖq=×l€=>†=ğ‘‘º :‰<}6<ş˜º6Ñ~=øÆ/=øò1=@!e¼²~Ô<¯Ó»¼Ià<Ñ†œ<åï|=¢­=%\=Ş(’<?× =[—9ıéô<RA=åÈ„¼tŞ€¼…½d²Ú<íé´<ß=Ò›ˆ;Nø;	jÃ¼=P½¬½çeÓ:—[²»."L½şÿ$½L€½+8½9Ä<®Gç¼/·<ùÃ:½ÁJh½ˆöW½#ò²»÷ÖÕ<o†f½Î™(½"z½¯ƒ‘½÷^N½SúĞ;‚Ğ<ÅK4½Ñ/Û¼8yÀ¼ğùB½ñƒA<z¢µ¼QX;({¼­ç£¼ °/=0Vi=ÓŞ8=-ˆH=4ïú:Üe=åÛ<ğ»<gy0=d:/<_2<åqş;zhí=ª>«ãÉ=ÊF==ŠıÌ¼Z”½o$–¼×Ü=H;„=Q×1=¿½<Àğ1½!µ¼ß°ä¼a>=´w=×(=Yq<,L½Å¼Q|7¼(=wÉ¼¹l5¼[	é¼Œt½KÒd½'‘½GCÙ<Ù2ç;+Í1½œf¨¼iÊw¼A†ß¼,Äé¼ï?½|¿½¯M½U­½=\z½’®¨¼ØÏ,½‘Â¼ƒÛÄ¹ü¾í»f‰=%v§=à &=Úla=ÂFÉ;=ô„=*¼=ÿx;=s+4=]ªN=…«=ˆ=½Ø•=g=ôŞã=8Í=Ê=ñ&=âd®<ÌR=¾=`we=%Â=÷ª =ŠÁ8=4_u¼Gê<²ê¼S‚;Ä<=¤«“<»¾Ş»0T=)ì ={*Ê<	B³<i†ƒ¼[:½¡L¼S#N»üb=µ{¼áİ¼J6/<È=ú¼C´;_ñ;Nm½x˜®¼|;Û:<“¹=<å¥;•4<0é½r¢å¼$3\½æº„½ºÖ=^¢<Bœ¼—>½c¥ˆ½2¶l½`½‘<Ä³u=@òÛ<u½i5½O½		Ÿ½t+®»Œ/J=?Á½Z—½¢#<®¼¼¼ü¼ïC<d¼3/*»§*¼<@˜u=›ÒP=U$3=§÷Œ¼¡´+½´‘ò;»¼Æz<4b4<¦t&½:5½’ÿN½
+|=j#=“ú+=>ŸO=Ë–‰=0Ç0=Ôoú<áCE=-ï=ûçç=$;š=‹w¿=h9¿<aqL=qaµ=Ç=î•=¦H={¥¤=áE'=ı¤ó<ÌqU=ôJ=\2—=ºq=ßÉ=Û…<ci:`)ø</Ú<d2ë<¿¿­<È:Ø»%©Û¼}`I½pqH¼Pî¨<Ó"^¼˜¼|<WÒÛ½??½ÿ’¼§)¼nÙ(½DiB½‰Ó­½b¥¦½¯=½¬¨<nƒ<Šfc»Óˆú¼<Ea½P>¼Õm{»ı÷Õ<…5?¼T8<Ó¬È¼Òş•;îÉ‚<Ğä<Ûy =Í`t<Qd>=ÛÍB=´º%=Ù˜¼äèÏ<À$="İ<Í…=ûBl= 0=”ˆÑ<úõ<ã<„V
+<¿<ÿ†ÿ<I’»ìï)¼˜{ô¼œßè¼/q¼ğèG= ´†=0p4<LQö<Ó	¹<].j½Ø:T>=ô½=<`Œ=oEÛ<àå;Í'Ğ¼ù5=$Ä=s½A=) 4<9m=§Š¼ö”Ê;HâA<¦Ü<„ ü;E°í;lUw¼·É,<T¡¼Mğ<ô·c¼×|D½o1Y½6@V½ğtî»óF¼Wo–<ÍK4¼Z‰»‹¼¦b¼{#-=?Ş;¿ş¼@È¼ª‡ı¼UC½<l;Ó;+Ç|¼„¤C½H&½Ò‡l½TJ: %Ì¼×Ï<Ö@å»‰
+S½pÂ½«øI½"Öj½Y¢]½è4¹½ôMR½¿1¼×AÅ½ØM4½ áè¼¿gÈ<¨D =Ç=@î=½0=¾½Š‘š½x
+j¼‡]<7_ë¼¡2œºúğ/½.9B½+OP½»gÌ»a3~<d"<„«<tw¿¼%çU½!"¼jÿ;DrV¼Œ]<Á<ÿX­¼4ˆ!<sŒ0¼iJ™¼ÏÑ™:@?ã¼2Å¼h?G¼]º:=½Àá»±)İº¬f‹¼N7=yÚ¼[(x¼»§<rØ¡<XO=~ØºI=I¡¼Ës‰¼p¡y¼Õªb½yàÄ¼v<t <v…<ëÊ ¼S@3¼÷ä<i•(=D =+“U=xü< U;<ïR¼%G=r¹%=ı!<—½=$L¼3êİ¼F®­<nø<èO=Q^/=-ôV<)q*<õ¡‚¼?œÅ<ïK=z”™<û´V<DtĞ»ş'Æ;D‰G»dïL=¿÷§=Cğ6=gg»§½ö¼Îã¼şğW½[<Ï)¼¼Œ“¼¡:½Yœ½QB¯»'à½¸i“ºÓ÷ƒ;WÛ;äî…½m-½âÅ¥½›#½ã¶2½Ê‘{¼>‘p<$	½¶İ¼(j÷ºƒï™¼ÿN<?Ïy=Ş@š=+#§<xI½/ÕĞ¼_<…ï<ûq:=j82=ÎÔ<Ã†¼tA½‚Ç<.Õt=ø+×=	ßÊ=ıd=f¨‡¼‰I½8ËV<)G=%q=Z}=áœ<»Š½v&½©„½=¦K3=C%	=Øş=—Eº;½øl§=Ô\=Pµ=I^=sê=>yŒ<İ»·<{v=¡ ;}’‰¼)ĞÕ<–à‘¼?IØ¼âPÔ¼ü2¥<5×¼½W;½jS©½Y®½!Ç¼ã`}ºñ0=.<vh³¼=T½áÔ¯½S€½#<Xœ=€=˜HĞ<)c/;v!`½j
+½Ïø»tA]=Ø"G=ø*¨=°ò²=Aƒq¼É½ê@Ù<¤ã`<ÆòÆ<…]è<)Y<)Á/»ÚlC»&9â¼º—ö<j—<ı˜¼<}ÿ ;¬c7<&ÿF»‚§µ¼s…<Aš»ë†<ÒF)<½C;!ÉG½ïáÆ¼±ıO<9¼‘Æ;ì¹='A½ĞaŒ¼B›”¼MMv<®5<JH¢<ë‹F=Î÷æ¼\ı¹»6º<ÂÒ=Påİ¹Mşß<#IÓ<¸‘½â½^©è¼‘?z="|=QJ¶=5»Ú=g½Jëy;òø¼ü×M<¨ùŠ=¬ş´=—=·ß:##;ïG™<Œõm=³ó,=§G›<IUL¼ø:=½¾Di¼òqO=ÿİ¨»Õü(¼\ëÉ¼Çò4;Èñ¼2»¼g'1="ôJ<Çó½Ú ;æ’¼~)¼R+;ˆÀÂ<¢¤„=Î„Æ»R·»ºv™é¼Dk½É3¹¼M=ğw:<€Óºÿ­Œ¼¤ë½dıù¼Å<òÜ{=àéœ=î(<Hp
+=( ‚½Í¤ˆ½ì½‡¶“<¡ÆL½Ô¸‘½Üí&½]Ùh½°i˜¼ñˆ<'ïª=ğ¹Q¼}S¡:îQ«»0š.<ùób=™¸=Ûq¼;¿{x½Ï’Œ½8Š½ø0½Å•;Ò› =›Ïºï¥½"Æ½ò´½Z½•è+½üB!¼ˆ¶5½”ß‹½¼½gØœ½)
+¥½–]<½0ë¼)/¹¼kò½½¦ó½êIî½U›¾à±˜½MK½z	Ü<ôó½Ä¾@ì ¾Z¾Óu‚½²1Ì¼»‰C=ÔÂŞ¼„§½I½,GŸ½Ê+<•G>=†Úv<9Ï<¹=Eh9=aõ»dKm¼¬n~¼1×‰<oW=öÀ<˜•U<†c½¡”´<#Rã<a;ó'Â¹¨C½û/¼v‘|¼ª²€»â¥k=-×&=;ô<;í¦½y¤½"¨õ¼éŒ:}`(;µD•» ?L½&ûâ¼í&N½ô½ø8.<‰8!¡<LÆ ºq ¼¿D9ì¯&½E¾ğ¼~f=|X= ~ì;8ÒH<ƒ e½è½êa¼ä=:™)ò<µ[3=e’Ñ<Â=S-=Ky=ë8;½‹xî<yl<à<õI&¼x ;t×tºÿ-Š¼O2?=Qq+=,=`=Î4—¼A7c<Qé<·½Õ:<[ù=¼ÎÍ%=F:½8ó7<o´H<ÂïB½#©¹‰íG»•0¨<f99½Në,;©¢¼"!\½è«v½ä @½dÔå¼sc½¯èÄ<k‚»…j±¼tZ<¨&â»†Ñ¼IÛø<¶v-='ùí<ï¤¼1½h]»<Ş_¼<¶µ<·Ø¼sÇ¼F×*<Ø½*rQ¼ÆA<”CÕ¼á‡¼#!<"¼ 
+š<S!½m©í»áÇ-¼wµ½Óğö;èT‚ºj¼ç†Ô»ÅÙ<!½¤W©¼J7²¼ù;‚»XÜÙ¼ìØ«½}>«½–"³¼—t½?y¼@°¼Wm:¼=¥‚½ÍN½È¯µ¼Æ§H¼:»‰Ú±;üu¼ç>Z½¡â…½æ8n¼ªHÆ¼ ’<ÔŒ$;}T/<ƒòª<œc¼tØŞ<q®¯<(Gç¼V¥ª»Ÿ8¼Nè¸ ô<-'¼+ôT<(¡»![ø:6Ï½ô²¼Ô½X”¼¦´‹<A<<ùJ2½
+ªW½&;* ½­İ¼Gài¼ÒMI;äó ½O½¼ÇÄ|<Ş¼¼Û‹<éÖ½‚;ÒÔİ;M[¼ *º{œ¼öE”¼ÒÃ“<09e¼Ïf°<+ÿ¶:PöX<fÛS<SÖ ½Ú.;5½?¾w<tÕÓ<<XÊ¼ƒÖg<„ÍÇ<õ™*<qxÖ<Â×¼¼Øª¸½RÙ5½0’¼ÉÀ<n?=‘Š¦<èÊæ½xS	¾WQC½6ˆ€¼Š—<êJ= *œ=³ëÌ½¥À¾Vû¾½ö$¿¼ø¡P<O7=ÌD”=BÄ½
+]'¾æ<½½¶Š½ØS¦<f~0="Œ=^“½ï¾¢3‘½r´Š»iİº<ÿ
+=`=çm½}©½_uš½"ù¹¼TBW<§=î:=1EG<‹Æª<-J	<“t¼¹¹X<úàš¼Ü·<™å¶¹*Ã¼ŞR/ºŸã¤¼Ç•¯<å=p%­<Ñ-<jH½aŸ’½\Ä'<Â=ˆ£<C7<€»¼À‰¼¿€'½[¯d¼8‚ş¼uƒ¼[±W¼#Â£;ø/¼;ı½kû<<¥"õºi Q<’ƒ§<¤·¼†Kª;EX¼ú†>»—ğ;E¶¼À‘º¼{Èø»¡Ğ½P…½e½BÂ;½¤l);»3>=<<*Ê²¼øsU¼ûÜØ¼h—<ûç<nømºâõ•;G?@<~‘¼j¨˜¼D`/½\Ë‹<5õX»PÕ^=¾»!=+&*=ğ±W=æÜ<»šË<g=U¼u[c=÷B=ÙF=‰+=\â@½ÉÁ8<­ö<†¾;tõ6=3)4=-‘©<œ¿»¼(‡ş»D½¼#<®¾‹<HyO;­Ô;¦ş¼xzE½µãØ¼"><ãğ»U9R<¤¸ºã)Õ:$îú¼­£¼«	-<ƒë½	â¼#eg½]ª
+½oİ¼Ğ¡Ï;Ùª]½¢÷ı½^I¾€ˆ¾]h½]òH½Åş¼‘Ì½*©!¾À¾İ'¾0v'½œ¡H¼IÛÎ<3Ú×½:Ğû½?åñ½‹3¾­’¨½ñ‡Ì½ä·¼·ãe½ÄıP½3ï½e§Ú½nÅÃ½İ¶½¸¼S]ù¼â*¦¼~]Ü¼ÜD|¼x©<V‰•¼tı½…­õ<<€<±ïª=”k=äã<M'3»Õ·<p)=fğg=,úR=X9=Kg¼öòK¼*e<Á’ú¼/ô<•ÁÅ<tE:.£™»†½A$<~•><”Å§¼òo<;Ü¼)İÀ¼¼‚»ÖÚ<€Ç¼Éı¼ÖÀ¼*y½·#ˆ½fW™½ü\Y<D,</b½ÙÑ<°?½*ì½8›}½Ië ½ßM!½ƒK„½£BK½`Û¢¼^İy½Òú…½½‘ ½¼e¼pWà¼0V…<HÇÚ»äË¬»İ]¼o[š¼Å<¨H%=5È5=‡ùF=&¶¾;5}r=ˆ9h»t7‰<¾Îó8¥ù<î e<òŠ)=ãA}=û)Ú¼Bº¼œÖ¬¹g­e<$<ŞØk=°ád=ÑÓ½ÓËºÇn
+½mz*¼Ì(D¼ •î<ÿÊœ9QU½ZÅÉ¼8÷½I@Á¼x‘¼ôa<Ôu:½7A=ùD=MÔ¼Uß ½Ïı½ùˆ¥¼oı/½ëe»x¯<ÚC½…Ìº·ô
+¼G»yïX<¾¨Æ»âj}<…Š(=#®o<ÒŒK»ÙƒÂ»ƒéã:Oãn¼!ó¼iş=
+n<
+Ğ< v;»ZÚŸ<±§¼teÖ»qø<Æd<
+Ã÷<|=‰d<|(ç¼OÅ½QN´:Ù?´¼‚p-¼}¯Ù»®À¼K¾È¼ºCm½‘ÁL½.©‚½d£½§2M½ñø%½'öß¼{@o½óT*½Õô5½ìv½4ô»şË¼H~•½ !½M†z<v¤—<é=L2h=ÚN9:¬}¼ß`·»Ã<½>’˜:H'>=wå«¼Ü>#=~?H¼].V¼Ózµ½'Q	½áº½*Z÷¼jÑ4=Ã†Ï¼„ø¯¼/¶Á½È’„½o_†½#êÜ¼@=Œ¼ˆßó¼ÙÇF¼U˜,½µ>½5H`½J¼e²‚½i<o“½ÑÍM»z-¨<õt^¼ó»Â+½”‰½<âEe½?˜b=|U›=„•<ËÆ=ëU<%K–¼î8"½‚°;½¶Öƒ¼{$:8Ş<“	='î=Y2=k(‹=¹Ó=m‘r=»ÆD=áö…<‹Ê»]Ào<Şİ<³+_=eU=”é=„¬=$¹Î;:àª<|ø•<–Ï=9ÍU=…‚=£ÿ»-Ãè< =-<Àı˜¹ÏB&=	>=§ñ<¾ma<ÂË<‘J¤<3Ît:ŸÈ<Ú]D=@A7=d¶i=,È½Ã€>=‰ø=™œ=Dß={ 6=²<åš»?ÌR=T[³=V£†=@‰“=rµ§<¯ú=#\/=MÂº<²’º<€®¼Şœ¼Uf¨¼óİ»:»=Ö ›=BR=üõ<Kè;<"ÆÊ¼’Ÿ_¼¥·\¼~Ú=‚4<BB<¨”<À¯Î:/<M›<ƒÓ:U×‡¼Â2¢»3È¼Ö‘<W²N<eİ¿¼CÍ•½éŞŠ½4i°½»SŞ¼„Ò<â!½
+ƒ=ğÂá;cqx¼êV½B© ½€Íp½6ˆ<½Tç9¼¼f&»„²½*şÈ¼#Î½B¸¼¸ë%¼N!=”Õ=¢m¿;pä=wàó<mğÜ<¹M˜»\öÍ»CÔ€¼‰Ø`;±<=ò8=À¿&=Ê¶<šÄS:OÑ<İaÛ<4};Ò’i<¥“ÃºsHŞ<ÑÊ{¼áó<_q:2)»N5<¹—ˆ<¡$=*A²<<£á<Öáğ< (’»úlù».Öš<T¾;ŸÍé»I“	=Ú';ï.‘<¦C<ÿ—<ŸH<#…Ğ¹¶ú›<’c ºïdñ<¸$4= ¥Ã<.=‹Ö >…j‡=+€=û¼º¥¡<çx§<É•=!Ø=ÿƒ=Ø¡L=@­3¼Ó¦½ƒ³¨¼ÛLƒ<0Ç=Ã³†=Äy7<Akû¼‘àb½U½ûlR»yÊ=v.‡=­Î<ƒgÜ¼‰à½ O<WñA=æ*’=IZ\=„»hİ*½õR¹¼Yş‡<uçm=\|K=?µ½Œüâ¼18/½8³˜<í!=l8®=Í=env»ïŞ¼#¦¶¼ã«²<´½=ÏÁë=æ§ÿº{‡<®w!¼+mÊ»ø^¤¼IØ
+½“×Š»Íºâ<
+ş=¦Õ…<Ø¨=F6Ğ»mšW½§ë¼70l»–î!=º5è<LL€=r=±@ù¹HÁ¹Ó‡ç¼ço·ºè.¼KX<9°'½ğ1Ş»AG<¦r½ä,–½2¨½#Z½¢`½_;ñk<›v ½‡k½PÀ½.±½ä‰1½b!<q=¤è¼UÛ‹¼¿¢æ¼;‰Û¼RÚĞ<?H=3¥“¼‡$¯;‰ $½íÏ¼`-:½¸–†¼`¾9,“x<ô8t<*(=»põ½	ùš½¬µ£½åì	½jÏ<X<­³Œ<èş0¼êkv½AH{½¦o:¼^óO¼*³Æ<‚`Ó<gN¼>Èºç]½†¸<K½f¼hÈ÷¼¾r½'½DçÍ¼;òM¼4ìƒ;Øóú<Ÿma½W½½×$·½5Bg½:sº"i
+=ßÂ<†Q_½€Øq½½½ÇÌP¼	4=ÓøÙ<š¥Ô;ÒM‚ºãøP;IÖ—»–+Ü¼ÕÍD½¢©›½84e½ñªË<­Ã½érP=°û/=Zß=˜â ;^‹3½Î-Â<"­½Ï¥Û»,q=?(„=H=ÖÆ1½Ê8¬¼Œ£^½ø¼Ó¾!<tŸ<Y?i=ôãÒ»a‚½}—½´k¼œ3¼Ÿqc<hB =âˆE¼l"¦½l½\J(½x†¹ÛA=4q=²‡Ë¼Û`:½ó:#=ãPf=¯=’=½Z<õ<ÛZô¼7Òé½2¾»V3¾Z•¾×QŠ½ûD½·à‡¼æş£½t]¾ö§:¾p&¾¤œY½ÀĞo½/C¥<?3C½ì}½·rË½£¾½Mš½ !{½…û¼EÇ~½¢b´¼Ü¼Rô²ºèš?<áQ¤»¶¨<-lO½Ÿrz<	-W=”n=Ğ3Ê<s92=dÙ	:	@!½œ¢]=Öó–=z]Æ==‹=pºI=‘<õĞ¼ßI=¸=#zÑ=‰Ë=1œ”=²t½º”Ÿ½,]½¿»a½¥æ½C¯Ë¼+ì°<}ï»œU<r|Î¼Vy½Şë3½Ñ¾¼Ëá¼@D¸Úş˜¼R"=Î@=âÓo<yŸ<Ij#<tü¼ ’.½€…İ¼1´‘¼XÅW=Ïğ8¼§=å>'½[«<½©Ï<i†îºzç=´­I=¢5<S6p½ª"Ì¼ËvØ¼o€‚»šâ£< €=ıw½ÂS½Pš¼Á<ˆ²é»ì*=b±ò;J`™º.œş¼"ÏÄ¼(¼<c‹`=–²»'ş<};¼j	6¼ĞêM<lÎ;=`ó=İ=ªÒ–<mU¢<Á»9ï;<ª=½ßÈ<ä³nºkÁª¼uÌ<h©‚<ğ¯<¨÷¶<(°<ÊÆÛ<›å½í½.ZÍ¼¨L¼&Ç;êë<4»ŒºQu½AB½zêø»…Wr<ü6ú<‚#‰=Èà…<x½~T¼À†l½VáB½*•½ÿ=¤½õS_½ÎØ¼×¬¶<ä¨ı»ƒĞ–¼Ãú¿¼e¨)º¿Òi¼ñGÜ¼ñÏ¼óaº¼–IÁ¼øD< <‰o˜¼†ƒ¼tPV¼ wù;”;r¿ºM‰=Æ›‘¼b½úİ‚<Ô<G¬¼
+5…<"Br¼+¹¡<Í¬È¼õëÙ;‹K´»”å=<Û¨:‹ÎL:Dêƒ¼jÔ=FL<5½¬…=½Ì Y½ìª`½nf¼ÚŸâ¼Ü¼y»v;_Ğ½æŞg<Äï¶»ªä½;G¼ğè+¼.¡½núO;IÇ»»g3‡<d‡»öb¼Ûê<×I¼¶¸|<Gû<ó,¾º”Qw;ç9±¼Ş¬Ä;‚·<òSË<NT–<–ßÁ<’¸³9'¯¥<ª	¼ù½÷ Ä< [K=Ì‰¦;"H[»T×<o!H¼z½Êä»šqğ7Å–%¼eu<öÔ$=º–¼|e¼­xt¼ør;.úÜ»œº¹<Êv»ó¹«¼sØ=»ÚNw<­ô¢¼‹Ñ¼9š;å;DR¥<øÌ==‹d<Qğ¼2û‚»_…½´Ñ+½CE¼áC¼­|E<—Ë¼À	¼nÒ ¼|:½fº@½ê†½Dà½(QÆ½f¤F½|ì»@I¼s 3½Öû›½ô`É½Ò1½ã‡¼Õè€;?y
+<Ìª&½ªqÉ½°¬½-ÅS½Ç¨#½bj<¯ÊT» Ÿ?»ÍÔ­¼0'<lû«¼€p
+½&T^½BY½”²¸;ßpÌ»›s<cuU<5‡<o8€»2AX½•¢k<:,-<Ğb¦¼½n˜¼°ÊŞ¼àJô¼)D½nÓ½âÔ/=à
+=®Å¼ü|¼…W¼»¼ÜØ`¼(P»)OÑ¹ŞÊ¼êÛœ=ç.a=°=‘á»{¿Â»4ÉB½½¨À;
+J‚=ŒÑu=ÿkV=.%=ô§¼')Ñ¼í¨=Óƒn=é¹d=|öd=U4=B<³Ø”<Éÿ¾=É9=x×ˆ<i¹p¼×»»şªÉ¼{Ü&=ä“½=¹³x=)Ò=]¯=Â;½“<9½5û ½¾Îı¼›vÖ<«àD<ZŠ¼ÕóÚ<.:½åß¸½ñt“½WÅ%½E£†¼²¾Ï:å6›;|jb½Xƒİ¼ÖÏ%½©5£<[œü<lÎ®<w¶[<qvQ;{; ’<æ{ƒ¼Ù¼y?¾<1::Åé¬»±1`<©â¼cJd<¢„³¸›»n<)ƒ½j_;½şv©¹ğéâ:xÜQ=“ë%=¼Ë;û<½U¢¼©pš:¬ØJ::¹<Súa=Úºó ß<b{v;U{û¼vq'½ê;æ6‚¼_V
+½:%J¼ŸUq½–At½o²½É[½0°‰½F©¢¼»Ø€¼“€<™ş™¼Òp¨:×õ½í¤½Q°½ñÓ”<şCr<·"!<Úf°<ç{Õ¼ÎZ½áZh½>ûy½g@¢;#¦¼Ö”÷¼¨—œ½Lª˜½˜ly½á%ı<Kö<pAÉ:†û•¼[ªp½;nŞ¼T†ü:ÇE‚¼ ™½Ñ'X½ôí‚½fQ½"ò¼ÍE†<üŸ¼Œ¾‡;¯°<§ox;8ë£¼€”X»é*€»ø«<Í—ÁºŒSM<y²®¼}@½Û»b½j3g½Gíˆ;-ÃO=¨>=&Q<»pƒ»÷,½g½‚ú¼¡?=<…=³ã»`ç¡¼“½IJù¼ÏÛD½d+¼Ãî<¼JGš¼¢Wø<áˆI½TR½@“<i=†ú=ZMB=;wŞ;øw¯¼%ù9½xˆ–<eô»ï´í»*!e<kZu¼æœ<Bç<Ù_G:p†½¢_F<Jš—¼DLN;Òbæ<Ìš»Iô»™­<gC=ëv»}¬#<™í<R‹=ÈC<y<gZ=Ú˜<âü<š)L=İV&=àËÀ;Q·;ö~@=šŒ<=+mÙ<Õrü<Ò(F:/u!½Ê]¬½6¾<1Ù<Ãö<B§É<ê<¾:æ™’½ñ¤½½H€<ËP<Å‹ÿ<í!Œ<'3m¼Ç \¼é½¥º´§H;C½¾qÑ¼]ÇÊ»[›J¼¢°Ë; $¾¼1Ã…¼L0ã¼CCF¼&Ë¼oé}½îx´½Uâ ¼’¡½G¯»`’“<gË¼Ú‚¡½†²¼¼\õ><.áñ<m 	=°n•=ø¸¼$lş¼É¸€=W ¢<»Ò=ûj=„ıG=”¸¡:ş•Y<ãxW=f¨Á<¸¤“=²Åx=r=üø½öY»pg+=ºèe=.Ã½=©0=‰½çw&½¼ÿ¾¼A«¼×Fµ¼+½m:½¼Ğ³¼#†@="Y¶;§%Ê¼²y½¥Îh½jU½ıì)½ìò½·Iv<6p½-4µ¼±ñh;nÓB¼Ö"B¼ I<¼&fU¼îå$½J1
+¼X@¼=[l›=§‡J=k =Y´;h½å:Œò2¼jy*=×„œ=-¨0=ì!…=§@Û¼K<½¼èâª<õ¿$<½5•<‘¬,=·Ñí=]q¤¼\İ"=Im_=ãÂ›:;€Ä<XôX==&%E<Ìë<CÍ|=2\h=É¸<¤C ;
+Ê»FµÙ¼†ûO¼C'<&I$=„= ($=ä(§<Ü¹b¼’Ğ¼„P=ÅÖ£;"\<K†=õ
+Íºd¹¶¼òù<³´=Üë:=)_
+=Ã£•<ôV.=B§»¼B¥<İß9=MJ,=ĞÚŠ»+—½şñå»Sõºûö³<Ùx¼”«:¹d^½n¿½’tO½bQ<½ı;$X; nÍ¼oƒ½Sn½õ“o½o:N<ÏÄ€½rVC½.Ø5½ÑŞ¼Åü»¤“¼Wú<-ŞÊº~•½Tu½!î‘½êŞ½õ«½ûŸµ=Yí<Š¹<“=öôV½ı¯½° ½C™˜=‘Ö=·àí<â²‚;|„½ö;¶½5ë½Éü=“º¼=S¸=½à'=~i¼¶¥½á»¼_&:Ü©Ì=ÆKÅ=´…=
+/g=ûV;½ä<[=Ğ»i(Â<¿å]=GË=Nˆ	¼›¹8½ñ5¼IÆ½
+s:=´0¸<M*I=çÂÔ<ïÅ¼üHE¼İÓJ¼,D‹¼­½¶Îñ;âœ=1(ºO»<‘ <ÚCC¼k´¥=%qª=à,¯=gT5=£„=“ˆ;XÄÜ¼+Õš<ÕË³<ÜWé<„ùÇ<õO<G™<^î¼jn;=ë«=9ü =¼qÙ<¥–;<’f½5Ñq½ Ûõ<dxı<t5o<júŒ=eAÕ<•T½­<«¼³ğ<Ã[Ş<¶+=ÇŒ=$ş;<E/b½ÜP±¼™~_=%‹=d§`=Á‚7=¼*"½Ú>ğ<ı…¹¼Æ”Á¼ÀÌõºšS»bÜÏ;}L=7@Ã<ŒO”¼«½®Ie½Cÿ»=ê¤<®pJ=”ï¼5 ½ÇŞ¾ÅÉŞ½î¢¼Î•;çÑ+=8†½‚æ¾ÿ+ ¾şî½Ed“»÷21=êı<S;`ë»Àé~<53=U3¿= ğÆ=jŒ=àØ&=¨oc=4ÄÒ=¦äû=ò#>E—Ê=T =şw›<aiÇ=¼n¸=€~Ì=§¦=*z=GÌ<*=
+Boutput.1.biasJ(î½fÕ>h”,<bè'<
+–ì¼ùAÅ<Á—<^lÑ¼a´=KJ-=Z!
+input.1
+
+
+
+
+b
+22
+
+
+
+B	
