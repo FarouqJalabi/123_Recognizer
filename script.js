@@ -127,7 +127,7 @@ function showResult(output) {
 
     max = output.reduce((total, curr) => total + curr, 0); //Makes the sum to 1, do we want that?
     max = Math.max(...output); //Makes the highest one to one
-    max = 30; //I think this is the max output by our model
+    max = 50; //I think this is the max output by our model
 
     output = output.map((n) => n / max);
 
@@ -140,13 +140,15 @@ function showResult(output) {
         result = ch.children[0];
         id_number = Number(result.id);
         result.innerHTML = Math.round(output[id_number] * 100);
+        spanWidth = ch.children[1];
+        spanWidth.style.width = Math.round(output[id_number] * 100) + "%";
         if (
             id_number == output.indexOf(Math.max(...output)) &&
             Math.max(...output) != 0
         ) {
-            ch.className = "top";
+            spanWidth.style.backgroundColor = "red";
         } else {
-            ch.className = "";
+            spanWidth.style.backgroundColor = "blue";
         }
     }
 }
@@ -165,6 +167,8 @@ function clearCanvas() {
         result = ch.children[0];
         result.innerHTML = "0";
         ch.className = "";
+        spanWidth = ch.children[1];
+        spanWidth.style.width = "0%";
     }
 }
 
