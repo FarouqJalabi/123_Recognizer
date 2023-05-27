@@ -17,34 +17,82 @@
             <option value="3" selected>model 3</option>
         </select>
         <main>
-            <div class="canvasContainer">
+            <section class="canvasContainer">
                 <canvas id="c" width="280px" height="280px"></canvas>
                 <button onClick="clearCanvas()">Clear Canvas️</button>
-            </div>
-            <div class="canvasContainer">
+            </section>
+            <section class="canvasContainer">
                 <canvas id="c2" width="28px" height="28px"></canvas>
                 <p>Model view (28px*28px)</p>
-            </div>
+            </section>
             <section id="resultSide">
                 <ul>
-                    <!-- Holy shit this is fast:
-                     li{$: }*10>span{0}{%}
-
-                li{$: }*10>span#${0}{%}
--->
-
-                    <li>0: <span id="0">0</span>%<div class="spanWidth"></div></li>
-                    <li>1: <span id="1">0</span>%<div class="spanWidth"></div></li>
-                    <li>2: <span id="2">0</span>%<div class="spanWidth"></div></li>
-                    <li>3: <span id="3">0</span>%<div class="spanWidth"></div></li>
-                    <li>4: <span id="4">0</span>%<div class="spanWidth"></div></li>
-                    <li>5: <span id="5">0</span>%<div class="spanWidth"></div></li>
-                    <li>6: <span id="6">0</span>%<div class="spanWidth"></div></li>
-                    <li>7: <span id="7">0</span>%<div class="spanWidth"></div></li>
-                    <li>8: <span id="8">0</span>%<div class="spanWidth"></div></li>
-                    <li>9: <span id="9">0</span>%<div class="spanWidth"></div></li>
+                    <li>
+                        <div>0:</div>
+                        <div class="chanceContainer">
+                            <div class="numberChance"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>1:</div>
+                        <div class="chanceContainer">
+                            <div class="numberChance"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>2:</div>
+                        <div class="chanceContainer">
+                            <div class="numberChance"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>3:</div>
+                        <div class="chanceContainer">
+                            <div class="numberChance"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>4:</div>
+                        <div class="chanceContainer">
+                            <div class="numberChance"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>5:</div>
+                        <div class="chanceContainer">
+                            <div class="numberChance"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>6:</div>
+                        <div class="chanceContainer">
+                            <div class="numberChance"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>7:</div>
+                        <div class="chanceContainer">
+                            <div class="numberChance"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>8:</div>
+                        <div class="chanceContainer">
+                            <div class="numberChance"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>9:</div>
+                        <div class="chanceContainer">
+                            <div class="numberChance"></div>
+                        </div>
+                    </li>
                 </ul>
             </section>
         </main>
+        <section>You have to be nice with the first model. It was the first thing I got out and it barely works. You have to want it to work for it to work.</section>
+        <section>This is the second model. It works as long as the number is big an nice. It has troubles with small numbers.</section>
+        <section>This is the third and final model. Try to throw anything at it and it will handle it. You have to activly make it fail for it to fail</section>
+        
     </body>
 </html>

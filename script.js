@@ -133,22 +133,20 @@ function showResult(output) {
 
     console.log(output);
 
-    //? of and in difference? only of works?
-    //* of get's the actual childre object
-    //* in get's the index
+    //! Blind people can't see with, should be an alt text
     for (ch of choices.children) {
-        result = ch.children[0];
-        id_number = Number(result.id);
-        result.innerHTML = Math.round(output[id_number] * 100);
-        spanWidth = ch.children[1];
+        // result = ch.children[0];
+        id_number = ch.children[0].innerHTML[0];
+        // result.innerHTML = Math.round(output[id_number] * 100);
+        spanWidth = ch.children[1].children[0];
         spanWidth.style.width = Math.round(output[id_number] * 100) + "%";
         if (
             id_number == output.indexOf(Math.max(...output)) &&
             Math.max(...output) != 0
         ) {
-            spanWidth.style.backgroundColor = "red";
+            spanWidth.id = "topResult";
         } else {
-            spanWidth.style.backgroundColor = "blue";
+            spanWidth.id = "";
         }
     }
 }
@@ -164,10 +162,9 @@ function clearCanvas() {
     //? Maybe using show result function could look better
     console.log(choices);
     for (ch of choices.children) {
-        result = ch.children[0];
-        result.innerHTML = "0";
-        ch.className = "";
-        spanWidth = ch.children[1];
+        // result = ch.children[0];
+        // result.innerHTML = "0";
+        spanWidth = ch.children[1].children[0];
         spanWidth.style.width = "0%";
     }
 }
