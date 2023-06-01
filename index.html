@@ -89,10 +89,48 @@
                     </li>
                 </ul>
             </section>
+
+            <section id="explenation">
+                <div id="model1">
+                    <p>
+                        This is the first model I made. It had about 98%
+                        accuracy and I was super proud. It turns out real hand
+                        writing isn't like mnist. It isn't centered and scaled
+                        accordingly.
+                    </p>
+                    <p>
+                        This model main problem is that large or small numbers
+                        don't work. Number that are not in the center work
+                        poorly too.
+                    </p>
+                </div>
+                <div id="model2">
+                    <p>
+                        Data agumentation was the solution. I shifted the
+                        numbers randomly and rotated them randomly. I was able
+                        to scale them up and down but that led to the line to be
+                        thicker. Since the drawn line is the same width the
+                        whole time it didn't work out.
+                    </p>
+                    <p>
+                        The main problem with this is that small numbers work
+                        bad. Esacially if they are not in the center.
+                    </p>
+                </div>
+                <div id="model3">
+                    <p>
+                        This model is the third and final. It addresses alle the
+                        previous problems. It shifts and rotates randomly. It
+                        scales the numbers up and down while keeping the line
+                        width.
+                    </p>
+                    <p>
+                        It has a problem with the number eight. If you draw
+                        number 0 and put a line through it the model should
+                        output 8 but it output 0.
+                    </p>
+                </div>
+            </section>
         </main>
-        <section>You have to be nice with the first model. It was the first thing I got out and it barely works. You have to want it to work for it to work.</section>
-        <section>This is the second model. It works as long as the number is big an nice. It has troubles with small numbers.</section>
-        <section>This is the third and final model. Try to throw anything at it and it will handle it. You have to activly make it fail for it to fail</section>
-        
     </body>
 </html>

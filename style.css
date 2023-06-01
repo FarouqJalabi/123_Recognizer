@@ -5,14 +5,14 @@
     --top-result: #e63946;
 }
 
-
-::-moz-selection { /* Code for Firefox */
-  background: var(--accent2-color);
+::-moz-selection {
+    /* Code for Firefox */
+    background: var(--accent2-color);
 }
 
 ::selection {
-  background: var(--accent2-color);
-}    
+    background: var(--accent2-color);
+}
 
 body {
     font-size: large;
@@ -69,7 +69,6 @@ canvas {
     background-color: var(--accent2-color);
 }
 
-
 #resultSide {
     min-width: 280px;
 }
@@ -77,8 +76,8 @@ ul {
     list-style: none;
     font-weight: bold;
     font-size: x-large;
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 li {
     display: flex;
@@ -102,4 +101,8 @@ li {
     /* position: absolute; */
     background-color: var(--accent2-color);
     height: 100%;
+}
+#explenation {
+    width: 100%;
+    text-align: center;
 }
