@@ -20,7 +20,7 @@ const TIMES_BIGGER = c.width / c2.width; //Assuming that it's a square
 const PIXEL_BLOCK = c.width / TIMES_BIGGER;
 
 // create a session
-myOnnxSession = new onnx.InferenceSession();
+let myOnnxSession = new onnx.InferenceSession();
 // load the ONNX model file
 myOnnxSession.loadModel("./model_3.onnx");
 
@@ -95,8 +95,8 @@ const addRgba = (x, y) => {
 };
 
 async function runModel() {
-    img = ctx2.getImageData(0, 0, c2.width, c2.height).data;
-    img_r = new Float32Array(
+    let img = ctx2.getImageData(0, 0, c2.width, c2.height).data;
+    let img_r = new Float32Array(
         img.filter((v, i) => {
             // Img red channel, only what we need
             return i % 4 == 0;
@@ -120,12 +120,12 @@ async function runModel() {
 
 function showResult(output) {
     //Homemade softmax
-    min = Math.min(...output);
+    let min = Math.min(...output);
     console.log("OUtput", output);
 
     output = output.map((n) => n + Math.abs(min));
 
-    max = output.reduce((total, curr) => total + curr, 0); //Makes the sum to 1, do we want that?
+    let max = output.reduce((total, curr) => total + curr, 0); //Makes the sum to 1, do we want that?
     max = Math.max(...output); //Makes the highest one to one
     max = 50; //I think this is the max output by our model
 
@@ -134,12 +134,15 @@ function showResult(output) {
     console.log(output);
 
     //! Blind people can't see with, should be an alt text
+    //?Blind people can't darw either?
     for (ch of choices.children) {
-        // result = ch.children[0];
-        id_number = ch.children[0].innerHTML[0];
-        // result.innerHTML = Math.round(output[id_number] * 100);
-        spanWidth = ch.children[1].children[0];
-        spanWidth.style.width = Math.round(output[id_number] * 100) + "%";
+        let id_number = ch.innerHTML.trim()[0];
+        
+
+        let presentage = Math.round(output[id_number] * 100) + "%"
+        let spanWidth = ch.children[0].children[0];
+        spanWidth.style.width = presentage;
+
         if (
             id_number == output.indexOf(Math.max(...output)) &&
             Math.max(...output) != 0
@@ -160,11 +163,10 @@ function clearCanvas() {
     ctx2.fill();
 
     //? Maybe using show result function could look better
-    console.log(choices);
     for (ch of choices.children) {
         // result = ch.children[0];
         // result.innerHTML = "0";
-        spanWidth = ch.children[1].children[0];
+        let spanWidth = ch.children[0].children[0];
         spanWidth.style.width = "0%";
     }
 }
