@@ -24,6 +24,8 @@ let myOnnxSession = new onnx.InferenceSession();
 // load the ONNX model file
 myOnnxSession.loadModel("./model_3.onnx");
 
+let last_x = -1;
+let last_y = -1;
 let mouseDown = 0;
 c.addEventListener("mousedown", () => mouseDown++);
 c.addEventListener("mouseup", () => mouseDown--);
@@ -31,26 +33,57 @@ c.addEventListener("mouseup", () => mouseDown--);
 c.addEventListener("mousemove", (e) => draw(e));
 c.addEventListener("click", (e) => draw(e, true));
 
-c.addEventListener("mouseout", (e) => (mouseDown = 0));
+c.addEventListener("mouseout", () => (mouseDown = 0));
+
+c.addEventListener("touchstart", () => mouseDown++);
+c.addEventListener("touchmove", (e) => draw(e.touches[0]));
+c.addEventListener("touchend", (e) => {
+    mouseDown = 0;
+    draw(e.touches[0]);
+});
+c.addEventListener("touchcancel", () => (mouseDown = 0));
 
 const draw = (e, click = false) => {
-    if (!mouseDown && !click) return;
+    console.log(mouseDown);
+    if (!mouseDown && !click) {
+        last_x = -1;
+        last_y = -1;
+        return;
+    }
     //Relative position
     let rect = c.getBoundingClientRect();
     let x = e.clientX - rect.left;
     let y = e.clientY - rect.top;
 
+    if (x == undefined) {
+        let x = e.touches[0].clientX - rect.left;
+        let y = e.touches[0].clientY - rect.top;
+    }
+
     addRgba(x, y);
     runModel();
 };
-
 const addRgba = (x, y) => {
-    console.log(x, y);
+    if (last_x == -1 || last_y == -1) {
+        last_x = x;
+        last_y = y;
+    }
     //Drawing on big board
+
     ctx.beginPath();
     ctx.fillStyle = "white";
     ctx.arc(x, y, BRUSH_WIDTH, 0, 2 * Math.PI);
     ctx.fill();
+
+    ctx.beginPath();
+    ctx.lineWidth = BRUSH_WIDTH + 8;
+    ctx.strokeStyle = "white";
+    ctx.moveTo(last_x, last_y);
+    ctx.lineTo(x, y);
+    ctx.stroke();
+
+    last_x = x;
+    last_y = y;
 
     let final = ctx2.getImageData(0, 0, c2.width, c2.height);
     let final_data = final.data;
@@ -106,7 +139,6 @@ async function runModel() {
     img_r = img_r.map((v) => {
         return v / 255;
     });
-    console.log(img_r);
     // generate model input
     let inputTensor = new onnx.Tensor(img_r, "float32", [1, 1, 28, 28]);
 
@@ -121,7 +153,6 @@ async function runModel() {
 function showResult(output) {
     //Homemade softmax
     let min = Math.min(...output);
-    console.log("OUtput", output);
 
     output = output.map((n) => n + Math.abs(min));
 
@@ -131,15 +162,12 @@ function showResult(output) {
 
     output = output.map((n) => n / max);
 
-    console.log(output);
-
     //! Blind people can't see with, should be an alt text
     //?Blind people can't darw either?
     for (ch of choices.children) {
         let id_number = ch.innerHTML.trim()[0];
-        
 
-        let presentage = Math.round(output[id_number] * 100) + "%"
+        let presentage = Math.round(output[id_number] * 100) + "%";
         let spanWidth = ch.children[0].children[0];
         spanWidth.style.width = presentage;
 
@@ -172,7 +200,6 @@ function clearCanvas() {
 }
 
 async function changeModel(e) {
-    console.log(e.target.value);
     myOnnxSession = await new onnx.InferenceSession();
     await myOnnxSession.loadModel("./model_" + e.target.value + ".onnx");
     runModel();
