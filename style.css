@@ -19,7 +19,7 @@
 
 body {
     font-size: large;
-    font-family: system-ui;
+    font-family: sans-serif;
     background-color: var(--background-color);
 }
 
@@ -46,8 +46,14 @@ canvas {
     width: 280px;
     touch-action: none;
 }
+#c3 {
+    position: absolute;
+    pointer-events: none;
 
-#c2 {
+}
+
+#c2,
+#c3 {
     /* disable antialiasing */
     image-rendering: optimizeSpeed; /* Older versions of FF          */
     image-rendering: -moz-crisp-edges; /* FF 6.0+                       */
@@ -61,10 +67,16 @@ canvas {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0px 5px;
 }
-.canvasContainer > button {
-    margin: auto;
-    padding: 10px 50px;
+
+#viewChanger {
+    margin: 0px auto;
+}
+button {
+    margin: 10px auto;
+    padding: 10px 30px;
+    border-radius: 5px;
     font-size: large;
     background-color: var(--accent-color);
     border: 0px;
@@ -79,6 +91,8 @@ canvas {
 
 #resultSide {
     min-width: 280px;
+    display: flex;
+    flex-direction: column;
 }
 ul {
     list-style: none;
@@ -117,5 +131,11 @@ li {
 @media only screen and (max-width: 912px) {
     #c2Container {
         display: none;
+    }
+}
+@media only screen and (min-width: 912px) {
+    #viewChanger,
+    #c3 {
+        visibility: hidden;
     }
 }

@@ -12,6 +12,10 @@ let ctx = c.getContext("2d", { willReadFrequently: true });
 let c2 = document.querySelector("#c2");
 let ctx2 = c2.getContext("2d", { willReadFrequently: true });
 
+
+let c3 = document.querySelector("#c3");
+let ctx3 = c3.getContext("2d", { willReadFrequently: true });
+
 let choices = document.querySelector("ul");
 
 clearCanvas();
@@ -125,6 +129,7 @@ const addRgba = (x, y) => {
         }
     }
     ctx2.putImageData(final, 0, 0);
+    ctx3.putImageData(final, 0, 0);
 };
 
 async function runModel() {
@@ -189,6 +194,9 @@ function clearCanvas() {
     ctx2.fillStyle = "Black";
     ctx2.rect(0, 0, c2.width, c2.height);
     ctx2.fill();
+    ctx3.fillStyle = "Black";
+    ctx3.rect(0, 0, c3.width, c3.height);
+    ctx3.fill();
 
     //? Maybe using show result function could look better
     for (ch of choices.children) {
@@ -203,4 +211,15 @@ async function changeModel(e) {
     myOnnxSession = await new onnx.InferenceSession();
     await myOnnxSession.loadModel("./model_" + e.target.value + ".onnx");
     runModel();
+}
+
+function changeView() {
+    console.log("change view");
+    if (document.getElementById("viewChanger").innerHTML == "Human view 👀") {
+        document.getElementById("viewChanger").innerHTML = "Robot view 🤖";
+        document.getElementById("c3").hidden = false
+    } else {
+        document.getElementById("viewChanger").innerHTML = "Human view 👀";
+        document.getElementById("c3").hidden = true
+    }
 }
