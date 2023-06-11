@@ -49,7 +49,6 @@ canvas {
 #c3 {
     position: absolute;
     pointer-events: none;
-
 }
 
 #c2,
@@ -126,6 +125,10 @@ li {
 }
 #explenation {
     width: 100%;
+}
+#explenation img {
+    max-height: 250px;
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 912px) {

@@ -10,18 +10,21 @@
 
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body>
+    <body oncontextmenu="return false;">
         <select>
             <option value="1">model 1</option>
             <option value="2">model 2</option>
             <option value="3" selected>model 3</option>
+            <option value="4">model 4</option>
         </select>
         <main>
             <section class="canvasContainer" id="c1Containe">
                 <canvas id="c" width="280px" height="280px"></canvas>
-                <canvas hidden  id="c3"  width="28px" height="28px"></canvas>
+                <canvas hidden id="c3" width="28px" height="28px"></canvas>
                 <button onClick="clearCanvas()">Clear Canvas️️🧼</button>
-                <button id="viewChanger" onClick="changeView()">Human view 👀</button>
+                <button id="viewChanger" onClick="changeView()" value="Human">
+                    Human view 👀
+                </button>
             </section>
             <section class="canvasContainer" id="c2Container">
                 <canvas id="c2" width="28px" height="28px"></canvas>
@@ -94,46 +97,64 @@
 
             <section id="explenation">
                 <div id="model1">
-                    <h1>Model 1</h1>
-                    <p>
-                        This is the first model I made. It had about 98%
-                        accuracy and I was super proud. It turns out real hand
-                        writing isn't like mnist. It isn't centered and scaled
-                        accordingly.
-                    </p>
-                    <p>
-                        This model main problem is that large or small numbers
-                        don't work. Number that are not in the center work
-                        poorly too.
-                    </p>
+                    <div>
+                        <h1>Model 1</h1>
+                        <p>
+                            This is the first machine learning-model I made. The
+                            accuracy was 98% and I was super proud. When I tried
+                            it out on the web it performed poorly. Turns out the
+                            mnist dataset is centered and scaled in a certain
+                            way.
+                        </p>
+                        <p>
+                            This model problems are scale and positioning. If
+                            you center your drawing and don't draw to big or to
+                            small it works, else it is really bad. You have to
+                            help it for it to guess right.
+                        </p>
+                    </div>
+                    <img
+                        src="data_1.png"
+                        alt="A picture of the number four in black and white. The picture is pixlated"
+                    />
                 </div>
                 <div id="model2">
-                    <h1>Model 2</h1>
-                    <p>
-                        Data agumentation was the solution. I shifted the
-                        numbers randomly and rotated them randomly. I was able
-                        to scale them up and down but that led to the line to be
-                        thicker. Since the drawn line is the same width the
-                        whole time it didn't work out.
-                    </p>
-                    <p>
-                        The main problem with this is that small numbers work
-                        bad. Esacially if they are not in the center.
-                    </p>
+                    <div>
+                        <h1>Model 2</h1>
+                        <p>
+                            Data augmentation was the solution. I shifted the
+                            numbers randomly and rotated them randomly. I was
+                            able to scale them up but scaling down was not
+                            possible the way I did it. I thought it would be
+                            enough with movment and rotation. Scaling up was
+                            just extra. It worked well but I was wrong. Scaling
+                            down would help the model improve a lot.
+                        </p>
+                        <p>
+                            The main problem with this model is small numbers
+                            work bad, especially if they are not in the center.
+                        </p>
+                    </div>
+                    <img
+                        src="data_2.png"
+                        alt="Two pictures of the number 4, both are pixlated but one is bigger than the other. The pictures are also in black in white"
+                    />
                 </div>
                 <div id="model3">
-                    <h1>Model 3</h1>
-                    <p>
-                        This model is the third and final. It addresses alle the
-                        previous problems. It shifts and rotates randomly. It
-                        scales the numbers up and down while keeping the line
-                        width.
-                    </p>
-                    <p>
-                        It has a problem with the number eight. If you draw
-                        number 0 and put a line through it the model should
-                        output 8 but it output 0.
-                    </p>
+                    <div>
+                        <h1>Model 3</h1>
+                        <p>
+                            This model is the third and final. It addresses all
+                            the previous problems. It shifts and rotates
+                            randomly. The numbers are also scaled up and down
+                            randomly. The last thing I added was some noise that
+                            helped the model generalize more.
+                        </p>
+                    </div>
+                    <img
+                        src="data_5.png"
+                        alt="Three pictures of the number 4. The picutres are still pixlated and in black and white. The number four size changes a lot through out the images and there are a lot of noise in the pictures "
+                    />
                 </div>
             </section>
         </main>

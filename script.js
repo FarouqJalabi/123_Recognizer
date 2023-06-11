@@ -12,7 +12,6 @@ let ctx = c.getContext("2d", { willReadFrequently: true });
 let c2 = document.querySelector("#c2");
 let ctx2 = c2.getContext("2d", { willReadFrequently: true });
 
-
 let c3 = document.querySelector("#c3");
 let ctx3 = c3.getContext("2d", { willReadFrequently: true });
 
@@ -31,15 +30,15 @@ myOnnxSession.loadModel("./model_3.onnx");
 let last_x = -1;
 let last_y = -1;
 let mouseDown = 0;
-c.addEventListener("mousedown", () => mouseDown++);
-c.addEventListener("mouseup", () => mouseDown--);
+c.addEventListener("mousedown", () => (mouseDown = 1));
+c.addEventListener("mouseup", () => (mouseDown = 0));
 
 c.addEventListener("mousemove", (e) => draw(e));
 c.addEventListener("click", (e) => draw(e, true));
 
 c.addEventListener("mouseout", () => (mouseDown = 0));
 
-c.addEventListener("touchstart", () => mouseDown++);
+c.addEventListener("touchstart", () => (mouseDown = 1));
 c.addEventListener("touchmove", (e) => draw(e.touches[0]));
 c.addEventListener("touchend", (e) => {
     mouseDown = 0;
@@ -48,7 +47,6 @@ c.addEventListener("touchend", (e) => {
 c.addEventListener("touchcancel", () => (mouseDown = 0));
 
 const draw = (e, click = false) => {
-    console.log(mouseDown);
     if (!mouseDown && !click) {
         last_x = -1;
         last_y = -1;
@@ -64,24 +62,25 @@ const draw = (e, click = false) => {
         let y = e.touches[0].clientY - rect.top;
     }
 
-    addRgba(x, y);
+    addRgba(x, y, e);
     runModel();
 };
-const addRgba = (x, y) => {
+const addRgba = (x, y, e) => {
     if (last_x == -1 || last_y == -1) {
         last_x = x;
         last_y = y;
     }
     //Drawing on big board
 
+    times_factor = e.which != 3 ? 1 : 1.5;
     ctx.beginPath();
-    ctx.fillStyle = "white";
-    ctx.arc(x, y, BRUSH_WIDTH, 0, 2 * Math.PI);
+    ctx.fillStyle = e.which != 3 ? "white" : "black";
+    ctx.arc(x, y, BRUSH_WIDTH * times_factor, 0, 2 * Math.PI);
     ctx.fill();
 
     ctx.beginPath();
-    ctx.lineWidth = BRUSH_WIDTH + 8;
-    ctx.strokeStyle = "white";
+    ctx.lineWidth = BRUSH_WIDTH * times_factor + 8;
+    ctx.strokeStyle = e.which != 3 ? "white" : "black";
     ctx.moveTo(last_x, last_y);
     ctx.lineTo(x, y);
     ctx.stroke();
@@ -215,11 +214,13 @@ async function changeModel(e) {
 
 function changeView() {
     console.log("change view");
-    if (document.getElementById("viewChanger").innerHTML == "Human view 👀") {
+    if (document.getElementById("viewChanger").value == "Human") {
+        document.getElementById("viewChanger").value = "Robot";
         document.getElementById("viewChanger").innerHTML = "Robot view 🤖";
-        document.getElementById("c3").hidden = false
+        document.getElementById("c3").hidden = false;
     } else {
+        document.getElementById("viewChanger").value = "Human";
         document.getElementById("viewChanger").innerHTML = "Human view 👀";
-        document.getElementById("c3").hidden = true
+        document.getElementById("c3").hidden = true;
     }
 }
