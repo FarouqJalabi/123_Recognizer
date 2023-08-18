@@ -2,9 +2,10 @@
 
 const BRUSH_WIDTH = 8;
 const BOOST = 2.1; //Boosting white color
-
 let modelChoice = document.querySelector("select");
 modelChoice.addEventListener("change", changeModel);
+
+ 
 
 let c = document.querySelector("#c");
 let ctx = c.getContext("2d", { willReadFrequently: true });
