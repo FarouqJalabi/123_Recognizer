@@ -2,143 +2,243 @@
 /* ! Touch clicking on clear canvas don't rechange color */
 
 :root {
-    --background-color: #f3f6f2;
-    --accent-color: #a8dadc;
-    --accent2-color: #457b9d;
-    --top-result: #e63946;
+  --background-light: #fefefe;
+  --accent-1-light: #a8dadc;
+  --accent-2-light: #457b9d;
+
+  ---background-dark: #282634;
+  --accent-1-dark: #c1b8fa;
+  --accent-2-dark: #5c48db;
+
+  --action-1: #ff4057;
+  --action-2: #e5223a;
+
+  --background-accent-light: #d0dacd;
+  --background-accent-dark: #54506b;
 }
 
 ::-moz-selection {
-    /* Code for Firefox */
-    background: var(--accent2-color);
+  /* Code for Firefox */
+  background: var(--accent-2-light);
 }
 
 ::selection {
-    background: var(--accent2-color);
+  background: var(--accent-2-light);
 }
 
 body {
-    font-size: large;
-    font-family: sans-serif;
-    background-color: var(--background-color);
+  font-size: large;
+  font-family: sans-serif;
+  background-color: var(--background-light);
+}
+
+#logo {
+  color: var(--action-1);
+  font-family: Modak;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72.586%; /* 38.471px */
+  margin: auto auto;
+  width: min-content;
+  position: relative;
+}
+
+#logo button {
+  position: relative;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0px;
+  line-height: 72.586%;
+  height: min-content;
+  z-index: 2;
+}
+
+#logo button:hover {
+  color: var(--action-1) !important; /* Js change color*/
+  cursor: pointer;
+}
+
+#logoBar {
+  background: var(--action-1);
+  position: absolute;
+  width: 108px;
+  height: 35px;
+  right: 85px;
+  top: -2.5px;
+
+  border-radius: 50px;
+}
+
+#logoCircle {
+  background-color: var(--action-2);
+  height: 100%;
+  z-index: 2;
+  aspect-ratio: 1/1;
+  transition: margin 1s ease-in-out, transform 1s ease-in-out;
+  border-radius: 50%;
 }
 
 select {
-    display: block;
-    font-size: x-large;
-    padding: 5px;
-    margin: 10px auto;
-    background-color: var(--accent-color);
-    border: 0px;
-    border-radius: 5px;
+  display: block;
+  font-size: x-large;
+  padding: 5px;
+  margin: 10px auto;
+  background-color: var(--accent-1-light);
+  border: 0px;
+  border-radius: 5px;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
-    justify-content: center;
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
 }
 
 canvas {
-    aspect-ratio: 1/1;
-    width: 280px;
-    touch-action: none;
+  aspect-ratio: 1/1;
+  width: 280px;
+  touch-action: none;
+  z-index: 2;
 }
 #c3 {
-    position: absolute;
-    pointer-events: none;
+  position: absolute;
+  pointer-events: none;
 }
 
 #c2,
 #c3 {
-    /* disable antialiasing */
-    image-rendering: optimizeSpeed; /* Older versions of FF          */
-    image-rendering: -moz-crisp-edges; /* FF 6.0+                       */
-    image-rendering: -webkit-optimize-contrast; /* Safari                        */
-    image-rendering: -o-crisp-edges; /* OS X & Windows Opera (12.02+) */
-    image-rendering: pixelated; /* Awesome future-browsers       */
-    -ms-interpolation-mode: nearest-neighbor; /* IE                            */
+  /* disable antialiasing */
+  image-rendering: optimizeSpeed; /* Older versions of FF          */
+  image-rendering: -moz-crisp-edges; /* FF 6.0+                       */
+  image-rendering: -webkit-optimize-contrast; /* Safari                        */
+  image-rendering: -o-crisp-edges; /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated; /* Awesome future-browsers       */
+  -ms-interpolation-mode: nearest-neighbor; /* IE                            */
 }
 
 .canvasContainer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px 5px;
+  position: relative;
 }
 
 #viewChanger {
-    margin: 0px auto;
+  margin: 0px auto;
 }
+
+#clear {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: -1.8rem auto;
+  padding: 5px 10px;
+}
+
+#clear:hover {
+  cursor: pointer;
+}
+
 button {
-    margin: 10px auto;
-    padding: 10px 30px;
-    border-radius: 5px;
-    font-size: large;
-    background-color: var(--accent-color);
-    border: 0px;
+  margin: 10px auto;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: large;
+  background-color: var(--accent-1-light);
+  border: 0px;
 }
 
 /* *So it don't change colors on mobile */
 @media (hover: hover) {
-    .canvasContainer > button:hover {
-        background-color: var(--accent2-color);
-    }
+  .canvasContainer > button:hover {
+    background-color: var(--accent-2-light);
+  }
 }
 
 #resultSide {
-    min-width: 280px;
-    display: flex;
-    flex-direction: column;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
 }
+
 ul {
-    list-style: none;
-    font-weight: bold;
-    font-size: x-large;
-    margin: 0px;
-    padding: 0px;
+  list-style: none;
+  font-weight: bold;
+  font-size: x-large;
+  margin: 0px;
+  padding: 0px;
 }
+
 li {
-    display: flex;
-    margin: 0px;
-    position: relative;
-    z-index: 3;
+  display: flex;
+  margin: 0px;
+  position: relative;
+  z-index: 3;
+  height: 28px;
 }
 
 #topResult {
-    background-color: var(--top-result);
+  background-color: var(--action-1);
 }
+
 .chanceContainer {
-    background-color: var(--accent-color);
-    width: 100%;
-    border-radius: 10px;
-    margin: 5px;
-    overflow: hidden;
+  padding: 2px;
+  background-color: var(--background-accent-light);
+  width: 100%;
+  border-radius: 10px;
+  margin: 5px;
 }
 
 .numberChance {
-    /* position: absolute; */
-    background-color: var(--accent2-color);
-    height: 100%;
+  /* position: absolute; */
+  background-color: var(--accent-1-light);
+  height: 100%;
+  border-radius: 50px;
+  position: relative;
 }
+
+.numberChance::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  /* left: 0; */
+  right: 0;
+  background-color: var(--accent-2-light);
+}
+#topResult::after {
+  background-color: var(--action-2);
+}
+
 #explenation {
-    width: 100%;
+  width: 100%;
+  max-width: 885px;
+  margin: 0 auto;
+  padding: 5px;
 }
+
 #explenation img {
-    max-height: 250px;
-    max-width: 100%;
+  max-height: 250px;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 912px) {
-    #c2Container {
-        display: none;
-    }
+  #c2Container {
+    display: none;
+  }
 }
 @media only screen and (min-width: 912px) {
-    #viewChanger,
-    #c3 {
-        visibility: hidden;
-    }
+  #viewChanger,
+  #c3 {
+    visibility: hidden;
+  }
 }
