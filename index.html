@@ -1,162 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Digit Recognizer</title>
-        <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
-        <script src="script.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body oncontextmenu="return false;">
-        <select>
-            <option value="1">model 1</option>
-            <option value="2">model 2</option>
-            <option value="3" selected>model 3</option>
-            <option value="4">model 4</option>
-        </select>
-        <main>
-            <section class="canvasContainer" id="c1Containe">
-                <canvas id="c" width="280px" height="280px"></canvas>
-                <canvas hidden id="c3" width="28px" height="28px"></canvas>
-                <button onClick="clearCanvas()">Clear Canvas️️🧼</button>
-                <button id="viewChanger" onClick="changeView()" value="Human">
-                    Human view 👀
-                </button>
-            </section>
-            <section class="canvasContainer" id="c2Container">
-                <canvas id="c2" width="28px" height="28px"></canvas>
-                <p>Model view (28px*28px)</p>
-            </section>
-            <section id="resultSide">
-                <ul>
-                    <li>
-                        0:
-                        <div class="chanceContainer">
-                            <div class="numberChance"></div>
-                        </div>
-                    </li>
-                    <li>
-                        1:
-                        <div class="chanceContainer">
-                            <div class="numberChance"></div>
-                        </div>
-                    </li>
-                    <li>
-                        2:
-                        <div class="chanceContainer">
-                            <div class="numberChance"></div>
-                        </div>
-                    </li>
-                    <li>
-                        3:
-                        <div class="chanceContainer">
-                            <div class="numberChance"></div>
-                        </div>
-                    </li>
-                    <li>
-                        4:
-                        <div class="chanceContainer">
-                            <div class="numberChance"></div>
-                        </div>
-                    </li>
-                    <li>
-                        5:
-                        <div class="chanceContainer">
-                            <div class="numberChance"></div>
-                        </div>
-                    </li>
-                    <li>
-                        6:
-                        <div class="chanceContainer">
-                            <div class="numberChance"></div>
-                        </div>
-                    </li>
-                    <li>
-                        7:
-                        <div class="chanceContainer">
-                            <div class="numberChance"></div>
-                        </div>
-                    </li>
-                    <li>
-                        8:
-                        <div class="chanceContainer">
-                            <div class="numberChance"></div>
-                        </div>
-                    </li>
-                    <li>
-                        9:
-                        <div class="chanceContainer">
-                            <div class="numberChance"></div>
-                        </div>
-                    </li>
-                </ul>
-            </section>
+    <title>Digit Recognizer</title>
 
-            <section id="explenation">
-                <div id="model1">
-                    <div>
-                        <h1>Model 1</h1>
-                        <p>
-                            This is the first machine learning-model I made. The
-                            accuracy was 98% and I was super proud. When I tried
-                            it out on the web it performed poorly. Turns out the
-                            mnist dataset is centered and scaled in a certain
-                            way.
-                        </p>
-                        <p>
-                            This model problems are scale and positioning. If
-                            you center your drawing and don't draw to big or to
-                            small it works, else it is really bad. You have to
-                            help it for it to guess right.
-                        </p>
-                    </div>
-                    <img
-                        src="data_1.png"
-                        alt="A picture of the number four in black and white. The picture is pixlated"
-                    />
-                </div>
-                <div id="model2">
-                    <div>
-                        <h1>Model 2</h1>
-                        <p>
-                            Data augmentation was the solution. I shifted the
-                            numbers randomly and rotated them randomly. I was
-                            able to scale them up but scaling down was not
-                            possible the way I did it. I thought it would be
-                            enough with movment and rotation. Scaling up was
-                            just extra. It worked well but I was wrong. Scaling
-                            down would help the model improve a lot.
-                        </p>
-                        <p>
-                            The main problem with this model is small numbers
-                            work bad, especially if they are not in the center.
-                        </p>
-                    </div>
-                    <img
-                        src="data_2.png"
-                        alt="Two pictures of the number 4, both are pixlated but one is bigger than the other. The pictures are also in black in white"
-                    />
-                </div>
-                <div id="model3">
-                    <div>
-                        <h1>Model 3</h1>
-                        <p>
-                            This model is the third and final. It addresses all
-                            the previous problems. It shifts and rotates
-                            randomly. The numbers are also scaled up and down
-                            randomly. The last thing I added was some noise that
-                            helped the model generalize more.
-                        </p>
-                    </div>
-                    <img
-                        src="data_5.png"
-                        alt="Three pictures of the number 4. The picutres are still pixlated and in black and white. The number four size changes a lot through out the images and there are a lot of noise in the pictures "
-                    />
-                </div>
-            </section>
-        </main>
-    </body>
+    <!-- Resources -->
+    <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Modak"
+    />
+
+    <!-- Files -->
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body oncontextmenu="return false;">
+    
+
+    <h1 id="logo">
+      <button onclick="changeModel('1')">1</button
+      ><button onclick="changeModel('2')">2</button
+      ><button onclick="changeModel('3')">3</button>
+
+      <span id="logoBar"><div id="logoCircle"></div></span>
+      <br />
+      <span>Recognizer</span>
+    </h1>
+
+    <main>
+      <!-- Main drawing container -->
+      <section id="app">
+        <section class="canvasContainer" id="c1Containe">
+          <button onClick="clearCanvas()" id="clear">Clear ️️🧼</button>
+          <canvas id="c" width="280px" height="280px"></canvas>
+          <canvas hidden id="c3" width="28px" height="28px"></canvas>
+          <button id="viewChanger" onClick="changeView()" value="Human">
+            Human view 👀
+          </button>
+        </section>
+        <!-- Shower container -->
+        <section class="canvasContainer" id="c2Container">
+          <canvas id="c2" width="28px" height="28px"></canvas>
+          <p>Model view (28px*28px)</p>
+        </section>
+
+        <section id="resultSide">
+          <ul>
+            <li>
+              0:
+              <div class="chanceContainer">
+                <div class="numberChance"></div>
+              </div>
+            </li>
+            <li>
+              1:
+              <div class="chanceContainer">
+                <div class="numberChance"></div>
+              </div>
+            </li>
+            <li>
+              2:
+              <div class="chanceContainer">
+                <div class="numberChance"></div>
+              </div>
+            </li>
+            <li>
+              3:
+              <div class="chanceContainer">
+                <div class="numberChance"></div>
+              </div>
+            </li>
+            <li>
+              4:
+              <div class="chanceContainer">
+                <div class="numberChance"></div>
+              </div>
+            </li>
+            <li>
+              5:
+              <div class="chanceContainer">
+                <div class="numberChance"></div>
+              </div>
+            </li>
+            <li>
+              6:
+              <div class="chanceContainer">
+                <div class="numberChance"></div>
+              </div>
+            </li>
+            <li>
+              7:
+              <div class="chanceContainer">
+                <div class="numberChance"></div>
+              </div>
+            </li>
+            <li>
+              8:
+              <div class="chanceContainer">
+                <div class="numberChance"></div>
+              </div>
+            </li>
+            <li>
+              9:
+              <div class="chanceContainer">
+                <div class="numberChance"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section id="explenation">
+        <div>
+          <div>
+            <h1>What is this?</h1>
+            <p>
+              123 Recognizer is 3 ai's that try to guess what digit you drawn. 1
+              being the worst and 3 being the best ai. The right side is the
+              ai's guess. When you draw, the progress bars will change to
+              indicate what the ai think you have drawn. One of the progress
+              bars will turn red to indicate which number the ai thinks you have
+              drawn.
+            </p>
+            <p>
+              To test out the different model click on either 1, 2 or 3 on the
+              logo at the top of the page. The explenation of each ai is written
+              down below.
+            </p>
+          </div>
+        </div>
+        <div id="model1">
+          <div>
+            <h1>Model 1</h1>
+            <p>
+              This is the first machine learning-model I made. The accuracy was
+              98% and I was super proud. When I tried it out on the web it
+              performed poorly. Turns out the mnist dataset is centered and
+              scaled in a certain way.
+            </p>
+            <p>
+              This model problems are scale and positioning. If you center your
+              drawing and don't draw to big or to small it works, else it is
+              really bad. You have to help it for it to guess right.
+            </p>
+          </div>
+          <img
+            src="data_1.png"
+            alt="A picture of the number four in black and white. The picture is pixlated"
+          />
+        </div>
+        <div id="model2">
+          <div>
+            <h1>Model 2</h1>
+            <p>
+              Data augmentation was the solution. I shifted the numbers randomly
+              and rotated them randomly. I was able to scale them up but scaling
+              down was not possible the way I did it. I thought it would be
+              enough with movment and rotation. Scaling up was just extra. It
+              worked well but I was wrong. Scaling down would help the model
+              improve a lot.
+            </p>
+            <p>
+              The main problem with this model is small numbers work bad,
+              especially if they are not in the center.
+            </p>
+          </div>
+          <img
+            src="data_2.png"
+            alt="Two pictures of the number 4, both are pixlated but one is bigger than the other. The pictures are also in black in white"
+          />
+        </div>
+        <div id="model3">
+          <div>
+            <h1>Model 3</h1>
+            <p>
+              This model is the third and final. It addresses all the previous
+              problems. It shifts and rotates randomly. The numbers are also
+              scaled up and down randomly. The last thing I added was some noise
+              that helped the model generalize more.
+            </p>
+          </div>
+          <img
+            src="data_5.png"
+            alt="Three pictures of the number 4. The picutres are still pixlated and in black and white. The number four size changes a lot through out the images and there are a lot of noise in the pictures "
+          />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

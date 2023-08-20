@@ -2,10 +2,6 @@
 
 const BRUSH_WIDTH = 8;
 const BOOST = 2.1; //Boosting white color
-let modelChoice = document.querySelector("select");
-modelChoice.addEventListener("change", changeModel);
-
- 
 
 let c = document.querySelector("#c");
 let ctx = c.getContext("2d", { willReadFrequently: true });
@@ -42,186 +38,212 @@ c.addEventListener("mouseout", () => (mouseDown = 0));
 c.addEventListener("touchstart", () => (mouseDown = 1));
 c.addEventListener("touchmove", (e) => draw(e.touches[0]));
 c.addEventListener("touchend", (e) => {
-    mouseDown = 0;
-    draw(e.touches[0]);
+  mouseDown = 0;
+  draw(e.touches[0]);
 });
 c.addEventListener("touchcancel", () => (mouseDown = 0));
 
+//! Drawing laggy on firefox
 const draw = (e, click = false) => {
-    if (!mouseDown && !click) {
-        last_x = -1;
-        last_y = -1;
-        return;
-    }
-    //Relative position
-    let rect = c.getBoundingClientRect();
-    let x = e.clientX - rect.left;
-    let y = e.clientY - rect.top;
+  if (!mouseDown && !click) {
+    last_x = -1;
+    last_y = -1;
+    return;
+  }
+  //Relative position
+  let rect = c.getBoundingClientRect();
+  let x = e.clientX - rect.left;
+  let y = e.clientY - rect.top;
 
-    if (x == undefined) {
-        let x = e.touches[0].clientX - rect.left;
-        let y = e.touches[0].clientY - rect.top;
-    }
+  if (x == undefined) {
+    let x = e.touches[0].clientX - rect.left;
+    let y = e.touches[0].clientY - rect.top;
+  }
 
-    addRgba(x, y, e);
-    runModel();
+  addRgba(x, y, e);
+  runModel();
 };
-const addRgba = (x, y, e) => {
-    if (last_x == -1 || last_y == -1) {
-        last_x = x;
-        last_y = y;
-    }
-    //Drawing on big board
-
-    times_factor = e.which != 3 ? 1 : 1.5;
-    ctx.beginPath();
-    ctx.fillStyle = e.which != 3 ? "white" : "black";
-    ctx.arc(x, y, BRUSH_WIDTH * times_factor, 0, 2 * Math.PI);
-    ctx.fill();
-
-    ctx.beginPath();
-    ctx.lineWidth = BRUSH_WIDTH * times_factor + 8;
-    ctx.strokeStyle = e.which != 3 ? "white" : "black";
-    ctx.moveTo(last_x, last_y);
-    ctx.lineTo(x, y);
-    ctx.stroke();
-
+const addRgba = async (x, y, e) => {
+  document.querySelector("#clear").hidden = false;
+  if (last_x == -1 || last_y == -1) {
     last_x = x;
     last_y = y;
+  }
+  //Drawing on big board
 
-    let final = ctx2.getImageData(0, 0, c2.width, c2.height);
-    let final_data = final.data;
-    for (let row = 0; row < c2.height; row++) {
-        for (let column = 0; column < c2.width; column++) {
-            let imgd = ctx.getImageData(
-                column * TIMES_BIGGER,
-                row * TIMES_BIGGER,
-                //size
-                TIMES_BIGGER,
-                TIMES_BIGGER
-            );
-            let pix = imgd.data;
+  times_factor = e.which != 3 ? 1 : 1.5;
+  ctx.beginPath();
+  ctx.fillStyle = e.which != 3 ? "white" : "black";
+  ctx.arc(x, y, BRUSH_WIDTH * times_factor, 0, 2 * Math.PI);
+  ctx.fill();
 
-            // Add all pixel values to pixel
-            let pixel = [0, 0, 0, 0];
+  ctx.beginPath();
+  ctx.lineWidth = BRUSH_WIDTH * times_factor + 8;
+  ctx.strokeStyle = e.which != 3 ? "white" : "black";
+  ctx.moveTo(last_x, last_y);
+  ctx.lineTo(x, y);
+  ctx.stroke();
 
-            //? Possible to use reduce?
-            for (let i = 0; i < pix.length; i += 4) {
-                pixel[0] += pix[i + 0] * BOOST; //Red
-                pixel[1] += pix[i + 1] * BOOST; //Green
-                pixel[2] += pix[i + 2] * BOOST; //Blue
-                pixel[3] += pix[i + 3] * BOOST; //Alpha
-            }
+  last_x = x;
+  last_y = y;
 
-            //Averge
-            pixel[0] /= pix.length / 4;
-            pixel[1] /= pix.length / 4;
-            pixel[2] /= pix.length / 4;
-            pixel[3] /= pix.length / 4;
+  let final = ctx2.getImageData(0, 0, c2.width, c2.height);
+  let final_data = final.data;
+  for (let row = 0; row < c2.height; row++) {
+    for (let column = 0; column < c2.width; column++) {
+      let imgd = ctx.getImageData(
+        column * TIMES_BIGGER,
+        row * TIMES_BIGGER,
+        //size
+        TIMES_BIGGER,
+        TIMES_BIGGER
+      );
+      let pix = imgd.data;
 
-            //Drawing pixel to final
-            let pixel_pos =
-                row * 4 + (column * 4 + row * (PIXEL_BLOCK - 1) * 4);
-            final_data[pixel_pos + 0] = pixel[0]; //R
-            final_data[pixel_pos + 1] = pixel[1]; //G
-            final_data[pixel_pos + 2] = pixel[2]; //B
-            final_data[pixel_pos + 3] = pixel[3]; //A
-        }
+      // Add all pixel values to pixel
+      let pixel = [0, 0, 0, 0];
+
+      //? Possible to use reduce?
+      for (let i = 0; i < pix.length; i += 4) {
+        pixel[0] += pix[i + 0] * BOOST; //Red
+        pixel[1] += pix[i + 1] * BOOST; //Green
+        pixel[2] += pix[i + 2] * BOOST; //Blue
+        pixel[3] += pix[i + 3] * BOOST; //Alpha
+      }
+
+      //Averge
+      pixel[0] /= pix.length / 4;
+      pixel[1] /= pix.length / 4;
+      pixel[2] /= pix.length / 4;
+      pixel[3] /= pix.length / 4;
+
+      //Drawing pixel to final
+      let pixel_pos = row * 4 + (column * 4 + row * (PIXEL_BLOCK - 1) * 4);
+      final_data[pixel_pos + 0] = pixel[0]; //R
+      final_data[pixel_pos + 1] = pixel[1]; //G
+      final_data[pixel_pos + 2] = pixel[2]; //B
+      final_data[pixel_pos + 3] = pixel[3]; //A
     }
-    ctx2.putImageData(final, 0, 0);
-    ctx3.putImageData(final, 0, 0);
+  }
+  ctx2.putImageData(final, 0, 0);
+  ctx3.putImageData(final, 0, 0);
 };
 
 async function runModel() {
-    let img = ctx2.getImageData(0, 0, c2.width, c2.height).data;
-    let img_r = new Float32Array(
-        img.filter((v, i) => {
-            // Img red channel, only what we need
-            return i % 4 == 0;
-        })
-    );
+  let img = ctx2.getImageData(0, 0, c2.width, c2.height).data;
+  let img_r = new Float32Array(
+    img.filter((v, i) => {
+      // Img red channel, only what we need
+      return i % 4 == 0;
+    })
+  );
 
-    img_r = img_r.map((v) => {
-        return v / 255;
-    });
-    // generate model input
-    let inputTensor = new onnx.Tensor(img_r, "float32", [1, 1, 28, 28]);
+  img_r = img_r.map((v) => {
+    return v / 255;
+  });
+  // generate model input
+  let inputTensor = new onnx.Tensor(img_r, "float32", [1, 1, 28, 28]);
 
-    // execute the model
-    const outputMap = await myOnnxSession.run([inputTensor]);
-    const outputTensor = outputMap.values().next().value;
-    const output = outputTensor.data;
+  // execute the model
+  const outputMap = await myOnnxSession.run([inputTensor]);
+  const outputTensor = outputMap.values().next().value;
+  const output = outputTensor.data;
 
-    showResult(output);
+  showResult(output);
 }
 
 function showResult(output) {
-    //Homemade softmax
-    let min = Math.min(...output);
+  //Homemade softmax
+  let min = Math.min(...output);
 
-    output = output.map((n) => n + Math.abs(min));
+  output = output.map((n) => n + Math.abs(min));
 
-    let max = output.reduce((total, curr) => total + curr, 0); //Makes the sum to 1, do we want that?
-    max = Math.max(...output); //Makes the highest one to one
-    max = 50; //I think this is the max output by our model
+  let max = output.reduce((total, curr) => total + curr, 0); //Makes the sum to 1, do we want that?
+  max = Math.max(...output); //Makes the highest one to one
+  max = 50; //I think this is the max output by our model
 
-    output = output.map((n) => n / max);
+  output = output.map((n) => n / max);
 
-    //! Blind people can't see with, should be an alt text
-    //?Blind people can't darw either?
-    for (ch of choices.children) {
-        let id_number = ch.innerHTML.trim()[0];
+  //! Blind people can't see with, should be an alt text
+  //?Blind people can't darw either?
+  for (ch of choices.children) {
+    let id_number = ch.innerHTML.trim()[0];
 
-        let presentage = Math.round(output[id_number] * 100) + "%";
-        let spanWidth = ch.children[0].children[0];
-        spanWidth.style.width = presentage;
+    let presentage = Math.round(output[id_number] * 100);
+    presentage = Math.max(presentage, 6) + "%";
+    let spanWidth = ch.children[0].children[0];
+    spanWidth.style.width = presentage;
 
-        if (
-            id_number == output.indexOf(Math.max(...output)) &&
-            Math.max(...output) != 0
-        ) {
-            spanWidth.id = "topResult";
-        } else {
-            spanWidth.id = "";
-        }
+    if (
+      id_number == output.indexOf(Math.max(...output)) &&
+      Math.max(...output) != 0
+    ) {
+      spanWidth.id = "topResult";
+    } else {
+      spanWidth.id = "";
     }
+  }
 }
 
 function clearCanvas() {
-    ctx.fillStyle = "Black";
-    ctx.rect(0, 0, c.width, c.height);
-    ctx.fill();
-    ctx2.fillStyle = "Black";
-    ctx2.rect(0, 0, c2.width, c2.height);
-    ctx2.fill();
-    ctx3.fillStyle = "Black";
-    ctx3.rect(0, 0, c3.width, c3.height);
-    ctx3.fill();
+  ctx.fillStyle = "Black";
+  ctx.rect(0, 0, c.width, c.height);
+  ctx.fill();
+  ctx2.fillStyle = "Black";
+  ctx2.rect(0, 0, c2.width, c2.height);
+  ctx2.fill();
+  ctx3.fillStyle = "Black";
+  ctx3.rect(0, 0, c3.width, c3.height);
+  ctx3.fill();
 
-    //? Maybe using show result function could look better
-    for (ch of choices.children) {
-        // result = ch.children[0];
-        // result.innerHTML = "0";
-        let spanWidth = ch.children[0].children[0];
-        spanWidth.style.width = "0%";
-    }
+  document.querySelector("#clear").hidden = true;
+  //? Maybe using show result function could look better
+  for (ch of choices.children) {
+    // result = ch.children[0];
+    // result.innerHTML = "0";
+    let spanWidth = ch.children[0].children[0];
+    spanWidth.style.width = "6%";
+    spanWidth.id = "";
+  }
 }
 
-async function changeModel(e) {
-    myOnnxSession = await new onnx.InferenceSession();
-    await myOnnxSession.loadModel("./model_" + e.target.value + ".onnx");
+const buttons = document.querySelectorAll("#logo > button");
+const ball = document.querySelector("#logoCircle");
+const ballPositions = ["margin:0", "margin:auto;", "margin:0 0 0 auto"];
+async function changeModel(number) {
+  buttons.forEach((button) => {
+    if (button.innerHTML != number) {
+      button.style.color = "var(--accent-1-light)";
+    } else {
+      button.style.color = "var(--action-1)";
+      ball.className = "p" + number;
+      if (number == "1") {
+        ball.style = "margin-left: 0%;";
+      } else if (number == "2") {
+        ball.style = "margin-left: 50%; transform:translateX(-50%)";
+      } else if (number == "3") {
+        ball.style = "margin-left: 100%; transform:translateX(-100%)";
+      }
+    }
+  });
+
+  myOnnxSession = await new onnx.InferenceSession();
+  await myOnnxSession.loadModel("./model_" + number + ".onnx");
+  //Run only when drawn on screen
+  if (!document.querySelector("#clear").hidden) {
     runModel();
+  }
 }
 
 function changeView() {
-    console.log("change view");
-    if (document.getElementById("viewChanger").value == "Human") {
-        document.getElementById("viewChanger").value = "Robot";
-        document.getElementById("viewChanger").innerHTML = "Robot view 🤖";
-        document.getElementById("c3").hidden = false;
-    } else {
-        document.getElementById("viewChanger").value = "Human";
-        document.getElementById("viewChanger").innerHTML = "Human view 👀";
-        document.getElementById("c3").hidden = true;
-    }
+  console.log("change view");
+  if (document.getElementById("viewChanger").value == "Human") {
+    document.getElementById("viewChanger").value = "Robot";
+    document.getElementById("viewChanger").innerHTML = "Robot view 🤖";
+    document.getElementById("c3").hidden = false;
+  } else {
+    document.getElementById("viewChanger").value = "Human";
+    document.getElementById("viewChanger").innerHTML = "Human view 👀";
+    document.getElementById("c3").hidden = true;
+  }
 }
