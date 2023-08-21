@@ -86,6 +86,7 @@ const addRgba = async (x, y, e) => {
   last_y = y;
 
   ctx2.drawImage(c, 0, 0, c.width, c.height, 0, 0, c2.width, c2.height);
+  ctx3.drawImage(c, 0, 0, c.width, c.height, 0, 0, c2.width, c2.height);
 
   return;
   let final = ctx2.getImageData(0, 0, c2.width, c2.height);
