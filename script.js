@@ -1,5 +1,3 @@
-//! First press akward
-
 const BRUSH_WIDTH = 8;
 const BOOST = 2.1; //Boosting white color
 
@@ -44,7 +42,7 @@ c.addEventListener("touchend", (e) => {
 c.addEventListener("touchcancel", () => (mouseDown = 0));
 
 //! Drawing laggy on firefox
-const draw = (e, click = false) => {
+const draw = async (e, click = false) => {
   if (!mouseDown && !click) {
     last_x = -1;
     last_y = -1;
@@ -87,6 +85,9 @@ const addRgba = async (x, y, e) => {
   last_x = x;
   last_y = y;
 
+  ctx2.drawImage(c, 0, 0, c.width, c.height, 0, 0, c2.width, c2.height);
+
+  return;
   let final = ctx2.getImageData(0, 0, c2.width, c2.height);
   let final_data = final.data;
   for (let row = 0; row < c2.height; row++) {
@@ -110,7 +111,6 @@ const addRgba = async (x, y, e) => {
         pixel[2] += pix[i + 2] * BOOST; //Blue
         pixel[3] += pix[i + 3] * BOOST; //Alpha
       }
-
       //Averge
       pixel[0] /= pix.length / 4;
       pixel[1] /= pix.length / 4;
@@ -128,6 +128,7 @@ const addRgba = async (x, y, e) => {
   ctx2.putImageData(final, 0, 0);
   ctx3.putImageData(final, 0, 0);
 };
+// const addRgba = async (x, y, e) => {};
 
 async function runModel() {
   let img = ctx2.getImageData(0, 0, c2.width, c2.height).data;
