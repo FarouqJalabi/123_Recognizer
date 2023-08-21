@@ -141,6 +141,7 @@ canvas {
   right: 0;
   margin: -1.8rem auto;
   padding: 5px 10px;
+  width: 100px;
 }
 
 #clear:hover {
