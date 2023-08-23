@@ -20,14 +20,21 @@
   </head>
 
   <body oncontextmenu="return false;">
-    
-
     <h1 id="logo">
-      <button onclick="changeModel('1')">1</button
-      ><button onclick="changeModel('2')">2</button
-      ><button onclick="changeModel('3')">3</button>
+      <button onclick="changeModel('1')" style="color: var(--accent-1-light)">
+        1</button
+      ><button onclick="changeModel('2')" style="color: var(--accent-1-light)">
+        2</button
+      ><button onclick="changeModel('3')" style="color: var(--action-1)">
+        3
+      </button>
 
-      <span id="logoBar"><div id="logoCircle"></div></span>
+      <span id="logoBar"
+        ><div
+          id="logoCircle"
+          style="margin-left: 100%; transform: translateX(-100%)"
+        ></div
+      ></span>
       <br />
       <span>Recognizer</span>
     </h1>
@@ -37,7 +44,12 @@
       <section id="app">
         <section class="canvasContainer" id="c1Containe">
           <button onClick="clearCanvas()" id="clear">Clear ️️🧼</button>
-          <canvas id="c" width="280px" height="280px"></canvas>
+
+          <div>
+            <canvas id="c" width="280px" height="280px"> </canvas>
+            <image class="overlay" id="bigOverlay" src="/human.png"></image>
+            <image class="overlay" id="smallOverlay" src="/human.png"></image>
+          </div>
           <canvas hidden id="c3" width="28px" height="28px"></canvas>
           <button id="viewChanger" onClick="changeView()" value="Human">
             Human view 👀
@@ -45,8 +57,10 @@
         </section>
         <!-- Shower container -->
         <section class="canvasContainer" id="c2Container">
-          <canvas id="c2" width="28px" height="28px"></canvas>
-          <p>Model view (28px*28px)</p>
+          <div>
+            <canvas id="c2" width="28px" height="28px"></canvas>
+            <image class="overlay" src="/robot.png"></image>
+          </div>
         </section>
 
         <section id="resultSide">
