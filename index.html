@@ -37,7 +37,14 @@
       ></span>
       <br />
       <span>Recognizer</span>
+
     </h1>
+
+    <div>
+
+      <input type="checkbox" id="themeButton">
+      <label for="themeButton" id="slider"></label>
+    </div>
 
     <main>
       <!-- Main drawing container -->
@@ -47,8 +54,8 @@
 
           <div>
             <canvas id="c" width="280px" height="280px"> </canvas>
-            <image class="overlay" id="bigOverlay" src="/human.png"></image>
-            <image class="overlay" id="smallOverlay" src="/human.png"></image>
+            <img class="overlay" id="bigOverlay" src="/human.png" sizes="20"></img>
+            <img class="overlay" id="smallOverlay" src="/human.png"></img>
           </div>
           <canvas hidden id="c3" width="28px" height="28px"></canvas>
           <button id="viewChanger" onClick="changeView()" value="Human">
@@ -59,7 +66,7 @@
         <section class="canvasContainer" id="c2Container">
           <div>
             <canvas id="c2" width="28px" height="28px"></canvas>
-            <image class="overlay" src="/robot.png"></image>
+            <img class="overlay" src="/robot.png"></img>
           </div>
         </section>
 

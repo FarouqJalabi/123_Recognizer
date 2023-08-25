@@ -15,7 +15,8 @@ let ctx2 = c2.getContext("2d", { willReadFrequently: true });
 let c3 = document.querySelector("#c3");
 let ctx3 = c3.getContext("2d", { willReadFrequently: true });
 
-let choices = document.querySelector("ul");
+const choices = document.querySelector("ul");
+const clearElement = document.querySelector("#clear");
 
 clearCanvas();
 
@@ -72,8 +73,9 @@ const draw = async (e, click = false) => {
   addRgba(x, y, e);
   runModel();
 };
+
 const addRgba = async (x, y, e) => {
-  document.querySelector("#clear").hidden = false;
+  clearElement.hidden = false;
   if (last_x == -1 || last_y == -1) {
     last_x = x;
     last_y = y;
@@ -171,7 +173,7 @@ function clearCanvas() {
   ctx3.rect(0, 0, c3.width, c3.height);
   ctx3.fill();
 
-  document.querySelector("#clear").hidden = true;
+  clearElement.hidden = true;
   //? Maybe using show result function could look better
   for (let ch of choices.children) {
     // result = ch.children[0];
@@ -209,7 +211,7 @@ async function changeModel(number) {
 
   current_model = Number(number) - 1;
   //Run only when drawn on screen
-  if (!document.querySelector("#clear").hidden) {
+  if (!clearElement.hidden) {
     runModel();
   }
 }
