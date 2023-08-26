@@ -4,6 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="123 Recognizer" />
+    <meta
+      property="og:url"
+      content="https://farouqjalabi.github.io/123_Recognizer/"
+    />
+    <meta property="og:image" content="Logo.png" />
+    <meta property="og:image:alt" content="The words 123 Recognizer in red" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="123 Recognizer" />
+    <meta
+      name="twitter:site"
+      content="https://farouqjalabi.github.io/123_Recognizer/"
+    />
+    <meta name="twitter:description" content="Recognizing digits from 0-9" />
+    <meta name="twitter:image" content="Logo.png" />
+    <meta name="twitter:image:alt" content="The words 123 Recognizer in red" />
 
     <title>Digit Recognizer</title>
 
@@ -20,33 +40,30 @@
   </head>
 
   <body oncontextmenu="return false;">
+    <nav>
+      <h1 id="logo">
+        <button onclick="changeModel('1')" style="color: var(--accent-1)">
+          1</button
+        ><button onclick="changeModel('2')" style="color: var(--accent-1)">
+          2</button
+        ><button onclick="changeModel('3')" style="color: var(--action-1)">
+          3
+        </button>
 
-    <nav >
-    <h1 id="logo">
-      <button onclick="changeModel('1')" style="color: var(--accent-1)">
-        1</button
-      ><button onclick="changeModel('2')" style="color: var(--accent-1)">
-        2</button
-      ><button onclick="changeModel('3')" style="color: var(--action-1)">
-        3
-      </button>
+        <span id="logoBar"
+          ><div
+            id="logoCircle"
+            style="margin-left: 100%; transform: translateX(-100%)"
+          ></div
+        ></span>
+        <br />
+        <span>Recognizer</span>
+      </h1>
 
-      <span id="logoBar"
-        ><div
-          id="logoCircle"
-          style="margin-left: 100%; transform: translateX(-100%)"
-        ></div
-      ></span>
-      <br />
-      <span>Recognizer</span>
-
-    </h1>
-
-    <div>
-      <input type="checkbox" id="themeButton" >
-      <label for="themeButton" id="slider"></label>
-    </div>
-
+      <div>
+        <input type="checkbox" id="themeButton" />
+        <label for="themeButton" id="slider"></label>
+      </div>
     </nav>
 
     <main>
@@ -57,19 +74,25 @@
 
           <div>
             <canvas id="c" width="280px" height="280px"> </canvas>
-            <img class="overlay" id="bigOverlay" src="/human.png" sizes="20"></img>
-            <img class="overlay" id="smallOverlay" src="/human.png"></img>
+            <img class="overlay" id="bigOverlay" src="human.png" sizes="20" />
+
+            <img
+              class="overlay"
+              id="smallOverlay"
+              src="human.png"
+              onclick="changeView()"
+            />
           </div>
           <canvas hidden id="c3" width="28px" height="28px"></canvas>
-          <button id="viewChanger" onClick="changeView()" value="Human">
+          <!-- <button id="viewChanger" onClick="" value="Human">
             Human view 👀
-          </button>
+          </button> -->
         </section>
         <!-- Shower container -->
         <section class="canvasContainer" id="c2Container">
           <div>
             <canvas id="c2" width="28px" height="28px"></canvas>
-            <img class="overlay" src="/robot.png"></img>
+            <img class="overlay" src="robot.png" />
           </div>
         </section>
 
@@ -144,8 +167,8 @@
             <h1>What is this?</h1>
             <p>
               123 Recognizer is 3 ai's that try to guess what digit you drawn. 1
-              being the worst and 3 being the best ai. The right side is the
-              ai's guess. When you draw, the progress bars will change to
+              being the worst model and 3 being the best model. The right side
+              is the ai's guess. When you draw, the progress bars will change to
               indicate what the ai think you have drawn. One of the progress
               bars will turn red to indicate which number the ai thinks you have
               drawn.
@@ -154,6 +177,9 @@
               To test out the different model click on either 1, 2 or 3 on the
               logo at the top of the page. The explenation of each ai is written
               down below.
+              <br />
+              To change the view on small screen press on the human and it will
+              turn the view to robot view
             </p>
           </div>
         </div>
