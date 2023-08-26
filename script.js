@@ -147,7 +147,7 @@ function showResult(output) {
     let id_number = ch.innerHTML.trim()[0];
 
     let presentage = Math.round(output[id_number] * 100);
-    presentage = Math.max(presentage, 6) + "%";
+    presentage = Math.max(presentage, 5.5) + "%";
     let spanWidth = ch.children[0].children[0];
     spanWidth.style.width = presentage;
 
@@ -179,7 +179,7 @@ function clearCanvas() {
     // result = ch.children[0];
     // result.innerHTML = "0";
     let spanWidth = ch.children[0].children[0];
-    spanWidth.style.width = "6%";
+    spanWidth.style.width = "5.5%";
     spanWidth.id = "";
   }
 }
@@ -195,7 +195,7 @@ async function changeModel(number) {
   buttons.forEach((button) => {
     console.log(number, button.innerHTML);
     if (button.innerHTML.trim() != number) {
-      button.style.color = "var(--accent-1-light)";
+      button.style.color = "var(--accent-1)";
     } else {
       button.style.color = "var(--action-1)";
       ball.className = "p" + number;
@@ -230,3 +230,36 @@ function changeView() {
     document.getElementById("c3").hidden = true;
   }
 }
+
+// Theme handlers
+
+const rootVarNames = [
+  "--background",
+  "--background-accent",
+  "--accent-1",
+  "--accent-2",
+  "--text-color",
+];
+
+const lightTheme = ["#fefefe", "#d0dacd", "#a8dadc", "#457b9d", "black"];
+const darkTheme = ["#282634", "#54506b", "#c1b8fa", "#5c48db", "white"];
+
+//Whene theme button change
+document.querySelector("#themeButton").addEventListener("change", (e) => {
+  console.log(e.currentTarget.checked);
+  if (e.currentTarget.checked) {
+    for (let name in rootVarNames) {
+      document.documentElement.style.setProperty(
+        rootVarNames[name],
+        darkTheme[name]
+      );
+    }
+  } else {
+    for (let name in rootVarNames) {
+      document.documentElement.style.setProperty(
+        rootVarNames[name],
+        lightTheme[name]
+      );
+    }
+  }
+});

@@ -2,36 +2,26 @@
 /* ! Touch clicking on clear canvas don't rechange color */
 
 :root {
-  --background-light: #fefefe;
-  --accent-1-light: #a8dadc;
-  --accent-2-light: #457b9d;
+  --background: #fefefe; /**/
+  --accent-1: #a8dadc;
+  --accent-2: #457b9d;
+  --background-accent: #d0dacd;
 
-  ---background-dark: #282634;
-  --accent-1-dark: #c1b8fa;
-  --accent-2-dark: #5c48db;
+  --text-color: black;
 
   --action-1: #ff4057;
   --action-2: #e5223a;
-
-  --background-accent-light: #d0dacd;
-  --background-accent-dark: #54506b;
-}
-
-::-moz-selection {
-  /* Code for Firefox */
-  background: var(--accent-2-light);
-}
-
-::selection {
-  background: var(--accent-2-light);
 }
 
 body {
   font-size: large;
   font-family: sans-serif;
-  background-color: var(--background-light);
+  background-color: var(--background);
 }
 
+nav {
+  display: flex;
+}
 #logo {
   color: var(--action-1);
   font-family: Modak;
@@ -83,33 +73,52 @@ body {
   border-radius: 50%;
 }
 
+#themeButton {
+  display: none;
+}
 #slider {
+  cursor: pointer;
   display: inline-block;
-  width: 39px;
-  height: 22px;
+  width: 49px;
+  aspect-ratio: 39/22;
   border-radius: 48px;
-  background: var(--accent-1-light);
+  background: var(--accent-1);
   transition: 0.4s ease-in-out;
 }
-#themeButton:checked + #slider {
-  background: var(--accent-1-dark);
+
+@media only screen and (min-width: 936px) {
+  #slider {
+    width: 59px;
+  }
 }
+#themeButton:checked + #slider {
+  background: var(--accent-1);
+}
+
 #slider::after {
   content: "";
-  background-color: var(--accent-2-light);
+  background-color: var(--accent-2); /* dark */
   height: 100%;
   aspect-ratio: 1/1;
   position: relative;
   display: block;
   border-radius: 50%;
   transition: 0.4s ease-in-out;
+
+  background-image: url(sun.svg);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #themeButton:checked + #slider::after {
-  /* margin-left: auto; */
   margin-left: 44%;
+  background-color: var(--accent-2); /* dark */
 
-  background-color: var(--accent-2-dark);
+  background-image: url(moon.svg);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* #themeButton {
@@ -194,14 +203,14 @@ button {
   padding: 10px 30px;
   border-radius: 5px;
   font-size: large;
-  background-color: var(--accent-1-light);
+  background-color: var(--accent-1);
   border: 0px;
 }
 
 /* *So it don't change colors on mobile */
 @media (hover: hover) {
   .canvasContainer > button:hover {
-    background-color: var(--accent-2-light);
+    background-color: var(--accent-2);
   }
 }
 
@@ -209,6 +218,7 @@ button {
   min-width: 280px;
   display: flex;
   flex-direction: column;
+  color: var(--text-color);
 }
 
 ul {
@@ -233,7 +243,7 @@ li {
 
 .chanceContainer {
   padding: 2px;
-  background-color: var(--background-accent-light);
+  background-color: var(--background-accent);
   width: 100%;
   border-radius: 10px;
   margin: 5px;
@@ -241,7 +251,7 @@ li {
 
 .numberChance {
   /* position: absolute; */
-  background-color: var(--accent-1-light);
+  background-color: var(--accent-1);
   height: 100%;
   border-radius: 50px;
   position: relative;
@@ -256,7 +266,7 @@ li {
   border-radius: 50%;
   /* left: 0; */
   right: 0;
-  background-color: var(--accent-2-light);
+  background-color: var(--accent-2);
 }
 #topResult::after {
   background-color: var(--action-2);
@@ -267,6 +277,7 @@ li {
   max-width: 885px;
   margin: 0 auto;
   padding: 5px;
+  color: var(--text-color);
 }
 
 #explenation img {
