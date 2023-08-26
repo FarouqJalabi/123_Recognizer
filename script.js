@@ -26,9 +26,9 @@ const models = [
   new onnx.InferenceSession(),
   new onnx.InferenceSession(),
 ];
-models[0].loadModel("./model_1.onnx");
-models[1].loadModel("./model_2.onnx");
-models[2].loadModel("./model_3.onnx");
+models[0].loadModel("models/model_1.onnx");
+models[1].loadModel("models/model_2.onnx");
+models[2].loadModel("models/model_3.onnx");
 let current_model = 2; //Current model - 1
 
 let last_x = -1;

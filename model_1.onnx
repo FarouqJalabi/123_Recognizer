@@ -1,686 +1,0 @@
-pytorch2.0.0:Å 
-ÿ
-input.1
-block_1.0.weight
-block_1.0.bias /block_1/block_1.0/Conv_output_0/block_1/block_1.0/Conv"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2ãc:\Python310\lib\site-packages\torch\nn\modules\conv.py(459): _conv_forward
-c:\Python310\lib\site-packages\torch\nn\modules\conv.py(463): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(33): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-ì
- /block_1/block_1.0/Conv_output_0%/block_1/block_1.1/LeakyRelu_output_0/block_1/block_1.1/LeakyRelu"	LeakyRelu*
-alpha
-◊#<†2çc:\Python310\lib\site-packages\torch\nn\functional.py(1632): leaky_relu
-c:\Python310\lib\site-packages\torch\nn\modules\activation.py(777): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(33): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-ˆ
-%/block_1/block_1.1/LeakyRelu_output_0
-block_1.2.weight
-block_1.2.bias /block_1/block_1.2/Conv_output_0/block_1/block_1.2/Conv"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2ãc:\Python310\lib\site-packages\torch\nn\modules\conv.py(459): _conv_forward
-c:\Python310\lib\site-packages\torch\nn\modules\conv.py(463): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(33): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-ì
- /block_1/block_1.2/Conv_output_0%/block_1/block_1.3/LeakyRelu_output_0/block_1/block_1.3/LeakyRelu"	LeakyRelu*
-alpha
-◊#<†2çc:\Python310\lib\site-packages\torch\nn\functional.py(1632): leaky_relu
-c:\Python310\lib\site-packages\torch\nn\modules\activation.py(777): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(33): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-˘
-%/block_1/block_1.3/LeakyRelu_output_0#/block_1/block_1.4/MaxPool_output_0/block_1/block_1.4/MaxPool"MaxPool*
-kernel_shape@@†*
-pads@ @ @ @ †*
-strides@@†2…c:\Python310\lib\site-packages\torch\nn\functional.py(782): _max_pool2d
-c:\Python310\lib\site-packages\torch\_jit_internal.py(484): fn
-c:\Python310\lib\site-packages\torch\nn\modules\pooling.py(166): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(33): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-Ù
-#/block_1/block_1.4/MaxPool_output_0
-block_2.0.weight
-block_2.0.bias /block_2/block_2.0/Conv_output_0/block_2/block_2.0/Conv"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2ãc:\Python310\lib\site-packages\torch\nn\modules\conv.py(459): _conv_forward
-c:\Python310\lib\site-packages\torch\nn\modules\conv.py(463): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(34): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-ì
- /block_2/block_2.0/Conv_output_0%/block_2/block_2.1/LeakyRelu_output_0/block_2/block_2.1/LeakyRelu"	LeakyRelu*
-alpha
-◊#<†2çc:\Python310\lib\site-packages\torch\nn\functional.py(1632): leaky_relu
-c:\Python310\lib\site-packages\torch\nn\modules\activation.py(777): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(34): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-ˆ
-%/block_2/block_2.1/LeakyRelu_output_0
-block_2.2.weight
-block_2.2.bias /block_2/block_2.2/Conv_output_0/block_2/block_2.2/Conv"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2ãc:\Python310\lib\site-packages\torch\nn\modules\conv.py(459): _conv_forward
-c:\Python310\lib\site-packages\torch\nn\modules\conv.py(463): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(34): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-ì
- /block_2/block_2.2/Conv_output_0%/block_2/block_2.3/LeakyRelu_output_0/block_2/block_2.3/LeakyRelu"	LeakyRelu*
-alpha
-◊#<†2çc:\Python310\lib\site-packages\torch\nn\functional.py(1632): leaky_relu
-c:\Python310\lib\site-packages\torch\nn\modules\activation.py(777): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(34): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-˘
-%/block_2/block_2.3/LeakyRelu_output_0#/block_2/block_2.4/MaxPool_output_0/block_2/block_2.4/MaxPool"MaxPool*
-kernel_shape@@†*
-pads@ @ @ @ †*
-strides@@†2…c:\Python310\lib\site-packages\torch\nn\functional.py(782): _max_pool2d
-c:\Python310\lib\site-packages\torch\_jit_internal.py(484): fn
-c:\Python310\lib\site-packages\torch\nn\modules\pooling.py(166): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(34): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-º
-#/block_2/block_2.4/MaxPool_output_0!/output/output.0/Flatten_output_0/output/output.0/Flatten"Flatten*
-axis†2¡c:\Python310\lib\site-packages\torch\nn\modules\flatten.py(46): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(35): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-
-ÿ
-!/output/output.0/Flatten_output_0
-output.1.weight
-output.1.bias22/output/output.1/Gemm"Gemm*
-alpha  Ä?†*
-beta  Ä?†*
-transB†2¡c:\Python310\lib\site-packages\torch\nn\modules\linear.py(114): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\nn\modules\container.py(217): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\2350317469.py(35): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1488): _slow_forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(118): wrapper
-c:\Python310\lib\site-packages\torch\jit\_trace.py(127): forward
-c:\Python310\lib\site-packages\torch\nn\modules\module.py(1501): _call_impl
-c:\Python310\lib\site-packages\torch\jit\_trace.py(1268): _get_trace_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(893): _trace_and_get_graph_from_model
-c:\Python310\lib\site-packages\torch\onnx\utils.py(989): _create_jit_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1113): _model_to_graph
-c:\Python310\lib\site-packages\torch\onnx\utils.py(1548): _export
-c:\Python310\lib\site-packages\torch\onnx\utils.py(506): export
-C:\Users\Farou\AppData\Local\Temp\ipykernel_26876\1418072941.py(4): <module>
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3460): run_code
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3400): run_ast_nodes
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3221): run_cell_async
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\async_helpers.py(129): _pseudo_sync_runner
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(3016): _run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\IPython\core\interactiveshell.py(2961): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\zmqshell.py(540): run_cell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\ipkernel.py(422): do_execute
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(729): execute_request
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(409): dispatch_shell
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(502): process_one
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelbase.py(513): dispatch_queue
-c:\Python310\lib\asyncio\events.py(80): _run
-c:\Python310\lib\asyncio\base_events.py(1896): _run_once
-c:\Python310\lib\asyncio\base_events.py(600): run_forever
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\tornado\platform\asyncio.py(215): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel\kernelapp.py(725): start
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\traitlets\config\application.py(1043): launch_instance
-C:\Users\Farou\AppData\Roaming\Python\Python310\site-packages\ipykernel_launcher.py(17): <module>
-c:\Python310\lib\runpy.py(86): _run_code
-c:\Python310\lib\runpy.py(196): _run_module_as_main
-	torch_jit*á
-Bblock_1.0.weightJËΩ˘X=˚⁄éæIC=¸>”8Ωz5ùæÁi>0˜ôæàÓ®æVøhΩEçYæ1s¨º$w>˛w∆=ò&ˆΩ»µ"ºlAæ¡oüæKV˛=]ëæùnæóI5>ËbƒΩÁŒÔº≥RóæI–À=OÉ¢æègo>æ;T>=õ?ìÏç>«>.?‘√>√√ﬁ>°?Âë	>¶ë>>È_æÑ£çætóäæÿkå=f\‚>ŸÆΩuˆ>õÁ>NÅ>ÈèÀ>–˙‘=¨Ã->ØÜ¬Ωa4!>qã⁄ªhÔ·>C„»>uÕb>÷->J¶∏ΩPmã><uN>íÁôæ0x‰>”Ÿzæ)úaæM|J>Q„"æ– «<·‰æ>åﬂìæ^7 <¿|>…V>= ^æ·°æûüˇ;-¬çæÀùæ„æ=‹ã=xO<»∑<æ[%æöbœΩí[>`⁄‡Ω«mæá“=Û„ü>æ3∑OæLıæ*>
-Bblock_1.0.biasJ(5TÒΩı+¨Ω⁄0|>Ωi>¶À>•ˆã=*}"ææx]>9™>gÕΩ*Ø
-
-Bblock_1.2.weightJê»aΩU5LΩFCú==ôè=€ˆø;L`ùΩ^—Ωå«Ω‡µ=Ì◊ñΩ9•=õ=ñ¯Ω˚}÷<¬¡´Ω(±>=òë∏=d¡Ωππ=6Å@Ωa'C=Ò>Ö=Ìæ÷=>!ü=6˝<MøΩ-«ñ;©ΩÈ<Æº†;°ÔQΩX$∑<v9{ΩTæûíº=£≈]Ωœ'ÌΩù´®<^i=VüΩÌä∫ñ–”<ËGü<j≈ZΩ"/<˝ó¢=`Ñ/=Ø]†=%ì·Ω´=$=Õä∑ºqu£ºPdM=Ï™ƒΩéï≠<u=#ä<=D^ÀΩ∞’=≈'ï<!Á¢<œ2Î=ì`êºr˜∆=ı≠<†>=|[Œ=ØÖÂ=<Õ¯º!∏•=x<åÁÅ=≥å Ω«ıî<ù∂∑;€“«=Î<›JZ=œ<Ué
-Ω˝I∏ºﬂm€=ì{Gª¨d@ª≈⁄Ÿ;`Ç=‹å7=ﬂ›â=lƒΩÇ2°=wpÃΩzjº©4=ê+îΩ›EµΩ,õX=PGU=°ˆ∑ªOÅZΩ<U¥Ω_ÜΩ
-Ÿæ=ÔπŒ<.Ã…=b¥=‡¶À=»ÇöΩ*ä<,∞Ç<7NòºÊ¬ΩäàÏ<——Ωoª;Ω%»˛;ù≤Õ=£–LΩ¬∂Éªú®Ü=eqπ=æ2ˆ=∫5ñΩÚG¨º;==ì¡Ωß·CΩÏù†Ωå·qΩ„Hrº‰¸*=‘›ïΩBßÇ=4{Ω!”Ωy6Ω≥Jg<u8>2T¥ºU—<Õ‰=è¸=b¨7ΩNáΩ3<zªô˘µΩ m;XΩ„7°ºÈ]ïªâE≠ΩÏÛï=¬”Ω¶ı˙ºSUΩé–ï=Bí=%•é<[Y º˙RΩÀ=…:Í<±Ω∆=ívôΩy¬Ã=“≈=5¢ª2¯≈Ωy·åΩÖ¡ä=ï”õΩ„ÑªΩü=F©<'F=1≥4=;±∂<õíõΩ∂úΩŸÍ<qS<=õ"ò=~úØ<ÖíÑªÆTÃªHëÚ<¨*8ΩÜ"µªÇãºΩW?0º!√ΩT)P=Î;í=N|Ω=©¥NΩ$[e=Y]Ω`TSº÷Í±=àH7ΩBøRΩ¢6ÀªbäÌ=#<@=D‘Õ<˚ÄΩ5ä8ª]¿x= ›=™_ΩåóJΩLpæàr=œ±z=Aëæ¨€`ΩMä’=ë´€=„TIΩ¸¿1ΩÁ7X=—£>„∆±= ∞ÉΩÚ”ãΩ¡ >ú¡\=1;Ω}! Ω_÷e=Ú'zΩ⁄∆ººv=z'0<¡’•=Ñ±úΩIºM=¡"„Ω4©kΩ«ÁÇΩ⁄∏=<É6=Øbõ=Ê$ãΩø`<Bûµ=g¢•=◊êRΩ˙º=Fèùº Èñ=ˇ’8=ße=ØÆ‰=Æ¥=Ú∂º
-4÷=s§=Ò¨,=o≤ìº’SJ=˙ãx=úª=2§m=`ZN;ˆ‘W=DÿÅ=£0≥Ω¬õ†=‡v<=†éΩﬂõ=úFΩ^(ZΩÒ :Ω›Å<ΩÕÑõ=Ü‰íΩ]H®=¶/ΩÕD=Ö5Ω#’≥=ïj<Ut=˘∏1ΩÄ4¬=cîæ<≥-ã=“ëö=A¯x=ºæœêæí∆ÛΩS[†ΩÌõ,Ω4·Ï<◊ÔY;úV˛Ω2/0>9>É}>ˇc==I+>)ú>ÀO>ıv©>™2Æ>Dj<==uì=71`>**>`;u>@P>à:>[Ω Ω∆bâ=n?”ºËÏ<>œË>Ä·2>™:ü=Bl >|À‚º~QK<o2>4DÉΩpq€ªâ
-ø=(qâΩÏÙ”Ω˜EΩ #§;O·ıºòˆ=”Ùjº,$Ω⁄ç=tãŒΩuÍg∫;ìΩ≈@â= “Ωd˜t=>3ÙΩ£@ÂºàGË<j¶ãΩ,.æÄáßΩ†Ô™<ﬂ¬æÆ*f<œTR;d\¢=Kl‰<p~û=å¨ü=R$ ΩùÿQº:Îõª§°¬ª…zΩ}Ñó=ª ûºi¶ùΩ…ÙEΩ˘Vµ=ùA¬<Œ=Ëﬂ–ºˇTöΩπ:≤=©‰DΩ 0iΩÈvnΩõ†=$¢Ω’w∑=êøÕΩm2áΩi´áΩìQœ<≥ﬂâ=·©⁄ΩÆ≈á=‹1!=r!O=≈⁄!Ω±KΩbıÃΩñ2í<ÇÌ∂Ω∑'OΩÉ`5=LÙ<¥=B°@>P^=˙qJ<Úû>cB>|iÇ=
-ˇé<rüÊ=~∏	>Ü∞π=óIoº¶ûî=Í–È=0Z≥ºﬂW&ΩUw+Ω—èÓ=Áµ<Ω L-<å≥%Ωz∆º<Lñº&=YQ7:h[◊=`MQ=§1∏Ω“uì<cv<=˙∑≤Ω>ÇêΩı6éºj·ÜΩÄ	<Ê≥ï=BØÉΩ¶º¶Ω„|=œJT=lÓæ<OîÓº^ı–<π†¬=ÜÖ‚;ê˙¡Ω≈‹0<çäø=‡◊»=1ﬂ0=íÒ<Îv∫Ωï’Ωªﬂ <`@ŸΩ—LƒΩ KL=¬‘Å;ëíÑ=>/=Ì'=†«‹<Ò∞=Q!Ã= U;ΩË?Ω/£3<˜±=∞püº:™≥Ω˚D)=í
-$=?b±;≥D∆=2Úà==˛ê<]æ.Ω}πºıØ¨Ω+Ã=ÿ≈ñ=πgä=§Sè=®“,Ω#Ω@(æªΩ1·Ω…®:=8e	>;KkΩ“$>áxó=fc—=Ì˝¨=ÒîΩh}ã∫DH<‡˙Ô=6-∏=Ïˆ >π7;=—æÿº√ÛÃΩΩ6≤ΩÌı#Ω¿˘å=Ê®óΩ	6ºÄßΩ-%º‹òé<H`=ä•=äXQΩ5◊5ΩH¥=”R®<Ór)=±•ÎºQ¶¬<@<ä&•º£¶Ωa›±ªÎ6¶=\0ﬁ<¬È=h …=±v=ü˘º©πœ=Çí·<≠º«úæΩKÙ¢=ÌÂ<>Ë<§J∏=/PœΩöq¥=ÍæÀΩ÷êΩ¬ =<3,ZΩ∆Wg=¥ví=S
-îΩ˚∆âΩıŒÍºŒì=ÔM„ºsÇ‘=ﬂàVΩX{Ωœ≤ Ω	•=Ê{£=R¡UΩ&pzºvß`<É≈⁄<^±-=Çº‹Ω2Ù‹<!vı;› =nÜﬂ<H,ïºûr-Ω,~ÂΩñÆΩV…D>:;>∆>ªQ> oG>∫m>Óïk>+ô;>˝¨3>eœQ=pø¸=ƒ∞n=ÙL>gè>I€=
-xÇ=ªÜæîiæU5>e>„ËZ<ÖVK>.E>!Z=I%>óÎ<Gª>ŒqÆΩ®ﬂ‚="∞>Üº‹ºñ=8J>`2b<{>95>ÇT⁄Ωd[;Ñ~>∆áΩΩ‚15<÷”º=©\=;ê=*B‰=≈.æ~î∫b‡='DΩcÍ(æuïmΩ#ÁΩÑO¸ΩñˆÇ<ÈŸ+9´'•Ω£ß=ª;¨\™ª{‰9Ω≥Üï=âéπ='Iì=´G`ΩznΩg≥—<}»VΩÁ	œΩn i=‘cïΩ˘<”iΩÓ”9º˚WÜª™“èΩy¸#Ωö<à=’Ìì=h)=$dÉΩ{Ó∫jâΩ–¬¥=«_QΩO“ªﬂY=6πΩÆ@A<XOΩsRZº±«Ä>ÏÕ_>Ä<I>#d>¬Ä>¥Ï~>ù˝—=êæ=}Ïv>Qé
->ª‹6>Üã;º‹¬º^5–<∆+º4ç"<=Ì<≠"«=íí0>W9	>J[>e·;a˜ü=≥'>¥“ÇΩ|à=Ó
->¥≥=÷ ë=û6ÿ=~eΩçPƒ=ï>m<Ù2Ù=•RªYﬂêΩ\≠=DÅO<`πFºçÜœ=2ê’=ùﬁÎ=‡É—Ωi4†=ÉGñΩ8
-æ¨EæçΩ@ÙÀΩ¿æ´´¥ΩˇÓÌºOHΩeÔZΩì∑†=⁄!=óAòΩàºãΩúºdßΩ[	ì=√í=à‘{=F$∑;œΩŒî,Ω™ÚØ=…éY=2~‹<TÖÿΩr´2=xÄΩt†¶Ω∫•;® ™ºñ=∫ód;ƒ>=±∫á<ü8$=ù®ΩD''=*µ¡<1±Ω;œªΩ\e4ΩW-”<9@Ω◊âÇ=˘ù¥<Që Ω[%>% ˝;$k= ¢=¬ >< >´f˙=ˆå=z©:Ω™®∂=∂ÍΩ)≠Q=LQ§ΩˆPôΩx6kªÅì|=P©=≥£ºMÖ≤Ω9ÊÉ=q/fπ¢r›=	…óΩNE≈ª‹—=Óºƒ=Y®8Ω[‚ºfº;®ú=?ã=•B=⁄äú="Ÿ;br„=X±cº≈‡l<ä_z=_á‘ΩûΩEºÖÂ√=H=Í)π;_i€;∆$ê=ài¿=ﬂD@Ωì≥*ºîU	=ÁŸë<Ø=æº1Ôâ<ƒÀƒ=j$[ΩIFΩ	n«ΩCû∫:˘ÓªÒÌœ=9Ëú=ª¡m=kªlºÈ≥ß===≥=ëéª=]áhª$ﬁ=Í—≥ΩK∫åΩˆ¥'ΩÁ•“=ù /:;……Ω¨Öœ=ÜÚî=ï†=‘öÁº{T~Ωålñ=≤o√Ω8ˇºÈ¢’=ÃÙºŒ`g=;Ua=™L<
-sΩd∑¯º£åΩ]ªΩaàf=zB^=í√<PO-=∑ü≤Ω¢©pº-åË:¨=NΩÂç%ºË7è=#õΩŸc´ΩºèwΩ≥Ω=∫œΩ<Èê(=dyFΩ„òΩÿSìº∑ﬂ<Ω“8Q=H•ºËÆ= ø ΩW∆•<§ÓΩ›3=B&|ΩJ$ø=’~WΩ«“mºUR=´sK=%¡º=rYπΩ£ÿQ=îéΩé 9Ω¨πΩÆSå=G‰åΩN‹»Ω»!=•F…=;†=_#R=À’ÍºsáΩHÎ=(·∞Ω†Ø=rqÈ∏=i=ôèΩTºΩbz∏=Cõ=Õ∂]ΩU~™=¢=*>
-Bblock_1.2.biasJ(¥©´<>úmº/˘=ÒÇ∫=3#é=	±=K≥ΩÂ´=ΩjóxΩ*Ø
-
-Bblock_2.0.weightJê˙≤<2»Æ=»√≈=ØÏâ<¢%W< æΩr®ã=dÚY<ÔÕ¥<Û?ÃΩ}ΩÒH”Ωt©ªóoˇºÃÏWΩ_‹¬º1‹Œ=4[∞Ω•P‰<e¯§ºë=-Ô<¯€=« ÀΩ ëΩîM=ΩHå= Õº\©
-<0ïΩöÄΩ2ksºÁ√=
-Ω{Ø®;ªÚ]ΩìMΩ„»√Ω´A±=,ÂÅΩJ<‹<⁄Ã<+;Ωˆ◊=FAõºØüΩ8àºL„ã=wÖ‚º≥}›;ãdùΩ¨xu=àÒº›ˇU=qX#=ºoG=◊HºMh–Ωç«∞Ωé‰=A„Ω’.¬=µx<d;„ó=°∆Ωá™∆=j¢Ω≈®¬=Ì•ˇª\ÓW=≤ΩÌ @=
-jí=≥ÀYΩÜ´åΩî„CΩ˚=¨1&<ô†€ºıEÏ=ÂôñΩP:Y=A ∏Ω†mk=M≈]ΩZH ΩøπiπL?=:ã*Ω˝¢ôº˜Å≠=ì>¨=Ñ-»<D7…<‘^àªGÃΩ√å=R≥=îcY=ÊY=ÌìÿΩîüyΩﬂΩ<{dÀΩOƒ°=”µÿΩ=q.=˜◊uº‡Z¡Ω9Pä=õI3=cO=Ií<ÓpÕΩkBŒΩËR
-<]Y>=Ô'˜ºﬁzÈ=øúÈΩ≥{ÆΩ{œ¨<ÍüΩ€g⁄=ï–⁄=…”∫ΩƒeΩ>&∫A4ΩıÂkΩˆ—ä=>èHΩlM√=’ Ãº√⁄öΩ 8)=;g™=ø¡ó=^iªLØŒΩË0“Ω.˛OΩ†À.Ω• âΩ2çúΩ;%¶=JØÌΩ©8 æÁ≈(>ÜÂΩQ“Ä=ŒÙ>˛óΩ&∆æ”*Â=9É<º”Ñ=!=S=„Ω£≥∆=˘æµº!ëã=B0g='Ëºé"øΩYIn=) ⁄º∫Zªài=f2ﬁºÈ√ã=∞FYº ±óΩÑFQ=ã=6ªâ=ÓõΩΩ3O=F.ºùLëΩ§¶=ZhT∏fÀØΩo?{9pœÉΩÂŸæ=˙üØΩ¡Z‘=q å=5%=4Tk=kÂΩJ⁄èΩ0Ó<‹√=¸ÿ≠=µåñº≠]õΩYp´Ω˝#®ºáˇZΩ§⁄Ω4£û=UÁºtz÷Ω!´o=˝÷ΩG	£=@>tÛ∏Ω7D¨Ω˛->{æwÁ>J4>Òèa;G√ÄΩ!Oëºπ%Ωçr•=f‹ºÕmPºÖÇı=¿ÒJΩÉ±=Ω ¬z=Â*bºb>©ΩêLΩk⁄zΩ¬Ìu:≈öê=Û=∂‚Ã=o∑ËΩçhô=‡ÄºDÇç<Â∑ê< Ωö¡õ=#)Q>*È=\(J=¿”∫òa+Ω0æ
-¥ö=√ıAΩ&ØΩ1b“=πÊ6<ü2ΩΩÉûr=<}Ü=∆Ù∏ºÛ∞äΩ⁄¡—ΩDõ^º]2˝=µ∫ß{ÉΩTk<qÒmΩ€‰C;E¨3ΩÎ|jΩò*¥Ω&Ü¸º_ÔΩjÉ∑=Zº>Ñì9ñ◊û=+1€=GÎ†<5\ÇΩÛ‘	Ω~ŸΩef0º∆ùeΩ’˙bΩßX-<J%;<)trΩµø;¸u∞Ω']äΩ\Ad=◊∑ïΩÖ6ßΩ<–=îÅCΩü∞ÈΩßw =<fﬁ∫ı†=ñC·Ω=3æGΩÇ>ã#2Ω¢®-ºí6V∫˚ASΩô L=πÚ=ÎÍ¶=îcºËÍ<&; 0=•2†=5p:Ω◊(…<∫6=˝`e="TÎ<r8ìΩ5Ü9Ω´lÏ=ì;ËΩË…hΩÆ∞úΩò“≈Ωƒ-;å‡[æfj>>Õ
->˘ËD=º*ß=∞©>:¸√<«§,=0ß»ºh’ æd$C>§Ä=ÒÂ ∫ù">c¢;>Ûˆæ=Éˇ<ﬁÙ¥=ãë⁄Ω§0ë=LQî=“6;=èd•=o≤‹Ω Ωˇ∆]º#Êw=Ã
-Çªu8ºÀ,°ΩÄ◊Q;Å|ΩŒÈnΩeÚ<ÇA"º~ΩË<@]€;‰©•Ω›†˘ºÉñΩ?|≥=uíÛ<⁄[ºº®•ºˇV5ºç<H=Öá=ˆjvºDÑ;+ﬂâ=˙£	>X¯ÿ=çΩÖ€÷ªnÙ@Ω;Ã»ª∞>7¢;Ω⁄%|=$P∂=ö9ÉΩñi[ΩÍæm™W> æ;>Iò1ºpc¸ª,°=’?é=)„>¨<åΩ‡Œæ9¢<‘∑=(¢‚ªË3ä=ë,$æÎô=ÀÇlºûæº˘Á=H=M#Ä=<é”=„–
-æñöΩ6ˇΩk™SΩ°–=4	ÿΩŒ!.>∫Å>>‡ÇÖΩ‰>€©=b,Ü=	¡æeo⁄Ω‰^œΩ’uK>OÅ0>’/
-=a	>¸ÿ4>”Oº≠à∆;Áõ®ªˇÃÉΩjß…ªTâ	>)-~ª£<K_⁄;@~]ΩD(=›Æ=ÃzΩ˙-º	K=˚ãîΩﬁì…<d≠ºÊÈÇºæáNΩöÂ	>˛¿é=rˆ¥Ωß4=˛˛+º’2N=∏§Iºi¸JΩÉ]ΩË¯ΩÇÈ§º◊Qß<ÌòóΩy´æ)ó9=,∏†ΩàV‰Ω⁄Œù=L‹Z=õ—<óÛ	Ω±fÃ=ìGΩù”5Ω&æ^Ç€ΩAT'æ˙JLæÑﬂtæpø>£õ>;q=öÌ\>”ÅÑ>Üóí=is.=˛Ì˙=∏Ô >ÛF)=∞‹0>ÆE£<ah =	£'ªY™„ΩÕ©ı=%%ΩMÏÄ=S∫Á=YÁç=«O¶=T¿û;Y$«<.TˇΩI$oæ’ÂΩ™hº{H°º8a¯=%W@>#˙Á=5î>® ã>∂è˚ΩY2æg-aæJ}πÙ>Hp'=∫µ=;õß>Ñt˝=ˇDæΩp{y<f⁄áΩ∑—=ﬁLd=¯9>Õ°]=¯	K<≤PÃº{â»ΩàPΩé1ºàqªÌu Ωn`IΩIü=dS]Ω„zº@C¿ªºó=!ú0={£;ïªø*ÎΩë]ÓΩbÎΩúöΩπŒΩˆ“ã=^≤«<ä¯©Ω‹‰Ω…—Ωˆ+Êº>ªˆ=zåï;⁄ºTj·=√≠=¢$=ØÿªΩBh‰;Aa6ΩwÿÒΩïT@Ωn45==Ø⁄º#™%æÖH¢=çqm>–Øh>€_=«Zø=ê>pÖä=≥≈=ynΩCÍ£º}õgΩp∂Ò=ó]ÂΩ?™≤=éìªËcòΩ‘Hà=R√è=e–åºµ˛ı<H*ØΩÅr∞Ω…ø	æÆfåΩÄ`@Ω<ÑÑËΩ«/=Ô#E>¢>”ñººuó§=†->âM/ΩcYΩlo	Ω
-„=3¿m=”ô≠=”Ï‡Ωg)á=ÃO>}<™=˛4Q=Lê=1⁄=ìTx=Ÿ=ó¥aºpÈºãR‚<@ÂíΩ!›Î;u)™Ω«ê–:eÃ@;∫æª¸⁄∏=ï1b=ııüΩH…'Ω&SÕΩkm∂ΩL ÑΩco£=WíüΩf»±=2Ëí=Dœ‰<—§Ω’¿;Ωÿ2
-º4®ÅΩæ‡ò=xî™ΩÎÏº–w°= ¨<ÁÖ`=»æ=¶∂Œ=	n=R›yºA»=÷ÔÑ<µ£xº§ tº*GΩV∑Ω^O>aØ˚ΩïÕ}ªØ§>pë<Ω∑x1>ÅìC>(π∫ºi¯Nº	x=pÍv=ƒà·=ö™<e‡oΩè–˛=0∞Ã=MÔ=m˛)Ωf≈Z=°¿Ø=óÏÂ=lªG=
-^n=ÑB=O4¿ΩÔÜ=rXzΩ‘ª={∂é=‹º]â=[W<	â¨<Âê)>]éEΩ”P=~˝åºÏ?£Ω5e¶Ω9ƒ†;>ë=Êÿ5=Î¿…=Q‘Ω¢q∏=…∫=9B=xû=cçU<b;ª„ÍÑΩ“(=…›“ΩÆŒ◊ΩCÙ7ΩπvD=m•Ω‚Ãg=9¡°=™Ω˛Uí=”vº˚™º4<
-òX=^öΩ≠È	:ïO_=©_=Naú=∫w˛<4·˙ª	û¿ªÍÉ==dÚ<Íº«=S—gΩHã¿Ω6CÏ<%xf=Bü=ﬁ~œΩyﬂÉ=µ∂ Ω√•Ω”qòº]ü=ÑøàΩZ\∂=~¿√=ºƒhΩ∞ºΩël=†O,;Ë>√<C⁄äΩ√É'º√Ã®Ωo±∫â–ßºã^Ω%-Ω¢ƒîº!Ω¯0°=X∞õ=√OI=Ó:πº>lU=Is’ºV%çΩÍûéº„[å<Æ(ΩÀ˙JΩΩπΩ§¶ºô8ÿ=D§Ωú1§=Ö=∞ÕΩ“≠HºÛoÃΩeΩ¥D∑ΩÖΩΩ{Ì@=˝éç=L¸äΩT≈=ˇ†=@ÅOº∂TC=Ëπ<|‘¬ΩÏ:≈ºælΩ^ﬂùΩ∏øzΩì!=c˜<2i∞=¸íã;vQd=‡ÖG=Zv»=(Qt<ÅÈX=˛I2:üé[=b º</<=FöΩ ÈdªëVà=m·(ΩJ‹Ç=›;qΩœ≈ï="FXªò/‰Ω¶Q=yåΩï=Ω§ª´Ñ„ºbm≥Ω[∏Ω‚8>Ωè|ß=w[=õo=ˆmÚΩ∞)á=z∫=…≈;·◊ÆΩ,ä.ΩM¢>œ≤;ëø€=DºPÔz;$lÄ;©*îºN9,Ω,2◊<)k{ΩΩ†]ºj®ù=Ó˙îΩÖo5=átÎΩ”ÑU<SX=!¯ù= {¢Ω&”S=–9ΩæÁ§='éΩv)*ΩÒˆUΩ >ÏΩXÑ√9VÌ=¨3P∫∆Åö=€]=—•>÷¨JΩ¢±∂º1nÄ="Õs=ŒÀ<†)=¬≠GΩe>ÛÇΩ	 º˜Œ’<t6ø=+[=ç˘=ÃXÜ=éë˘ºG‚=∆˜.=+›=9ñ=§ònºÕåòΩD˜«ºùöòº`~Ωñî8=¥‹<Éè=∫˝†Ω ◊ç=*>
-Bblock_2.0.biasJ(c¡Ω@•ΩÌã_<˛û=nQÍ<îœ“=ÕÉΩA#>∑Ωñ“¡º*Ø
-
-Bblock_2.2.weightJêÇ˛†=É—©=∆}ô=Iü Ωv;pºÁÿ =^≤π<ƒaTΩÎ≤æºÉ˚2=çG ªemñΩò>=^~ú=?#=ê∞=˚ÔºXl:=–†6=« EΩgsr=#÷=Ù"Œ=¢ÜWΩ=i∞=s 0Ω≈œùΩE£µ=†™íΩƒLàª(ó=téºbˆhΩûlãΩß[óΩY™ŒΩó≠¡=\Vòºgy6ΩÜN=X∂U= d†=?˛Ω	◊mΩåo=1K>Ω@ﬂæ=5ÖIΩÿiΩCº!=ì=ÛªΩ`˜ûΩi„QΩé®®Ωﬂñƒ<≈™Ω¥≥Ω=™æΩAQº3å¡= iΩ<,*ÃΩ⁄ms=‘ÀFº[i∑º(√ºà6ΩVµΩû»GΩ˚· ºÑ◊†Ω"qÂºf =v„;%ôw=X™∞=*/º«¿pºÖ/Ωg‰ì;ä¯ê<äL∏Ω3Wå=‡ /ΩM∫H=œ†æ<1%àΩ£ÉΩA®=„†5=îËãΩ˝ø◊Ωf	∏=πj¥<$-ØΩ/ª=‚^¬ΩD$ä=∆¥π<®ÄΩHYºx3@=GÁ;`BÀΩ+>=ñ`º54∂Ω◊]^< «">ëSèΩ\\_=ÆÏB>ÍRª^>1Í<N@Á=Åg’=tØΩ2Àì=ª-=‘B<æ;Fè<lãpΩƒc¬Ω`ï=ç˙¬ΩbütºÂ€ >£oΩ<˘ùº¡òKΩú/æ∫$çΩ§<SWtΩÖ∞âºH¨ΩΩ;¿Uæ0J5>†üOæ∂}…<èRá>Yu—Ωu≤<uÌ=$¥$ΩôöÊΩ"°=›}1ΩYj¨=oÂâ=‰æß>Ωã>W-æ≤sn=∏1>ƒC™;x4b=[Iü= 3áΩ}+^=ÙêA<à“8ºôiΩG%µΩuΩ"Ω€©ÊºqiöΩˇ%Ωœ˚ª®Œ⁄=ﬁtº)yΩ™Õà=4Ò∆<
-®yΩ∆ªèºŒ|ΩÇR];FpÍºaì=ÿtΩ#ÜP=◊ˆß=(«òΩÇn∑=*Ω¬Ω‹	Ω<âæêºT]™ΩΩ §Ω].?=ftæ£j≥ΩWç)=$†ˆ<≈±îΩnc=ûﬁæ∂∫ ΩÕÕΩƒΩ˙ªù˝=gX∫="jΩº ∑=iΩ®ºè◊=ÖªNΩ∆BïΩX&æ_⁄Iæ-Ù<ı9¿=|jû=vài=?ñ7=ûô´<ñ9æI’ƒΩdÜæ˜ˇ±=l·=>ÊÜ>?ﬂ=Ø”±=ô˘=mæΩΩ]Oòæ–1æº≥=’√∆<≠)≤=wm“=?æØ<Üv≈=7’ΩE#µΩΩ–å<ß6:Óqe<ë¯°=Pñ˙Ωﬂ≠{<^0%=-KÇΩQMæl—;Ù™º„(ΩL‘ïΩj] =R|1Ω4$≤Ω®`Ω™™∂Ω∞πüΩj·º4ªøΩVöæ˙Ç»º&˘9›®œªä£<vH«Ωò±=ÔÚØ=«ﬂcΩÑD\Ωo˙,ΩÚ®^∫ ",ΩªTÿ<K~y=àÃæ='[∂=úí^ª#4O=◊˚ô=ÔµΩ£≠€º=¬ΩiÁºá?l=k¬òΩ jÕΩÑl-Ω˝æ·Ω¡ù*ΩXYKΩ„ºcæΩ∑ÃΩº['=¸…æø€æå%¿=œﬁΩõµ;9
->T>4&=BƒΩSvñΩ™®ÒΩ…
-¥=f˝:=Ï[oΩ,°£<LÔz<Ï√€ºÜ¨ﬂΩ‰û›ΩùK˜Ω6óÌ=°÷>.√-Ωπö≥=A..>öÔE=,Éæ—h_Ωj2/=ﬁØΩ›#9º’d/æ÷ƒ£=k£º=>ΩΩƒ ü={yúΩC[:=Xî<„D<WÈ¸ªÙø<ø$~Ωë„F=è£í;˙ÄΩ›Vººp·¶=Ñ$çªoà<K˚ãΩ_„VΩ2∆;V®]=ıΩ<R‰%=,Ö™=˜ëH;¸âΩ˛˚=—›ΩøºQΩ¨‘Ωo[,ºWÃcΩhZøΩz‡sΩ™Ô,Ω›õ;Ωíê1Ω”Êö<éUhΩfDËºh«ΩD«ÄΩˆ©9ΩÚ;∏<#UÃ:≠%v=9†v=S>«=¸ﬂÅ=5ë„;ÏÜoΩÏ^è=I
-Ω’Ωû;°=ÉT9∫⁄d¢º†PºÔ$§=hqÃΩ[JJ<´ÌÉ=Ê1ºwt
-ΩÇˆF=ÿΩàTFºc9ØΩ”4º°Âü=<@=Ã^Ä;0	Ìº˝9î=Ùß	ΩÅ AΩcâôΩq∞ΩÀŒëª8Ã;§Í˜º∏Î,=:⁄¸ºâ°óΩm˘ÕΩAx*=`´õΩº’ΩŸ=æº˜∞ˇ<ï∂Ω˝D◊ΩØÃΩK£”<∑;‰º≠ç=“–¨º> XΩ"ù¶Ωp+Ñ<˛ò€;˙XΩÓ+ëΩÅ◊∏=çnì=$Ω9ãΩsp≈<Ñ8ÇΩbXä=ìò∏ΩÀ@óªrF=ﬁ2ë<NﬂºÜ∞F=®æäΩ;—,;5U=*ãÇ=SΩrΩ1`œΩª‡;Èh•ΩóΩ_`Ωﬂ §ºâoº-´7=ƒﬂqº… ?ΩÃµΩ”JÙ:∞J]=–◊ª¥K!Ω@ˆñºjQºFe%=>˜º_Ù–=X@Õ<◊ç|=ÈÀÄΩ˙‰=U›<÷]æáû∂Ωeîæº¡Œºã/)æânÂΩWﬂI>e7K=˘Ïc=RD‘ΩQ@æÀ5Á;ÆÁ<¬ØΩÑJ=`Ë$>›h,>gËW>√ûæü°åæ˚=Ræ6>1ΩÏ˝Ωª‡->’eO>‡–=	S&æ"å*æœõ=kåæk˛îΩ˝5æ	)P>ái=;¡â=w4ñΩæÒJΩ;≠€º‚6‡=Nu=Ω¢>˝=…˚<Ôçv=ïÃ|:kM±ΩhsGºÁV‚;∞Däº`Œê=ˇÎ'=Ì+µΩì6=ﬂﬁ¥=ƒVnΩÍ…ΩS~=:RΩz[òΩÌé¢==!ÔºCä=ﬁ3<ù&J<LxØΩÇ)û=˜SÙ=oı,=Ì úΩØ§=xÀáΩºmÁºÄµ>«Ô =O˘ﬁ<H“>Û$ä=«◊ºT->i|ª=NﬂêΩÔº◊ÅΩ}Ü´Ω*û)Ωw/ï=cäæÆ!D>„®®=òªãΩÿåΩ∞‹Ó;⁄êÏΩ∫ù∫Ωúô.=“º¡ßæ˜t|=Ë…>lÔΩÌæFÀS=k/æ1Kò;ê"%>@å“ΩÀéΩ˚“>∆#Ω´–<òÊâ=Í.=Y∏|>@@ØºWÍ=_ÖT>∑‡ Ω?Mæh,NºØ◊ÚΩÅ&¥Ω9?0Ω·àæÚ†ZΩÁÚª¨∞æIPqΩœ“Â<Â©ºﬂvHºÓ-Ôº*˜ΩD/>÷;⁄<∞r√Ω ±:ΩQ,à=-ßü=∏^a=≤@Ωa3=6âõΩu≤=ˆ˙“Ω,1æ®~3;N~üº"µπΩ6é/=˚Ì+Ω∞°’Ω <5áΩ¸|vΩ’(ïΩÊOïºwºïºCµö=‘≥⁄<¢Z–ΩjˇZΩB8Ã=@ì∂Ωï≈ΩO7,ΩäúΩc¥èΩX™<‰‚ƒ=„\ ΩÅ ∑=YÂpΩ…i≈=≈£=<¸ËºE;2=„ˆçºA5r=¶ç‚=Õ<å=ˇ!=ú´∂=Ûâh=–æq⁄…Ω®Ç<	wüΩ˘≠KΩÀjµΩKgæ=‘Oﬁ=3>µ,æåñΩ'Ö
->¸ÀﬂΩ^AƒΩ¯ÛΩev‘Ω∫∏q=∞™V>é`æ∆À]æ.:ºÕ⁄ƒΩ∞fæ∑¨—Ω¡r¶=∫ˇ5>3ø">Éa‹Ω!¨»=Ï5>ïæáŸoΩ∆#·ªâ|ê=[ÛÈΩt∑=cÊè=äΩek<o≠=äãΩd«º\Œªrú=„¶‘=ÿÁZ=S€«ΩΩ‘=ôÛÍª‰q∆ΩÉ?ˇ<ê˝ºº˙ëΩ¥ï–=Ÿˇo=;¬	º˝ãÜ=∂πºEÛΩ¬~Ωuâò∫oœª§qÕ=≤(ªΩ»ΩT7î=põ=Pªä=$ƒAΩ)\DΩf¥>dÍ=ØÄºÖ˘1>¿å˘=¿üﬁºÔ…#ºR‚⁄ΩÙÅﬂº\¶≤=ƒIæG|∏=›E;ºﬁÙã:õÖ£=ûÑœ;äæëΩd<¥©=3B≈<∞ºS˙Æ;Ø∏$>Õõ<√…M=ÅÙ>>O∞ÆΩŒ Ωè<q ,æ”I’=B1=Ca®=QBÓ=àM´=/i<3*>r‘ù=Ëè=!Ä…=ìÅΩº]‘=äóôº0£EΩﬁﬁu<’I>ßn=ñQM=ëæΩØ^°ΩÜ	‘ΩT˜=√+f=ŒCü=å/	æN:ŸΩj™æÕ—ÎΩ‚∞Ω‘@#æ0WÛΩD9æ,¢gº^¡¡Ωãlµ=Ûbπ=›K∏=«ˆéΩ]Vä=˘GØ=’*∂=—bΩNÙ=˝°=øå=é&ºœˇº˛6©=,Ñ£=?ª0|ÜΩrK<Ω˛…=F˝î=LÀÀ=|1ΩÑ’ΩÎÁ ΩyΩ˚√§ºuœ_=ïg;ä`‘<ﬁs@=∆ÊΩÈAº≠|òº:òî=Úë<@µºp9÷ºa Üº3ö÷Ω˝â”=ÒzÅΩ£+=⁄~/<^¡Ω¡lS=ò›¶<‘l©º·FŒ=‰==~ÑÅΩÜîÉªæÿ≤=‚‰<ÿ [={‰≥Ω3ïΩÈ{ªÂ"ßΩh¯;ΩÁYü=◊ŸÁ<î≈Ωsd£Ω“=ª"d”Ω	lª=òIÆ=∞{ÆΩ~_Ω›¥ΩyF≠=ˇ¢»ΩñrŸΩ–m¡<F‚:¸#∞Ω˚∑©<…•Ó<àk»º,oºtc”º|2ª·ö»:ˇR≤ΩUçΩΩ`Ü=¶ûç=\UbΩπÉ1Ωô=à2™Ω#=öΩ[»ΩkıΩôüòΩ*@í=Ø≤øºQvq=Æt∞Ωàe∂ºÚy»=_7ß;z®ΩÀ—=4˘ <”ñî=*>
-Bblock_2.2.biasJ(%-çºfˇîΩùΩ|ºΩ»?¬Ωxï>ÿj’=¢H5ΩúFÑΩ9ê·:*¨ô
-ÍBoutput.1.weightJêôÍ5É<5|›<íüﬂ;Ñä=ä4I<‹Dñ∫*±#=πÉªû(Ω„õáªƒr¿ºÛì„<d =Ccæ;–‚•ºæ&Óº‹©ΩKSí<î+ºh<öˇœ<vœÌ<*ÿﬁªõöL<Èkfª"«º.'îªkkºwóº,Ωc∏<∫±9®ã5Ωê!Wª©∏Ω9E∫ºdY)=•aÆªZ<d<≤'w;;∂1Ωçì@<…º©ø·<‚¸á∫•<˝\<qçÆºæ Ω•Û=ºK–<±Ïª‘º·çËªé5$Ω˜Ωõ£a=º˛ãº¯=C„ªjÑû:0˘Ωf‰Ä;ÍIù=p¸Ü=Z6<DXΩ#$=„â=µi< ⁄I∫µVlº∫-+=—Yº<+âç=ƒfî=õf=Åø<@•<>öΩ·«ïΩ%Ö4;Y∞s=2b2=∫Ö’πm Ωõ∑°;ò€Ω?/óΩBAÄº∆=g6<KaòºΩõ#=˚µª›(<n≤Ω◊îΩΩ¨íº–L<-ﬁØº{ª;∂<¬Rüª…Òâºoß;Ciû<s‡<õ`>=ƒÏﬁ<bR<* <C&º‘ˆ~ºñ{πºgqY=D∆f<ó#Hº≠®º4ß∑9A¢BΩSæ˘æ.Îæ&ﬁ&=u"<Ò€	=ÈYΩàºoºæ%Ωv+=ö¬ó=é2£º>$–<óÿ5<Èáû=µç =ﬂ&F=$≥ºâ§<Ç#2Ω˙R<	ö =ÜÆ=Ó7,ΩWI_Ω%ç;ÈLô<õ@ˇ<Á*=ã‘≤ºmÎ^;	/û<Ú;=ñß˚;G¬“<u6ΩºÀœ=Ö=√∏à:$¯7Ωª*8Ω´|Êºïméº"ø»º√n-ºÙT<–'#ΩÁΩ≠¢UºÕßª∫ëÉºâd Ω8∑Ω.ÄZº>%Ω™ƒΩíUºd∫hºQâ};$&=<‚∫Û<‘Í¡∫œBΩp∫é<¯k¶º.‚=ZwºÕtΩK√=N%=ﬁàÔº
-ääªˆ7º„∂®ªÇ∞(ΩºÅ∫£˚#º*Rs<©GÃ<¬	=2Måª∞úñªh,Ò<)?2<ß3!=c»’ºnµºU5·<îƒÅ<ä=±8DºCÀ%º,¨Ωm=´çó:È≈ºú≈˙º∆j∆<[@<¥g= …ΩsgΩﬁÕ<∑‡yº›>ë<€(ì<≤›âº2P˜ª ◊=¥'ÿª)Y)=˚+íπÜ15<P7ªïˆBª ø=©7™º7—ªHi'Ω‚#¢ºÉ”Ûª‘;ÖV=˙<<ïÛ<¥¡⁄ª®Òåªn!”∫8h<PÏ Ω—Á¬<í¨ùªÛQd<∂≤¬<•µëºißÅ<$=<úœ<ò¿ΩÛˇ¬:¶´ºÊFª)˜^Ω…ÇΩë˚ªãHΩ•∏¨Ωå?õΩ∫Ò"ΩœÕúΩªbãΩ$0Ωø†ºÑ„æ¿#rΩ*-=·‹<ìGëΩ–ÜΩF€—;`,1ΩÜ=sÂª∫n5øº·3º3µPΩ‡≤<I^=+©Ùº¢.‘<÷Ç–ºX= L>Ω'óó;3©ºŸZ85‘	Ω”0º'√ª„∏ï<ü,";3<ªÜ∆<"π<æè›ºY;Ω94vΩ©ãHΩ·o<Ìπ=)g(=µÀÓºO qΩûF%ΩÀÈ"ΩÄ˝∑ºt\N<!m<…∂º√æ[=†’iΩF—€<πòåΩé<˛
-üº≠’(Ω+eΩ<Ωkº"iΩ%~tºÖΩÃ=*ΩÖµ¢7·⁄”<.⁄<ëÒ	=EÏ=ƒF<.•“ºlE–ºeU;ôá=,÷…<ª €<˛?ΩÙ*õ<™8Ω«s,ΩC„(=ÌÏªå«◊πÂï=(E	=Q„<=e),:„J‡<ZùºXn˚ª¡ü'=«πæ=ÂTï<a°áΩﬂÏû<ZghΩ≥<àΩ63ΩÓ{=ã;Y.+º˛æ≈<jl
-=ﬂ˜°;{Ä!ΩÙ9ﬁ:‰.:ƒûêº‡Å=ﬁ@∞<<Ωd=í$=)•º9'8º–K Ω?9pªö˝;À0=r¨.:~ÒBΩ∑E®<∏+i<XÖnª%.øºDƒºhŸΩ.–2º∞ΩêΩ%â#ΩúJ™<‘ˇΩ?4ãΩ≠◊∞=¢y>Ç≠=ΩÆ†ºcDúª´OÿºÊÅ>∑ròºØ◊'ΩzQÉ=ÌﬂI= ’«<î=vœ>∆æv*#æF´>Ù=™≠;sz°<7‘ı=≥çæ@ë∆=›@ä;Ïæ˙ªÃ√ˇºR…û<ús’=Œ|b=éΩè{ΩoØªF˚<"Ωt≥•Ω{êΩjnΩ÷ÁL∫V∞=oK˙<¯^ΩAi@<8åìºP9xª „7Ω?‹°<!Â=©+=6 <bIÀªáè0=B"Ωe˝<‰˘u<NƒºÇ≈`<ŒFõº0ûºk∂ºp ºπ€<ÅÖÜ<®ƒÄ;± =o,Ã;wΩır√ºÉ Íºü<Ω˜â8ºÌ‹Ô;ûH
-ºÑñΩÜÜ1=˚†J</√ΩÕ6Ωﬂv+=+E4=0ß)Ω!.ΩÃfΩ∫	ø'<Œö4={"Ωé´v<ˇ pºMZ≥<¶ÜD;í´=cˇ=§(iº√§´∫_≤H<≈˜•<óIº¥TÀ<xbæ<%û6=Á,0Ω«IM<X±<>.†º‘Ωc§<∂>€<¶ñéºèÖ<»j<~ù3=‚GΩ«=Ω
-bΩLÓË<Î†=Î=LΩÈ‰<ÃÍ?<Yb?:ô
-â<ËÉc;gˇºÌ76=/œ<Ñ¶Ë<w˚:û} Ω*
-<ÒŒè;Ê±&=ÃºUÀ<8Auº:N€<Ø¶¥ªØ<Ø¡<˜◊≈<⁄gç=“Ç⁄<|¿=á(7=ò„[º•›$Ω`:ä<∏˝=∑Hä=ºq>Û? Ω∑ºÈ<p&ºõ3ßª«ç=|Å=u# Ω>øz<©§/ΩõÈíºÜ†ªëÑ=’i=mR„º≈Ä¥º‡“	º¢ë#<ÊÆΩ–©=˘~O=√';*≈zΩ…=µ[=†œºb6=ÚÕ=Éhíª(pcΩ0=èë%=≠P¡º.≥‘º.ï=ô~.ΩøÃº≤ΩÿP˘<I
-Ω¸Ûüº4=nYÛªë~œ∫©ûë;Ùïº¶>ê;Í2”ªáıæäKéΩ $ΩÂÀ#ΩF}Â<ïc»ºr!<ë1=pÄdΩ‡k Ω· Ωå-<K"|ΩÎ}hΩpnjΩ7iΩ∫˛rΩˇœ<›¬á∫ZH:…É/ΩòEùºtGΩ*\ŒºèW8;ÁÈÄºJÕVºC<ΩXÊº§!=¥)n=Iìº.Ånπ9µœ<œ><:BÈºx =Ôú6=®+=4ºøº0.º«iZºT&z<w ΩC·∂ºôïΩBkkª¶#l<◊X <*)6ºGBvΩ)«º†µº#´iº&A√<OÈº”√Ω €ïºc*Ω‚`î<»û∫º4Ôº%Ü›ª˙`Ωﬁ7“ª˙[	<oÒœ<·›z;¶ô∫àÑ=ﬁ;>¯è=˛§î=)=hª®o=%i&=4€ª#ÃNπ¬	:Ωj—<<º;Ω€k—ª±º6].ΩÊ©
-=Ÿhz;ˆ≠:Úü¨<∂€<ê¿$<E˜<l-Õª˚±=⁄é–<ﬂØ<–P<ºqÁ´<;ÏÛºßﬂï<êf;˚¿/Ωs»¡<Lﬂº5¡Ÿ<Èùú<uÌ=<sô<mú8Ω‘†^ºë§Ω@¸:UÛÕºa∫ã:J©|º<Ω`‚}<c}Ì<&i…º;9Ó<z(8=dƒ<ÙﬂÏ;π;:π®Ôª
-•
-Ω4˘Ç<ÁBÈºå<õÃ‘<]Œ;ÿß=kS ΩB'ƒ<≤Ï€<tÑFºêz“ºΩ*ÃºJØÍºËI<ªÜåº€√´º
-ªh<Ñj<Êã7=†∆–<\H=◊Bº;„º¥àº=øáºº∑4Ω–úıºcÜ=?Qµ<§®≠<≈‰ªÊáÌΩt±<i˜¥;RKﬁºnie∏‚UjΩ˜K∂º∞_ºöû=Ú≈ú<eéº@iP=°_xºCã=˙5ò=}' <·»õ∫|UR<Ú!Qº#ç(=r *<I=í¶'<ÈÉæªÜ˛ºmΩHW2ª‡öµº<%„º]ÊºY¢Z=œ‡Ωi´T=uqp<Oπ=xùQ<„*Ω8ç˙<%ƒ[<<;=≤Ö´=2∆»;áñª=ü≤Ò;Ï/<€óD=cëáΩM°<éí=z∑=ÿâ›<%O⁄º]Ì=©#;»D™=‘ßŸ<¿πq<£@wªmì‚ªC8=-T<h8=h:=%=U=vïn<˜tb<9>=ŒªG;|§+=è „ªëÊ÷ª•Çª\˙,º@"?:éâºÅ˚E=:å<ŸıG<√ΩπqIº @ºTJú<ÙòΩ#æ0=ˆ¨<´} ΩÖAIºa§1=ﬂZ†;∫H/Ω«û,ΩF	+Ωÿ‡ºk—ΩRƒ5<Ìy:ˇˇÛªEîΩz+Ωƒ–Ëª≤hŸ<Qo“ºx'Ω`[@ºûü);öµ(ºñBΩb∑qº∏€ΩUíΩ˝ªºûè=y≥ﬂ<b%=Ì”<yQºéÂ¢º‚c¢<˛µ=ËiM=uW=L¸=r¸ªf:Nºé9±;Ω˛Ì;›J“<ÏΩ3”;>äË=@=ıªÏº»¥7=Æ-	=ÇΩø:7Ω…ß@Ω>:<’º€=Ω5Ÿ<º>CÖº˛„ïº˙ú!æ„Ö>¯»}ª±JdΩ3>Ω˚¬Ωß9ÛΩ)Æ˚Ω£>Oá1ΩBóæX—˚<wpΩ˜T_=	NTΩcê>{≤^æîœL=@ï</7Ö=£Ë‰=kXı;ü≤Ωê∂Æ=‘ˇF=ì‘§<ÛÔπ<Ù+º*\åΩHWÆΩ∞∞ëºEïë<—ÑÓ<æg3Ω¨·
-=ñ¸ˆºÎ{=51 º¯})ΩÏé;<^ºóe6=˘5”9õ$ Ω¶<°º(Eº‡¢ª¶Ω¬A√ºÜ¬c<ùëﬂπ
-®“;x”◊º·ƒ7<‡ÌΩ¢vΩ€∂ª<l?Eºﬂò°º!2Ω¨ñ=w„º/Ω$Ω7%O<∫ÿÈ∫f z<Ên3=Ãê9Ò–Qº˝∂Á<ˆàÁ<å¡S<úaéºjÃà<N±Ωÿ˘≤<]ú∆ºw‰Ñ<º ΩX&Pª\!=e–; ¥
-=™ìºÙÚ<≤>Ωœ+©;ÿºQøºª¸qπº7 üºTp-=ô<Yù=•Â;Î±=è¥r;>Ä‰º=Ö∂:€Y=Qbn<›Êœ<JSh;YÏ37Nê/=ê(/Ωı.=•U+Ω©⁄ªnüŸºÕ9îºÕ=e=)='Qäºﬁ™ºà<ŸÕTºckª<ôf∂∫4d
-ºÏÈÏºÍåΩk< =vò„ºIΩèPì<w“N;ˇ≈àº§ˇ=VÕ<öáºâ%áªºwŒºË-πºáΩe)=#ıLºi0uºêöºb$5ªˇK.Ω]72Ω6Vw<¢Ω‡‚ª¬•!Ωcf=94◊=ô.="=]V˚º"·™<Å•î<¬=ÃÌ&;Ç8ΩÜãÎ;ö∆B=™eˆ<Ωù‰ºÅ˘ƒΩ◊» æÂõΩ∂
-/=¨|$<ÄÄøº-˛ ΩSgªΩ˛ßº1Æå;P#2=#ÜYºõ8s;Tbï<⁄EΩ÷f√ºËIÿ<ÃJ√ººAëºÍ≤œ;Ûgî=(o==K9Pº
-ñ+<·rΩÑvßº$Ô <8ÇÂ;Ê*–=?ƒºEÕΩı8ΩZ\/=0õI=Y.í=ï•©ªQÙlΩÊdΩó∞Åº€çº’f=™”<ÚD~Ωü£–º›R="36=iLi=7v0ΩÅ‹∫©*<º<&zõ=‹ë—=¢mì=¥•º7N9=BÚß<"…ç=JÔ=z‹:=\ˆ—º¥ı˝ªo5=ãm <Î≠<w2QºwŒbº>≈Í<æ÷*<£ƒÙ<ÈÌXΩi(<;CÓº≈⁄_<>4¯;ï]bºŒ™6=ÌäÈ<Ú˛<=jå>ºOÕ˙ºá	î:´^Á=¡™[=õm;=√§œ<Á(nΩ‹2;ΩÔßΩ¶®P<QıRΩ>sΩñ™∏%HΩÜ`!=iΩ„	–<ã+ΩÍ	=U?< ¨=Á L;7i7Ωúzª4çE<¬ßﬂºÉ≠<“S=6m=Íœ¨;0çùºY£<ÑÑn:Xø•ºr≥"=É,	=∏=Å_:ºÙyÖªÔÇõºZÙ+<\ÉŒ<gx=$èGπáƒºêºÓ)ô<¡qö<¸I=ZÉ/=Ö$≠;√Âﬁº?xºË]D<˛ÔºF˚	=†π§ªhIÅ<Ñ√Õºòè(<`Åº◊∏=yf<ƒV<EÊ∫
-˛º∆Ä=Ω›=∑ê ºÔ„v<ˆˆKº‹ΩÂ=yàºøºŸ≥Ω^ˇ=wq,=RBΩ°•/º<Ê!=ÑIÇº›°˚<„ı;§Å8º„< ºÙROº<ı?<J¡œ<E6Ωîry<˙‹Ω6˙+ªH∆<´;b=àcé=œı6ºgÕ&ΩñüèºÈ‰<8Ì=∞µD>ƒ#=ùΩVoΩÒR¯<Ôlw=Òﬁ∆=&íê=ù%ª›£ÍªpÑ§Ω‹	H=}`√;ê˘†Ω%ù∆Ω‰‰ºmDá=≠@>Xî=Ã◊UΩ$Èºñ˘UΩÎO<àP>êÍ>&Õí=®˘=¬Êû<p3∆º'mf=üYÕº–ˇ'Ω<øÜº·h’º)«^ΩÇÁ∫3w(ΩŒÈôΩÕû»ªFoªº»*Ωm¶CΩ›T Ω∂®<ﬁÀ§ΩRôºí¥{<a:⁄<úÓﬂ;¡#Ö=pˇ<ﬂù^<Êß;©<‡<ªq*ºî·,=<8∏=∆y¨;Å'4=Y±â=In=qV
-;!8∂ºº`∫=¸á =∆é=ƒ?ﬁ:H∆ÀªΩ$9Ω;|ÑΩfgxΩîıºº£/ø<’•\ºSÄãºéhΩ3Æ∆ºj =ˇ˙„<˝1^ΩE©¢<òd+Ω≠⁄E<ûº;<máp=Rƒ+=od)=7_ <ÃªÈ<⁄™c;5ı1º˜R<1Ã∑=∂q=’ΩÃ(ΩÁÔ<€)õ=ñü=Œ%™<œ«=±∂È∫øÖºÖrDΩ_ñ†ΩbÆΩ<ŒôΩñs•Ω+Aº xÖºå	Ωx÷	æπø∆Ωm—ÄºgØ•=›≈'>W”†=´üº~%\º+àΩeH=Îé…=Z]<œL<^]ù;	ˆª¡∫ =r”ä=’WÎ<˛ﬂŒ<¬CÀ<—Æ;–[<nfπ÷˝€;„*¿º≈	pΩﬁ7äΩ>!ªªex;;¡õ}=£„5=ç‚ºÌ–aΩf+Ωåc©<e∑¬ΩmˆæŒ§ÃΩ:¡„∫Ùçª¢∂|Ω=YÏ’ºXÔ≠ΩÈsÍ<÷êë=Sºv°°=À7¿=öÁ∆=Õ≤=>‡ÈÁ=Ú€ß<+Æ=_‹ß=∞ŒU=ˇ\=ƒ˝Û<>≥Ωk£ãº™ï;ò<†û·<Ê§ΩißêΩ„D˛º•®ª|ä+Ω’s+Ω.")∏@˜¿ª‰´ô;q!ΩplõªÈΩÑX<çò≠<“RöºàRΩ5j7<W«<gºêç/=µAÚπ©H4ΩNÆ≥º"/=Ì¡f<^pc:2Ö4=„f4=yç!=∂yÒº„æŒ<öN„ºb9"ê<„∏ﬂºuè=º‡]#<ã!ˇ<◊πêººÂ0=26Œ∫µ<Œ‡ªÆ¨Z;’πüW!=ê‡u<9≠˛ºvõπº\ó<â=ÅîÙ<ÄWΩ>§ﬁ<H%Î<X8Ω»Ω–=ØË<ºø=˝<uqº÷Å6º‚ò=OË÷<ÙN;Ù°™º≈G<Ûk ΩOìΩ	Ø;ø˜RºùÕó:˛€ºíÁÑ;£ºç;Zƒ<„ãªÉl®<“jê9Nd&=wŒ[ºÒ_<,Q)ΩûJc<2Gì:∫Ìmº-ç›º·Ω5< ä	Ω\W¨<:Æö;àä<8ë=%ø;î`Ä<GÈ0ΩDÚõ<È∏Ω∂Ÿ»<ûÓΩ -U;‡+6:Õy6=ﬂ±Ω•[Ω∆˜∫.ØvΩI¿Ω$~®ΩÒ∆<˜
-Ωn»*<ìªΩ7ùÔºSÚOΩ.\c=∞&=u—ﬁºï∫¶Ω±-R;XÄ>ù32=ÓÍΩ ‘ï<÷˝8=$ÙrΩnΩŸÁ/ºl¯±Ω˛†˝Ωu:º¯Y =H8ìº]ßΩ	hüΩánKΩÎ=«JnºÙ8≠<™ºSª’Î=d∫bΩï-j:åˆn<ÈpÂ;®Ω¢ªx!Ωuä;JÁΩ!<ºá!Éº¸¸'ΩÙ”<-ıï∫o√º_=%„=Mı$;j ûªçŸ“ºbwNª0π=≈“>°=A2ZΩÄΩbSΩ¸Ë“<Õ¶G=Ü	>y#= @ºÍ≈ë=&D<:„>X<Y_ª∆Kº4Ú∂=Ë†<¢Q~<Å>rΩ?aÑ=”K=ÏË#=,x¬;f'?ΩIÍª	©∞ºÆ6=Áôb=TæºûºçÀä=∫çΩ¯òΩg¡œ<1π<Màß=™Ü¯<ı+âºyKΩ	πQ<$’”ºyJ=Ω'Y‡<”k;eb|=Årºgˆ$<)∂&=B)<Ä±R=åx}=∑F‚;˚i.Ω˘k/ºœΩ‚0îº¶4ü<·6ΩÈúáº§Ω2”PΩH5ÿºô û=Ù<·:ã4=IŸíª˜Ñ!=iüº
-í=õVì=è$=Éa=>†è<çÓu:J>ΩD2= Vë=` =<¨ñºº√§º['<Zjë;˘WÖºj≠€º.2ΩÅ÷ºMÚñ<	ﬁ∑<ŒΩØü8º2Ω»’='™ =?3Eº<∂=[_Ωú=‡<ñ¸=Oå¡º_(ΩÁû<g‹b<è =lY†ºMÃv:ó≤—<?≤ﬁ<ŒÂΩåCπº√Ï∞;ßBﬁ;ﬂÕ-=‰∆i<éË:w“¨<¯‹º”D%<u$=Gû⁄ºØ1ºw {<Œ[.=pî5ªø!¨º›‹=Ω˙/ªEüΩL¥O<æ9ﬁ:àf∆ª –=–ô=ô;≠ﬂºQç˙<√Ï<]lí<Ó^=Õ™áª04ê<EI´=oÈ<Å&=x‡ª&ª“∫Üç=¨I>!ï<ˇ?øº⁄Ñ´ºQ2'ΩÖ<æç=ô =Wäcºn·¶∫≥-_ºíZòºœE	Ω{®É=ÂEºƒC=Q]˝ºÓ/«=ˆ=◊<SGΩ;P≥C=E-(>†Ò∑<ë°ß=ÜºXe•ª∂]=Ñ†=9‰ï=◊™=F<Ë\jº‚2Ω6ﬁ∫<é¥Ãº¢XjΩnJ<0-#ΩËphº3+Ω¡´=⁄,=Ω∆pé∫ø≥µ<àÊ∏<⁄y:$lu<Nù“ºXπ	º;(æ{˚QΩ©WBº∞['<%'º]ÚCºàjΩÂ∂wΩŸeEΩ¬πùΩóˆ|ºs{t<|¯;pŸ=AøΩ¯óÆΩ™±RΩ#>:=Åá=∂Ã;ﬁ0ÌªìÑZΩﬂ´ºªΩ*Ωö<\ïµº®=AìºﬁNÖºQ/D<ΩêºhÚºl´Ω¢æ=7#Ωÿï”ª•à‡;~¸;/Ú<≈Í:8U*Ω¡¸#Ω£=;p<Å›‰º¶G º√“=Fø{º0†◊;∏‹=4ô=ÔÎ#<]RÄΩàé?<mâ<8$ª#◊8;0:Ω–b∆º8πÇΩ)f=Ω%ÛJΩ⁄¯2=©Q¢:Ec=ú≠ºPqºU™<ô˛&<≠~Û∫>Åõ=ö€°;é›VºnHqΩLOàΩÍ÷ëºÖà=KjjΩd
-åºBbÇΩ˘@Ω]êΩÕ9FΩoô Ω-äΩ§ººT{Ω∂iΩ›0†;≈LÖ<ﬂ˛q=p¬=∏j=w¶Ù<‰ÁΩºA+òºa∏=ÚíÖ=p ßΩ„D(ΩÆ≠6={ÅÊ<3pΩ(?é<~æBé2æ⁄WÇ=4”=c–¥=ªCàΩ˝‡:=Ì∂!æ◊¯Ωm∂=@ËôΩÅêÕ<jÑ‘º6ÒÑ=-“Rº!&$æN¨.æ˘tÕ=#™%=≤û∑<w*«=uÅ=O`∑=„-ö=ÕÆΩ=ä7µ;C|ºÍÆB∫â”h=ÏZ⁄=˝≥€< º≥ Ω3ì<&=R}ª)D7LÍ< %Àº1¶πºû›§ª¸Yî<1Æ´<Ò‚5=∂iU<W7∫ˇ›z;ãÔ%ª:n°º=7=)0Ω;‘≤º§Õ9;Aµ<kªñºí:uºÙ5±<†‡‚<x®Ω∑G≤<ı–ºñÒ3=§ <;ì=¨a”<ç!=tRÄºZÄÑªÔ◊< #ΩQV•<¨ı<ø-Òº«ªÖªCÌÁºË≤<Ôé=¯∂åºd¨◊< åºÿ˝º¥.â<€ˆ
-ΩF<n[0<“öΩI7=Èî{º°º(%’<æˆº†32ºEk–ºAﬂ&=ï√πº≈ô√<ö"Ω	Ú˜<‰£ºéÈ≤º¯‡Ω	<-E"Ω¨ƒΩif˘ºT ≠ª¸ì¢<„™ÛºnÈΩ¬è,=L)=Ω≤.Ω5Œò;>$¨<P◊<.˙†ºu—Ôºä¿»ºeÔ<r•=/[6Ω3ä2<64ú<R#ºÌÚ‚º¢˜VºÕƒ=^D™º7=∏Ò&=,ÿÚªkb;Y"Ù<ıﬁΩ ˛É=Ø£Ôº◊•<cA•=$s=Î´éº
-ñ´ºHÇ};\≤Ω=∂√>∏=aí‹<!0=299=à‘X<B9y=lK=Å*Ωc4ôº=Ç#^Ωä˝ªœ}É=◊Ω&<NlgΩ<â∫„aºÔÖï< Õr<èºÈ;∂⁄=yΩqΩ—e‚º˙Jn<àﬁ1;k∫≥=!ƒú=≈5i<1c)º€Ÿ<g∏“º∏"§<.{+Ω7u=AΩ;¯N/º5* =ï¬•<ÄSº§∫K;(Ûß<‰◊<úß—º
-!=ïo<D˛<*æˆQæ¡¶æñ⁄HºZ<+Íºù íΩênΩN}æ◊“√Ω@‡ºqqYº˜d<=`‰æ<µ¿=Œ©~;bC◊=ﬂ∑≠=Õé
-=á&±;_9 ºA˚ΩæW
->)ô=åΩ-=∂œ;Ωàï;ΩlÁÍΩãπΩMﬂjΩIƒî<œç–</!Ω®0˝ªQ-!ºÅ>ˇª{.Æ<€Ÿ+;“i
-=≥∑ª*<Ê¡=K$ºn∏Ω —!º"ù%=ûÔ:xº”wçºF·äΩƒ?ΩfúΩƒØ4ªÓ›=∆d˘º?Ω¡xΩﬁ©”Ω&º“*ªu¸<"∫8º;®	=ªHΩÃmC=Ç¡ﬁº^'-Ω8ù+Ω≥âºô?⁄º Á∫É‡;ëΩ%ﬂ#=˛ÎjºÒ¿=◊=•	ÉºØéº2b≤ºu¿¡º7ÿ<å€~ºﬁœËº=|F<bX=f€º
-
-T<UÓ ΩÍmº¯K =Bõ·ºßp≠º5Ôu<;kÌº√3=™—<ó0=õo=P=:<Ìﬂ˜ºÔˆêº¢Í–ºX¿«;åiªß}nªz&=tøºÚD'=Ñ™ΩÖª<‡Æe<Ûçº‡ﬁπº±œº∆sªÍ≤ÍªﬂΩ3¿<‰@º∏·Aº3ƒ;ÿ‹#;˛/=±Yª<X6«<yı‡;Î5;-'s<;<#=¯T2=æ“œª4Ìﬂ∫>è"=ò…‘<√Œºº–Ïº}D=•Â—ºü}VªØ‡¥º•<™º€˘9=ñ‘â<	Kº„¶%Ωc|hΩÿœæ°dΩ<ò<k
-≥<ºO∏Ω8Ω·^»Ω§19æÇUΩlßΩ'sŸº$=9Ω}	=5…<26)=ÎlrºΩP<¡r/=L1Ç=Mß0<uﬁ=TYaΩ{ZZ<èÚcº≈ <Ù>(Ωœ›ôΩ—ºo≠‡<:˘º≈Ìº:¨¡;√∫Ç<Ñç=i‹ºº~ÑXΩ!Œ…;ÕíΩÊì∂ºU–j=m[Ü=p•Ö=~≤¿<hﬂn=ˆ‚_<«–÷ºÙY :¶
-ì=uﬂÍ=àı=Qsö=ÉÔ8=∑<E;?∞û<†Ì≠=+˘ÙºøëÄ<¥ÀßªFÙ∆<˜
-Öº[Ωó¨ <´a€Ωàûñºúüvªw˘{<\.–<ÖJ;?∫.ﬁ<?⁄_Ω˝Í
-<„ÇΩÕ»Áº¢ÿ)ª¨ÓÍ<-)≠<@ <ÓçE<R&P<ΩÊ´Ω,ﬁê<®E#=∑º#ä9ºìÇ”ºR¬Ωå∑JΩÚ%ä<:Îº¥»2<âﬂº?7=¬åªº/◊é<rñå=<ÔÇºKUwΩÓÕ•:¯º/=+[!ºS∂;⁄9ÓΩÉLØΩ$öΩ7Æ0=øW<…¥Q< ˇW=±É==5dºòßYºÈS=ûçë=fMIº@lP;)Eª=&¿?=9*ªÑµSºt“Å:b6ïº=‰=Ωõ.ç:YGÄªkÿ°º˙x<CÃÀ<ÜßÈº¶»;¡û1=¬ù°=¸∆‡<o√Æ<‘Z&=∆†*=˚ŒΩ_€Äº„ú$ΩûK<SÚ=R=S·<j]ë=Œ8ÃΩˆjä;µ<“GP=Ùuó<Ï`±ºC8k>Àc)ΩiY>	åŸΩ˜™ºNXΩ^©…=ﬁ°>>5££Ω™ã>{•=Ô˙]Ωüú◊ºü¬ºiÙ©Ω´±@=–É“Ωf-÷Ω‡¨”Ω≥VPºπZæáOfΩËÙ<@qNΩ¶Z=_–iΩ∏#=øå$ªyé§ºê˙œΩêZôΩ¸Õ}º”ÆGº¸Øxº⁄tK<«•Ø<u˛%Ω3Zz;‰‚ı<-÷™ªxv•ºØæº8üºLÔë;û≥4Ωé}4Ω˘Áã;zπ =ZÈl<öÈΩÆﬂ3=ÓäGº!DP<±Ò¬<0=ô£ºù˚h<t–oºóoDºˆ|™<Ç≤;Áˆ‘ºén°;–UΩ]§=ç<Ωé¸<©0Üº}E ºq<r’W;È‡òºxx=/:?Ωÿ≥.<±Åª»˚º´˝<_4;Á¢Ω2à
-=”-Ω&rΩán9<óL=#4é<òπ£<¢!\ª`≈ <°ÍΩµÖäºuÈ<˜Õ^ºlÖº{¸<¸ ºixxº´’ΩïZ†;√•<5>¶<G•ÇºJÁªfß&=&ºM‰»ºBQªæ)º+ ß<xRq<Cj1=® Ωﬁ∂µº´M=\Ω-)=ΩŒ#ª3§<∏`Æ<Ü3Q;“∂ª∫∂9å∑ΩxZ<…J=[„ñºFÄ:z
-º°ï◊<«ÑΩóë2Ω°M∞<⁄Ó=≈t“<ûî\<ï2Ω)tY=è‹ ΩX¬b=‡=f˝ƒ∫A§úΩh *ΩVED=.Å*=Èâ<O·Ëº ÂÖº/U9æŸáæ3{ŒºÄ!ª^q<*«fΩ]’º…Ù<‚:≥;'5ΩÔÍ#=uc8Ω¿øΩ©ΩΩSãO=YèF=ıRÑ=Üô7ΩÖXª†…Ωá8"ºym™ºΩõ–<E≠P=wsΩ∂äΩ}{ΩügΩÈÜ:HººÏº=∂h=˝Êº∞,;≈‰º∫% ;÷Óﬂ;ë“Ç<Ìoˇ;Ω;MΩÀ∏º⁄â==d˜=7ô=)€ =˙Ω\Ñ=ΩFÁΩÅai=k†ë=%v	>‚¥`=
-4=7=ûW4ºg€9<pmÑΩ˙ÉDΩY‰WΩËÇ©<<¯Ø=J4+<0êº+Ö£Ω¿-FΩêí$Ω˛+Èº•«c=ÿrπ=u≈=∫®"<'µ =∏z@=¶ÃÖº óºv÷Æ<∞In=?=Ôû	<∆x=¸,∫ê§º¢KºÍ Ω!»BΩô˝∞<N‘õºS Ã<^ó+ΩzÌêºò3=y›'<ÎΩˆŸ.:#∂º<…ÄHºÙ9‰<oê•=‡ëI<ËÂ‚=ræ:8bºT≠ø=Ò™8='Oò=Î’=˙ﬁ<:\= GDºCO <˚n<ÆÆ„<º˙<æ¶gΩÎõ	Ωˆ¿4ΩJ]=Ñ≈Å=ﬁ¶∑¡Æº åSΩÌñ<&º ΩmA=·¶=Ô∏–º`˚*Ω|ﬁ&<z˙π;‰ãº√(ΩÊ,:a3o<ΩG*ΩÛú»;|wi;TnW<Õ‘Ùº¢ï<ã!&=çë$=—S†<DS2Ω¡Ñﬁ<ì‰'=d8Ω”!Ω,ÉªF≥¨ªŸÙC<ƒ¨=∏¯ΩÌõ5= Jó<‚œ˛9Ñ’=d/Ó<3QÂº‘∞ =úvΩk)E<5ÄπºŒHΩÍ3
-Ω™ºï˙òºè_ªº≥{Ω2=2Ç-Ω\rä;Ô6Êªf⁄*="R=a“ª’ØƒºT´§<}õa<È{ΩòÉ˛<¶ë=cn>ΩFƒ“<cûó<ÀπªDÏΩΩIï¨ºÀfﬁ<·<ù)É<ütì=OuyΩŒ†èΩÔGªΩ»<é=≥≠†=5Ë>ß‡`=
-ZÑ=/øÅ=ªñ~=∑ƒ…<[Õ<Åâ=û/G=Zﬁ√ª⁄=>üì˙=Aª®<´H^º€üΩ\=ñc6ªb<´ÏI=æÅ=Ωëµz<√NŒ∫”O=i¬=ú!ΩæéÃ<$(†ºß˚®ªMÄ'=A±á<î∫˚ºv&;)TÄΩe±=DS°;D∏‡<¯/ñºK^=á[=sfï<œÔZº∏•∂º«„X=˜L#=VâΩëo=Q˚≥=ÒÍë=¶’ºÄø"=úç^∂œJ6Ωs@FΩÄ82=Ò“º•nºôı‰;ÅAûº¢’ó<˜∑…º`hºé€¥<Ãë2<ê ><}∑ª.&–<¸»®<≥ºEπ*=œ):<ˆn”ºî\<ôÄˆºÃ $Ω_ÛŸºÿ-==ÖZ®<C8=´ªΩÚ√=Ó◊(Ω,
-=Óu$=˙√<& ¨<ÅÅΩ<”7=èÊÜΩks<ƒ¬Ωﬁ =‘ÍCº ΩΩ’0û∫/˛w=é¯3<:Ω~!>π¢Ñ=cú¯º”æ<[áµ=y›ºA8∫=S¡≈=–"ç=∂¶;∆9“<%íZ=FÌ≠º¯? <˙óΩB-ü<¶\{ΩîVß<‚†ºµS;ΩÍ†Ω∏ <ΩX1˙ºƒ$Ω}ÑÒº+S0Ωn¯ó<™Û›ªÂùyº¸:û;”´OΩ√EéΩÖ7à<u¨—ºë≥m<˘{MΩ¡u—º*.íΩ/æ=Y´8=-«`<(˜ï=Í‹…=Ò6><xLΩ2uLºà“=@(>º_3"æ)«æ ¥à=éÉ]Ω‘ØSΩ"Gr=qn›ΩØÔ1æ&!%æ,ãΩIA=eXΩ£GyΩﬂåºπ@®=«¢_;©ú¨<etº÷LΩnq"=!1
-=ÆÎB=0≠µ=ZW’=j0›<FÊKΩµΩ<ﬁ4m=›Ω=ø©ß<˝›<»IØª,⁄1=ÿs∂<›áºn£ºxÁœºÀÖF<” ∑;æÓºQ2©º\ç≥ªÃü4=ºµÿ<ôÁ‚º	ä$º¶+Ω	⁄ºø_-=“‡<õ˜7;Sä†º) F<ö’º’é<uZ<ÂMª`‰Ω0ÙÆº˝‘<z◊¡ª 1Ω¸ıÔºçPª&∂ª%g0Ω€–5=È+=œ¢ºiº¯æ=K'˝ªÆ›ΩU€<Äæ˚ªÛ4%Ω|≥:±Dº≥o‡ºú∫∫;2îºdªÕ∫Dm}ºg=ΩÚµ÷:®ä*Ω]±˘<¸:(<Ä.ªª[îº<€‰¢ª£˜√ºubΩ¬Çñº~ÿ…;¥!â<Úåå;T¯<ﬁ®Å<≥p=Ü≈Õ;k"Ω9è…ºtÂœ:C *Ωe=˚uÙº"j<ı©ÜºW®ˇ<ﬁ ˆ∫#ﬁº<¬Ôºº∏ï˙º“=Æº˛∞"º9E`ºbâü<™ÃÊº>†<1=>óΩw¸:)¬o<ıbΩ<TŸ’ºÉÀ =PÊì<ﬁôÌº«X«<Yz˛<3!Î< ~Ç=Z‘ï=¸*”;◊p4Ω Ωº˙ÇŸ<Kq≤=5Êƒ=m∆GºM<¿=<qÄ=˝Îö=_É©º?‚‹<©∏:ΩU3Ω`;Ëü=⁄È%=`¿D=¡êUºoö~Ω√£º4ç<|ÍØ<@>qºá!Ω›NbΩr™º¥1Ê<àµ=pÓ‹ºÊ*é∫, èº$ ŸºÁLº`-=…>=€	©< C≤<E˙5ºVáè<ªhïºóÅµºò˛m<“Ë)=4/Y<] Z;ÙY≠<≈∑=ÉÄ=^k4ºq®T;{A	ºè—ΩπåΩÒGº∫Ó==PJº”"ΩgÒOΩÃàΩËÜßΩëb= y=^ È<}-'ºäxrΩ,-Ωœ`R;\+;Ω<%>º›À<1∑–ºI>2<›Yó∫∂5˚<ˆßΩ±:n<∫æ
-Ω≤–≈º—˝í;=¸˚=Œj÷=?û=ô-Ωv+ΩÁ38Ω¿eüΩÏ≥,<4π<j2[</Ô(<|-=§Ä"Ω'™öºhPΩa¿,º"á:<N&ÚªQ/=«ÎÉºö8«Ω◊eƒΩ’≤çΩJ <Â^hºÃÇÇºy£º^ôΩWˇÊºa"∏=‹~=ÎÏ&=„íÚ<]9-Ω£‡Öº9•´º1÷=nﬂ<‹lΩ+ƒ•<¨ÉΩzåΩ⁄Ó˝ºË¢º;’7ºÊ√˛ºSΩ?≥<"ó‘<ø«≤º©z¸<ãÆ¢º5¶'<ÏÙ,ΩÃÚœªΩ)0<Ë  ΩV4!Ω–ZΩDÊ=”rçªı©,Ωå7ëºzaº^jç;{â;≈¨∏<È^ºv≤6Ωeºπ<œ4)Ωâ{Ω∆üº:Rùºqõ‚<Èx=WΩÓºÅ(=¯ R<‚úΩ$=^Ò$=*Xrº}XÖ<u—≤ªYÆ;ÓÇÁª[–º’÷<+4ΩÌŒ<f√ï<êÑß<’sΩ¥“Óº…r.Ω–!‹ª Z<óÂ=@Ô;4ºÎ;‘º›g¯º˜*W<&Ωj)!ΩÑñΩ¢W'Ω%!Ω>çÆºD˜|;∫”Ωvâ2Ωœz4Ω3hÚ<ì_T<†Olº|óyΩñfÆΩ#˙»ΩÇ≤˛ºg∂ªEÂ<ó/ΩﬂKΩ9b¸ΩBw<ΩÚè >éÒ„=‡:ø=í#1ΩóõºΩBÍ”Ω⁄t2Ωõ§=•Œ;îP„º=›⁄<h∫cΩ?í™Ω>xB<á—Ù;åÇwΩOâ:Ωnä<:Ekº5dÔ∫∞º¸<€uú;áQ^Ω7=¸5Sº~ªÌ<”nÊ<;)T=¡‹<5¢`ºSk<˚Y∏ºLØ˚<h? ;UZúºñ¥Ê;»∂<oŸºîQ7ΩÀW€º9"º!X=∫o•=ÂÏ<Ö<œàªû5 <¬<©<·3√=ài=Ú©˚<âJΩÚW;YÏºÂÉ<Ó–<0}Kª—“>Ω†ÔãΩ3÷ΩˇÙª}NΩMò†º-RéΩ¥úM<{Àµº*`ô;Ù?≥ªã ª“G¯ºk2´º∆˜;≈≥=\ÕùªG¯∂<Ty=àëô<Ó¢ì<ﬂŸ∏πË,ΩäZªñÓ=‚ç=Ë⁄Õº$Ó‚;Eo =ËASºA3=ÙïÚºØ¯æÏ¿æV*|Ω´Ü3=◊Ìî<+ººq9éºÆæëﬂèΩ ô=b=„%º=UZº	¿º QæÅGˇºd†Ÿº“À<	t€:É÷<Ωé∫ <4Öª»‚UΩ¯+÷8eì7ºR‘=æÄ;~ú∫€D='ÖΩ=Sí<„ñÄ;"˝2º¡ÄYΩh¨ÇºhÀd<ÏÚ^<,è=¯1Ωy≈4=Ùn<ıHè=æc”=\ >dÛ˙=®Y>	ˆx=ˇcŒºÕú;R∞1Ωﬁ §Ωq|2æjøAΩE<mË∆<≤ü√=‰d>ÃP≤Ω<gYæUÄ,Ω,?ó=ÖrΩõ π<äÕ=œS⁄=ÄÎ[æ≤=Áqª<◊EØΩ·ÚÅΩy*>K›L=Á:Ω=$Jù=H°íº≤!_Ω=5æÕc=÷≤¶<≈/Á;@yΩt©¥ºöÊΩ)•êΩ7ø%æ §+æ[ÒΩ5‰™º‚N=}	Ωﬂ¬Ëº÷ <íÓºx<zM–<i	ΩÍ›º<∆+(Ω T#=ª3Ωæ[=ù‘‡;0ä‘ºÛ°ˇ<·ß&ºJfÿº+NOª*L<åõHªOÿéºxâ<Ê‡ªÜ√$=zN<Æx1Ω3◊“:M5…πr`©∫–j:tÖ ºËrΩåß)ΩÃ≥Ω!˙Ω¿Ñ•º‡≈π<ºÛd∫vΩLª•≠∞<ıñ<,Î#Ω¡|–<c9= îJºË¯ºXW"<Œ~ï;fÍ:º#ÄÛº»È<ò«<U≠[ª˛ÕŒºî¶◊º1ª…º˘¢<ö™çºËi]<J‹ºzÕ=ì¸´ºêa<;ÈºõzTªKΩ˙…=Õ+©º%Ì ΩIÛΩ¯ƒÇº‹—=!*–<Ù∑<™t˜:GDé:XgBºn∏/ΩQ÷=ˇbºM}=zœ˚º˚Ô=-‰ ==/ΩYk+Ω6{_<w`=˙ΩŒºﬁ§<mΩ‡êﬂ<^”<∆˜ÛªµΩ:≈˙<ΩÍ§<$A∑º»Å¯<TxÊªß≥ºpÛ{º"˚
-ª$„®ºÉŸ=@“ Ω/¯≠º∞¿ΩÇøΩQS’<Í-!ºÄ„Ω9ƒºyHΩâù=õp=˜1:Ω¢N]<bCÄ:Ÿˇ&ΩJy=ÿÊ…º£µ>¯Œô<CÀºuÎ
-<C∑<Y∏ÔºL>û=˙ÎÙ<9r]=ìzΩÊÓºèπ1º∫=È∂5=eM…=∂q€ºªA¶º«ﬁ‘<^⁄;=Z“!ΩÇ˜<má=q8å<yïãºÎπΩïh=5˚!=ßwbΩc´¶7kΩAJÍºˆﬁÏ<e∏∞<J8û=¥8^=zï‹<ΩÅ[ªyìWΩKPÁº∫
-=_ºÏ<Ï»Œ=ö¿=≠@=Â∆=ºé"™:;ä=éwç=zzO=∫ºÓ<¬2Ì<‰Éºg—ºY˘/ΩW8„ª∫
-†ΩöÌä=ê•=¬Í‹º˙¨íºƒáΩ˜ÑÛΩ	®®Ω%ÃΩÏçΩ¬ÏnΩœ[U=¿A˝;YΩ]ü\Ω˜OÈ<⁄GbΩÙ`9ºÂ8÷º›§äºKd›:ÎæÜº `=Íâ<¯á€ªßÜ=6üŒ:¶C§=øbãºkñh<c4º©lΩÇØ=Õ˛√<+ã<π”<ÎZä<¢ÒlΩÒÄOº)Ê’ºÙáÑ=ô&4ªÇ“≠Ω¯ò<Ø§J<©>ï<?6-=?$€8◊¿MΩÕï@ΩQûΩ[jäΩÃ”ô<âø÷ºäŸº’Ì(ΩZΩ:∏GZΩıLæºÂd˚ºNn$ªû2Â<¸Ãè<df[< ”ªhÔ;k3„<∞HÃºÊ>¸∫6uºÑ‚ïº0ºÑrº∫πΩîΩò7≈º…ΩIfÍº%œΩö˚;T~Ωs· ΩËxp<#”;Û.G;2¯◊<óø≠<∫ßΩ÷dºäÖÃ<∂ÊΩèz‰ºXw§ºﬂ3º<íœÕºÂI=áÓ¡<§}¨ºb*ºÚÜΩô6Ω∫—√7=§R»ºÃR¥π{K=ÛÉª<≈?3=õZΩúHV<ù ºÌû©º—°ı<…›6<1Ω<A
-f<U¨kªÃYÈ<˚ZÛº¯ëº«B∂ªÏwŸ;Ê+;¸∏¸º÷ù1ªçÊªÊ£ÿ=eà=@˘&ºÒ<wQQº!<Æº£p<pP!>BÇ≤=πÙ§<ARΩ‰
-=` Óºö∫n=!Wú=iΩ3ìÆº™áí=ùÌ<º*=w±<Å,•ªÃñΩ{øÖΩºùvº÷Ω•;ÎØ8=°É$Ω¨¸œΩT^èΩ≤
-OΩn 8<¯©ˇªÍí!ºÕªà;…|ôº|;ÁºÓ?7=©}˚ºÅP<°=Rº^2ä<∞ÊﬂªY˝ªÛ⁄MΩ3Ωmªºw<@»€<ì£<%'˝<÷¬<∞ó÷<Â˙†<üL'∫”ºíî»Ω¯Jáªfy∂∫¸|V<˝_&ª¿\Ç<èÍ<ûà	º8D|=9>á∆w;‰Å”º"<g›Ãº,⁄&<Ú}x=bÛ<ˆ5X=©ˆ(ºê∏≥ºj-=|wj=Ï.>9‘Tø;gO=£±‚ºY∂≥<C∏Ω6A·<§˜≈<∑Y&Ωqç≠ªkYΩn⁄ôºX.K∫ˇÚÓ<gWΩ{”π<G=[ª$Åõ;_≠=eVÇ=¸–Ù=rÜè=§{mº÷$=≠ ƒ<◊§ò<m:=ß96=ÅC√=á⁄r=Wƒº!v!ΩèvºLüªú˘◊ΩCO¥Ωu…æ= í5Ω#¿:©ΩÑÕÉº“‘Ω≈ÏÇΩb∂º9'=ûq<eÎº≤QΩ2ºŸΩ‰˝úº⁄ªîÑº[Ω≤â5=}°P=%b.ΩóÒ⁄<Ω<±Éª´Ωo~Ó;ôÏÚ<á^Ωˇ›…Ω`Væñ¢Ω8Ó:Ωyz€<±v =!ãæ=“U*=s∆ı=0ﬁ=F˜ªèì=@u¯ªc_TΩÙóÉ=¢πv<”∞4=ÖbK;ΩÎ·:nª=G=Í>æ≤´±=/r<1|ÈºÃ‚“ºÊﬂaΩV‚∑Ωˇ•=‘w3ºî+öΩ^uΩÕShºØP'=`˜:Ωâ6á=$-7æ îæÃ®íΩÍ$’<π¢ê=‘r‹=k«ÿ=÷˘ß=≤:‚<”t9Ωf}Ω≥–Pª%ÜΩfë=®g<f™ΩóÂ0=K-=!ªp∫¨3ƒº©Z%=<òπ<ôºt≥<%ô<mí¬<ED·ºZ>0ΩI¡=√8≈;”s=¢£·< QΩ4Ω+∫ƒªÕ5¿º√ÿ˛º!X1=ºã<xØAª∑P£;ŒõΩ‘÷<Èa’;sD	=Á<“º≤?◊<∆q∞ºÑ—å<´%ΩË≠Vº]\;≤–º⁄’ºÅäºùÌ=®£”<ÓÌã<ÄO6=®/˜<œs⁄ºTä¢ªãsØ<2ƒ<{¨Á<∑Ø%Ω^≥∑Y±ø;¸»Ω@<>Õ<ÇñºªÅ<BW˝<)∂ó;ØS¬ºwø</+p<_Ok:ËE-ΩÌˆªIDß<Q*=y|ººı†<rËΩ≠ÌΩdO#º~)ßºíÇ±<©˚;@YÉ;àû=ÜA)=ã	ª<<ZΩ;lì=Y≈≈<ﬁ}¢<A=f˜ºaÔC<9ÅÙ<rûû<$’πºùÔıº!H<ÙºfRW=ﬁÅ=ﬂî<~7<W3≤;Ü=™éû<l<îº;_pSΩ∆ˇ◊Ω*=G=yÊºy¸˙ºÛ∂ΩKåΩÈ =âÍa=umÈ<ﬁ.<Ry¶=ÖÔœ=ãJºΩˇoÃΩ9√¶;˝úØº5ƒ=ìçâ=9"‡ºì‹6Ω⁄f=ßÇÁ∫–ßÖºπ’&<8XB<ZSΩ?8ÖΩ“ıâ<§\#=)…ıºDèÌ;'Ôú9x¸<ˆ¬mºÚ5@9n/=Tg1Ω5;Åà#ºñ<^†ºÏä=Û·=c>C<u„º»„<<6∆Ç=(ñÏ;ËˇÓ<+ÇñºÏm<%!Ω*]Ωnih∫j¯ =‡Îº<ê ?<êπdºI=@¡î=⁄==]®Ÿ=ù"5=’•À<‚ÊùªFìΩ≤»FΩ5h<:ïÖº¨îÀº\x<ΩÛ´ﬂ;|•3Ωt´Ò<ä;;veE=&ûºiÂΩ=±º5ã£<H∑∞=º¸Ê=5ù<ﬂé∑_J<Ef¬<•ŒﬂºIû∂<≤Ω∆ıê<?–Ω<àk<ª9ºuÑ;¯Ò¡<‰zºføÍª;Œ™<lÅ≈<±…=0U%=±
-;<PH±<…–#Ω!ÑΩ°Tªº·Ø;! =êTºv¨›;Pﬂ<º“ 1=≤`N=Ïû”ºh‹<}^øΩ”%<çîüºo„w<	è*=Ç∑=∫F+Ωj;"Ω	∏fºÿ›ûΩã>ΩÖ<¶Àºñ¨ïª¯≠Ü∫Ù¡*Ω!ˇoº±0 Ωc¿=?~ =¬ó•<Ïm√; ıÇ;Jƒ<#∏˙º#Ω[öÅ<†s<lÁˇ<¿s
-Ω-Á(=Å•8Ω9úı<)J·ºó›$=Ìåß:1√™ºí]G;ˆ†<G=p_…<‡≠˝ºÖÏú;ÒŒÛº/F=Õ¶´º#Ï=Ùdº◊˚ºCìÁ;¢9%Ωlç#Ω…˝2Ω,œhºØã<ªÆ<äØèºO∂{;ê√º‰‹4=Èß1<‡¿W:≥ö=1Ÿ/Ω¸XÔº˙gù<ƒFΩ≠i‡º‡b7º·ª¯÷¨;∫…?;çc=™€<Z:ÿ<Kº‹dÑΩ§[3º Èlª4b-ºº^=){?=•.Aπí4œ<œRàΩ'»=∫lGΩgV1ΩçìC;›=Ù“=a,'<Ç;=¡21=Ÿ˘={"<Û<hé∆ΩC‚Ω_æ™Ågª?Kæº∏?2=ënÃ<á∞êΩ!∂•Ωë2<´‘úΩ/6Ω“KÛ9jlï<F]¶º„ü=
-FΩ~QΩå;Îª¯§ª≥È
-Ω*¸ôº6∑9ºƒî†<y-=.√®<•")8˚íºËıŸ;∑ÎÁ<åìåΩﬂâΩ≠äŒº*Òê<_VÀº¶œ;{X.ΩLΩÔ‘ΩCwÕº]q<$∆¨;=w›º≤Inª\JåºÄ©ÃΩŸøàΩí/J<˘W≈ºÅgè=´§ºß∏ æ4¶Ω‹.Ω—‡<5Ò¥<ªû1º
-ùΩ§˜Ω≤zúΩ@<Ä!”ª(ÔΩÈ1 =√e=ºíùªyºoﬂ∫wŸàºg/éº02i<ä!Ω∆\<=€=K<¨
-P<zÊ<kw†º&yºíûºßÕº†=/⁄¥<¯˘<=UË,=~g=M≠ü<X÷¢Ωz'öª b—ºâF=¢pèºlÉ˘=X±=QÓ<<˝ﬂ<Â£vπB!ΩØ|Ω˜vpΩèﬁ;º„ús<l¢;pŸ∏ºË—'ºñ3π&¢=Ü1ç;%	¿ºéeZº€qΩI"úºπ8Ñ;≠ıc=‚=aW=˘71º¬q„<âÌBºH©ä;Kb§ª#Ó=Ò-Ã=YØí;’≠<˛.ÿ;T-≤;¡É®=≈ÀΩ®¶ÈΩ8œ∆<7XË=`–áª^„ =
-3Ω◊’ΩÁñL;íÈ◊=2>>¥J6:GW•ª)ßΩ/7è>xäÑΩèµºBë;'èΩπáE=‚Yú=<<æ…‰¡ΩÔ°æ”t%;ª	=ΩKø∆<\±
-Ωª+Ç<ç >A∏»=L)<Ú¨|ΩGåﬁΩn;ΩB€Œ=o"P;D“ΩíéÍ<õªºπÍΩöbvªÃfì<åâºØπ±<¥º ˙»<0`Ü<0Ùiºîîª ë:º˜
-≤;∂Ì=yΩΩ&—û<$¿i:tœ◊<^!*ΩÙ‰π<ˆ»º¸Ω[’ﬂ<pßΩ"èã<·s;º∑<X	 =
-MÍºú@Ω`dpº\¸Ω©“PºÒ=i˘<ó˜ˇ<†»?<`÷É<Ô‚<à=•º?\(Ωæ≈Ω'W.=1¿F;=ñı< ö∞:)≈Ä8Éò<;;©ºç‘<re4Ωbâ\ºxm	Ω=—“<œﬁó<-í0<\"!=ë"0=tÍÀ<),ΩÂ∆ªE+\ºÂÑ=b9BªPáº!˜ººıÅ9f: =¿¢ú∫ı(Ì<y=Y^∑∫ıÚ≤<K’"ΩöT=Q^®ºÅ•'=J<s ºMX´< jºÖ&uª∫!ΩÌ~ó<WV€º~£í<eABºËÏ><¡X^<∆Y*=[‘=K<:tì*=1õê<™ã∞<_ÍIº=q≠<ò€ºTRº6Ë&Ωñ™ùºq=Hˇ<	ë<<àê<ñJ=L£U<9Ëπº±æEΩ3æ|XâΩ7÷Ò:AWo:æ¿]ºïº4ΩÀ8ΩÌp*=7ˆbºáyŸ<Y=œ8(º`læ‹¢I∫6wí=¡@bº!S<º˚Û¶;QÊ=ùßÒ;ïó=Ë7=\imºähP<∞"…;OgXº!¡A=ÿ∫™=y¶Å=I;éªÑ»5ΩGä;ZúÚ<.a=8%È<RjiªPÅ2=ëÆ¶<®˚πª±µºP®˙ºREnºıcyºêçè<≤á$ΩaÎgΩVGΩi¬‰=¯%>´µ¬=æø<„%Ω≤£P<ÙﬁeΩn9=»n1Ω7ﬂ¥º}∏j<˛G8Ω‚¶∫∫\ºÍaΩ^é=œ0i=πjΩü¯≈;*'ΩÓB£=`Üv=ó‰aºiåºÈ…ßΩú™ûºbõeΩDAmº±'$ΩÄÏΩµ›ˇΩŒGÕºúx∑<å8@=*=»n9Ô$}º”ñaºå-A=«0º<ç=™>=∏&Ô<1Q¶;˝=ˆºëf≠ªóyº´wïΩu?∞Ω@fΩ<i…í="aü<CV\=õU$<}<Îº‹VæΩkA4Ω¯-<d®Xºè¨ºóz∆<qnQ∫û'¢<ˇÅ< 9^Ω∆Ωw˘™º§C5Ω‚´<ÍgK=-N=ûÅÉºÙ˝ÇΩoë<™z=$ö4Ω§mºà∑uº%q=Ω>?·<ë*Ω3˛ÿ<Ø∫¢<¯ˆ‰<£˛:=æE$ΩWï=Nó˙ºuh÷<ñ∑êºfä8=à=#5Ω¨M=ãe;€(=(ﬁΩøÈOºécö; )
-=]Ââπóx)Ω©∏=32‰<IÓâª&íΩﬂ¡”<?Öº√ΩÂLtª%V;.ëD<lF2=`¬‹ªB–-<û=m Ω<€ÂΩÛµπºﬁPñ<”Æ
-;
-Ωπ(x<˝Õ;wáªﬂâÉºıHΩlÍ‡:g4=ßF<œ˚“ºIB=H=w%l<mÍ)=öeΩ∞"I∫˙›8º˚Ù;j,Íº–º`&î=¸tΩºd•¥;·Î=·‰-ΩqhåºõTB=áÁÂ=áÎ%ΩÁÖ=qóΩ¡Z¨Ω~üΩ≈ùÃΩ◊3ΩóºçOÔºmæ@Ω·T÷Ω–∆6;W=YÙ—º¶%ˆΩÄß≠ΩåmΩ:«Ú<‘õ>„"‘=tååºP”Ω»_¸<Ö,øº?è=B+ººO÷%Ωœæ˛;o#ºìS=É±<à0GΩ‹q<Y>ΩS·sºdOZº(üºØ;Ω…¿`º› Î:o;<¸4€<Øu¥π∞<+2¸;8MÈºz·=xô*Ω÷®Ω6gΩ"KHºHbØº◊€y=	¿º·ÄΩ¬≠:éCèΩpΩòŒô<)VΩ=4ŒΩ‚tæ†ìªC˛Ôª¶Ö<µh =˝WºSÑ˝<Ê∫\=nïZ<iF#=¶≥≥ºª–Z<„Ô==∞ç’=ú(~=kRò=iﬁº_jΩ+&5Ωì•¬;‚=ë˘’º¿–lº•QºC}<©#+Ω.Ô•ºy±¯ªä£Ω<ü≈ª;´<Zé3=¨,ΩÔ=˚Ω•‚ΩŸïºFh=â>Ìª=Í<TΩ´¥<Ω˘=6ΩÏÙøΩ—™Ûº/èàº©∆V<‘cÛ;~QÖ=rëú=àÙ>s©…Ω\dtΩ˘rX;ü-[ºÎÃ=È]≠=R›'=πg¨Ωπ√≤Ωi.Ωpˆåªg˛õ<•cºd<™º.*ıº/xÔ<?˙D<˜–ªñöYº’B(ΩΩvﬁ=ÍÔ=ﬂ∏<-ñ+Ω[÷ìΩ-⁄Ωu›öΩïÂå;ße†ΩNp5ΩMUΩq˘ãΩ!Ω¸º®ü»=¢!<ÿ˘Ω÷òΩ¢`ˆ<1yË=ıÜå;Õ‹æáÓ!>Gß-=´)ÇºJ≠Éº≈$=	ú&æeü≥=2{ü>¡^T=Î∆¡Ω‹‡Êº$Vıº¢À„ΩnèUΩ0 
-Ωw[‰Ω{ñQ∫å7ù;F˜™<‚∆∂Ω’çΩÎVæ◊äg=øR=HDQ=⁄Q‹=/3>]ú>à?˚=in>á·=U≠<a1<a£ÃºÏt-Ω¶°‚º‹¬—<kƒÕºÊ/=a`=D,ÙºÕ«£º©Y!=vﬂñªr∞R<à8óª»¥-ºÛˇº:)<Ø'=	Ω¸Ÿî<*¨≠<ûeÊª≈Q º<i1ºr“8=x›;Ù º.=ê=2
-]ºë>‡ºèj==¨-:ºiÖ<Uö¨ºe≈<ˆÎºöR=§–<5å<‰Øq<…Å<U =î=†<Áem<˚h≈;Í ΩbÜ@ª*=
-Boutput.1.biasJ(CÄ
-ΩX¸*>qß≠ªÃuÇ;AıÜΩ∏sﬁ<ïÜ[ªiµe=ëÀ±∫¿tÜ<Z!
-input.1
-
-
-
-
-b
-22
-
-
-
-B	
