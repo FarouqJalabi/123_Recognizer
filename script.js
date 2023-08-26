@@ -217,14 +217,10 @@ let overlay_img = document.querySelector("#smallOverlay");
 function changeView() {
   console.log();
   if (overlay_img.src.indexOf("human.png") != -1) {
-    overlay_img.src = "robot.png";
-    // document.getElementById("viewChanger").value = "Robot";
-    // document.getElementById("viewChanger").innerHTML = "Robot view 🤖";
+    overlay_img.src = "images/robot.png";
     document.getElementById("c3").hidden = false;
   } else {
-    overlay_img.src = "human.png";
-    // document.getElementById("viewChanger").value = "Human";
-    // document.getElementById("viewChanger").innerHTML = "Human view 👀";
+    overlay_img.src = "images/human.png";
     document.getElementById("c3").hidden = true;
   }
 }

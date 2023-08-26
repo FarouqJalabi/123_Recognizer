@@ -105,7 +105,7 @@ nav {
   border-radius: 50%;
   transition: 0.4s ease-in-out;
 
-  background-image: url(sun.svg);
+  background-image: url(images/sun.svg);
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,7 +115,7 @@ nav {
   margin-left: 44%;
   background-color: var(--accent-2); /* dark */
 
-  background-image: url(moon.svg);
+  background-image: url(images/moon.svg);
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,6 +130,7 @@ nav {
   flex-wrap: wrap;
   gap: 10px;
   padding: 10px;
+  margin-top: 25px;
   justify-content: center;
 }
 
