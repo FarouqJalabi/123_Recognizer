@@ -1,7 +1,4 @@
-/* global onnx */
 ("use strict");
-/* global onnx */
-/* exported onnx */
 
 const BRUSH_WIDTH = 8;
 const BOOST = 2.1; //Boosting white color
@@ -218,15 +215,16 @@ async function changeModel(number) {
 
 let overlay_img = document.querySelector("#smallOverlay");
 function changeView() {
-  if (document.getElementById("viewChanger").value == "Human") {
-    overlay_img.src = "/robot.png";
-    document.getElementById("viewChanger").value = "Robot";
-    document.getElementById("viewChanger").innerHTML = "Robot view 🤖";
+  console.log();
+  if (overlay_img.src.indexOf("human.png") != -1) {
+    overlay_img.src = "robot.png";
+    // document.getElementById("viewChanger").value = "Robot";
+    // document.getElementById("viewChanger").innerHTML = "Robot view 🤖";
     document.getElementById("c3").hidden = false;
   } else {
-    overlay_img.src = "/human.png";
-    document.getElementById("viewChanger").value = "Human";
-    document.getElementById("viewChanger").innerHTML = "Human view 👀";
+    overlay_img.src = "human.png";
+    // document.getElementById("viewChanger").value = "Human";
+    // document.getElementById("viewChanger").innerHTML = "Human view 👀";
     document.getElementById("c3").hidden = true;
   }
 }
@@ -244,10 +242,12 @@ const rootVarNames = [
 const lightTheme = ["#fefefe", "#d0dacd", "#a8dadc", "#457b9d", "black"];
 const darkTheme = ["#282634", "#54506b", "#c1b8fa", "#5c48db", "white"];
 
-//Whene theme button change
-document.querySelector("#themeButton").addEventListener("change", (e) => {
-  console.log(e.currentTarget.checked);
-  if (e.currentTarget.checked) {
+const themeButton = document.querySelector("#themeButton");
+
+themeButton.checked = localStorage.getItem("theme") == "true";
+
+const changeTheme = (themeDark) => {
+  if (themeDark) {
     for (let name in rootVarNames) {
       document.documentElement.style.setProperty(
         rootVarNames[name],
@@ -262,4 +262,11 @@ document.querySelector("#themeButton").addEventListener("change", (e) => {
       );
     }
   }
+};
+
+changeTheme(themeButton.checked);
+
+themeButton.addEventListener("change", (e) => {
+  localStorage.setItem("theme", String(e.currentTarget.checked));
+  changeTheme(e.currentTarget.checked);
 });
