@@ -1,5 +1,5 @@
-# 123 recognizer
-
+# 123 Recognizer
+Visit the site: [123 Recognizer](https://farouqjalabi.github.io/123_Recognizer/)
 ## What is this?
 
 This is a three models built in pytorch that try to recognize a digit from 0-9. 1 is the worst model and 3 is the best model.
