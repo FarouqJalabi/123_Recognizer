@@ -1,6 +1,7 @@
 # 123 recognizer
 
 Visit the site: [123 Recognizer](https://farouqjalabi.github.io/123_Recognizer/)
+[Figma file](https://www.figma.com/file/72ui2BNJx94TD74a1YjFHX/Digit-recognizer?type=design&mode=design&t=18Czr5AlmXNK4Qcb-0)
 
 ## What is this?
 
