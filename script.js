@@ -134,9 +134,11 @@ function showResult(output) {
 
   let max = output.reduce((total, curr) => total + curr, 0); //Makes the sum to 1, do we want that?
   max = Math.max(...output); //Makes the highest one to one
-  max = 50; //I think this is the max output by our model
+  max = 50; //! Can't know max of model
 
   output = output.map((n) => n / max);
+  // Should be an activation function that works other than softmax, sigmoid
+  output = output.map((n) => Math.min(n, 1));
 
   //! Blind people can't see with, should be an alt text
   //?Blind people can't darw either?
